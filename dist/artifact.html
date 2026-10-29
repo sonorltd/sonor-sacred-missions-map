@@ -175,7 +175,7 @@ form.add .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
   <header>
     <h1>Sacred Missions Map</h1>
     <p class="sub" id="sub"></p>
-    <p class="meta" style="margin:0">v1.3.0</p>
+    <p class="meta" style="margin:0">v1.4.0</p>
   </header>
   <nav class="tabs" aria-label="Map layers">
     <a href="#sacred" id="t-sacred">Sacred sites</a>
@@ -253,7 +253,7 @@ form.add .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 </div>
 
 <script>
-const APP_VERSION = "1.3.0";
+const APP_VERSION = "1.4.0";
 const SITES = [
 // ---------- North Wales ----------
 ["St Winefride's Well","well","nw",53.2771,-3.2236,"Holywell. Continuous pilgrimage for over 1,300 years — the 'Lourdes of Wales'. Bathing pool open to visitors in season."],
@@ -529,7 +529,7 @@ function normReport(id,v){const lat=+v.lat,lon=+v.lon;const xy=P(lat,lon);const 
   const okUrl=u=>/^https?:\/\//.test(String(u||""))?String(u):"";
   let sources=Array.isArray(v.sources)&&v.sources.length?v.sources.map(s=>({name:String(s&&s.name||""),url:okUrl(s&&s.url)})):[{name:String(v.source||""),url:okUrl(v.url)}];
   sources=sources.filter((s,i,a)=>(s.name||s.url)&&a.findIndex(x=>(x.url&&x.url===s.url)||(!x.url&&!s.url&&x.name===s.name))===i);
-  return{id,key:"r:"+id,title:String(v.title||"Untitled"),cat:PCATS[v.cat]?v.cat:"other",date:String(v.date||""),place:String(v.place||""),desc:String(v.desc||""),source:sources[0]?.name||"",url:sources[0]?.url||"",sources,tags,mu:Array.isArray(v.mu)?v.mu.filter(m=>m&&okUrl(m.url)).map(m=>({show:String(m.show||"Mysterious Universe"),no:String(m.no||""),title:String(m.title||""),url:okUrl(m.url),date:String(m.date||""),plus:!!m.plus,excerpt:String(m.excerpt||"")})):[],lat,lon,xy,mi:miles(HOME.lat,HOME.lon,lat,lon),reg:regionOf(lat,lon),era:eraOf(v.date),area:areaOf(v.place),lead:/lead|unconfirmed/i.test(String(v.status||""))||(Array.isArray(v.tags)&&v.tags.includes("unconfirmed")),personal:v.by==="bryn"||/personal account/i.test(String(v.source||"")),leyIds:leysNear(xy).map(l=>l.id)}}
+  return{id,key:"r:"+id,title:String(v.title||"Untitled"),cat:PCATS[v.cat]?v.cat:"other",date:String(v.date||""),place:String(v.place||""),desc:String(v.desc||""),source:sources[0]?.name||"",url:sources[0]?.url||"",sources,tags,mu:Array.isArray(v.mu)?v.mu.filter(m=>m&&okUrl(m.url)).map(m=>({show:String(m.show||"Mysterious Universe"),no:String(m.no||""),title:String(m.title||""),topic:String(m.topic||""),evidence:String(m.evidence||""),url:okUrl(m.url),date:String(m.date||""),plus:!!m.plus,excerpt:String(m.excerpt||"")})):[],lat,lon,xy,mi:miles(HOME.lat,HOME.lon,lat,lon),reg:regionOf(lat,lon),era:eraOf(v.date),area:areaOf(v.place),lead:/lead|unconfirmed/i.test(String(v.status||""))||(Array.isArray(v.tags)&&v.tags.includes("unconfirmed")),personal:v.by==="bryn"||/personal account/i.test(String(v.source||"")),leyIds:leysNear(xy).map(l=>l.id)}}
 
 // ---------- marks: star / to visit / visited (saved per person) ----------
 let marks={m:{},trips:[]}; let marksRef=null, marksTimer=null;
@@ -896,14 +896,15 @@ function renderParanormal(){const V=PVIEW(),S=st[V];
   rs.forEach(r=>{const m=mk(V==="mu"?"s-mu":"s-p-"+r.cat,r.xy,`${r.title} · ${r.place}`,()=>select({kind:"rep",id:r.id},false));m.sel=isSel("rep",r.id);m.u.classList.toggle("sel",m.sel);markClasses(m.u,r.key);markers.push(m)});
   const mkRow=r=>row(icon(V==="mu"?"s-mu":"s-p-"+r.cat),r.title,r.date||"",`${r.place}${r.sources.length>1?" · "+r.sources.length+" sources":""}${r.tags.length?" · "+r.tags.map(tagLabel).join(", "):""}`,isSel("rep",r.id),()=>select({kind:"rep",id:r.id},true),isVis(r.key)?" visited":"",r.key);
   const srt=F.sort[V]||"group";
-  if(srt==="group"&&V==="mu"){const byEp=new Map();rs.forEach(r=>r.mu.forEach(m=>{if(!byEp.has(m.url))byEp.set(m.url,{m,rs:[]});byEp.get(m.url).rs.push(r)}));[...byEp.values()].sort((a,b)=>String(b.m.date).localeCompare(String(a.m.date))).forEach(({m,rs:arr})=>section(`${m.title}${m.date?" · "+m.date.slice(0,4):""}`,sortItems(arr,"new").map(mkRow)))}
-  else if(srt==="group"&&V==="ritual"){const g=r=>r.tags.includes("witch-trial")||r.tags.includes("witchcraft")?"Witchcraft & witch trials":r.tags.includes("hellfire-club")||r.tags.includes("crowley")?"Hellfire Clubs & Crowley":r.tags.includes("desecration")||r.tags.includes("satanic")||r.tags.includes("black-magic")?"Black magic & desecrations":"Other occult & ritual";groupBy(rs,g).sort((a,b)=>a[0].localeCompare(b[0])).forEach(([k,arr])=>section(k,sortItems(arr,"new").map(mkRow)))}
+  if(srt==="group"&&V==="mu"){const byEp=new Map();rs.forEach(r=>r.mu.forEach(m=>{if(!byEp.has(m.url))byEp.set(m.url,{m,rs:[]});byEp.get(m.url).rs.push(r)}));[...byEp.values()].sort((a,b)=>String(b.m.date).localeCompare(String(a.m.date))).forEach(({m,rs:arr})=>section(`${muName(m)}${m.date?" · "+m.date.slice(0,4):""}`,sortItems(arr,"new").map(mkRow)))}
+  else if(srt==="group"&&V==="ritual"){const g=r=>r.tags.includes("wicca")?"Modern witchcraft & Wicca":r.tags.includes("witch-trial")?"Witch trials & executions":r.tags.includes("hellfire-club")||r.tags.includes("crowley")?"Hellfire Clubs, Crowley & occult orders":r.tags.includes("desecration")||r.tags.includes("satanic")||r.tags.includes("black-magic")||r.tags.includes("animal-remains")?"Black magic, desecrations & ritual finds":r.tags.includes("cursing")?"Curses & cursing wells":r.tags.includes("witchcraft")?"Witchcraft & folk magic":"Other occult & ritual";groupBy(rs,g).sort((a,b)=>a[0].localeCompare(b[0])).forEach(([k,arr])=>section(k,sortItems(arr,"new").map(mkRow)))}
   else if(srt==="group")for(const c in PCATS)section(PCATS[c],sortItems(rs.filter(r=>r.cat===c),"new").map(mkRow));
   else section(fSort.selectedOptions[0]?.textContent||"Reports",sortItems(rs,srt).map(mkRow));
 }
+const muName=m=>{const no=(m.no||(m.title.match(/^\s*([\d.]+)/)||[])[1]||"");const t=m.title.replace(/^\s*[\d.]+\s*[-–]\s*MU (Plus\+? )?Podcast\s*[-–]?\s*/i,"").trim();const name=m.topic||t;return (no?no+" · ":"")+(name||"Mysterious Universe")+(/plus/i.test(m.title)?"":"")};
 function muHTML(mu){if(!mu||!mu.length)return"";
   return `<div class="meta">Mysterious Universe · ${mu.length} episode${mu.length>1?"s":""}</div><ul class="srcs mu">${mu.map(m=>{const ex=m.excerpt.split("\n").map(x=>x.startsWith("Show-notes links: ")?`<span class="mu-links">Show-notes links: ${x.slice(18).split(" · ").map(l=>{const i=l.lastIndexOf(" — ");const u=i>0?l.slice(i+3):"";const t=i>0?l.slice(0,i):l;return /^https?:\/\//.test(u)?`<a target="_blank" rel="noopener" href="${esc(u)}">${esc(t)}</a>`:esc(l)}).join(" · ")}</span>`:esc(x)).join("<br>");
-    return `<li><a target="_blank" rel="noopener" href="${esc(m.url)}">${esc(m.title||m.no)}</a>${m.plus?' <span class="mu-plus">Plus+</span>':""}${m.date?` <span class="mu-date">${esc(m.date)}</span>`:""}${ex?`<details><summary>Show notes on this case</summary><p class="mu-ex">${ex}</p></details>`:""}</li>`}).join("")}</ul>`}
+    return `<li><a target="_blank" rel="noopener" href="${esc(m.url)}" title="${esc(m.title)}">${esc(muName(m))}</a>${m.plus?' <span class="mu-plus">Plus+</span>':""}${m.date?` <span class="mu-date">${esc(m.date)}</span>`:""}${m.evidence==="link-title"?' <span class="mu-date">· named in the show-notes links</span>':""}${ex?`<details><summary>Show notes on this case</summary><p class="mu-ex">${ex}</p></details>`:""}</li>`}).join("")}</ul>`}
 function repCard(r){const c=card(`<div class="meta">${smallIcon("s-p-"+r.cat)} ${esc(PCATS[r.cat])} · ${esc(r.date||"date unknown")} · ${REGS[r.reg]}</div><h3>${esc(r.title)}</h3>
   <p><b>${esc(r.place)}</b>${r.desc?" · "+esc(r.desc):""}</p>
   ${r.tags.length?`<div class="tagsel" style="margin-bottom:8px">${r.tags.map(t=>`<button class="tg" type="button" data-t="${esc(t)}" aria-pressed="${F.tags.has(t)}">${esc(tagLabel(t))}</button>`).join("")}</div>`:""}

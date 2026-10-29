@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.4.0 — 2026-10-29
+- **Mysterious Universe, fully researched**: all 1,307 episodes read (titles, show notes and every show-notes link title; thin early notes checked on the episode pages) — 142 places now carry their MU episodes (52 existing cases + 90 new places MU covered, e.g. Gef the talking mongoose, Stocksbridge bypass, the Hexham Heads, Llanilar debris, Stonehenge, Avebury, Morgawr, Woolpit, the Green Stone, the Fife incident). Bare episode titles now carry a topic ("19.05 · The Welsh Triangle"); link-only matches are labelled "named in the show-notes links".
+- **Ritual tab, in depth**: 36 sites rewritten with fuller accounts, resolutions and extra sources, 13 estimated pins checked; 57 new sites (19 in Wales — Dyserth, Llanasa, Penley, Caerwys, the Wern Wen curse beam, Gloddaeth Hall, the Conwy-area 1987–91 cases, the Swansea Devil; Chester's Gallows Hill, Wildboarclough, Samlesbury, Wigan; Scottish witch sites; Irish Hellfire Clubs; Gardner, Dion Fortune and Crowley sites). Grouped as Witch trials & executions · Witchcraft & folk magic · Black magic, desecrations & ritual finds · Curses & cursing wells · Hellfire Clubs, Crowley & occult orders · Modern witchcraft & Wicca.
+
 ## v1.3.0 — 2026-10-29
 - **MU tab**: every place with a Mysterious Universe episode, on its own teal "MU" marker; group by episode to see every place an episode covers; each card shows the episodes and the case-only show notes.
 - **Ritual tab**: the 49 occult & ritual sites plus anything tagged satanic / black magic / occult / desecration / witchcraft / witch trial, grouped into Black magic & desecrations, Hellfire Clubs & Crowley, Witchcraft & witch trials, Other. Ritual sites leave the UFO & paranormal tab. The ritual marker is now a filled crimson disc with a pentagram.
