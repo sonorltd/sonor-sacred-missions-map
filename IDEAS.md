@@ -1,6 +1,5 @@
 # Ideas / backlog
 
-- Switch on the weekly auto-update task (`docs/scheduled-task.md`).
 - Full Belinus Line route from *The Spine of Albion* itself (photos of the book's route lists → every node plotted, Belinus vs Elen currents as two coloured lines).
 - Mary and Michael currents drawn as their own winding lines along the St Michael axis.
 - Holy wells: keep growing towards the full Welsh record (Coflein lists several hundred).

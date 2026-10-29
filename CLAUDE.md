@@ -28,7 +28,6 @@ data/sites_manual.json  places added by hand on request (e.g. Llyn Brianne) — 
 data/shapes.json    simplified coastlines (GB, IE, IoM), made by tools/coastline.js from world-atlas
 research/           raw research pulls (every record has its source URL)
 tools/              build + data scripts
-docs/scheduled-task.md  the weekly auto-update task definition (not yet switched on)
 ```
 
 ## Data model (artifact database)
@@ -48,7 +47,7 @@ Sacred sites (leys-only toggle, ley-kind chips, alignment checker, "find alignme
 - None from the Sonor family on purpose (personal project). Coastlines from the public `world-atlas` package (`tools/coastline.js`).
 
 ## Upstream / downstream data flows
-- **In:** research pulls (`research/*.json`, every record with its source URL) → `data/` via the data step; the artifact's `reports` collection (written by Bryn in the app and, once switched on, the weekly task in `docs/scheduled-task.md`).
+- **In:** research pulls (`research/*.json`, every record with its source URL) → `data/` via the data step; the artifact's `reports` collection (written by Bryn in the app, or by Claude on request — no scheduled task, by choice 2026-10-29).
 - **Out:** `dist/artifact.html` → republished to the claude.ai artifact; `index.html` → GitHub Pages; `data/reports.json` snapshot of the collection for Pages.
 
 ## Feature timeline
