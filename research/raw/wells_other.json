@@ -1,0 +1,2144 @@
+[
+ {
+  "name": "Petrifying Well, Lymm",
+  "cat": "spring",
+  "lat": 53.3834,
+  "lon": -2.47503,
+  "desc": "A lime-laden spring by Ridding's Brook near Lymm Dam that turned mosses and twigs to stone, recorded by the Victorian botanist Leo Grindon; exact spot now uncertain, location approximate.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2026/08/28/petrifying-well-lymm/"
+ },
+ {
+  "name": "Billy Hobby's Well, Chester",
+  "cat": "well",
+  "lat": 53.19009,
+  "lon": -2.87923,
+  "desc": "Spring on the edge of Chester known from 18th-century field names; 'Hobby' may echo the hob, a goblin or demon name, hinting at old folklore attached to the water.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2014/06/13/billy-hobbys-well-chester/"
+ },
+ {
+  "name": "Holy Well, Alderley Edge",
+  "cat": "well",
+  "lat": 53.29755,
+  "lon": -2.21294,
+  "desc": "Spring beneath the Holy Well Rocks on Alderley Edge whose water was said in the 1840s to cure barrenness; a legend tells of a woman and cow buried by a falling boulder nearby.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2008/09/12/holy-well-alderley-edge/"
+ },
+ {
+  "name": "St Ellen's Well, Harrisend Fell",
+  "cat": "well",
+  "lat": 53.95278,
+  "lon": -2.70727,
+  "desc": "Lonely moorland holy well 500 ft up on Harrisend Fell above Scorton, marked on the 1846 map; today just a spring among reeds with no surviving stonework.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2020/08/26/st-ellens-well/"
+ },
+ {
+  "name": "Holy Well, Didsbury",
+  "cat": "well",
+  "lat": 53.40987,
+  "lon": -2.23245,
+  "desc": "Reputed ever-flowing spring near St James's old churchyard, once famed for health, magic and even prolonging life; believed lost to development.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2017/11/10/holy-well-didsbury/"
+ },
+ {
+  "name": "Robin Hood's Well, Higham",
+  "cat": "well",
+  "lat": 53.81232,
+  "lon": -2.27857,
+  "desc": "Icy spring above the River Calder below Pendle Hall, once valued as a cure for certain ailments; current condition unknown.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2017/09/17/robin-hoods-well-higham/"
+ },
+ {
+  "name": "Holy Well, Hollinshead Hall",
+  "cat": "well",
+  "lat": 53.67488,
+  "lon": -2.51063,
+  "desc": "Elegant stone well house built over a spring beside the ruins of Hollinshead Hall near Tockholes, where water pours from a carved lion's head; pilgrims once came for its reputed cure for eye complaints. Reached by woodland paths.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2014/10/25/holy-well-hollinshead/"
+ },
+ {
+  "name": "Fairy Well, Preesall",
+  "cat": "well",
+  "lat": 53.92031,
+  "lon": -2.96515,
+  "desc": "Hilltop well at Preesall described in 1852 as all but deified; rags and clouts were tied to a nearby 'Beggar's Bush' with a prayer for healing.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2013/12/22/fairy-well-preesall/"
+ },
+ {
+  "name": "Bull (Bel) Spring, Staining",
+  "cat": "spring",
+  "lat": 53.82262,
+  "lon": -2.98025,
+  "desc": "Spring issuing from a long stone mound at Hardhorn, linked by the Victorian cleric William Thornber to Hallowe'en bonfire cairns and seasonal rites; now largely forgotten.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2013/12/21/bull-spring/"
+ },
+ {
+  "name": "Fairy Well (Wrangdomwell), Staining",
+  "cat": "well",
+  "lat": 53.82624,
+  "lon": -2.99037,
+  "desc": "Cold spring between Hardhorn and Staining that local lore made a favourite haunt of kindly fairies, recorded by Rev. William Thornber in 1837.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2013/12/18/fairy-well-staining/"
+ },
+ {
+  "name": "Minspit Well, Preston",
+  "cat": "well",
+  "lat": 53.75847,
+  "lon": -2.69843,
+  "desc": "One of Preston's earliest wells, at the foot of the Church Street ridge and long a healing and water source; destroyed by later development.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2013/07/31/minspit-well/"
+ },
+ {
+  "name": "Calf Hey Well, Briercliffe",
+  "cat": "well",
+  "lat": 53.80775,
+  "lon": -2.18457,
+  "desc": "Strong hillside spring rising into a square basin roofed with stone slabs; in medieval times its waters were believed to have special qualities.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2012/04/01/calf-hey-well/"
+ },
+ {
+  "name": "Walloper Well, Newton-in-Bowland",
+  "cat": "well",
+  "lat": 53.92974,
+  "lon": -2.43061,
+  "desc": "Roadside spring in Bowland where generations of travellers, drovers and lead miners stopped to drink; still flowing.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2011/11/05/walloper-well/"
+ },
+ {
+  "name": "Dissenters' Well, Kelbrook",
+  "cat": "well",
+  "lat": 53.88474,
+  "lon": -2.12161,
+  "desc": "Moorland spring near Kelbrook where Quakers, Baptists and other Nonconformists met for outdoor worship in the 17th-18th centuries, away from parish churches.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2011/06/06/dissenters-well/"
+ },
+ {
+  "name": "Peg o' Nell's Well (St Margaret's Well)",
+  "cat": "well",
+  "lat": 53.87869,
+  "lon": -2.40374,
+  "desc": "Spring in the grounds of Waddow Hall by the Ribble, beside a headless statue probably of St Margaret; legend makes it the haunt of Peg o' Nell's spirit, whose statue was beheaded to lift her curse. Visible from the riverside footpath.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2011/04/09/peg-o-nells-well/"
+ },
+ {
+  "name": "Our Lady's Well, Fernyhalgh",
+  "cat": "well",
+  "lat": 53.79635,
+  "lon": -2.67629,
+  "desc": "Marian well beside a shrine chapel at Fernyhalgh, said to have been revealed to a storm-saved merchant in the 15th century; still a Catholic pilgrimage site.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2011/04/09/our-ladys-well-fernyhalgh/"
+ },
+ {
+  "name": "St Helen's Well, Sefton",
+  "cat": "well",
+  "lat": 53.50428,
+  "lon": -2.97475,
+  "desc": "Once a pyramid-roofed well house noted for icy water good for rheumatism and sprains; now capped with an inscribed stone, though parishioners still visit on the saint's day.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2011/03/23/st-helens-well-sefton/"
+ },
+ {
+  "name": "Shorey Well, Burnley",
+  "cat": "well",
+  "lat": 53.79353,
+  "lon": -2.23753,
+  "desc": "Old Burnley well recorded by local antiquarian Clifford Byrne among the holy wells and healing springs of east Lancashire.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2010/10/13/shorey-well-burnley/"
+ },
+ {
+  "name": "St Patrick's Well, Heysham",
+  "cat": "well",
+  "lat": 54.04694,
+  "lon": -2.90112,
+  "desc": "One of two old holy wells in Heysham village; its water has been diverted and an iron pump in a stone arch now marks the spot.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2010/04/29/st-patricks-well-heysham/"
+ },
+ {
+  "name": "Jinny Well, Newchurch-in-Pendle",
+  "cat": "well",
+  "lat": 53.85105,
+  "lon": -2.26937,
+  "desc": "Spring trickling into a stone trough, haunted in folklore by Jinny's spirit, who wandered between the well and an old standing stone up the hill.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2009/11/08/jinny-well-pendle/"
+ },
+ {
+  "name": "St Helen's Well, Colne",
+  "cat": "well",
+  "lat": 53.85386,
+  "lon": -2.16795,
+  "desc": "Holy well at Waterside on the south side of Colne, relocated in recent years by local researchers after its memory survived in the name of the former St Helen's Mill.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2009/11/05/st-helens-well-colne/"
+ },
+ {
+  "name": "St Helen's Wells, Whittle-le-Woods",
+  "cat": "well",
+  "lat": 53.69661,
+  "lon": -2.62903,
+  "desc": "Celebrated well in a rugged part of Brindle parish where clear water bubbles through white sand; locals dropped crooked pins in for wishes, and its water was once carted round neighbouring villages for sale.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2009/02/17/st-helens-well-whittle-le-woods/"
+ },
+ {
+  "name": "St Nicholas' Well, Carlisle",
+  "cat": "well",
+  "lat": 54.88754,
+  "lon": -2.92829,
+  "desc": "Healing well near the medieval leper hospital of St Nicholas off Botchergate, prized for curing sores; people still filled 'shaking bottles' there in May in the 19th century. Destroyed by the railway.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2026/10/05/st-nicholas-well/"
+ },
+ {
+  "name": "St Cuthbert's Well, Carlisle",
+  "cat": "well",
+  "lat": 54.89467,
+  "lon": -2.93625,
+  "desc": "Well in Carlisle's old market place linked to St Cuthbert's visit in 685 recorded by Bede; once sheltered by a pillared building called Carnaby's Folly, long since covered over.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2026/10/03/st-cuthberts-well-carlisle/"
+ },
+ {
+  "name": "St Helen's Well, Gosforth",
+  "cat": "well",
+  "lat": 54.41398,
+  "lon": -3.45573,
+  "desc": "Spring at Newton near Gosforth named in a charter of c.1220 as St Helen's Well at the corner of a garden; possibly surviving as a boggy spring above the farm.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2024/03/25/st-helens-well-gosforth/"
+ },
+ {
+  "name": "Holy Well, Humphrey Head",
+  "cat": "spring",
+  "lat": 54.1575,
+  "lon": -2.93538,
+  "desc": "Medicinal spring below the limestone cliffs of Humphrey Head, near caves called the Fairy Church and Fairy Chapel; lead miners stayed for days drinking its strange-tasting water to purge poisons.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2011/10/14/holy-well-humphrey-head/"
+ },
+ {
+  "name": "St Cuthbert's Well (Helly-well), Waverbridge",
+  "cat": "well",
+  "lat": 54.82619,
+  "lon": -3.22374,
+  "desc": "Once a copious spring of pure water where youths from surrounding villages held games on the second Sunday in May, with nothing stronger than the well water drunk; now only a trickle by a tree.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2009/02/12/st-cuthberts-well/"
+ },
+ {
+  "name": "St John's Well, Dronfield",
+  "cat": "well",
+  "lat": 53.30093,
+  "lon": -1.47103,
+  "desc": "Spring-fed well by Dronfield church, recorded c.1710 as the source of water for baptising infants; survives with an old stone-lined shaft in the courtyard of a 16th-century forge.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/01/29/st-johns-well-dronfield/"
+ },
+ {
+  "name": "Nanny's Well, Chapel-en-le-Frith",
+  "cat": "spring",
+  "lat": 53.32633,
+  "lon": -1.90913,
+  "desc": "Chalybeate spring, perhaps named for St Anne, where locals made 'Spanish water' with sugar or liquorice on Easter morning; now a disused iron pump, still dressed and blessed each July.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2014/09/13/nanny-well/"
+ },
+ {
+  "name": "Holy Well, King's Newton",
+  "cat": "well",
+  "lat": 52.83239,
+  "lon": -1.42776,
+  "desc": "Holy well recorded from 1366, given an arched stone well house by the royalist Hardinge family in 1662; the collapsed arch was later rebuilt by the community.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2014/07/09/holy-well-kings-newton/"
+ },
+ {
+  "name": "St Alkmund's Well, Derby",
+  "cat": "well",
+  "lat": 52.93061,
+  "lon": -1.47853,
+  "desc": "Well of the Saxon saint Alkmund, recorded from 1190, with steps down to an oval basin in an 18th-century niche; a vicar was reputedly cured by its water and it has been dressed at times. Now railed off in a housing area.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2014/04/05/st-alkmunds-well-derby/"
+ },
+ {
+  "name": "Hermit's Well, Dale Abbey",
+  "cat": "well",
+  "lat": 52.94315,
+  "lon": -1.34988,
+  "desc": "Ever-flowing well beside the rock-cut hermitage at Dale Abbey, which the founding hermit is said to have dug and blessed as holy and a cure for all ills.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2013/04/06/hermits-well-dale-abbey/"
+ },
+ {
+  "name": "Silver Well, Ilkley Moor",
+  "cat": "well",
+  "lat": 53.91635,
+  "lon": -1.84277,
+  "desc": "Never-failing spring by Silver Well cottage on Ilkley Moor, thought by Victorian writers to have been a holy well, perhaps once given silver offerings; now covered by stone slabs but still running.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2026/10/11/silver-well/"
+ },
+ {
+  "name": "Lady Well, Ackworth",
+  "cat": "well",
+  "lat": 53.6535,
+  "lon": -1.335,
+  "desc": "Ancient public well near Ladywell House in High Ackworth, probably dedicated to Our Lady; enclosed by the 1890s and now apparently lost, location approximate.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2025/10/28/lady-well-ackworth/"
+ },
+ {
+  "name": "Wishing Well, Castley",
+  "cat": "well",
+  "lat": 53.90698,
+  "lon": -1.58769,
+  "desc": "Spring beneath Chapel Hill above the Wharfe, under a hawthorn, where village girls once made wishes; tradition placed a small chapel above it. Now just a boggy patch in the trees.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2025/09/20/wishing-well/"
+ },
+ {
+  "name": "Fairy Well, Nostell",
+  "cat": "well",
+  "lat": 53.63638,
+  "lon": -1.40356,
+  "desc": "Well beside Fairy Wood near Nostell remembered in a local poem as a haunt of the little folk, who left when industry came; probable site only.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2024/01/11/fairy-well-nostell/"
+ },
+ {
+  "name": "St Helen's Well, Barmby-on-the-Marsh",
+  "cat": "well",
+  "lat": 53.74755,
+  "lon": -0.9551,
+  "desc": "Chalybeate well in St Helen's churchyard said to have medicinal powers; filled in during the 19th century and now remembered only in local memory.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2023/12/23/st-helens-well-barmby/"
+ },
+ {
+  "name": "St Peter's Well, Barmby-on-the-Marsh",
+  "cat": "well",
+  "lat": 53.74682,
+  "lon": -0.9536,
+  "desc": "Sulphurous spring credited in 1831 with curing skin eruptions when applied externally; reportedly filled in during the 19th century and its exact position is now uncertain.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2023/11/24/st-peters-well-barmby/"
+ },
+ {
+  "name": "St Ann's Well, Welton",
+  "cat": "well",
+  "lat": 53.73138,
+  "lon": -0.54288,
+  "desc": "Holy well that once supplied Welton House, possibly the source of the village name; it survives under stone slabs in a copse north of St Anne's College.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2023/06/18/st-anns-well-welton/"
+ },
+ {
+  "name": "Fairy Well, Liversedge",
+  "cat": "well",
+  "lat": 53.70392,
+  "lon": -1.70193,
+  "desc": "Ruined little well house beneath a sycamore, marked on the 1854 map; its fairy folklore is forgotten and water now seeps into a small bog nearby.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2023/05/05/fairy-well-liversedge/"
+ },
+ {
+  "name": "Old Wives' Well (Nattie Fontein), Stape",
+  "cat": "well",
+  "lat": 54.33597,
+  "lon": -0.77967,
+  "desc": "Spring bubbling into a small stone-lined chamber on the moors near Pickering, its lintel crudely carved 'Nattie Fontein'; the 'Old Wife' name may recall an ancient earth goddess.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2022/09/28/old-wives-well/"
+ },
+ {
+  "name": "Holy Well, South Crosland",
+  "cat": "well",
+  "lat": 53.63717,
+  "lon": -1.81796,
+  "desc": "Spring emerging from a blasted rock face into a round trough beside an older square cistern, remembered locally as a wishing well; often choked with litter.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2021/10/10/holy-well-hudds/"
+ },
+ {
+  "name": "St Peter's Well, Leeds (North Hall)",
+  "cat": "well",
+  "lat": 53.79993,
+  "lon": -1.56202,
+  "desc": "Intensely cold spring near North Hall, long thought good for rheumatism and rickets and once served by a bathing house; covered over by 1846.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2021/06/08/st-peters-well1/"
+ },
+ {
+  "name": "St Faith's Well, Leven",
+  "cat": "well",
+  "lat": 53.89535,
+  "lon": -0.34084,
+  "desc": "Well by St Faith's Lane near the old churchyard, once the only drinking water for the Carrs; filled in c.1820 and its site re-found by a water diviner.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2021/04/20/st-faiths-well-leven/"
+ },
+ {
+  "name": "St Philip's Well, Keyingham",
+  "cat": "well",
+  "lat": 53.71174,
+  "lon": -0.12899,
+  "desc": "Wishing well tied to the local saint Philip Inglebred, with a stone dated 1667; country girls dropped pins or sixpences in for luck. Now filled in, leaving only boggy ground.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2021/04/10/st-philips-well-keyingham/"
+ },
+ {
+  "name": "St Hilda's Well (Seynt-Hild-keld), Whitby",
+  "cat": "well",
+  "lat": 54.48658,
+  "lon": -0.61125,
+  "desc": "Spring near Grape Lane in Whitby recorded in 1396, later marked by the 'Virgin Pump' on Church Street; now destroyed, its site under a car park.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2021/04/01/st-hildas-well-whitby/"
+ },
+ {
+  "name": "St Everilda's Well, Everingham",
+  "cat": "well",
+  "lat": 53.87274,
+  "lon": -0.77672,
+  "desc": "Well of the 7th-century local saint Everilda in the grounds of Everingham Priory, once open to villagers and praised for abundant excellent water; filled in before 1923.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2021/02/17/st-everildas-well/"
+ },
+ {
+  "name": "Low Well, Bradford",
+  "cat": "well",
+  "lat": 53.77802,
+  "lon": -1.76028,
+  "desc": "Seemingly ordinary public well that local lore made Bradford's most supernatural water, haunted by ghosts and black dogs and used for scrying the future at 6 am.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2020/04/17/low-well-bradford/"
+ },
+ {
+  "name": "Halliwell (Holy Well), Baildon",
+  "cat": "well",
+  "lat": 53.85252,
+  "lon": -1.75682,
+  "desc": "Forgotten holy well below Halliway Banks Wood, recorded as Haliwell Bank in 1490 and reached by its own dedicated footpath on the 1852 map.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2019/06/14/holy-well-baildon/"
+ },
+ {
+  "name": "Cloven Hoof Well, Shipley Glen",
+  "cat": "well",
+  "lat": 53.85006,
+  "lon": -1.80632,
+  "desc": "Free-flowing, drinkable spring in mossy Shipley Glen, mapped in 1852 as Raygate Well; a hoof-print mark on the rock below gives it its devilish name.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2019/06/12/cloven-hoof-well/"
+ },
+ {
+  "name": "St Peter's Well, Leeds (St Peter's Square)",
+  "cat": "well",
+  "lat": 53.79825,
+  "lon": -1.53312,
+  "desc": "Intensely cold sulphurous spring at the foot of High Street, used for cold bathing against rheumatism and rickets according to Ralph Thoresby in 1715; long built over.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2019/05/16/st-peters-well-leeds/"
+ },
+ {
+  "name": "Tun Well, Eccleshill",
+  "cat": "well",
+  "lat": 53.81938,
+  "lon": -1.72465,
+  "desc": "Deep village well recorded from 1618 under a large slab on Tunwell Lane, a drought-time supply; folklore placed a phantom black dog and a white lady on the lane.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/12/19/tun-well-eccleshill/"
+ },
+ {
+  "name": "Brandy Well, Carlton Bank",
+  "cat": "well",
+  "lat": 54.42423,
+  "lon": -1.19235,
+  "desc": "Roadside spring halfway up Carlton Bank whose peat-filtered water was said to have wonderful curative powers, with wishes made while drinking likely to come true; location approximate.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/12/19/brandy-well-carlton/"
+ },
+ {
+  "name": "Mannerly (Manor Lea) Well, Gomersal",
+  "cat": "well",
+  "lat": 53.72238,
+  "lon": -1.6821,
+  "desc": "One of Gomersal's main wells, where boys filled bottles with liquorice and treacle on Palm Sunday to make sweet 'Spanish water' and swap tastes.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/02/14/mannerly-well-gomersal/"
+ },
+ {
+  "name": "Lady Well, Leeds",
+  "cat": "well",
+  "lat": 53.79902,
+  "lon": -1.53683,
+  "desc": "Copious spring of soft water by Lady Lane near Quarry Hill, close to the medieval Chantry of Our Lady; now lost beneath city buildings.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/02/14/lady-well-leeds/"
+ },
+ {
+  "name": "St Francis' Well, Conisbrough",
+  "cat": "well",
+  "lat": 53.48349,
+  "lon": -1.23105,
+  "desc": "Town well near the castle under a small steep-roofed conduit house; legend says a local holy man struck the spring from the ground during a drought in 1320-21. Now dry.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/02/06/st-francis-well-conisborough/"
+ },
+ {
+  "name": "St Peter's Well, York Minster",
+  "cat": "well",
+  "lat": 53.96232,
+  "lon": -1.08112,
+  "desc": "Ancient spring in the crypt of York Minster, traditionally where King Edwin was baptised at Easter 627, prompting the first wooden church on the site; no longer open to visitors.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/02/05/st-peters-well-york-minster/"
+ },
+ {
+  "name": "Spink Well, Bradford",
+  "cat": "well",
+  "lat": 53.80298,
+  "lon": -1.75042,
+  "desc": "Spring below which Spinkwell House offered health-giving cold baths from 1788; gravestones of 1645 plague victims were built into its well house. Now neglected and muddy.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2013/08/30/spink-well/"
+ },
+ {
+  "name": "Lady Well, Hartshead",
+  "cat": "well",
+  "lat": 53.70751,
+  "lon": -1.73055,
+  "desc": "Clear spring flowing into a stone trough beneath an old hawthorn on Lady Well Lane leading to St Peter's Church; local tradition links it to baptisms by St Paulinus and to Robin Hood.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2013/06/30/lady-well-hartshead/"
+ },
+ {
+  "name": "Birley Spa, Sheffield",
+  "cat": "spring",
+  "lat": 53.34785,
+  "lon": -1.38701,
+  "desc": "Spring developed as a cold bath in the early 1700s and rebuilt as a seven-bath spa by Earl Manvers in 1843; the restored bath house opens to the public on volunteer open days.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2013/04/07/birley-spa-birley-sheffield/"
+ },
+ {
+  "name": "Crutch Well, Baildon",
+  "cat": "spring",
+  "lat": 53.84423,
+  "lon": -1.7784,
+  "desc": "Clear medicinal spring mapped in 1851, said never to run dry; it flows beneath the Cricketer's Arms opposite, keeping the cellar cool, with a cup-marked stone just above.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2012/03/29/crutch-well/"
+ },
+ {
+  "name": "St Helen's Well, Eshton",
+  "cat": "well",
+  "lat": 54.0089,
+  "lon": -2.10683,
+  "desc": "One of the most copious springs in England, boiling up into a circular pool by the road near Eshton Hall, recorded with a chapel in 1429; offerings are still tied to nearby shrubs. A listed monument.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2011/12/28/st-helens-well-eshton/"
+ },
+ {
+  "name": "Horncliffe Well, Hawksworth Moor",
+  "cat": "well",
+  "lat": 53.88596,
+  "lon": -1.80045,
+  "desc": "Renowned moorland well recorded in 1273 at the meeting point of three townships, famed for never running dry even in 1976; sadly its flow has since failed.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2011/12/06/horncliffe-well/"
+ },
+ {
+  "name": "New Edge Chalybeate, Colden",
+  "cat": "spring",
+  "lat": 53.76096,
+  "lon": -2.07054,
+  "desc": "Iron-rich spring trickling from an old stone trough beside New Edge above Colden, staining everything rust-red; such waters were valued for the blood and fatigue.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2011/11/08/new-edge-chalybeate/"
+ },
+ {
+  "name": "St George's Well, Harrogate",
+  "cat": "spring",
+  "lat": 53.99571,
+  "lon": -1.54426,
+  "desc": "Walled chalybeate spring off Parliament Street rediscovered c.1792, locally valued as an eye-wash for sore eyes before becoming one of Harrogate's spa wells; now lost.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2023/04/15/st-georges-well-harrogate/"
+ },
+ {
+  "name": "St Sennen's Well, Sennen Cove",
+  "cat": "well",
+  "lat": 50.07751,
+  "lon": -5.69824,
+  "desc": "Holy well 'of some repute' by the old Chapel Idne at Sennen Cove, whose water features in the Arthurian legend of the battle of Vellan-druchar; now lost, probably one of two mapped springs.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2023/09/28/holy-well-sennon/"
+ },
+ {
+  "name": "Holy Well, Lawhitton (Barton Farm)",
+  "cat": "well",
+  "lat": 50.61916,
+  "lon": -4.32725,
+  "desc": "Holy well in a valley north of St Michael's church, recorded in 1914 and visited in 1980; by 1998 only a natural basin by a small bridge remained.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2023/09/23/holy-well-lawhitton/"
+ },
+ {
+  "name": "St George's Well (Fons George), Wilton",
+  "cat": "well",
+  "lat": 51.01337,
+  "lon": -3.09688,
+  "desc": "Noted spring south of St George's church in Wilton, Taunton, where the afflicted came for cures said to be marvellous; its site was already uncertain by 1873, location approximate.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2026/09/03/st-georges-well-taunton/"
+ },
+ {
+  "name": "St Chad's Well, Logierait",
+  "cat": "well",
+  "lat": 56.64834,
+  "lon": -3.68505,
+  "desc": "Renowned holy well behind Logierait church; tradition says its spirit was so offended when the saint's-day market on 22 August was stopped that the water vanished.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2026/06/06/st-chads-well/"
+ },
+ {
+  "name": "St Bride's Well, Port-na-Craig, Pitlochry",
+  "cat": "well",
+  "lat": 56.69899,
+  "lon": -3.73304,
+  "desc": "Well by the medieval monks' ferry over the Tummel, dedicated to St Bride so travellers could seek her protection, usually by dropping in a brass pin or coin; lost about a century ago.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2025/09/30/st-brides-well/"
+ },
+ {
+  "name": "St Ninian's Well, Blairgowrie",
+  "cat": "well",
+  "lat": 56.59197,
+  "lon": -3.33606,
+  "desc": "Well in Blairgowrie's Wellmeadow where tradition says St Ninian camped, drank and baptised converts; later covered over and piped into the town drains.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2022/12/25/st-ninians-well-blairgowrie/"
+ },
+ {
+  "name": "Whooping Cough Well (Sput na Fruith-chasd), Strathtay",
+  "cat": "well",
+  "lat": 56.6683,
+  "lon": -3.7712,
+  "desc": "Spring spouting from a high rock by the Tullypowrie Burn, resorted to for curing whooping cough and counted among the three most important wells of the Tay valley; now overgrown.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2026/06/24/whooping-cough-well/"
+ },
+ {
+  "name": "Kinkhoast Well, Comrie",
+  "cat": "well",
+  "lat": 56.39188,
+  "lon": -4.00736,
+  "desc": "Whooping-cough healing well in the hills above Comrie, recently revived and signposted by locals; its little pool is full of smooth white quartz pebbles left as offerings.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2026/03/31/kinkhoast-well/"
+ },
+ {
+  "name": "Lady's Well, Kincardine (Ardgay)",
+  "cat": "well",
+  "lat": 57.87358,
+  "lon": -4.34985,
+  "desc": "Spring of excellent water at the foot of the 'Bank of the Gate' below the old Clan Ross castle site; the Ordnance Survey found it under the sea at high tide.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2023/10/16/lady-well-ardgay/"
+ },
+ {
+  "name": "Holy Well, Glen Prosen",
+  "cat": "well",
+  "lat": 56.78786,
+  "lon": -3.11917,
+  "desc": "Clear iron-bearing spring in remote Glen Prosen, reached by a straight stone-lined path from a ruined 17th-century chapel; a scatter of quartz stones may once have ringed it. Still drinkable.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2023/05/20/holy-well-glen-prosen/"
+ },
+ {
+  "name": "Tobar Ruadh (Red Well), Heaste, Skye",
+  "cat": "spring",
+  "lat": 57.20811,
+  "lon": -5.87487,
+  "desc": "Roadside chalybeate well between Broadford and Heaste where travellers drank from a pewter mug; fishermen took its water to pregnant women in Elgol. Recently cleared, with a tin mug left at the roadside.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2025/10/17/58909/"
+ },
+ {
+  "name": "St Mary's Well, Inchberry",
+  "cat": "well",
+  "lat": 57.58181,
+  "lon": -3.1324,
+  "desc": "Holy well and pool beside the Spey behind the Duff family mausoleum; pilgrims came on the first Sunday in May, leaving a stone offering, and its water was said to cure whooping cough, eye and joint troubles.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2025/07/12/st-marys-well-inchberry/"
+ },
+ {
+  "name": "Holy Well by Loch ma Naire, Strathnaver",
+  "cat": "well",
+  "lat": 58.45426,
+  "lon": -4.18578,
+  "desc": "Lost holy well near Loch ma Naire, where crowds came twice yearly before sunrise to bathe, walk round the loch, drink from the well and throw in coins for cures; location approximate.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2023/11/11/holy-well-farr/"
+ },
+ {
+  "name": "St Helen's Well, Maybole",
+  "cat": "well",
+  "lat": 55.38569,
+  "lon": -4.6643,
+  "desc": "Well on the old road to Ayr, famous in the 17th century for curing 'unthriving children', with crowds gathering especially at May Day; covered over in the 1950s.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2023/06/26/st-helens-well-maybole/"
+ },
+ {
+  "name": "Sulphur Well, Earlston",
+  "cat": "spring",
+  "lat": 55.6292,
+  "lon": -2.61738,
+  "desc": "One of Earlston's old 'verter' (virtue) wells, a sulphurous moorland spring whose 'gunpowder'-tasting water a local farmer credited with curing a serious internal complaint; lost in the 1800s, location approximate.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2026/10/26/sulphur-well/"
+ },
+ {
+  "name": "St Patrick's Well, Old Kilpatrick",
+  "cat": "well",
+  "lat": 55.92612,
+  "lon": -4.46127,
+  "desc": "Well beside the church in the village that tradition claims as St Patrick's birthplace, used for baptisms and by villagers for centuries until closed in the 1890s; a later fountain nearby carried the name.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2024/02/10/st-patricks-well-kilpatrick/"
+ },
+ {
+  "name": "Holy Well, Tuxford",
+  "cat": "well",
+  "lat": 53.2353,
+  "lon": -0.88835,
+  "desc": "Cold spring by Holywell Farm reputed to cure scurvy and other skin diseases and to help rheumatism, used for water until the 1920s; now a boggy patch.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2026/04/28/holywell-tuxford/"
+ },
+ {
+  "name": "Druid's Well, Sutton Park",
+  "cat": "well",
+  "lat": 52.57964,
+  "lon": -1.85147,
+  "desc": "Spring beyond Bracebridge Pool in Sutton Park, once under a well house and much frequented in the 19th century; probably originally dedicated to St Mary. Now a stone-lined hole.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2025/03/20/druids-well/"
+ },
+ {
+  "name": "St John's Well, Berkhamsted",
+  "cat": "well",
+  "lat": 51.76406,
+  "lon": -0.57432,
+  "desc": "Holy well, first linked to St James's chapel, where pagan-style rites drew a reprimand from Bishop Hugh of Lincoln in the 12th century; later a pilgrimage site whose water served a leper hospital.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2024/12/15/st-johns-well-berkhampstead/"
+ },
+ {
+  "name": "St Cuthbert's Well, Bonnington (Leith)",
+  "cat": "spring",
+  "lat": 55.97133,
+  "lon": -3.18536,
+  "desc": "Chalybeate well by the Water of Leith, given a well house c.1818 where visitors paid a penny a drink; analysed as rich in iron salts, but destroyed in the 19th century.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2024/11/22/stcuthbertswell/"
+ },
+ {
+  "name": "St Stephen's Well, Banbury",
+  "cat": "spring",
+  "lat": 52.06155,
+  "lon": -1.34409,
+  "desc": "Slow chalybeate spring on the west side of Banbury, still often visited in 1841 and leaving a red deposit in its stone channel; built over later in the century.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2024/11/04/st-stephens-well/"
+ },
+ {
+  "name": "Holy Well, Shoreditch",
+  "cat": "well",
+  "lat": 51.52527,
+  "lon": -0.07883,
+  "desc": "The 'Haliwelle' recorded c.1100 that named Holywell Lane and the medieval priory, once sweet and frequented by scholars on summer evenings but spoiled by 1603; long destroyed.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2023/08/25/holy-well-shoreditch/"
+ },
+ {
+  "name": "St John's Well, Winkburn",
+  "cat": "well",
+  "lat": 53.13009,
+  "lon": -0.9545,
+  "desc": "Holy well near Holywell Farm, probably linked to the Knights Hospitallers who held Winkburn manor; its water was said to be good for sore eyes. Now an overgrown muddy patch.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2026/05/01/st-johns-well-winkburn/"
+ },
+ {
+  "name": "Bride's Well, Ballintemple",
+  "cat": "well",
+  "lat": 52.83494,
+  "lon": -6.25959,
+  "desc": "Well beside a stream just north-west of an old church site in Co. Wicklow, probably dedicated to St Brigid; still visible in 1927 but now in woodland and condition unknown.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2021/04/12/brides-well-ballintemple/"
+ },
+ {
+  "name": "St Patrick's (Chapel) Well, Struthill",
+  "cat": "well",
+  "lat": 56.31691,
+  "lon": -3.85183,
+  "desc": "Spring beside the overgrown ruins of a chapel by the Machany Water, so venerated that the Presbytery ordered the chapel demolished c.1650 to suppress the 'superstitions' practised there; now a boggy seep.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2021/11/02/st-patricks-well2/"
+ },
+ {
+  "name": "St Serf's Well, Ochtertyre",
+  "cat": "well",
+  "lat": 56.38725,
+  "lon": -3.87112,
+  "desc": "Plentiful spring of St Serf, patron of Monzievaird, where on Lammas Day people drank and left white stones, spoons or rags; now drowned beneath the waters of the loch at Ochtertyre.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2020/11/24/st-serfs-well-crieff/"
+ },
+ {
+  "name": "Mineral Wishing Well, Glen Lyon",
+  "cat": "spring",
+  "lat": 56.6043,
+  "lon": -4.08493,
+  "desc": "Gushing roadside mineral spring in Glen Lyon with a stone shelf for offerings, usually small pebbles, which were said to be replaced as fast as roadmen cleared them; offerings were still remembered in recent times.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2019/05/17/mineral-well-glen-lyon/"
+ },
+ {
+  "name": "Lady Well, Tibbermore",
+  "cat": "well",
+  "lat": 56.39403,
+  "lon": -3.53746,
+  "desc": "Holy well of St Mary that gave Tibbermore ('great well') its name, near a church once held by the Bishops of Dunkeld; its site in a roadside paddock now shows no trace.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/12/25/lady-well-tibbermore/"
+ },
+ {
+  "name": "Chapel Well, Berryhill (Bankfoot)",
+  "cat": "well",
+  "lat": 56.49462,
+  "lon": -3.59044,
+  "desc": "Holy well by a lost chapel and burial ground on the banks of the Ordie, where locals drank on the first Sunday of May until the 19th century; destroyed c.1850, site now in forestry.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/12/25/chapel-well-bankfoot/"
+ },
+ {
+  "name": "St Patrick's Well, Dunruchan",
+  "cat": "well",
+  "lat": 56.33287,
+  "lon": -3.97635,
+  "desc": "Boggy remnant of a holy well beside the lost chapel site just east of the Dunruchan standing stones; one of two St Patrick's wells in Muthill parish.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/12/19/st-patricks-well-dunruchan/"
+ },
+ {
+  "name": "Holy Well of Inchadney (Beltane Well), Kenmore",
+  "cat": "well",
+  "lat": 56.60144,
+  "lon": -3.97782,
+  "desc": "Quartz-edged well near a vanished church of the 'Holy Women', visited by crowds on Beltane morning until the mid-19th century; cleaning in 1914 turned up coins, buttons and a cross-marked stone.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/12/11/beltane-well-kenmore/"
+ },
+ {
+  "name": "Trinity Well, Trinity Gask",
+  "cat": "well",
+  "lat": 56.34408,
+  "lon": -3.67905,
+  "desc": "Spring south of the manse famed in pre-Reformation times for miraculous cures and protection against plague and witchcraft; still flowing from a wooded bank in 2014.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2014/11/18/trinity-well/"
+ },
+ {
+  "name": "St Mungo's Well, Gleneagles",
+  "cat": "well",
+  "lat": 56.24536,
+  "lon": -3.71588,
+  "desc": "Strong cold spring gathering into a clear pool amid gorse in the Ochil foothills, mapped in 1860; no recorded traditions survive.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2014/05/10/st-mungos-well/"
+ },
+ {
+  "name": "St David's (St Cuthbert's) Well, Weem",
+  "cat": "well",
+  "lat": 56.62777,
+  "lon": -3.88497,
+  "desc": "Trickle collecting in a small stone pool beneath the crags of Weem Wood, once called St Cuthbert's Bath; later named for Sir David Menzies, who restored it and lived as a hermit in the nearby cave. Plaque and modern cross mark it.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2013/11/12/st-davids-well/"
+ },
+ {
+  "name": "St Mary's Well, Callander",
+  "cat": "well",
+  "lat": 56.22345,
+  "lon": -4.17767,
+  "desc": "Quartz-lined holy well by the river at Callander, mapped in 1862 though overlooked by Scottish holy well surveys; still holding fresh water.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2013/06/05/st-marys-well/"
+ },
+ {
+  "name": "Maiden's Well, Glendevon",
+  "cat": "well",
+  "lat": 56.194,
+  "lon": -3.66088,
+  "desc": "Fine stone-bordered spring below fairy-haunted Maiden Castle, said never to fail; legend says a princess imprisoned in Castle Campbell was allowed out to drink here.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2013/04/02/maidens-well/"
+ },
+ {
+  "name": "St Fillan's Well, Dundurn (Comrie)",
+  "cat": "well",
+  "lat": 56.38404,
+  "lon": -4.09401,
+  "desc": "Healing spring said to have moved from the top of Dundurn hill to its foot in disgust; in 1791 seventy invalids came on 1 May and 1 August, walking sunwise three times, bathing, casting white stones on the saint's cairn and leaving rags. Especially sought by the childless.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2012/10/23/st-fillans-well/"
+ },
+ {
+  "name": "St Bennet's Well, Cromarty",
+  "cat": "well",
+  "lat": 57.65887,
+  "lon": -4.02565,
+  "desc": "Clootie well near the high-water mark below the ruined St Bennet's Chapel, where the sick drank and hung rags as offerings; in the 1930s wishers still left a scrap of clothing on the branches.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2020/11/27/st-bennets-well/"
+ },
+ {
+  "name": "Holy Well of Isle Maree, Loch Maree",
+  "cat": "well",
+  "lat": 57.69336,
+  "lon": -5.47307,
+  "desc": "Well of St Maelrubha on a sacred island in Loch Maree, famed for curing insanity; beside it stood a wishing tree so studded with hammered-in coins that it died. Reached only by boat.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2008/09/12/isle-maree/"
+ },
+ {
+  "name": "St Francis' Well, Dundee",
+  "cat": "well",
+  "lat": 56.4625,
+  "lon": -2.97407,
+  "desc": "Cold spring on the sunny slopes of the Greyfriars' meadows north of the Howff, dedicated by the friars and reckoned the favourite of Dundee's holy wells; repaired after the Reformation but long since lost.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2021/10/12/st-francis-well-dundee/"
+ },
+ {
+  "name": "Lady Well, Dundee",
+  "cat": "well",
+  "lat": 56.46486,
+  "lon": -2.97105,
+  "desc": "Bright spring flowing from under the Chapelshade braes near the old Chapel of Our Lady, recorded in 1409 and later feeding the town's water supply; now drained beneath the Ladywell roundabout.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2021/05/30/lady-well-dundee/"
+ },
+ {
+  "name": "St Mary's Well, Lethnot",
+  "cat": "well",
+  "lat": 56.80257,
+  "lon": -2.75067,
+  "desc": "Natural spring at the foot of a bank near Lethnot church, where silver coins left as votive offerings were found in the 19th century; the parish name may come from a word for a sacred place.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/11/17/st-marys-well-lethnot/"
+ },
+ {
+  "name": "St Aidan's (St Iten's) Well, Menmuir",
+  "cat": "well",
+  "lat": 56.76646,
+  "lon": -2.76402,
+  "desc": "Well by Menmuir church named for St Aidan of Lindisfarne, believed to cure asthma and skin diseases; drained in the 19th century, though water still issues from a roadside spout.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/11/17/st-aidans-well/"
+ },
+ {
+  "name": "Holy Well, Balmossie Den",
+  "cat": "well",
+  "lat": 56.48356,
+  "lon": -2.85864,
+  "desc": "Old wishing or holy well of Monifieth on the north side of the A92 at Balmossie Bridge, marked by a stone set up by Thomas Erskine in 1847 on the supposed medieval site, inscribed 'Whosoever drinketh of this water shall thirst again'.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/11/17/holy-well-balmossie-den/"
+ },
+ {
+  "name": "Lady Well, Airth",
+  "cat": "well",
+  "lat": 56.05883,
+  "lon": -3.77125,
+  "desc": "Holy well below Airth Castle whose visitors were hauled before the kirk session in 1657 for leaving money, walking in silence and keeping the water from touching the ground; now destroyed.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/12/19/lady-well-airth/"
+ },
+ {
+  "name": "St Ninian's Well, Stirling",
+  "cat": "well",
+  "lat": 56.11465,
+  "lon": -3.93644,
+  "desc": "Ancient well in an old stone well house that gave its name to the St Ninians district of Stirling, beside a demolished chapel recorded from 1242.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/12/16/st-ninians-well-stirling/"
+ },
+ {
+  "name": "St Maha's Well, Balmaha",
+  "cat": "well",
+  "lat": 56.09406,
+  "lon": -4.4813,
+  "desc": "Healing spring high on the boggy moors above Balmaha, overlooking the islands of Loch Lomond; the village name is thought to come from the same saint.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/12/16/st-mahas-well/"
+ },
+ {
+  "name": "Our Lady's Well, Stirling",
+  "cat": "well",
+  "lat": 56.12833,
+  "lon": -3.943,
+  "desc": "Holy well at the northern foot of Gowan Hill below Stirling Castle, drawn by J.S. Fleming in 1898; built over and destroyed in the 20th century.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/12/16/our-ladys-well-stirling/"
+ },
+ {
+  "name": "Airthrey Mineral Wells, Bridge of Allan",
+  "cat": "spring",
+  "lat": 56.15658,
+  "lon": -3.94154,
+  "desc": "Cold mineral springs below the Ochils, noted by Defoe as useful against skin complaints, whose fame turned Bridge of Allan into a Victorian spa town; the old well house survives as a ruin.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/12/15/airthrey-mineral-wells/"
+ },
+ {
+  "name": "Holy (Fairy) Well, Logie",
+  "cat": "well",
+  "lat": 56.16026,
+  "lon": -3.91192,
+  "desc": "'Very fine well' at the foot of Dumyat rising from over sixty springs through sand, described in 1792 as much resorted to by Catholics; still runs clear.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/12/15/fairy-well-logie/"
+ },
+ {
+  "name": "Chapel Well (Christ's Well), Cambusbarron",
+  "cat": "well",
+  "lat": 56.10971,
+  "lon": -3.96634,
+  "desc": "Called the most famous of Stirling's holy wells, a village water supply and ritual site whose customs drew repeated church complaints; now marked only by a notice board.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/12/15/chapel-well-cambusbarron/"
+ },
+ {
+  "name": "Christ's Well, Blair Drummond",
+  "cat": "well",
+  "lat": 56.16579,
+  "lon": -4.04807,
+  "desc": "Well where local people practised healing rites condemned in old church records, probably the 'Christ's Well' of Menteith described in 1618 as hung all about with rags; exact location disputed.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/12/15/christs-well-blair-drummond/"
+ },
+ {
+  "name": "St Corbet's Well, Touch Glen",
+  "cat": "well",
+  "lat": 56.109,
+  "lon": -4.03007,
+  "desc": "Lonely spring in Touch Glen near Gilmour's Linn whose virtue lasted one hour a year: drinking at sunrise on the first Sunday of May was believed to preserve your life for twelve months. Long reduced to a boggy spring, location approximate.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2012/10/29/st-corbets-well/"
+ },
+ {
+  "name": "St Finglassin's Well, Kinglassie",
+  "cat": "well",
+  "lat": 56.17569,
+  "lon": -3.2451,
+  "desc": "Holy well of the saint who gave Kinglassie its name, sheltered by hawthorn and elder; the spring has been piped and bricked for water supply.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/12/19/st-finglassins-well/"
+ },
+ {
+  "name": "St Andrew's Well, Isle of May",
+  "cat": "well",
+  "lat": 56.18769,
+  "lon": -2.55946,
+  "desc": "Walled spring beside the Altar Stones on the Isle of May, the island's best water and its main domestic supply, though prone to drying in summer.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2017/05/18/st-andrews-well-may/"
+ },
+ {
+  "name": "Our Lady's Well, Gateside",
+  "cat": "well",
+  "lat": 56.26798,
+  "lon": -3.3174,
+  "desc": "Small spring by the mill dam at Gateside beside the supposed site of St Mary's Chapel, remembered as a source of holy water before the Reformation.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2016/11/08/our-ladys-well-gateside/"
+ },
+ {
+  "name": "Tobar Mor (Well of the Winds), Gigha",
+  "cat": "well",
+  "lat": 55.70379,
+  "lon": -5.73157,
+  "desc": "Magical well on Cnoc Largie kept by an old woman guardian who, for silver, would clean it with a white clamshell, stir it sunwise and fling water toward the wind wanted by sailors; left uncovered it was said it could flood the island.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2010/03/04/tobar-mor-gigha/"
+ },
+ {
+  "name": "Tobar na h-Aoise (Well of Age), Iona",
+  "cat": "well",
+  "lat": 56.34149,
+  "lon": -6.39684,
+  "desc": "Natural pool near the summit of Dun I on Iona, the 'well of eternal youth', where pilgrims came at dawn to touch the water as the first sunbeam struck it to renew their youth.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2009/09/03/tobar-na-h-aoise-iona/"
+ },
+ {
+  "name": "Tobar na Gaoithe Tuath (North Wind Well), Iona",
+  "cat": "well",
+  "lat": 56.34096,
+  "lon": -6.41046,
+  "desc": "Lost magic well north of Cnoc nam Bradhan near the Hermit's Cell, where sailors left offerings to summon a north wind; location approximate.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2008/09/12/tobar-na-gaoithe-tuath-iona/"
+ },
+ {
+  "name": "Tobar nam Buadh (Well of Virtues), St Kilda",
+  "cat": "well",
+  "lat": 57.81983,
+  "lon": -8.59579,
+  "desc": "Exceedingly cold spring near the Amazon's House on Hirta, described by Martin Martin in 1703 as a cure for colic, gravel and headaches; votaries once left humble offerings on a stone altar beside it.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2008/09/12/tobar-nam-buadh-st-kilda/"
+ },
+ {
+  "name": "Lighthouse Well, Dunnet Head",
+  "cat": "well",
+  "lat": 58.66276,
+  "lon": -3.37346,
+  "desc": "The most northerly healing well on mainland Britain, a stone-surrounded spring with two troughs that also served the keepers of Dunnet Head lighthouse, who carried its water half a mile uphill.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2016/11/21/lighthouse-well/"
+ },
+ {
+  "name": "Trows Well, Birsay",
+  "cat": "well",
+  "lat": 59.12194,
+  "lon": -3.29161,
+  "desc": "Spring by the Loch of Boardhouse in Orkney once believed to be the home of a trow, the island troll; its folklore is now forgotten but the spring still flows.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2022/05/10/trows-well/"
+ },
+ {
+  "name": "Tobar na Cailleach, Keith",
+  "cat": "well",
+  "lat": 57.51428,
+  "lon": -2.9588,
+  "desc": "Woodland 'well of the old woman' on Cairds Hill, once known for curing ailments and linked to a tale of the Cailleach bathing here and emerging young; still running as a dammed pool.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2010/03/31/tobar-na-cailleach-banffshire/"
+ },
+ {
+  "name": "White Wells, Ilkley Moor",
+  "cat": "spring",
+  "lat": 53.91699,
+  "lon": -1.8216,
+  "desc": "Celebrated healing spring on Ilkley Moor, enclosed c.1760 by Squire Middleton in a white bath house with plunge baths for the 'cold water cure'; the building is open and water still runs into a plunge pool.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2008/09/12/white-wells-ilkley/"
+ },
+ {
+  "name": "Holy Well, Hildenley",
+  "cat": "well",
+  "lat": 54.13011,
+  "lon": -0.86775,
+  "desc": "Copious pure spring at the edge of Hildenley Wood near Malton running into a small well house and pool, said to have been much used by the monks of Kirkham Abbey and still credited with healing virtues in 1859.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2010/11/03/holy-well-hildenley/"
+ },
+ {
+  "name": "St Helen's Well, Thorp Arch",
+  "cat": "well",
+  "lat": 53.9064,
+  "lon": -1.31401,
+  "desc": "Ancient healing spring by St Helen's Beck in Chapel Wood near the Wharfe, close to a lost chapel and cross at St Helen's Ford; reputedly haunted and venerated since pre-Roman times.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2011/07/24/st-helens-well-thorp-arch/"
+ },
+ {
+  "name": "St Helen's Well, Holbeck",
+  "cat": "spring",
+  "lat": 53.79203,
+  "lon": -1.55292,
+  "desc": "Medicinal holy well by St Helen's Bridge in Holbeck, once beside a chapel, later known as the Holbeck Spa Well; lost to industrial Leeds.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2010/01/17/st-helens-well-holbeck/"
+ },
+ {
+  "name": "St Lambert's Well, Burneston",
+  "cat": "well",
+  "lat": 54.25943,
+  "lon": -1.52724,
+  "desc": "St Lambert's 'fountain', recorded in the 12th century and probably in the present churchyard; it is thought to have given its name to the Halikeld ('holy spring') wapentake.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2009/05/04/st-lamberts-well-burneston/"
+ },
+ {
+  "name": "St Michael's Well, Well",
+  "cat": "well",
+  "lat": 54.23092,
+  "lon": -1.59751,
+  "desc": "One of the springs that named the village of Well, where an iron cup once hung for travellers; a Roman bath house stood nearby.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2009/04/25/st-michaels-well/"
+ },
+ {
+  "name": "Holy Well, Todmorden",
+  "cat": "well",
+  "lat": 53.71611,
+  "lon": -2.1008,
+  "desc": "Spring of excellent water on the former Holy Well Lane, where local people once left 'memaws' — rags, coins and flowers — as offerings to the water.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2009/01/26/holy-well-todmorden/"
+ },
+ {
+  "name": "Sore Eye Well, Eldwick",
+  "cat": "well",
+  "lat": 53.85674,
+  "lon": -1.8059,
+  "desc": "Moorland well where people bathed their faces to cure poor sight and eye complaints, hanging rags on an old rowan tree as offerings; now under a water-authority cover.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2021/04/28/sore-eye-well/"
+ },
+ {
+  "name": "Eyebright Well, Leeds",
+  "cat": "well",
+  "lat": 53.79529,
+  "lon": -1.5481,
+  "desc": "Well near the Monk Pits recorded by Ralph Thoresby in 1715 as long esteemed a sovereign remedy for sore eyes; lost to the growth of Leeds in the 19th century.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2021/04/28/eyebright-well-leeds/"
+ },
+ {
+  "name": "Blind Well, Sutton-in-Holderness",
+  "cat": "well",
+  "lat": 53.78186,
+  "lon": -0.30102,
+  "desc": "Healing well in the East Field near Spring Cottage Farm where villagers bathed sore eyes; long lost, location approximate.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2021/02/19/blind-well-sutton/"
+ },
+ {
+  "name": "Horley Green Spa, Halifax",
+  "cat": "spring",
+  "lat": 53.73534,
+  "lon": -1.8459,
+  "desc": "Chalybeate spring with May Day traditions, enclosed in a spa house and prominent in Calderdale's history from the late 18th to late 19th century.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2020/12/04/horley-green/"
+ },
+ {
+  "name": "Sulphur Well (Spa), Wigglesworth",
+  "cat": "spring",
+  "lat": 54.00663,
+  "lon": -2.29817,
+  "desc": "Sulphur spring under a small well house dated 1666, said in 1765 to have been used 'time out of mind' for healing.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2021/08/02/wigglesworth-spa/"
+ },
+ {
+  "name": "Hawklemass Well, Whittingham",
+  "cat": "well",
+  "lat": 55.40446,
+  "lon": -1.89362,
+  "desc": "Well with a stone trough near Howbalk Lane end, haunted by the 'Hawklemass Ghost', which village youths dreaded passing after dark.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/01/30/hawklemass-well-whittingham/"
+ },
+ {
+  "name": "Lee Hall Well, Bellingham",
+  "cat": "well",
+  "lat": 55.11195,
+  "lon": -2.21865,
+  "desc": "'Excellent spring' at Lee Hall where the lady of the hall dipped children with rickets on Whitsun, Midsummer and St Peter's Eves, said to bring either a speedy cure or death; exact spot lost, location approximate.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2010/01/30/lee-hall-well-bellingham/"
+ },
+ {
+  "name": "St Helen's (Freemen's) Well, Hartlepool",
+  "cat": "well",
+  "lat": 54.70025,
+  "lon": -1.18898,
+  "desc": "Well in the Far-well Field beside the site of St Helen's Chapel, recorded c.1200; still visible in 1823 but now gone.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2023/06/25/st-helens-well-hartlepool/"
+ },
+ {
+  "name": "Bede's Well, Hebburn",
+  "cat": "well",
+  "lat": 54.97102,
+  "lon": -1.50186,
+  "desc": "Well in a small railed amphitheatre, enclosed in 1932, which legend says Bede's monks visited from Jarrow for water; now dry after its spring was diverted by shipyard slag works.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/01/30/bedes-well-hebburn/"
+ },
+ {
+  "name": "Worm Well, Fatfield",
+  "cat": "well",
+  "lat": 54.87993,
+  "lon": -1.51595,
+  "desc": "Wishing well at the foot of Worm Hill tied to the Lambton Worm legend, where crooked pins were offered and Midsummer Eve festivities held; reportedly restored in 1974.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2009/01/08/worm-well-lambton-durham/"
+ },
+ {
+  "name": "St Martin's Well, Looe",
+  "cat": "well",
+  "lat": 50.36071,
+  "lon": -4.45195,
+  "desc": "Spring flowing from a rock on the old parish boundary path above Looe, much used by villagers for its excellent water before being enclosed in a shed and piped to the town.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2023/01/12/st-martins-well-looe/"
+ },
+ {
+  "name": "Holy Well, Gunwalloe",
+  "cat": "well",
+  "lat": 50.03886,
+  "lon": -5.26894,
+  "desc": "Rock basin just below the porch of St Winwaloe's church on the shore at Gunwalloe, filled with sand at every high tide; already ruined by 1875.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2020/07/08/holy-well-gunwalloe/"
+ },
+ {
+  "name": "St Agnes' Well, Cothelstone",
+  "cat": "well",
+  "lat": 51.08014,
+  "lon": -3.16698,
+  "desc": "Scheduled well in a small well house, said to be a powerful wishing well for divining love, though some locals avoided it as a haunt of mischievous pixies.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2010/03/05/st-agnes-well-cothelstone/"
+ },
+ {
+  "name": "Fairy Well, Barrow Gurney",
+  "cat": "well",
+  "lat": 51.4147,
+  "lon": -2.67373,
+  "desc": "Spring in a dip by the stream near Barrow Wood, long visited to bathe sore eyes; a dedicated cup was kept there for drinking.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2009/10/29/fairy-well/"
+ },
+ {
+  "name": "St Columb's Wells, Derry",
+  "cat": "well",
+  "lat": 54.99516,
+  "lon": -7.32709,
+  "desc": "Three sacred springs outside Derry's walls named in the annals for Adomnán, Martin and Columba; already declining by 1837, now gone.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2021/08/20/columbas-well-derry/"
+ },
+ {
+  "name": "St Patrick's Well, Grianan of Aileach",
+  "cat": "well",
+  "lat": 55.02293,
+  "lon": -7.42617,
+  "desc": "Well between the outer ramparts of the Grianan of Aileach where Patrick is said to have baptised Prince Eoghan; pilgrims once pushed pins into a tree beside it.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2009/11/11/st-patricks-well-donegal/"
+ },
+ {
+  "name": "Our Lady's Well, Liberton",
+  "cat": "well",
+  "lat": 55.9182,
+  "lon": -3.1791,
+  "desc": "Virgin Mary's well by the Braid Burn, praised in 1792 for its large flow and light, wholesome water; now lost.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/12/09/our-ladys-well1/"
+ },
+ {
+  "name": "Wells o' Wearie, Duddingston",
+  "cat": "well",
+  "lat": 55.93928,
+  "lon": -3.16357,
+  "desc": "One of a ring of sacred and healing springs around Arthur's Seat, renowned for its water; disrupted when the railway cut into the hill, site approximate.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/12/09/wells-o-wearie/"
+ },
+ {
+  "name": "Druid's Well, Bingley",
+  "cat": "spring",
+  "lat": 53.85519,
+  "lon": -1.85867,
+  "desc": "Sweet spring seeping from beneath a lichen-covered boulder below the Druid's Altar crag near Bingley, near the lost 'Altar Well'.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2008/09/07/druids-well-bingley/"
+ },
+ {
+  "name": "Wallace's Well (Well of Spaw), Dunfermline",
+  "cat": "well",
+  "lat": 56.06957,
+  "lon": -3.46681,
+  "desc": "Overgrown stone ruin of a reputed spring beside the path through Pittencrieff Glen, dedicated to William Wallace; in 1773 the council fought to keep the townsfolk's right of access to the 'Well of Spaw'.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2021/03/27/wallaces-well-dunfermline/"
+ },
+ {
+  "name": "Vicar's Well, Musselburgh",
+  "cat": "well",
+  "lat": 55.94237,
+  "lon": -3.04983,
+  "desc": "Holy well by the Dam Brae, attached to the vicarage of St Michael's church and celebrated in 1857 for the excellence of its water.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2017/04/17/vicars-well-musselburgh/"
+ },
+ {
+  "name": "Twentypenny Well, Duddingston",
+  "cat": "well",
+  "lat": 55.94101,
+  "lon": -3.15178,
+  "desc": "Little-known healing well on the slopes of Arthur's Seat, still running clear into a stone trough by the path; its name may recall coin offerings.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2018/12/09/twentypenny-well/"
+ },
+ {
+  "name": "St Michael's Well, Cowgate, Edinburgh",
+  "cat": "well",
+  "lat": 55.94916,
+  "lon": -3.18356,
+  "desc": "Holy well of the dragon-slaying archangel near the Cowgate and St Mary's Street, shown on a sketch of the city c.1540; possibly remembered in the later 'Silverwell Close'. Long gone.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2017/10/22/st-michaels-well-edinburgh/"
+ },
+ {
+  "name": "Old Wife's Spring, Snaizeholme",
+  "cat": "spring",
+  "lat": 54.2581,
+  "lon": -2.25562,
+  "desc": "Remote spring on a steep slope in Snaizeholme valley whose name may recall the Cailleach or old earth goddess; known only from place-name records.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2008/10/11/old-wifes-spring-snaizholme/"
+ },
+ {
+  "name": "Dragon's Well, Wharncliffe",
+  "cat": "well",
+  "lat": 53.46072,
+  "lon": -1.54142,
+  "desc": "Well beneath Wharncliffe Crags where the legendary seven-headed Wharncliffe Dragon was said to drink, close to the Dragon's Den and the 'Old Wife's Cellar'.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2008/09/12/dragons-well-wharncliffe/"
+ },
+ {
+  "name": "Holy Ash Well (Hellywell), Bradford",
+  "cat": "well",
+  "lat": 53.80393,
+  "lon": -1.75942,
+  "desc": "Healing spring of wide renown off Manningham Lane, with a Wart or Pin Stone beside it; now under or beside Valley Parade football ground.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2010/01/28/holy-ash-well-bradford/"
+ },
+ {
+  "name": "Claymore Well, Kettleness",
+  "cat": "well",
+  "lat": 54.52232,
+  "lon": -0.73541,
+  "desc": "Well near Kettleness where fairies were said to wash their linen and beat it with bittle and pin, the noise carrying a mile on fairy washing nights.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2008/12/29/claymore-well-kettleness/"
+ },
+ {
+  "name": "Craigie Well (Tobar Chragag), Avoch",
+  "cat": "well",
+  "lat": 57.54933,
+  "lon": -4.20859,
+  "desc": "Black Isle rag well linked by some to the Virgin Mary, formerly visited on the first Sunday of summer; cloots were still being tied to nearby trees when recorded in 2014, though tree roots are toppling its stones.",
+  "source": "Highland Historic Environment Record",
+  "url": "https://her.highland.gov.uk/monument/MHG7112"
+ },
+ {
+  "name": "St Plegmund's Well, Plemstall",
+  "cat": "well",
+  "lat": 53.2254,
+  "lon": -2.81742,
+  "desc": "Medieval well dedicated to the Anglo-Saxon archbishop St Plegmund, possibly marking his hermitage; long known locally as a christening well. A scheduled monument, restored in 1907, though now without water.",
+  "source": "Historic England",
+  "url": "https://historicengland.org.uk/listing/the-list/list-entry/1018615"
+ },
+ {
+  "name": "St Oswald's Well, Winwick",
+  "cat": "well",
+  "lat": 53.44219,
+  "lon": -2.59248,
+  "desc": "Stone-lined well chamber with steps down to the water, said to mark where King Oswald fell at the battle of Maserfelth; coins and objects were left here for healing. Scheduled monument, well kept by the community.",
+  "source": "Historic England",
+  "url": "https://historicengland.org.uk/listing/the-list/list-entry/1018082"
+ },
+ {
+  "name": "Chibbyr Undin (Well of the Ash), Grenaby",
+  "cat": "well",
+  "lat": 54.11435,
+  "lon": -4.6635,
+  "desc": "Manx healing well near Grenaby: the sick drank, walked sunwise round it two or three times, then hung a wetted rag from their clothing on the hawthorn, expecting a cure as the cloth rotted.",
+  "source": "The Megalithic Portal",
+  "url": "https://www.megalithic.co.uk/article.php?sid=32318"
+ },
+ {
+  "name": "St Maughold's Well",
+  "cat": "well",
+  "lat": 54.30082,
+  "lon": -4.31255,
+  "desc": "Cliff-top spring above the sea by Maughold churchyard, said to be blessed by St Maughold; drinking while seated in the saint's rock chair was thought to help, especially women. Pilgrimage on the first Sunday in August; now a few tumbled stones.",
+  "source": "A Manx Note Book",
+  "url": "https://isle-of-man.com/manxnotebook/parishes/md/mdwell.htm"
+ },
+ {
+  "name": "St Winefride's Well, Holywell Farm, Clutton",
+  "cat": "well",
+  "lat": 53.09179,
+  "lon": -2.78708,
+  "desc": "Large circular stone basin fed by several springs, one of a chain of wells said to mark the route of St Winefride's relics from Holywell to Shrewsbury; a medieval pilgrim station, its worn coping shows long use. Scheduled; in a private farm garden.",
+  "source": "Historic England",
+  "url": "https://historicengland.org.uk/listing/the-list/list-entry/1018702"
+ },
+ {
+  "name": "St Anne's Well, Sutton (St Helens)",
+  "cat": "well",
+  "lat": 53.41726,
+  "lon": -2.75435,
+  "desc": "Medieval dressed-sandstone well basin by the brook dividing Rainhill and Sutton, reputed in the 19th century to cure eye complaints; its stone figure of a woman with a pitcher is long lost. Scheduled, partly silted.",
+  "source": "Historic England",
+  "url": "https://historicengland.org.uk/listing/the-list/list-entry/1019449"
+ },
+ {
+  "name": "Scarisbrick Park Holy Well",
+  "cat": "well",
+  "lat": 53.60121,
+  "lon": -2.92685,
+  "desc": "Simple medieval roadside spring beside Southport Road, covered by an oval capstone carved with a small floriated cross and linked to the nearby wayside cross; a rare Lancashire survival. Scheduled.",
+  "source": "Historic England",
+  "url": "https://historicengland.org.uk/listing/the-list/list-entry/1009493"
+ },
+ {
+  "name": "Doon Holy Well, Kilmacrenan",
+  "cat": "well",
+  "lat": 55.02483,
+  "lon": -7.82251,
+  "desc": "Pilgrimage well near Doon Rock, the O'Donnell inauguration site, said to have been blessed by a fasting priest; pilgrims make barefoot rounds and bathe limbs, and two rag trees hold medals, rosaries and other offerings. Well maintained and still busy.",
+  "source": "Pilgrimage in Medieval Ireland",
+  "url": "https://pilgrimagemedievalireland.com/2022/02/14/doon-holy-well-through-the-ages/"
+ },
+ {
+  "name": "St Declan's Well, Ardmore",
+  "cat": "well",
+  "lat": 51.94807,
+  "lon": -7.7126,
+  "desc": "Clifftop wellhouse on St Declan's Way above Ardmore Bay, topped by worn crucifixion carvings; pilgrims make three rounds and drink the water, reputedly good for sore eyes, with a candlelit pattern on 24 July.",
+  "source": "Holy Wells of Cork and Kerry",
+  "url": "https://holywellscorkandkerry.com/2017/07/01/st-declans-well-ardmore/"
+ },
+ {
+  "name": "St Brigid's Well, Tully (Kildare)",
+  "cat": "well",
+  "lat": 53.14391,
+  "lon": -6.90241,
+  "desc": "St Brigid's well near the ruined Black Abbey at Tully outside Kildare town, still a place of devotion; families traditionally came on her feast day, 1 February, to pray for health and fertility for household, stock and crops.",
+  "source": "Ask About Ireland",
+  "url": "https://askaboutireland.ie/learning-zone/primary-students/looking-at-places/kildare/saint-brigid/st.-brigids-well"
+ },
+ {
+  "name": "St Ciaran's Holy Well, Castlekeeran",
+  "cat": "well",
+  "lat": 53.73908,
+  "lon": -6.95866,
+  "desc": "Group of rock-cut wells beside a great ash rag tree near Kells: one side of the healing well cures headaches, the other toothache, and a stone 'chair' eases back pain. Thousands attended its harvest-time pattern in the 1910s; three magical trout are said to appear.",
+  "source": "Discover Boyne Valley",
+  "url": "https://discoverboynevalley.ie/node/1941"
+ },
+ {
+  "name": "St Ronan's Well, Marown",
+  "cat": "well",
+  "lat": 54.16799,
+  "lon": -4.58083,
+  "desc": "Holy well in Marown parish in the island's central valley, recorded among the Manx sacred springs on the Megalithic Portal.",
+  "source": "The Megalithic Portal",
+  "url": "https://www.megalithic.co.uk/asb_mapsquare.php?sq=SC"
+ },
+ {
+  "name": "Glebe Well, Lonan Old Church",
+  "cat": "well",
+  "lat": 54.18592,
+  "lon": -4.41403,
+  "desc": "Holy well by the ancient Lonan Old Church, listed among the island's sacred springs on the Megalithic Portal.",
+  "source": "The Megalithic Portal",
+  "url": "https://www.megalithic.co.uk/asb_mapsquare.php?sq=SC"
+ },
+ {
+  "name": "Chibbyr Roney",
+  "cat": "well",
+  "lat": 54.19503,
+  "lon": -4.61272,
+  "desc": "Manx holy well recorded among the sacred springs of the Isle of Man on the Megalithic Portal; little tradition is recorded.",
+  "source": "The Megalithic Portal",
+  "url": "https://www.megalithic.co.uk/asb_mapsquare.php?sq=SC"
+ },
+ {
+  "name": "Chibbyr Pherick (St Patrick's Well), Peel Hill",
+  "cat": "well",
+  "lat": 54.219,
+  "lon": -4.708,
+  "desc": "Well on the seaward side of Peel Hill below Corrin's Tower, said to have sprung where St Patrick's horse first touched land; drinking before sunrise on Old May Day with a wish was thought to make it come true, and silver was once left. Location approximate.",
+  "source": "Visit Isle of Man",
+  "url": "https://www.visitisleofman.com/blog/read/2024/01/magical-manx-folklore-sites-with-james-franklin-of-culture-vannin-b362"
+ },
+ {
+  "name": "St Andrew's Well, Kirkandrews-on-Eden",
+  "cat": "well",
+  "lat": 54.91709,
+  "lon": -3.00947,
+  "desc": "Medieval well in the churchyard at Kirkandrews-on-Eden, probably once used for baptisms.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_Holy_Wells_in_Cumbria"
+ },
+ {
+  "name": "St Cuthbert's Well, Edenhall",
+  "cat": "well",
+  "lat": 54.68206,
+  "lon": -2.67775,
+  "desc": "Well by St Cuthbert's church at Edenhall, source of the legend of the 'Luck of Edenhall': fairies disturbed while drinking here are said to have left behind a medieval glass cup.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_Holy_Wells_in_Cumbria"
+ },
+ {
+  "name": "St Helen's Well, Great Asby",
+  "cat": "well",
+  "lat": 54.5138,
+  "lon": -2.4931,
+  "desc": "Holy well at Great Asby in a stone enclosure probably of the 19th century; a Grade II listed structure.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_Holy_Wells_in_Cumbria"
+ },
+ {
+  "name": "St Michael's Well, Arthuret",
+  "cat": "well",
+  "lat": 55.0005,
+  "lon": -2.9723,
+  "desc": "Well near St Michael's church at Arthuret, its structure probably dating from the 17th century.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_Holy_Wells_in_Cumbria"
+ },
+ {
+  "name": "St Ninian's Well, Brisco",
+  "cat": "well",
+  "lat": 54.8595,
+  "lon": -2.9009,
+  "desc": "Ancient well with a 19th-century wellhead restored by Sarah Losh; well and wellhead are Grade II listed.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_Holy_Wells_in_Cumbria"
+ },
+ {
+  "name": "St Mungo's Well, Bromfield",
+  "cat": "well",
+  "lat": 54.8122,
+  "lon": -3.2836,
+  "desc": "Medieval well near St Mungo's church, Bromfield, with a listed wellhead built in 1878.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_Holy_Wells_in_Cumbria"
+ },
+ {
+  "name": "St Patrick's Well, Patterdale",
+  "cat": "well",
+  "lat": 54.54112,
+  "lon": -2.94807,
+  "desc": "Roadside holy well by Ullswater linked to St Patrick, sheltered by an 18th-century well house; the original spring may have been slightly elsewhere.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_Holy_Wells_in_Cumbria"
+ },
+ {
+  "name": "St Guron's Well, Bodmin",
+  "cat": "well",
+  "lat": 50.4714,
+  "lon": -4.7171,
+  "desc": "Probably 15th-century granite well head beside St Petroc's church, Bodmin, its roof imitating slate courses; a carved panel shows St Guron, said to have founded a hermitage here in the 5th century, kneeling at the well. Grade II*.",
+  "source": "Historic England",
+  "url": "https://historicengland.org.uk/listing/the-list/list-entry/1355184"
+ },
+ {
+  "name": "St Ruan's Well, Grade-Ruan",
+  "cat": "well",
+  "lat": 49.98838,
+  "lon": -5.18891,
+  "desc": "Small 15th-century granite well house on the Lizard, restored in the 19th century, keeping its corbelled roof, seat ledges and an empty niche; its gable cross is now in Grade church. Scheduled.",
+  "source": "Historic England",
+  "url": "https://historicengland.org.uk/listing/the-list/list-entry/1006753"
+ },
+ {
+  "name": "St Constantine's Well, Constantine Bay",
+  "cat": "well",
+  "lat": 50.53499,
+  "lon": -5.01381,
+  "desc": "Holy well by a ruined chapel in the dunes, where pilgrims bathed their feet in water thought to have miraculous powers; lost to sand, re-excavated in 1911 and 1923, its basin still brims with clear water.",
+  "source": "Historic England",
+  "url": "https://historicengland.org.uk/listing/the-list/list-entry/1018569"
+ },
+ {
+  "name": "St Cyor's Well, Luxulyan",
+  "cat": "well",
+  "lat": 50.38989,
+  "lon": -4.74069,
+  "desc": "15th-century well house in a cobbled courtyard by Luxulyan church; dried up when a tramway cutting diverted its stream, but local people still leave fruit, flowers and candles inside. Scheduled.",
+  "source": "Historic England",
+  "url": "https://historicengland.org.uk/listing/the-list/list-entry/1018204"
+ },
+ {
+  "name": "St Neot's Well, St Neot",
+  "cat": "well",
+  "lat": 50.48396,
+  "lon": -4.56179,
+  "desc": "Small medieval well house built into a bank with a granite slab roof and steps down to the water, inscribed as restored in 1852. Grade II.",
+  "source": "Historic England",
+  "url": "https://historicengland.org.uk/listing/the-list/list-entry/1160035"
+ },
+ {
+  "name": "St Urith's Well, Chittlehampton",
+  "cat": "well",
+  "lat": 51.01332,
+  "lon": -3.9434,
+  "desc": "Well said to have sprung where the Anglo-Saxon virgin St Urith was beheaded with a scythe; sufferers of eye disease came to anoint themselves after St Peter's day, and pilgrim offerings helped build the church tower. Now a capped drystone well. Grade II.",
+  "source": "Historic England",
+  "url": "https://historicengland.org.uk/listing/the-list/list-entry/1392218"
+ },
+ {
+  "name": "St Bernard's Well, Edinburgh",
+  "cat": "spring",
+  "lat": 55.95528,
+  "lon": -3.21152,
+  "desc": "Mineral spring on the Water of Leith found c.1760 and compared to Harrogate water; in 1789 it was housed in a round Doric temple by Alexander Nasmith with a statue of Hygeia, restored in 1888.",
+  "source": "Canmore",
+  "url": "https://canmore.org.uk/site/52586"
+ },
+ {
+  "name": "Lady Well, Glasgow",
+  "cat": "well",
+  "lat": 55.8608,
+  "lon": -4.2324,
+  "desc": "Artesian spring south of the Glasgow Necropolis in Dennistoun, older than the city itself, which stayed open as a public well after piped Loch Katrine water closed most others; reputedly Glasgow's last public well.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Lady_Well"
+ },
+ {
+  "name": "Leechwell, Totnes",
+  "cat": "well",
+  "lat": 50.4292,
+  "lon": -3.6904,
+  "desc": "Triple spring in Totnes whose outlets are named Toad, Long Crippler and Snake, feeding three basins reached by three lanes; long used for healing, with a strong emphasis on the number three.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Leechwell"
+ },
+ {
+  "name": "St Blaise's Well, Bromley",
+  "cat": "spring",
+  "lat": 51.403,
+  "lon": 0.022,
+  "desc": "Chalybeate spring in the grounds of the old Bishop's Palace at Bromley, reputed to heal and once a pilgrimage site with an oratory to St Blaise, patron of the wool trade.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/St._Blaise%27s_Well"
+ },
+ {
+  "name": "Tanzie Well (St Anne's Well), Irvine",
+  "cat": "well",
+  "lat": 55.60992,
+  "lon": -4.66156,
+  "desc": "Spring beside the River Irvine at the Golffields footbridge, also called St Anne's Well or the Spoot, perhaps a corruption of St Inan's Well; marked by a 1994 plaque.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Tanzie_Well"
+ },
+ {
+  "name": "Chapel Well (St Mary's Well), Irvine",
+  "cat": "well",
+  "lat": 55.61131,
+  "lon": -4.66447,
+  "desc": "Shallow alcove well set into the wall of Chapel Lane by the River Irvine, with a plaque reading 'St Inan's Well AD839'; coins are thrown in for luck.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/The_Chapel_Well"
+ },
+ {
+  "name": "Kate's Well (St Catherine's), Shotts",
+  "cat": "well",
+  "lat": 55.84639,
+  "lon": -3.85118,
+  "desc": "15th-century spring well at the foot of Kirk o' Shotts church, where legend says the giant Bertram de Shotts was hamstrung and killed as he lay down to drink; restored in the 2000s.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Kate%27s_Well"
+ },
+ {
+  "name": "Our Lady's Well, Hempsted",
+  "cat": "well",
+  "lat": 51.85419,
+  "lon": -2.27078,
+  "desc": "14th-century limestone well house built for Llanthony Priory's manor at Hempsted, carved on the back with St Anne, the Virgin and an angel; now dry. Grade I.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Our_Lady%27s_Well%2C_Hempsted"
+ },
+ {
+  "name": "St Winifred's Well, Woolston",
+  "cat": "well",
+  "lat": 52.8132,
+  "lon": -3.00698,
+  "desc": "Spring said to have gushed up where St Winifred's relics rested in 1138, famed among pilgrims for healing broken bones, with a second spring for eyes; red-spotted 'bloodstained' pebbles appear in it. Timber-framed well house above.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/St_Winifred%27s_Well%2C_Woolston"
+ },
+ {
+  "name": "St Peter's Well, Houston",
+  "cat": "well",
+  "lat": 55.87429,
+  "lon": -4.54674,
+  "desc": "Rare surviving holy well house over a spring below Greenhill Farm; its water was thought to protect travellers and ensure their safe return. Category B listed.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/St_Peter%27s_Well%2C_Houston"
+ },
+ {
+  "name": "Maak's (Monk's) Well, Kilmaurs",
+  "cat": "well",
+  "lat": 55.63394,
+  "lon": -4.51964,
+  "desc": "Possible holy well beside the Carmel Water below Kilmaurs Place, a public supply recorded in 1709 famed for never drying up; it stopped flowing in 2013.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Maak%27s_or_Monk%27s_Well"
+ },
+ {
+  "name": "Tobernalt Holy Well, Lough Gill",
+  "cat": "well",
+  "lat": 54.2439,
+  "lon": -8.4456,
+  "desc": "'Well of the cliff' near Lough Gill, an ancient spring said to have been a pagan gathering place and later a Penal-era Mass site, with a reputed healing stone nearby.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Tobernalt"
+ },
+ {
+  "name": "Dupath Well, Callington",
+  "cat": "well",
+  "lat": 50.5002,
+  "lon": -4.29271,
+  "desc": "Almost intact late-medieval granite well house over a spring near Callington, dedicated to St Ethelred; its water was believed to cure whooping cough.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Dupath_Well"
+ },
+ {
+  "name": "Elder Well, Blymhill",
+  "cat": "well",
+  "lat": 52.7019,
+  "lon": -2.2844,
+  "desc": "Spring rising into a sandstone basin among elder trees at Blymhill Marsh, famed as a remedy for eye complaints; it was once dressed annually with flowers and branches amid rustic games.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Elder_Well"
+ },
+ {
+  "name": "Monk's Well, Wavertree",
+  "cat": "well",
+  "lat": 53.3997,
+  "lon": -2.9147,
+  "desc": "Sandstone well on Mill Lane, Wavertree, dated 1414 and once topped by a cross, inscribed in Latin warning that the Devil laughs at anyone who gives nothing; alms supported the monks. Grade II.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Monk%27s_Well"
+ },
+ {
+  "name": "St Aldhelm's Well, Doulting",
+  "cat": "spring",
+  "lat": 51.1869,
+  "lon": -2.5094,
+  "desc": "Never-failing spring at the source of the River Sheppey where St Aldhelm is said to have sat singing psalms on the day he died in 709; pilgrims bathed for healing, and flowers and offerings are still left.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/St_Aldhelm%27s_Well"
+ },
+ {
+  "name": "Pipe Well (St Martin's Well), Liskeard",
+  "cat": "well",
+  "lat": 50.45452,
+  "lon": -4.46352,
+  "desc": "Town well on Well Lane fed by four springs through lead spouts into a granite trough, recorded from the 14th century and said never to run dry; it had healing repute and a stone that brought luck in marriage to women who touched it.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Pipe_Well%2C_Liskeard"
+ },
+ {
+  "name": "St Cuan's Well, Ahascragh",
+  "cat": "well",
+  "lat": 53.4153,
+  "lon": -8.31611,
+  "desc": "Walled holy well with a cross slab in Castlegar East near Ahascragh, protected as a National Monument; a pattern was held here on 15 October.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/St._Cuan%27s_Well"
+ },
+ {
+  "name": "Lady's Well, Auchmannoch",
+  "cat": "well",
+  "lat": 55.5499,
+  "lon": -4.3068,
+  "desc": "Spring by the Stra Burn ford near Auchmannoch House marked by a large inscribed red sandstone cross; remembered as a curative, wishing and clootie well where Mary Queen of Scots supposedly watered her horse.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Lady%27s_Well%2C_Auchmannoch"
+ },
+ {
+  "name": "St Fillan's Well, Kilallan",
+  "cat": "well",
+  "lat": 55.88632,
+  "lon": -4.58755,
+  "desc": "Well beside the ruined church and rock 'seat' of St Fillan at Kilallan near Kilmacolm, site of the 7th-century cell of a saint so revered that his arm bone was carried before the Scots army at Bannockburn.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/St_Fillan%27s_Kirk%2C_Seat_and_Well"
+ },
+ {
+  "name": "Menacuddle Holy Well, St Austell",
+  "cat": "well",
+  "lat": 50.3457,
+  "lon": -4.796,
+  "desc": "15th-century well house in a wooded valley at St Austell, restored after the First World War by Admiral Graves-Sawle in memory of his son; drop in a pin and make a wish, and it will be granted.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Menacuddle"
+ },
+ {
+  "name": "St Queran's Well, Troqueer",
+  "cat": "well",
+  "lat": 55.0335,
+  "lon": -3.63513,
+  "desc": "Spring-fed pool in a stone ring near Dumfries where coins and pins were left and ribbons tied to bushes in 1892; rags and offerings are still left today.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/St_Queran%27s_Well"
+ },
+ {
+  "name": "St Patrick's Well, Marlfield (Clonmel)",
+  "cat": "well",
+  "lat": 52.35761,
+  "lon": -7.75232,
+  "desc": "Large bubbling basin beside a 12th-century church and an ancient cross west of Clonmel, visited by pilgrims for cures, especially of headaches; said never to freeze.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/St._Patrick%27s_Well%2C_Clonmel"
+ },
+ {
+  "name": "St Columbkille's Well, Inistioge",
+  "cat": "well",
+  "lat": 52.48924,
+  "lon": -7.06818,
+  "desc": "Holy well reached by steps above Hatchery Lane, once the water source of the Augustinian priory, its well house built with salvaged priory carvings; the saint's day on 9 June was celebrated here.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Saint_Columbkill%27s_Well%2C_Inistioge"
+ },
+ {
+  "name": "St Cooey's Wells, Portaferry",
+  "cat": "well",
+  "lat": 54.35079,
+  "lon": -5.50057,
+  "desc": "Three holy wells by a 7th-century church site on Tara Bay — one for washing hands, one for eyes, one for drinking — a major pilgrimage site from the 13th century, restored by the parish in the 1970s.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/St_Cooey%27s_Wells"
+ },
+ {
+  "name": "Struell Wells, Downpatrick",
+  "cat": "well",
+  "lat": 54.32381,
+  "lon": -5.67671,
+  "desc": "Group of four holy wells with men's and women's bath houses east of Downpatrick, linked to St Patrick and still visited for cures; a chapel is recorded in 1306 and the buildings date from c.1600.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Struell_Wells"
+ },
+ {
+  "name": "St Cuthbert's Well (Cuddy's Well), Bellingham",
+  "cat": "well",
+  "lat": 55.14289,
+  "lon": -2.25603,
+  "desc": "Ancient holy well beside St Cuthbert's Church, Bellingham, which the saint is said to have found; a miraculous cure is told of a girl who drank from it. Water now runs through a Georgian 'pant' and is still used for baptisms.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/St_Cuthbert%27s_Well"
+ },
+ {
+  "name": "St Ann's Well, St Anne's Park, Raheny",
+  "cat": "well",
+  "lat": 53.37192,
+  "lon": -6.16791,
+  "desc": "Holy well under a stone hood in St Anne's Park, which takes its name from it; it dried up in the 1950s and remains dry, though the opening was cleared and grilled in 2018.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/St._Ann%27s_Well%2C_Raheny"
+ },
+ {
+  "name": "St Gobnait's Well, Ballyvourney",
+  "cat": "well",
+  "lat": 51.93762,
+  "lon": -9.16623,
+  "desc": "Holy well on the site of St Gobnait's 6th-7th-century nunnery near Ballyvourney, with a circular path for praying the rounds and a 1951 statue of the saint by Séamus Murphy; still a popular pilgrimage site.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/St_Gobnait%27s_well"
+ },
+ {
+  "name": "Sir John Schorne's Well, North Marston",
+  "cat": "well",
+  "lat": 51.897,
+  "lon": -0.873,
+  "desc": "Village well blessed by the rector Sir John Schorne c.1290, which became a great pilgrimage resort after his death, its offerings paying to raise the church nave; renovated in 2004-05. Location approximate.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/North_Marston"
+ },
+ {
+  "name": "St Cubert's Holy Well (cave), Holywell Bay",
+  "cat": "well",
+  "lat": 50.38333,
+  "lon": -5.13333,
+  "desc": "Holy well in a sea cave at Holywell Bay, emerging near a cleft in the rock through which children were passed to cure rickets. Tidal access; location approximate.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Holywell%2C_Cornwall"
+ },
+ {
+  "name": "St Cleer's Holy Well",
+  "cat": "well",
+  "lat": 50.4884,
+  "lon": -4.46909,
+  "desc": "15th-century granite well house near St Cleer churchyard, built with a 'bowssening' pool for total immersion, with an old cross beside it.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/St_Cleer"
+ },
+ {
+  "name": "St Clether Holy Well and Chapel",
+  "cat": "well",
+  "lat": 50.6332,
+  "lon": -4.54339,
+  "desc": "Holy well and small chapel west of the church, among the best preserved in Cornwall, dedicated to St Clether, one of the children of the Welsh king Brychan.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/St_Clether"
+ },
+ {
+  "name": "Lady's Well, Woolpit",
+  "cat": "well",
+  "lat": 52.2268,
+  "lon": 0.89227,
+  "desc": "Spring in a small tree-covered moated enclosure north-east of Woolpit church, named 'Our Ladys Well' in the 1570s and probably a medieval pilgrimage site linked to the church's shrine of the Virgin; a scheduled monument and nature reserve.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Saint_Mary%27s_Church%2C_Woolpit"
+ },
+ {
+  "name": "St Oswald's Well, Oswestry",
+  "cat": "well",
+  "lat": 52.8598,
+  "lon": -3.0538,
+  "desc": "Spring said to have risen where a bird dropped the arm of the slain King Oswald, believed to cure eye trouble and possibly sacred before his time. Location approximate.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Oswestry"
+ },
+ {
+  "name": "Tobar Chronain, Temple Cronan",
+  "cat": "well",
+  "lat": 53.04639,
+  "lon": -9.06111,
+  "desc": "Holy well at the foot of a small cliff about 100 m south of the ruined oratory of Temple Cronan in the Burren, probably named after St Cronan. Location approximate.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Temple_Cronan"
+ },
+ {
+  "name": "St Maolrubha's Well, Ashaig, Skye",
+  "cat": "well",
+  "lat": 57.247,
+  "lon": -5.829,
+  "desc": "Sacred spring said to have burst out when St Maolrubha tore a small tree from the ground, beside the rock he used as a pulpit; now under a stone well house, with a cross-marked stone found nearby.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Ashaig"
+ },
+ {
+  "name": "Holy Well, Burton Dassett",
+  "cat": "well",
+  "lat": 52.16026,
+  "lon": -1.41905,
+  "desc": "Holy well outside the church at Burton Dassett, in a stone well house, which still provides water.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Burton_Dassett_Hills"
+ },
+ {
+  "name": "St Mungo's Well, Caldbeck",
+  "cat": "well",
+  "lat": 54.7495,
+  "lon": -3.0495,
+  "desc": "Holy well beside St Kentigern's church, Caldbeck, where Christians are said to have been baptised in the 6th century. Location approximate.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/St_Kentigern%27s_Church%2C_Caldbeck"
+ },
+ {
+  "name": "St Piran's Well, Trethevy",
+  "cat": "well",
+  "lat": 50.6706,
+  "lon": -4.72324,
+  "desc": "Holy well beside the 15th-century St Piran's Chapel among farm buildings at Trethevy, covered by a mid-20th-century slate beehive topped with an iron cross.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Trethevy"
+ },
+ {
+  "name": "St Morwenna's Well, Morwenstow",
+  "cat": "well",
+  "lat": 50.90943,
+  "lon": -4.56384,
+  "desc": "Well halfway down the cliff west of Morwenstow church, said to have gushed out where St Morwenna rested while carrying a stone up for her church; now dry, in a Grade II well house.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Morwenna"
+ },
+ {
+  "name": "Holy Well, Southam",
+  "cat": "well",
+  "lat": 52.25339,
+  "lon": -1.40078,
+  "desc": "Mineral-spring well first recorded in 998, used by monks and long the town's main supply; water pours into the river through carved stone gargoyle mouths and was said to cure eye complaints. Restored 2005-07; scheduled.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Southam"
+ },
+ {
+  "name": "Holy Well, Thornton-in-Craven",
+  "cat": "well",
+  "lat": 53.932,
+  "lon": -2.143,
+  "desc": "Holy well of Saxon origin near St Mary's church, covered by an octagonal structure built by the rector in 1764; Grade II listed. Location approximate.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Thornton_in_Craven"
+ },
+ {
+  "name": "St Patrick's Well, Kiltubbrid",
+  "cat": "well",
+  "lat": 54.0353,
+  "lon": -7.95,
+  "desc": "Holy well beside the ruined church that gave Kiltubbrid ('church of the well') its name; folklore says it sprang up anew nearby after being filled in. Location approximate.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Kiltubbrid"
+ },
+ {
+  "name": "Holy Well (tree well), Kilkeasy",
+  "cat": "well",
+  "lat": 52.441,
+  "lon": -7.225,
+  "desc": "Reputed holy well in Kilkeasy graveyard where the 'healing water', said to cure warts and sore eyes, collects in a hollow in a tree. Location approximate.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Kilkeasy"
+ },
+ {
+  "name": "St Fachtna's Well, Tybroughney",
+  "cat": "well",
+  "lat": 52.34487,
+  "lon": -7.36267,
+  "desc": "Holy well near the ruined parish church that gives Tybroughney (Tiobra Fhachna, 'Fachtna's well') its name; a pattern was held on 13 February, feast of the hermit St Modomnoc. Location approximate.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Tybroughney"
+ },
+ {
+  "name": "St Chad's Well, Chadwell",
+  "cat": "well",
+  "lat": 52.72637,
+  "lon": -2.31757,
+  "desc": "Spring at the end of the mill pond in the hamlet of Chadwell, fed from a small clear pool across the road and described by Hope as approached by old stone steps.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Chadwell%2C_Shropshire"
+ }
+]

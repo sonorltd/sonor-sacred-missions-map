@@ -1,4 +1,4 @@
-# STUDIO - Sacred Missions Map (v1.0.0)
+# STUDIO - Sacred Missions Map (v1.1.0)
 
 > Repo: `sonor-sacred-missions-map` · Pages: https://sonorltd.github.io/sonor-sacred-missions-map/ · Live (claude.ai artifact, with saved data): https://claude.ai/artifact/UdQ8Sz9WCEbDXTWLCPPwxT
 > Type: side-project, island-ok. Personal exploration project under STUDIO, created 2026-10-28. **Not Sonor Smart Homes work**: no Sonor customer data, no Sonor branding.
@@ -27,8 +27,12 @@ data/reports.json   snapshot of the artifact's `reports` collection for the publ
 data/sites_manual.json  places added by hand on request (e.g. Llyn Brianne) — merged into sites_x.json by the data step
 data/shapes.json    simplified coastlines (GB, IE, IoM), made by tools/coastline.js from world-atlas
 research/           raw research pulls (every record has its source URL)
+research/raw/       every raw pull from the build sessions (Wikipedia, TNA, Wikidata, Sinclair source pages)
 tools/              build + data scripts
 ```
+
+## Missions Archive (master)
+Cases, sources, Mysterious Universe episodes and cross-links now live in **STUDIO - Missions Archive** (Sonor Supabase `arc_*`). This map is a consumer: matched MU episodes are written onto the artifact `reports` docs as `mu: [{show,no,title,url,date,plus,excerpt}]` (excerpt = only the part about that case) and into `data/reports.json` for Pages. The artifact sandbox cannot fetch, so Claude runs the sync on request.
 
 ## Data model (artifact database)
 

@@ -1,0 +1,497 @@
+{
+ "Chadwell, Shropshire": {
+  "coord": "Point(-2.3173 52.7284)",
+  "desc": "village in Shropshire, United Kingdom",
+  "cat": "Category:Holy wells in England"
+ },
+ "Malvern Wells": {
+  "coord": "Point(-2.332355555 52.078477777)",
+  "desc": "village in Worcestershire, England, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "Inis Cathaigh": {
+  "coord": "Point(-9.5184616 52.6114919)",
+  "desc": "island",
+  "cat": "Category:Holy wells in Ireland"
+ },
+ "St Keyne": {
+  "coord": "Point(-4.46667 50.4167)",
+  "desc": "village in St Keyne and Trewidland, Cornwall, United Kingdom",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "Sancreed": {
+  "coord": "Point(-5.61 50.109)",
+  "desc": "village in Cornwall, England, UK",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "Saint Maudez": {
+  "coord": null,
+  "desc": "breton saint",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "Temple Cronan": {
+  "coord": "Point(-9.06111111 53.04638889)",
+  "desc": "church ruin in County Clare, Ireland",
+  "cat": "Category:Holy wells in Ireland"
+ },
+ "North Marston": {
+  "coord": "Point(-0.873 51.897)",
+  "desc": "a village located in Buckinghamshire, United Kingdom",
+  "cat": "Category:Holy wells in England"
+ },
+ "Oswestry": {
+  "coord": "Point(-3.0538 52.8598)",
+  "desc": "town in Shropshire, England",
+  "cat": "Category:Holy wells in England"
+ },
+ "Chalice Well": {
+  "coord": "Point(-2.70583 51.1444)",
+  "desc": "water well",
+  "cat": "Category:Holy wells in England"
+ },
+ "Halliwell, Greater Manchester": {
+  "coord": "Point(-2.447 53.59)",
+  "desc": "area in Bolton, Greater Manchester, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "Holywell, Cambridgeshire": {
+  "coord": "Point(-0.034 52.319)",
+  "desc": "village in Huntingdonshire, Cambridgeshire, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "Holywell, Lincolnshire": {
+  "coord": "Point(-0.51531 52.7323)",
+  "desc": "hamlet in South Kesteven, Lincolnshire, United Kingdom",
+  "cat": "Category:Holy wells in England"
+ },
+ "Isle Maree": {
+  "coord": "Point(-5.471666666 57.693888888)",
+  "desc": "island in Highland, Scotland, UK",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "John Schorne": {
+  "coord": null,
+  "desc": "English folk saint",
+  "cat": "Category:Holy wells in England"
+ },
+ "Kings Newton": {
+  "coord": "Point(-1.423 52.832)",
+  "desc": "village in Derbyshire, England, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "Lady Well": {
+  "coord": "Point(-4.2324 55.8608)",
+  "desc": "holy well in Glasgow, Scotland, UK",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "Leechwell": {
+  "coord": "Point(-3.690467 50.429164)",
+  "desc": "holy well in Totnes, Devon, England, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "Oxton, Scottish Borders": {
+  "coord": "Point(-2.8033 55.7722)",
+  "desc": "village in Scottish Borders, Scotland, UK",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "River Irvine": {
+  "coord": "Point(-4.6955 55.605868)",
+  "desc": "river in Ayrshire, Scotland, UK, flows into the Firth of Clyde at Irvine",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "Ruthvoes": {
+  "coord": "Point(-4.92239 50.4081)",
+  "desc": "hamlet in Cornwall, England, UK",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "St. Ann's Well, Raheny": {
+  "coord": "Point(-6.1679122 53.3719202)",
+  "desc": "former holy well, Dublin, Ireland",
+  "cat": "Category:Holy wells in County Dublin"
+ },
+ "St. Blaise's Well": {
+  "coord": "Point(0.022 51.403)",
+  "desc": "holy well in the UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "St. Fintan's Cemetery, Sutton": {
+  "coord": "Point(-6.092058 53.378292)",
+  "desc": "cemetery in Sutton, Dublin, Ireland",
+  "cat": "Category:Holy wells in County Dublin"
+ },
+ "St. Plegmund's well": {
+  "coord": "Point(-2.81742 53.2254)",
+  "desc": "well in Plemstall, Cheshire, England, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "St Cathan's Chapel": {
+  "coord": "Point(-6.239383 56.075094)",
+  "desc": "chapel ruins and graveyard at Lower Kilchattan, Colonsay, Inner Hebrides, Argyll and Bute, Scotland, UK",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "St Sampson, Cornwall": {
+  "coord": "Point(-4.662 50.374)",
+  "desc": "civil parish in Cornwall, England",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "Traquair": {
+  "coord": "Point(-3.064179 55.600823)",
+  "desc": "village in Scottish Borders, Scotland, UK",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "Trethevy": {
+  "coord": "Point(-4.7238 50.6711)",
+  "desc": "hamlet in Cornwall, England, United Kingdom",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "Holywell, Cornwall": {
+  "coord": "Point(-5.13333 50.3833)",
+  "desc": "village in Cubert, Cornwall, United Kingdom",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "Tanzie Well": {
+  "coord": "Point(-4.66156 55.6099)",
+  "desc": "spring-fed well in North Ayrshire, Scotland, UK",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "The Chapel Well": {
+  "coord": "Point(-4.66447 55.6113)",
+  "desc": "well in Irvine, North Ayrshire, Scotland, UK",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "Holy Well, Malvern": {
+  "coord": "Point(-2.336557 52.078797)",
+  "desc": "holy well in Malvern Wells, Malvern Hills, Worcestershire, England, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "St Kentigern's Church, Aspatria": {
+  "coord": "Point(-3.3271 54.7649)",
+  "desc": "church in Aspatria, Cumberland, Cumbria , England, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "Kate's Well": {
+  "coord": "Point(-3.85118 55.846394)",
+  "desc": "well in North Lanarkshire, Scotland, UK",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "Our Lady's Well, Hempsted": {
+  "coord": "Point(-2.27078 51.8542)",
+  "desc": "Grade I listed structure in Hempsted, Gloucester, United Kingdom",
+  "cat": "Category:Holy wells in England"
+ },
+ "Saint Mary's Church, Woolpit": {
+  "coord": "Point(0.889367 52.2251)",
+  "desc": "church in Woolpit, Suffolk, England, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "St Winifred's Well, Woolston": {
+  "coord": "Point(-3.00699 52.8132)",
+  "desc": "well in Shropshire, England, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "St Margaret's Well, Edinburgh": {
+  "coord": "Point(-3.16844 55.9509)",
+  "desc": "architectural structure in City of Edinburgh, Scotland, UK",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "St Peter's Well, Houston": {
+  "coord": "Point(-4.54674 55.8743)",
+  "desc": "well in Renfrewshire, Scotland, UK",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "Maak's or Monk's Well": {
+  "coord": "Point(-4.51964 55.6339)",
+  "desc": "water source near Kilmaurs Place, East Ayrshire, Scotland, UK",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "St Mary's Church, Fernyhalgh": {
+  "coord": "Point(-2.678005 53.801077)",
+  "desc": "grade II listed building in Broughton, Preston, Lancashire, England, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "Madron Well and Madron Well Chapel": {
+  "coord": "Point(-5.57509 50.14062)",
+  "desc": "ruined medieval chapel in England",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "North Petherwin": {
+  "coord": "Point(-4.434 50.681)",
+  "desc": "village and civil parish in Cornwall, England, UK",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "Thornton in Craven": {
+  "coord": "Point(-2.143 53.932)",
+  "desc": "village and civil parish in Craven, North Yorkshire, England",
+  "cat": "Category:Holy wells in England"
+ },
+ "Morwenna": {
+  "coord": null,
+  "desc": "Cornish saint",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "Roman Baths (Bath)": {
+  "coord": "Point(-2.35949 51.381)",
+  "desc": "museum and site in Bath, United Kingdom",
+  "cat": "Category:Holy wells in England"
+ },
+ "Southam": {
+  "coord": "Point(-1.39 52.252)",
+  "desc": "town in Warwickshire, United Kingdom",
+  "cat": "Category:Holy wells in England"
+ },
+ "Tobernalt": {
+  "coord": "Point(-8.445611 54.243889)",
+  "desc": "holy well in County Sligo, Ireland",
+  "cat": "Category:Holy wells in Ireland"
+ },
+ "Keyne": {
+  "coord": null,
+  "desc": "5th-century female Welsh saint",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "Farran": {
+  "coord": "Point(-8.719 51.876)",
+  "desc": "village in Ireland",
+  "cat": "Category:Holy wells in County Cork"
+ },
+ "Artington": {
+  "coord": "Point(-0.580642 51.2197)",
+  "desc": "village in Surrey, England, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "Burton Dassett Hills": {
+  "coord": "Point(-1.421475 52.164425)",
+  "desc": "Country Park in Warwickshire",
+  "cat": "Category:Holy wells in England"
+ },
+ "Church of St Morwenna and St John the Baptist, Morwenstow": {
+  "coord": "Point(-4.5545 50.9093)",
+  "desc": "church in Morwenstow, Cornwall, England, UK",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "Cronk ny Arrey Laa": {
+  "coord": "Point(-4.719446 54.137125)",
+  "desc": "439m high hill on the Isle of Man",
+  "cat": "Category:Holy wells in England"
+ },
+ "Dupath Well": {
+  "coord": "Point(-4.288 50.499)",
+  "desc": "Grade I listed building in Callington, Cornwall, England, UK",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "Elder Well": {
+  "coord": "Point(-2.2844 52.7019)",
+  "desc": "holy well in the UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "Glen Cannich": {
+  "coord": "Point(-4.94999981 57.34000015)",
+  "desc": "valley in Highland, Scotland, UK",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "Tybroughney": {
+  "coord": "Point(-7.3626745 52.344866)",
+  "desc": "civil parish in Leinster, Ireland",
+  "cat": "Category:Holy wells in County Kilkenny"
+ },
+ "Monk's Well": {
+  "coord": "Point(-2.914728 53.399665)",
+  "desc": "holy well in Wavertree, Liverpool, Merseyside, England, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "St Aldhelm's Well": {
+  "coord": "Point(-2.509157405 51.18700989)",
+  "desc": "building in Doulting, Mendip, Somerset, England, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "Pipe Well, Liskeard": {
+  "coord": "Point(-4.463523 50.454525)",
+  "desc": "architectural structure in Liskeard, Cornwall, England, UK",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "St Ann's Well (Buxton)": {
+  "coord": "Point(-1.914532 53.258549)",
+  "desc": "Grade II listed well in Buxton, High Peak, Derbyshire, England, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "St. Cuan's Well": {
+  "coord": "Point(-8.316109 53.415304)",
+  "desc": "holy well in Co. Galway",
+  "cat": "Category:Holy wells in Ireland"
+ },
+ "Lady's Well, Auchmannoch": {
+  "coord": "Point(-4.3068 55.5499)",
+  "desc": "well and cross in Scotland",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "Julitta (Cornwall)": {
+  "coord": null,
+  "desc": "5th-century Celtic saint",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "St Fillan's Kirk, Seat and Well": {
+  "coord": "Point(-4.58755 55.88632)",
+  "desc": "human settlement in Inverclyde, Scotland, UK",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "Menacuddle": {
+  "coord": "Point(-4.796 50.3457)",
+  "desc": "historic location in St Austell, Cornwall",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "Kilkeasy": {
+  "coord": "Point(-7.2137508 52.4283169)",
+  "desc": "civil parish in County Kilkenny, Ireland",
+  "cat": "Category:Holy wells in County Kilkenny"
+ },
+ "St Queran's Well": {
+  "coord": "Point(-3.635130555 55.033497222)",
+  "desc": "Holy well in Dumfries and Galloway",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "St. Patrick's Well, Clonmel": {
+  "coord": "Point(-7.752318 52.357606)",
+  "desc": "holy well at a medieval Christian site in County Tipperary, Ireland",
+  "cat": "Category:Holy wells in Ireland"
+ },
+ "St Gobnait's well": {
+  "coord": null,
+  "desc": "religious complex in Ireland",
+  "cat": "Category:Holy wells in County Cork"
+ },
+ "Saint Columbkill's Well, Inistioge": {
+  "coord": "Point(-7.0681791 52.4892388)",
+  "desc": "holy well in Inistioge",
+  "cat": "Category:Holy wells in County Kilkenny"
+ },
+ "St. Kieran's Well, Kilkenny": {
+  "coord": "Point(-7.2531512 52.6533144)",
+  "desc": "former holy well in Kilkenny, Co. Kilkenny",
+  "cat": "Category:Holy wells in County Kilkenny"
+ },
+ "St Cooey's Wells": {
+  "coord": "Point(-5.49961 54.3508)",
+  "desc": "water well in Portaferry, County Down, Northern Ireland",
+  "cat": "Category:Holy wells in Ireland"
+ },
+ "List of Holy Wells in Cumbria": {
+  "coord": null,
+  "desc": "Wikimedia list article",
+  "cat": "Category:Holy wells in England"
+ },
+ "The Leper Well, Gunstone": {
+  "coord": null,
+  "desc": "historic site in Staffordshire, England",
+  "cat": "Category:Holy wells in England"
+ },
+ "Chedworth": {
+  "coord": "Point(-1.9254 51.8075)",
+  "desc": "village in Gloucestershire, England, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "Clootie well": {
+  "coord": null,
+  "desc": "places of pilgrimage in Celtic areas: wells or springs, almost always with a tree growing beside them, where strips of cloth or rags have been left, usually tied to the branches of the tree as part of a healing ritual",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "Loch Maree": {
+  "coord": "Point(-5.4575 57.689722222)",
+  "desc": "lake in Highland, Scotland, UK, outflows to the River Ewe",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "Loch Morar": {
+  "coord": "Point(-5.672222222 56.95)",
+  "desc": "freshwater loch in Lochaber, Highland, Scotland, UK, outflows at its west to the River Morar",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "Durrow Abbey": {
+  "coord": "Point(-7.51967 53.325952)",
+  "desc": "historic site in Durrow, County Offaly, Ireland",
+  "cat": "Category:Holy wells in Ireland"
+ },
+ "Mevagissey": {
+  "coord": "Point(-4.7874 50.2702)",
+  "desc": "village and civil parish in Cornwall, England, UK",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "Kiltubbrid": {
+  "coord": "Point(-7.963209 54.0387582)",
+  "desc": "civil parish in County Leitrim, Ireland",
+  "cat": "Category:Holy wells in Ireland"
+ },
+ "Ashaig": {
+  "coord": "Point(-5.829 57.247)",
+  "desc": "human settlement on Skye, Highland, Scotland, UK",
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "Edington, Somerset": {
+  "coord": "Point(-2.881 51.151)",
+  "desc": "village and civil parish in Somerset, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "Davidstow": {
+  "coord": "Point(-4.618 50.655)",
+  "desc": "village in Cornwall, England, UK",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "Linkinhorne": {
+  "coord": "Point(-4.373 50.538)",
+  "desc": "civil parish and village in Cornwall, England",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "Struell Wells": {
+  "coord": "Point(-5.67671 54.3238)",
+  "desc": "wells in County Down",
+  "cat": "Category:Holy wells in Ireland"
+ },
+ "Saint Inan": {
+  "coord": null,
+  "desc": null,
+  "cat": "Category:Holy wells in Scotland"
+ },
+ "St Dominic's Holy Well": {
+  "coord": "Point(-5.06 50.264)",
+  "desc": null,
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "St Cleer": {
+  "coord": "Point(-4.47222 50.4867)",
+  "desc": "village and civil parish in Cornwall, England, United Kingdom",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "St Clether": {
+  "coord": "Point(-4.535 50.63)",
+  "desc": "village in Cornwall, UK",
+  "cat": "Category:Holy wells in Cornwall"
+ },
+ "St Cuthbert's Well": {
+  "coord": "Point(-2.25603 55.142888)",
+  "desc": "ancient well in Bellingham, Northumberland, England, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "St James' Church, Dublin (Church of Ireland)": {
+  "coord": "Point(-6.29056 53.3436)",
+  "desc": "church in Dublin, Ireland",
+  "cat": "Category:Holy wells in County Dublin"
+ },
+ "St Kentigern's Church, Caldbeck": {
+  "coord": "Point(-3.0495 54.7495)",
+  "desc": "Grade I listed church in Caldbeck, Cumberland, Cumbria , England, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "St Mungo's Church, Bromfield": {
+  "coord": "Point(-3.284 54.8114)",
+  "desc": "church in Bromfield, Cumbria, England, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "St Oswald's Church, Winwick": {
+  "coord": "Point(-2.5979 53.4308)",
+  "desc": "church in Winwick, Cheshire, England, UK",
+  "cat": "Category:Holy wells in England"
+ },
+ "St Oswald's Well": {
+  "coord": null,
+  "desc": "Wikimedia disambiguation page",
+  "cat": "Category:Holy wells in England"
+ }
+}

@@ -1,0 +1,1 @@
+for n in "$@"; do f=r$n.txt; [ -f $f ] || continue; t=$(tail -n +2 $f | sed '/END BLOG ENTRIES/,$d;/All reports, incidents/,$d' | tr '\n' ' ' | tr -s ' '); echo "=== $n"; echo "${t:0:1500}"; [ ${#t} -gt 1500 ] && echo " ...[${#t}c] TAIL: ${t: -250}"; done

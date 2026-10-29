@@ -62,12 +62,13 @@ def main():
         else:
             s = s.replace("__COLLECTION__", baked()).replace("__PARA_SUB__",
                 "UFO, cryptid and paranormal reports from across Britain and Ireland, each linked to its sources.")
+        s = f'const APP_VERSION = "{VERSION}";\n' + s  # read by generate-manifest.sh (code version)
         h = (tpl.replace("__SCRIPT__", s).replace("__GB__", shapes["gb"]).replace("__IE__", shapes["ie"])
                 .replace("__IM__", shapes["im"]).replace("__VERSION__", VERSION))
         if mode == "pages":
             h = h.replace("*{box-sizing:border-box}", "*{box-sizing:border-box}\nbody{margin:0}\n[hidden]{display:none!important}\n"
                           ":root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}", 1)
-            h = ('<!doctype html><html lang="en-GB"><head><meta charset="utf-8">'
+            h = ('<!doctype html><html lang="en-GB" data-theme="missions"><head><meta charset="utf-8">'
                  '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n'
                  + h.replace('<div class="wrap">', '</head><body>\n<div class="wrap">', 1) + "\n</body></html>\n")
             out = P("index.html")

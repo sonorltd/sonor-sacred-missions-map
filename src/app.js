@@ -58,7 +58,7 @@ function normReport(id,v){const lat=+v.lat,lon=+v.lon;const xy=P(lat,lon);const 
   const okUrl=u=>/^https?:\/\//.test(String(u||""))?String(u):"";
   let sources=Array.isArray(v.sources)&&v.sources.length?v.sources.map(s=>({name:String(s&&s.name||""),url:okUrl(s&&s.url)})):[{name:String(v.source||""),url:okUrl(v.url)}];
   sources=sources.filter((s,i,a)=>(s.name||s.url)&&a.findIndex(x=>(x.url&&x.url===s.url)||(!x.url&&!s.url&&x.name===s.name))===i);
-  return{id,key:"r:"+id,title:String(v.title||"Untitled"),cat:PCATS[v.cat]?v.cat:"other",date:String(v.date||""),place:String(v.place||""),desc:String(v.desc||""),source:sources[0]?.name||"",url:sources[0]?.url||"",sources,tags,lat,lon,xy,mi:miles(HOME.lat,HOME.lon,lat,lon),reg:regionOf(lat,lon),era:eraOf(v.date),leyIds:leysNear(xy).map(l=>l.id)}}
+  return{id,key:"r:"+id,title:String(v.title||"Untitled"),cat:PCATS[v.cat]?v.cat:"other",date:String(v.date||""),place:String(v.place||""),desc:String(v.desc||""),source:sources[0]?.name||"",url:sources[0]?.url||"",sources,tags,mu:Array.isArray(v.mu)?v.mu.filter(m=>m&&okUrl(m.url)).map(m=>({show:String(m.show||"Mysterious Universe"),no:String(m.no||""),title:String(m.title||""),url:okUrl(m.url),date:String(m.date||""),plus:!!m.plus,excerpt:String(m.excerpt||"")})):[],lat,lon,xy,mi:miles(HOME.lat,HOME.lon,lat,lon),reg:regionOf(lat,lon),era:eraOf(v.date),leyIds:leysNear(xy).map(l=>l.id)}}
 
 // ---------- marks: star / to visit / visited (saved per person) ----------
 let marks={m:{},trips:[]}; let marksRef=null, marksTimer=null;
@@ -376,7 +376,7 @@ function renderParanormal(){const S=st.paranormal;
   if(dbState==="ready"&&canWrite&&!formOpen){const bar=document.createElement("div");bar.className="acts";bar.style.marginBottom="12px";const b=document.createElement("button");b.className="btn primary";b.textContent="Add a report";b.onclick=()=>openForm(null);bar.appendChild(b);intro.appendChild(bar)}
   renderForm();
   const q=S.q;
-  const base=reports.filter(r=>passCommon(r)&&passEra(r)&&(!q||[r.title,r.place,r.desc,r.date,r.sources.map(s=>s.name).join(" "),r.tags.join(" ")].join(" ").toLowerCase().includes(q)));
+  const base=reports.filter(r=>passCommon(r)&&passEra(r)&&(!q||[r.title,r.place,r.desc,r.date,r.sources.map(s=>s.name).join(" "),r.tags.join(" "),r.mu.map(m=>m.title).join(" ")].join(" ").toLowerCase().includes(q)));
   const tagged=base.filter(r=>!F.tags.size||r.tags.some(t=>F.tags.has(t)));
   const counts={};tagged.forEach(r=>counts[r.cat]=(counts[r.cat]||0)+1);chipsFor(PCATS,counts,S.on,c=>icon("s-p-"+c));leyChip();hotChip();
   $("opt1").innerHTML=`<input type="checkbox" id="ws" ${S.withSinc?"checked":""}> Overlay Sinclair reports`;$("ws").onchange=e=>{S.withSinc=e.target.checked;render()};
@@ -390,11 +390,15 @@ function renderParanormal(){const S=st.paranormal;
   if(F.sort.paranormal==="group")for(const c in PCATS)section(PCATS[c],sortItems(rs.filter(r=>r.cat===c),"new").map(mkRow));
   else section(fSort.selectedOptions[0]?.textContent||"Reports",sortItems(rs,F.sort.paranormal).map(mkRow));
 }
+function muHTML(mu){if(!mu||!mu.length)return"";
+  return `<div class="meta">Mysterious Universe · ${mu.length} episode${mu.length>1?"s":""}</div><ul class="srcs mu">${mu.map(m=>{const ex=m.excerpt.split("\n").map(x=>x.startsWith("Show-notes links: ")?`<span class="mu-links">Show-notes links: ${x.slice(18).split(" · ").map(l=>{const i=l.lastIndexOf(" — ");const u=i>0?l.slice(i+3):"";const t=i>0?l.slice(0,i):l;return /^https?:\/\//.test(u)?`<a target="_blank" rel="noopener" href="${esc(u)}">${esc(t)}</a>`:esc(l)}).join(" · ")}</span>`:esc(x)).join("<br>");
+    return `<li><a target="_blank" rel="noopener" href="${esc(m.url)}">${esc(m.title||m.no)}</a>${m.plus?' <span class="mu-plus">Plus+</span>':""}${m.date?` <span class="mu-date">${esc(m.date)}</span>`:""}${ex?`<details><summary>Show notes on this case</summary><p class="mu-ex">${ex}</p></details>`:""}</li>`}).join("")}</ul>`}
 function repCard(r){const c=card(`<div class="meta">${smallIcon("s-p-"+r.cat)} ${esc(PCATS[r.cat])} · ${esc(r.date||"date unknown")} · ${REGS[r.reg]}</div><h3>${esc(r.title)}</h3>
   <p><b>${esc(r.place)}</b>${r.desc?" · "+esc(r.desc):""}</p>
   ${r.tags.length?`<div class="tagsel" style="margin-bottom:8px">${r.tags.map(t=>`<button class="tg" type="button" data-t="${esc(t)}" aria-pressed="${F.tags.has(t)}">${esc(tagLabel(t))}</button>`).join("")}</div>`:""}
   ${nearHTML(r.lat,r.lon,r.leyIds)}
   ${r.sources.length?`<div class="meta">${r.sources.length>1?r.sources.length+" sources":"Source"}</div><ul class="srcs">${r.sources.map(s=>`<li>${s.url?`<a target="_blank" rel="noopener" href="${esc(s.url)}">${esc(s.name||s.url.replace(/^https?:\/\/(www\.)?/,"").split("/")[0])}</a>`:esc(s.name)}</li>`).join("")}</ul>`:""}
+  ${muHTML(r.mu)}
   <div class="mslot"></div>
   <div class="acts" style="margin-top:8px"><a class="btn" target="_blank" rel="noopener" href="${dirURL(r.lat,r.lon)}">Directions</a>${canWrite?`<button class="btn" id="ed">Edit</button><button class="btn danger" id="del">Delete</button>`:""}</div>`);
   addMarks(c,r.key,()=>repCard(r));

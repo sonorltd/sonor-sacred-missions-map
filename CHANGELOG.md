@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.0 — 2026-10-29
+- **Mysterious Universe on report cards**: a matched report shows the MU episodes that cover it, each with only the part of the show notes about that case (and the show-notes links that name it), from the new Missions Archive.
+- **Reports**: 35 around Llyn Brianne / the upper Tywi, Tregaron, Strata Florida and Nanteos; 36 from the 1977 Dyfed (Welsh) Triangle wave — Haven Fort Hotel and Stack Rocks, Ripperston Farm, Herbrandston, Milford Haven — with the MU "Welsh Triangle" episode attached; Heol Fanog; the Dodleston messages write-up expanded.
+
 ## v1.0.0 — 2026-10-29
 First release as a proper STUDIO repo (`sonor-sacred-missions-map`, GitHub Pages) with the live copy on claude.ai.
 - **Repo**: `src/` + `data/` + `research/` + `tools/build.py` → `index.html` (Pages) and `dist/artifact.html` (claude.ai live copy).
