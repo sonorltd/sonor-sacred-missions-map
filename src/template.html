@@ -8,7 +8,7 @@
   --bg:#e9ede6; --panel:#f6f8f3; --ink:#1d2622; --muted:#5d6b63; --line:#c9d1c8;
   --sea:#d3e0e2; --land:#f3f1e4; --land-edge:#8c9a8e; --ie:#e6e8de;
   --well:#2f63b8; --falls:#0f8a95; --stone:#8a5a1c; --lore:#7a3f8f; --spring:#2f7d3b; --home:#b3261e; --cave:#4a5263; --fort:#6b7a1f; --ley:#b8860b;
-  --p-lights:#d9730d; --p-craft:#1f6f8b; --p-encounter:#c2185b; --p-ghost:#6f62a8; --p-poltergeist:#8e3fa8; --p-cryptid:#5b7a1f; --p-timeslip:#a87a08; --p-other:#6b6b6b;
+  --p-lights:#d9730d; --p-craft:#1f6f8b; --p-encounter:#c2185b; --p-ghost:#6f62a8; --p-poltergeist:#8e3fa8; --p-cryptid:#5b7a1f; --p-timeslip:#a87a08; --p-ritual:#7a1f2e; --p-other:#6b6b6b;
   --danger:#b3261e;
   --l0:#b8860b; --l1:#c0392b; --l2:#2e7d32; --l3:#1565c0; --l4:#8e24aa; --l5:#00838f; --l6:#d84315; --l7:#6d4c41; --l8:#ad1457; --l9:#558b2f; --l10:#283593; --l11:#00695c;
   --display:"IM Fell English","Iowan Old Style",Georgia,serif;
@@ -20,13 +20,13 @@
   --bg:#121816; --panel:#19211e; --ink:#e3e8e2; --muted:#93a39a; --line:#2c3833;
   --sea:#0e1a1d; --land:#24302a; --land-edge:#4d5f55; --ie:#1c2622;
   --well:#7ea8f0; --falls:#4fc7cf; --stone:#d6a55e; --lore:#c391d6; --spring:#7cc58a; --home:#ff7a6e; --cave:#aab4c8; --fort:#b7c66a; --ley:#e8c060;
-  --p-lights:#ffa24d; --p-craft:#5cc3e6; --p-encounter:#ff6fa6; --p-ghost:#b3a8f0; --p-poltergeist:#d38bf0; --p-cryptid:#a7c95a; --p-timeslip:#e8c35a; --p-other:#a8a8a8;
+  --p-lights:#ffa24d; --p-craft:#5cc3e6; --p-encounter:#ff6fa6; --p-ghost:#b3a8f0; --p-poltergeist:#d38bf0; --p-cryptid:#a7c95a; --p-timeslip:#e8c35a; --p-ritual:#e2727f; --p-other:#a8a8a8;
   --danger:#ff7a6e; --l0:#e8c060; --l1:#ff7a6e; --l2:#7cc58a; --l3:#7ea8f0; --l4:#d38bf0; --l5:#4fc7cf; --l6:#ffa24d; --l7:#c8a080; --l8:#ff7fb0; --l9:#b7c66a; --l10:#9fa8ff; --l11:#5fd3c0; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#121816; --panel:#19211e; --ink:#e3e8e2; --muted:#93a39a; --line:#2c3833;
   --sea:#0e1a1d; --land:#24302a; --land-edge:#4d5f55; --ie:#1c2622;
   --well:#7ea8f0; --falls:#4fc7cf; --stone:#d6a55e; --lore:#c391d6; --spring:#7cc58a; --home:#ff7a6e; --cave:#aab4c8; --fort:#b7c66a; --ley:#e8c060;
-  --p-lights:#ffa24d; --p-craft:#5cc3e6; --p-encounter:#ff6fa6; --p-ghost:#b3a8f0; --p-poltergeist:#d38bf0; --p-cryptid:#a7c95a; --p-timeslip:#e8c35a; --p-other:#a8a8a8;
+  --p-lights:#ffa24d; --p-craft:#5cc3e6; --p-encounter:#ff6fa6; --p-ghost:#b3a8f0; --p-poltergeist:#d38bf0; --p-cryptid:#a7c95a; --p-timeslip:#e8c35a; --p-ritual:#e2727f; --p-other:#a8a8a8;
   --danger:#ff7a6e; --l0:#e8c060; --l1:#ff7a6e; --l2:#7cc58a; --l3:#7ea8f0; --l4:#d38bf0; --l5:#4fc7cf; --l6:#ffa24d; --l7:#c8a080; --l8:#ff7fb0; --l9:#b7c66a; --l10:#9fa8ff; --l11:#5fd3c0; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.45}
@@ -199,6 +199,7 @@ form.add .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
           <symbol id="s-p-poltergeist" viewBox="-10 -10 20 20"><rect class="sh" x="-7" y="-7" width="14" height="14" rx="2" transform="rotate(-12)" fill="var(--p-poltergeist)"/></symbol>
           <symbol id="s-p-cryptid" viewBox="-10 -10 20 20"><ellipse class="sh" cy="3.5" rx="5.5" ry="4.8" fill="var(--p-cryptid)"/><circle class="sh" cx="-6" cy="-3" r="2.6" fill="var(--p-cryptid)"/><circle class="sh" cx="0" cy="-6.5" r="2.6" fill="var(--p-cryptid)"/><circle class="sh" cx="6" cy="-3" r="2.6" fill="var(--p-cryptid)"/></symbol>
           <symbol id="s-p-timeslip" viewBox="-10 -10 20 20"><path class="sh" d="M-7 -9H7L0 0L7 9H-7L0 0Z" fill="var(--p-timeslip)"/></symbol>
+          <symbol id="s-p-ritual" viewBox="-10 -10 20 20"><circle class="sh" r="8.6" fill="none" stroke="var(--p-ritual)" stroke-width="1.6"/><path class="sh" d="M0 -7.6L4.47 6.15L-7.23 -2.35H7.23L-4.47 6.15Z" fill="none" stroke="var(--p-ritual)" stroke-width="1.5" stroke-linejoin="round"/></symbol>
           <symbol id="s-p-other" viewBox="-10 -10 20 20"><path class="sh" d="M0 -9L7.8 -4.5V4.5L0 9L-7.8 4.5V-4.5Z" fill="var(--p-other)"/></symbol>
           <symbol id="s-pin" viewBox="-10 -10 20 20"><path d="M0 9C-3 4 -7 0 -7 -3A7 7 0 0 1 7 -3C7 0 3 4 0 9Z" fill="var(--danger)" stroke="var(--panel)" stroke-width="1.5"/><circle cy="-3" r="2.5" fill="var(--panel)"/></symbol>
         </defs>
