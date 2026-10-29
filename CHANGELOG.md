@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.2.0 — 2026-10-29
+- **Sharper filters** on the Paul Sinclair and UFO & paranormal tabs: area (county / town, with counts), sources (on Mysterious Universe, several sources, single source, unconfirmed leads, personal accounts), tags grouped into Witnesses / Evidence / What was seen / Occult & folklore / Setting / Visiting with a collapsible panel and an Any / All switch. Tag groups come from `data/tag_groups.json` (same groups as the archive's `arc_tags.grp`).
+- **New category: Occult & ritual sites** (pentagram marker) with 49 places — black-magic church desecrations (Clophill 1963, the North Wales churches 1987–91), Hellfire Club sites, Crowley's Boleskine, witch-trial places in Wales and Lancashire, ritual finds on Cannock Chase, Dartmoor and the New Forest. Coordinates checked against OpenStreetMap.
+- Love Street, Chester logged as an unconfirmed lead.
+
 ## v1.1.0 — 2026-10-29
 - **Mysterious Universe on report cards**: a matched report shows the MU episodes that cover it, each with only the part of the show notes about that case (and the show-notes links that name it), from the new Missions Archive.
 - **Reports**: 35 around Llyn Brianne / the upper Tywi, Tregaron, Strata Florida and Nanteos; 36 from the 1977 Dyfed (Welsh) Triangle wave — Haven Fort Hotel and Stack Rocks, Ripperston Farm, Herbrandston, Milford Haven — with the MU "Welsh Triangle" episode attached; Heol Fanog; the Dodleston messages write-up expanded.

@@ -53,7 +53,8 @@ def main():
            .replace("__SINCLAIR__", read("data", "sinclair.js"))
            .replace("__LEYS_EXTRA__", json.dumps(load("data", "leys_extra.json", d=[]), ensure_ascii=False))
            .replace("__SITES_X__", json.dumps(load("data", "sites_x.json", d=[]), ensure_ascii=False))
-           .replace("__SINC_X__", json.dumps(load("data", "sinc_x.json", d={}), ensure_ascii=False)))
+           .replace("__SINC_X__", json.dumps(load("data", "sinc_x.json", d={}), ensure_ascii=False))
+           .replace("__TAG_GROUPS__", json.dumps(load("data", "tag_groups.json", d={}), ensure_ascii=False)))
     for mode in ("artifact", "pages"):
         s = app
         if mode == "artifact":

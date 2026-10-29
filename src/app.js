@@ -52,13 +52,13 @@ const leysNear=xy=>leys.filter(l=>pathDist(xy,l.path)/UPM<=3);
 sites.forEach(s=>{s.leyIds=leysNear(s.xy).map(l=>l.id)});
 leys.forEach(l=>{l.near=sites.filter(s=>pathDist(s.xy,l.path)/UPM<=3)});
 const nearSacred=(lat,lon)=>sites.map(s=>({s,d:miles(lat,lon,s.lat,s.lon)})).filter(o=>o.d<=3).sort((a,b)=>a.d-b.d).slice(0,3);
-const sinc=SINCLAIR.map(r0=>{const x=SINC_X[r0[0]];const r=x?[r0[0],r0[1],x.place||r0[2],r0[3],x.cat||r0[4],x.lat??r0[5],x.lon??r0[6],x.approx?1:0,r0[8]]:r0;const xy=P(r[5],r[6]);return{n:r[0],key:"p:"+r[0],date:r[1],place:r[2],title:r[3],cat:r[4],lat:r[5],lon:r[6],approx:!!r[7],url:r[8],summary:x&&x.summary||"",tags:x&&x.tags||[],xy,mi:miles(HOME.lat,HOME.lon,r[5],r[6]),reg:regionOf(r[5],r[6]),era:eraOf(r[1]),leyIds:leysNear(xy).map(l=>l.id)}});
+const sinc=SINCLAIR.map(r0=>{const x=SINC_X[r0[0]];const r=x?[r0[0],r0[1],x.place||r0[2],r0[3],x.cat||r0[4],x.lat??r0[5],x.lon??r0[6],x.approx?1:0,r0[8]]:r0;const xy=P(r[5],r[6]);return{n:r[0],key:"p:"+r[0],date:r[1],place:r[2],title:r[3],cat:r[4],lat:r[5],lon:r[6],approx:!!r[7],url:r[8],summary:x&&x.summary||"",tags:x&&x.tags||[],xy,mi:miles(HOME.lat,HOME.lon,r[5],r[6]),reg:regionOf(r[5],r[6]),era:eraOf(r[1]),area:r0[2],leyIds:leysNear(xy).map(l=>l.id)}});
 const sincById=new Map(sinc.map(r=>[r.n,r]));
 function normReport(id,v){const lat=+v.lat,lon=+v.lon;const xy=P(lat,lon);const tags=Array.isArray(v.tags)?[...new Set(v.tags.map(t=>String(t).toLowerCase().trim()).filter(Boolean))].slice(0,24):[];
   const okUrl=u=>/^https?:\/\//.test(String(u||""))?String(u):"";
   let sources=Array.isArray(v.sources)&&v.sources.length?v.sources.map(s=>({name:String(s&&s.name||""),url:okUrl(s&&s.url)})):[{name:String(v.source||""),url:okUrl(v.url)}];
   sources=sources.filter((s,i,a)=>(s.name||s.url)&&a.findIndex(x=>(x.url&&x.url===s.url)||(!x.url&&!s.url&&x.name===s.name))===i);
-  return{id,key:"r:"+id,title:String(v.title||"Untitled"),cat:PCATS[v.cat]?v.cat:"other",date:String(v.date||""),place:String(v.place||""),desc:String(v.desc||""),source:sources[0]?.name||"",url:sources[0]?.url||"",sources,tags,mu:Array.isArray(v.mu)?v.mu.filter(m=>m&&okUrl(m.url)).map(m=>({show:String(m.show||"Mysterious Universe"),no:String(m.no||""),title:String(m.title||""),url:okUrl(m.url),date:String(m.date||""),plus:!!m.plus,excerpt:String(m.excerpt||"")})):[],lat,lon,xy,mi:miles(HOME.lat,HOME.lon,lat,lon),reg:regionOf(lat,lon),era:eraOf(v.date),leyIds:leysNear(xy).map(l=>l.id)}}
+  return{id,key:"r:"+id,title:String(v.title||"Untitled"),cat:PCATS[v.cat]?v.cat:"other",date:String(v.date||""),place:String(v.place||""),desc:String(v.desc||""),source:sources[0]?.name||"",url:sources[0]?.url||"",sources,tags,mu:Array.isArray(v.mu)?v.mu.filter(m=>m&&okUrl(m.url)).map(m=>({show:String(m.show||"Mysterious Universe"),no:String(m.no||""),title:String(m.title||""),url:okUrl(m.url),date:String(m.date||""),plus:!!m.plus,excerpt:String(m.excerpt||"")})):[],lat,lon,xy,mi:miles(HOME.lat,HOME.lon,lat,lon),reg:regionOf(lat,lon),era:eraOf(v.date),area:areaOf(v.place),lead:/lead|unconfirmed/i.test(String(v.status||""))||(Array.isArray(v.tags)&&v.tags.includes("unconfirmed")),personal:v.by==="bryn"||/personal account/i.test(String(v.source||"")),leyIds:leysNear(xy).map(l=>l.id)}}
 
 // ---------- marks: star / to visit / visited (saved per person) ----------
 let marks={m:{},trips:[]}; let marksRef=null, marksTimer=null;
@@ -106,7 +106,7 @@ const allKeys=()=>[...sites.map(s=>s.key),...reports.map(r=>r.key),...sinc.filte
 
 // ---------- state ----------
 let tab="sacred";
-const F={reg:"",dist:0,era:"",nearLey:false,status:"",tags:new Set(),sort:{sacred:"group",sinclair:"group",paranormal:"group"},showLeysOther:false};
+const F={reg:"",dist:0,era:"",area:"",src:"",tagMode:"any",tagsOpen:false,nearLey:false,status:"",tags:new Set(),sort:{sacred:"group",sinclair:"group",paranormal:"group"},showLeysOther:false};
 const st={
   sacred:{on:new Set(Object.keys(CATS)),kinds:new Set(Object.keys(LKINDS)),leysOnly:false,q:""},
   sinclair:{on:new Set(Object.keys(PCATS)),q:"",sacredNear:false},
@@ -123,7 +123,9 @@ function toggleTrip(k){const i=trip.stops.indexOf(k);if(i>=0)trip.stops.splice(i
 const visibleLeys=()=>leys.filter(l=>st.sacred.kinds.has(l.kind));
 const leysShown=()=>tab==="sacred"||F.showLeysOther;
 const passCommon=o=>(!F.reg||o.reg===F.reg)&&(!F.dist||o.mi<=F.dist)&&(!F.nearLey||o.leyIds.some(id=>visibleLeys().some(l=>l.id===id)))&&passStatus(o.key);
-const passEra=o=>!F.era||o.era===F.era;
+const passEra=o=>(!F.era||o.era===F.era)&&(!F.area||o.area===F.area)&&passSrc(o);
+const passSrc=o=>!F.src||!o.sources||(F.src==="mu"?(o.mu||[]).length>0:F.src==="multi"?(o.sources||[]).length>1:F.src==="lead"?!!o.lead:F.src==="personal"?!!o.personal:F.src==="single"?(o.sources||[]).length<=1:true);
+const passTags=o=>!F.tags.size||(F.tagMode==="all"?[...F.tags].every(t=>o.tags.includes(t)):o.tags.some(t=>F.tags.has(t)));
 
 // ---------- map ----------
 const svg=document.getElementById("map"), NS="http://www.w3.org/2000/svg";
@@ -231,12 +233,18 @@ function addMarks(c,k,again){const slot=c.querySelector(".mslot");if(!slot)retur
 const nearHTML=(lat,lon,leyIds)=>{const n=nearSacred(lat,lon);const ls=(leyIds||[]).map(leyOf).filter(Boolean);
   return(n.length||ls.length)?`<div>${ls.map(l=>`<span class="tag"><span class="sw" style="--c:var(--l${l.col})"></span> Within 3 mi of the ${esc(l.name)}</span>`).join("")}${n.map(o=>`<span class="tag">${Math.max(0.1,o.d).toFixed(1)} mi from ${esc(o.s.name)}</span>`).join("")}</div>`:""};
 const tagLabel=t=>t.replace(/-/g," ");
+const TAG_GROUPS=__TAG_GROUPS__;const TAG_GROUP_OF={};Object.entries(TAG_GROUPS).forEach(([g,ts])=>ts.forEach(t=>TAG_GROUP_OF[t]=g));
+const areaOf=p=>{const parts=String(p||"").split(",").map(x=>x.replace(/\(.*?\)/g,"").replace(/^\s*(near|nr\.?|off|above|below)\s+/i,"").trim()).filter(Boolean);return parts.length?parts[parts.length-1]:""};
 
 // ---------- filter bar ----------
 const fReg=$("f-reg"),fDist=$("f-dist"),fEra=$("f-era"),fSort=$("f-sort"),fLey=$("f-ley");
 const fStatus=document.createElement("select");fStatus.id="f-status";fStatus.setAttribute("aria-label","Status");
 fStatus.innerHTML=`<option value="">Any status</option><option value="star">★ Starred</option><option value="todo">To visit</option><option value="vis">Visited</option><option value="notvis">Not visited</option>`;
 fDist.after(fStatus);
+const fArea=document.createElement("select");fArea.id="f-area";fArea.setAttribute("aria-label","Area");fEra.after(fArea);
+const fSrc=document.createElement("select");fSrc.id="f-src";fSrc.setAttribute("aria-label","Sources");fArea.after(fSrc);
+fSrc.innerHTML=`<option value="">Any source</option><option value="mu">On Mysterious Universe</option><option value="multi">Several sources</option><option value="single">Single source</option><option value="lead">Unconfirmed leads</option><option value="personal">Personal accounts</option>`;
+fArea.onchange=()=>{F.area=fArea.value;render();fitToShown()};fSrc.onchange=()=>{F.src=fSrc.value;render()};
 fReg.innerHTML=`<option value="">All regions</option>`+Object.entries(REGS).map(([k,v])=>`<option value="${k}">${v}</option>`).join("");
 fReg.onchange=()=>{F.reg=fReg.value;render();fitToShown()};
 fDist.onchange=()=>{F.dist=+fDist.value;render();fitToShown()};
@@ -244,23 +252,39 @@ fStatus.onchange=()=>{F.status=fStatus.value;render()};
 fEra.onchange=()=>{F.era=fEra.value;render()};
 fSort.onchange=()=>{F.sort[tab]=fSort.value;render()};
 fLey.onchange=()=>{F.nearLey=fLey.checked;render()};
-$("f-clear").onclick=()=>{F.reg="";F.dist=0;F.era="";F.status="";F.nearLey=false;F.tags.clear();st[tab].q="";$("q").value="";
+$("f-clear").onclick=()=>{F.reg="";F.dist=0;F.era="";F.area="";F.src="";F.tagMode="any";F.status="";F.nearLey=false;F.tags.clear();st[tab].q="";$("q").value="";
   if(tab==="sacred"){st.sacred.on=new Set(Object.keys(CATS));st.sacred.kinds=new Set(Object.keys(LKINDS));st.sacred.leysOnly=false}else if(st[tab].on)st[tab].on=new Set(Object.keys(PCATS));render()};
-function fitToShown(){const pts=markers.filter(m=>!m.overlay).map(m=>m.xy);if(F.reg||F.dist)fitPoints(F.dist?[...pts,hp]:pts)}
+function fitToShown(){const pts=markers.filter(m=>!m.overlay).map(m=>m.xy);if(F.reg||F.dist||F.area)fitPoints(F.dist?[...pts,hp]:pts)}
 function syncFilterBar(pool){
   $("filters").hidden=tab==="trip"||tab==="sky";$("tools").hidden=tab==="trip"||tab==="sky";
   fReg.value=F.reg;fDist.value=String(F.dist);fStatus.value=F.status;fLey.checked=F.nearLey;
   [fReg,fDist,fStatus].forEach(s=>s.classList.toggle("on",!!s.value&&s.value!=="0"));
   fEra.hidden=tab==="sacred";
   if(tab!=="sacred"){const have=new Set(pool.map(o=>o.era));fEra.innerHTML=`<option value="">Any era</option>`+ERAS.filter(e=>have.has(e)).map(e=>`<option value="${e}">${eraLabel(e)}</option>`).join("");fEra.value=F.era;fEra.classList.toggle("on",!!F.era)}
+  fArea.hidden=tab==="sacred";fSrc.hidden=tab!=="paranormal";
+  if(tab!=="sacred"){const ac={};pool.forEach(o=>{if(o.area)ac[o.area]=(ac[o.area]||0)+1});const areas=Object.entries(ac).filter(([a,n])=>n>=2||a===F.area).sort((a,b)=>a[0].localeCompare(b[0]));
+    fArea.innerHTML=`<option value="">Any area (${areas.length})</option>`+areas.map(([a,n])=>`<option value="${esc(a)}">${esc(a)} (${n})</option>`).join("");fArea.value=F.area;fArea.classList.toggle("on",!!F.area)}
+  fSrc.value=F.src;fSrc.classList.toggle("on",!!F.src);
   const sorts=tab==="sacred"?[["group","Group by region"],["near","Nearest first"],["az","A–Z"]]:[["group",tab==="sinclair"?"Group by place":"Group by type"],["new","Newest first"],["old","Oldest first"],["near","Nearest first"],["az","A–Z"]];
   fSort.innerHTML=sorts.map(([k,v])=>`<option value="${k}">${v}</option>`).join("");fSort.value=F.sort[tab]||"group";
 }
-function renderTagRow(pool){const box=$("tagrow");box.innerHTML="";if(tab!=="paranormal")return;
-  const counts={};pool.forEach(r=>r.tags.forEach(t=>counts[t]=(counts[t]||0)+1));
-  Object.entries(counts).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).forEach(([t,n])=>{const b=document.createElement("button");b.type="button";b.className="tg";b.setAttribute("aria-pressed",String(F.tags.has(t)));
-    b.innerHTML=esc(tagLabel(t))+" <b>"+n+"</b>";b.onclick=()=>{F.tags.has(t)?F.tags.delete(t):F.tags.add(t);render()};box.appendChild(b)});
+function renderTagRow(pool){const box=$("tagrow");box.innerHTML="";if(tab!=="paranormal"&&tab!=="sinclair")return;
+  const counts={};pool.forEach(r=>(r.tags||[]).forEach(t=>counts[t]=(counts[t]||0)+1));
   [...F.tags].forEach(t=>{if(!counts[t])F.tags.delete(t)});
+  if(!Object.keys(counts).length)return;
+  const head=document.createElement("div");head.className="taghead";
+  head.innerHTML=`<button type="button" class="linkbtn" id="tg-open" aria-expanded="${F.tagsOpen}">${F.tagsOpen?"▾":"▸"} Tags${F.tags.size?` · <b>${F.tags.size} on</b>`:""}</button>`+(F.tags.size>1?`<span class="seg"><button type="button" data-m="any" aria-pressed="${F.tagMode==="any"}">Any</button><button type="button" data-m="all" aria-pressed="${F.tagMode==="all"}">All</button></span>`:"")+(F.tags.size?`<button type="button" class="linkbtn" id="tg-clear">clear tags</button>`:"")
+    +(!F.tagsOpen&&F.tags.size?[...F.tags].map(t=>`<button type="button" class="tg" aria-pressed="true" data-t="${esc(t)}">${esc(tagLabel(t))} ×</button>`).join(""):"");
+  box.appendChild(head);
+  head.querySelector("#tg-open").onclick=()=>{F.tagsOpen=!F.tagsOpen;render()};
+  head.querySelectorAll(".seg button").forEach(b=>b.onclick=()=>{F.tagMode=b.dataset.m;render()});
+  head.querySelectorAll(".tg").forEach(b=>b.onclick=()=>{F.tags.delete(b.dataset.t);render()});
+  if(head.querySelector("#tg-clear"))head.querySelector("#tg-clear").onclick=()=>{F.tags.clear();render()};
+  if(!F.tagsOpen)return;
+  const groups={};Object.keys(counts).forEach(t=>{const g=TAG_GROUP_OF[t]||"Other";(groups[g]||=[]).push(t)});
+  [...Object.keys(TAG_GROUPS),"Other"].filter(g=>groups[g]).forEach(g=>{const row=document.createElement("div");row.className="taggroup";row.innerHTML=`<div class="tgl">${esc(g)}</div>`;
+    groups[g].sort((a,b)=>counts[b]-counts[a]||a.localeCompare(b)).forEach(t=>{const b=document.createElement("button");b.type="button";b.className="tg";b.setAttribute("aria-pressed",String(F.tags.has(t)));
+      b.innerHTML=esc(tagLabel(t))+" <b>"+counts[t]+"</b>";b.onclick=()=>{F.tags.has(t)?F.tags.delete(t):F.tags.add(t);render()};row.appendChild(b)});box.appendChild(row)});
 }
 function setCount(n,total,noun){$("count").textContent=n===total?`${total} ${noun}`:`Showing ${n} of ${total} ${noun}`}
 function drawLeys(dimAll){
@@ -354,11 +378,12 @@ function leyCard(l){
 function renderSinclair(){const S=st.sinclair;
   $("intro").innerHTML=`<p class="intro">${sinc.length} reports mapped from the <a href="https://truthproof.uk/Reports2/ForumReports2.html" target="_blank" rel="noopener">Truth Proof reports database</a>. Where one place has several reports, the pins fan out around it.</p>`;$("formbox").innerHTML="";
   const q=S.q;const base=sinc.filter(r=>passCommon(r)&&passEra(r)&&(!q||(r.place+" "+r.title+" "+r.date).toLowerCase().includes(q)));
-  const counts={};base.forEach(r=>counts[r.cat]=(counts[r.cat]||0)+1);chipsFor(PCATS,counts,S.on,c=>icon("s-p-"+c));leyChip();hotChip();
+  const tagged=base.filter(passTags);
+  const counts={};tagged.forEach(r=>counts[r.cat]=(counts[r.cat]||0)+1);chipsFor(PCATS,counts,S.on,c=>icon("s-p-"+c));leyChip();hotChip();
   $("opt1").innerHTML=`<input type="checkbox" id="sn" ${S.sacredNear?"checked":""}> Show sacred sites`;$("sn").onchange=e=>{S.sacredNear=e.target.checked;render()};
-  syncFilterBar(sinc);renderTagRow([]);drawLeys();
+  syncFilterBar(sinc);renderTagRow(base.filter(r=>S.on.has(r.cat)));drawLeys();
   if(S.sacredNear)sites.forEach(s=>{const m=mk("s-"+s.cat,s.xy,s.name,()=>{location.hash="sacred";setTimeout(()=>select({kind:"site",id:s.id},true),0)},{small:true,overlay:true});m.u.style.opacity=".55";markers.push(m)});
-  const rs=base.filter(r=>S.on.has(r.cat));setCount(rs.length,sinc.length,"reports");hotSection(drawHot(rs.filter(r=>!r.approx)),o=>o.place);
+  const rs=tagged.filter(r=>S.on.has(r.cat));setCount(rs.length,sinc.length,"reports");hotSection(drawHot(rs.filter(r=>!r.approx)),o=>o.place);
   rs.forEach(r=>{const m=mk("s-p-"+r.cat,r.xy,`#${r.n} ${r.title} · ${r.place} ${r.date}`,()=>select({kind:"sinc",id:r.n},false));m.sel=isSel("sinc",r.n);m.u.classList.toggle("sel",m.sel);markClasses(m.u,r.key);markers.push(m)});
   const mkRow=r=>row(icon("s-p-"+r.cat),r.title,r.date,`#${r.n} · ${r.place} · ${PCATS[r.cat]}${r.approx?" · area only":""}`,isSel("sinc",r.n),()=>select({kind:"sinc",id:r.n},true),isVis(r.key)?" visited":"",r.key);
   if(F.sort.sinclair==="group")groupBy(rs,r=>r.place).sort((a,b)=>b[1].length-a[1].length||a[0].localeCompare(b[0])).forEach(([pl,arr])=>section(pl,sortItems(arr,"new").map(mkRow)));
@@ -377,7 +402,7 @@ function renderParanormal(){const S=st.paranormal;
   renderForm();
   const q=S.q;
   const base=reports.filter(r=>passCommon(r)&&passEra(r)&&(!q||[r.title,r.place,r.desc,r.date,r.sources.map(s=>s.name).join(" "),r.tags.join(" "),r.mu.map(m=>m.title).join(" ")].join(" ").toLowerCase().includes(q)));
-  const tagged=base.filter(r=>!F.tags.size||r.tags.some(t=>F.tags.has(t)));
+  const tagged=base.filter(passTags);
   const counts={};tagged.forEach(r=>counts[r.cat]=(counts[r.cat]||0)+1);chipsFor(PCATS,counts,S.on,c=>icon("s-p-"+c));leyChip();hotChip();
   $("opt1").innerHTML=`<input type="checkbox" id="ws" ${S.withSinc?"checked":""}> Overlay Sinclair reports`;$("ws").onchange=e=>{S.withSinc=e.target.checked;render()};
   syncFilterBar(reports);renderTagRow(base.filter(r=>S.on.has(r.cat)));drawLeys();

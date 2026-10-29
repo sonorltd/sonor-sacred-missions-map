@@ -1,4 +1,4 @@
-# STUDIO - Sacred Missions Map (v1.1.0)
+# STUDIO - Sacred Missions Map (v1.2.0)
 
 > Repo: `sonor-sacred-missions-map` · Pages: https://sonorltd.github.io/sonor-sacred-missions-map/ · Live (claude.ai artifact, with saved data): https://claude.ai/artifact/UdQ8Sz9WCEbDXTWLCPPwxT
 > Type: side-project, island-ok. Personal exploration project under STUDIO, created 2026-10-28. **Not Sonor Smart Homes work**: no Sonor customer data, no Sonor branding.
