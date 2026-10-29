@@ -22,7 +22,7 @@ VERSION = re.search(r"^## v(\d+\.\d+\.\d+)", read("CHANGELOG.md"), re.M).group(1
 DB = r'''(async()=>{
   try{
     db=await claude.use("db");
-    if(!db){dbState="none";if(tab==="paranormal")render();return}
+    if(!db){dbState="none";if(["paranormal","mu","ritual"].includes(tab))render();return}
     user=await claude.use("user");
     if(user){try{myId=await user.id()}catch(e){}let w=null;try{w=await user.can("data.write")}catch(e){}canWrite=w!==false}else canWrite=true;
     try{assetsApi=await claude.use("assets")}catch(e){assetsApi=null}
@@ -35,15 +35,15 @@ DB = r'''(async()=>{
       dbState="ready";
       if(!formOpen)render();
       if(sel&&sel.kind==="rep"){const r=reports.find(x=>x.id===sel.id);if(r)repCard(r);else closeCard()}
-    },()=>{dbState="error";if(tab==="paranormal")render()});
-  }catch(e){dbState="none";if(tab==="paranormal")render()}
+    },()=>{dbState="error";if(["paranormal","mu","ritual"].includes(tab))render()});
+  }catch(e){dbState="none";if(["paranormal","mu","ritual"].includes(tab))render()}
 })();'''
 
 def baked():
     reps = load("data", "reports.json", d=[])
     return ("const BAKED=" + json.dumps(reps, ensure_ascii=False) +
             ';\nreports=BAKED.map(v=>normReport(v.id,v)).filter(r=>isFinite(r.lat)&&isFinite(r.lon));'
-            'dbState="ready";canWrite=false;if(tab==="paranormal")render();')
+            'dbState="ready";canWrite=false;if(["paranormal","mu","ritual"].includes(tab))render();')
 
 def main():
     shapes = load("data", "shapes.json")

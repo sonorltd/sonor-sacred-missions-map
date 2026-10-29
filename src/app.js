@@ -100,7 +100,7 @@ function marksBar(k,rerender){const d=document.createElement("div");d.className=
 function itemOf(k){const [t,id]=[k.slice(0,1),k.slice(2)];
   if(t==="s"){const s=sites.find(x=>x.key===k);return s&&{key:k,name:s.name,lat:s.lat,lon:s.lon,xy:s.xy,sym:"s-"+s.cat,sub:CATS[s.cat],open:()=>{location.hash="sacred";setTimeout(()=>select({kind:"site",id:s.id},true),0)}}}
   if(t==="p"){const r=sincById.get(+id);return r&&{key:k,name:r.title+" · "+r.place,lat:r.lat,lon:r.lon,xy:r.xy,sym:"s-p-"+r.cat,sub:"Sinclair #"+r.n,open:()=>{location.hash="sinclair";setTimeout(()=>select({kind:"sinc",id:r.n},true),0)}}}
-  if(t==="r"){const r=reports.find(x=>x.id===id);return r&&{key:k,name:r.title,lat:r.lat,lon:r.lon,xy:r.xy,sym:"s-p-"+r.cat,sub:PCATS[r.cat]+" · "+r.place,open:()=>{location.hash="paranormal";setTimeout(()=>select({kind:"rep",id:r.id},true),0)}}}
+  if(t==="r"){const r=reports.find(x=>x.id===id);return r&&{key:k,name:r.title,lat:r.lat,lon:r.lon,xy:r.xy,sym:"s-p-"+r.cat,sub:PCATS[r.cat]+" · "+r.place,open:()=>{location.hash=viewOf(r);setTimeout(()=>select({kind:"rep",id:r.id},true),0)}}}
   return null}
 const allKeys=()=>[...sites.map(s=>s.key),...reports.map(r=>r.key),...sinc.filter(r=>!r.approx).map(r=>r.key)];
 
@@ -111,6 +111,8 @@ const st={
   sacred:{on:new Set(Object.keys(CATS)),kinds:new Set(Object.keys(LKINDS)),leysOnly:false,q:""},
   sinclair:{on:new Set(Object.keys(PCATS)),q:"",sacredNear:false},
   paranormal:{on:new Set(Object.keys(PCATS)),q:"",withSinc:false},
+  mu:{on:new Set(Object.keys(PCATS)),q:"",withSinc:false},
+  ritual:{on:new Set(Object.keys(PCATS)),q:"",withSinc:false},
   trip:{q:""},
   sky:{q:""}
 };
@@ -211,7 +213,7 @@ const regBox=document.getElementById("reg"); const regBtns={};
 function setReg(k){for(const r in regBtns)regBtns[r].setAttribute("aria-pressed",String(r===k))}
 
 // ---------- shared UI ----------
-const icon=(sym,style="")=>`<svg viewBox="-10 -10 20 20" aria-hidden="true" ${style}><use href="#${sym}"/></svg>`;
+const icon=(sym,style="")=>`<svg viewBox="-10 -10 20 20" aria-hidden="true" ${style}><use href="#${sym}" x="-10" y="-10" width="20" height="20"/></svg>`;
 const smallIcon=sym=>icon(sym,'style="width:14px;height:14px;vertical-align:-2px"');
 const leyIcon=l=>icon("s-leyicon",`style="color:var(--l${l.col})"`);
 const $=id=>document.getElementById(id);
@@ -261,14 +263,14 @@ function syncFilterBar(pool){
   [fReg,fDist,fStatus].forEach(s=>s.classList.toggle("on",!!s.value&&s.value!=="0"));
   fEra.hidden=tab==="sacred";
   if(tab!=="sacred"){const have=new Set(pool.map(o=>o.era));fEra.innerHTML=`<option value="">Any era</option>`+ERAS.filter(e=>have.has(e)).map(e=>`<option value="${e}">${eraLabel(e)}</option>`).join("");fEra.value=F.era;fEra.classList.toggle("on",!!F.era)}
-  fArea.hidden=tab==="sacred";fSrc.hidden=tab!=="paranormal";
+  fArea.hidden=tab==="sacred";fSrc.hidden=!["paranormal","mu","ritual"].includes(tab);
   if(tab!=="sacred"){const ac={};pool.forEach(o=>{if(o.area)ac[o.area]=(ac[o.area]||0)+1});const areas=Object.entries(ac).filter(([a,n])=>n>=2||a===F.area).sort((a,b)=>a[0].localeCompare(b[0]));
     fArea.innerHTML=`<option value="">Any area (${areas.length})</option>`+areas.map(([a,n])=>`<option value="${esc(a)}">${esc(a)} (${n})</option>`).join("");fArea.value=F.area;fArea.classList.toggle("on",!!F.area)}
   fSrc.value=F.src;fSrc.classList.toggle("on",!!F.src);
-  const sorts=tab==="sacred"?[["group","Group by region"],["near","Nearest first"],["az","A–Z"]]:[["group",tab==="sinclair"?"Group by place":"Group by type"],["new","Newest first"],["old","Oldest first"],["near","Nearest first"],["az","A–Z"]];
+  const sorts=tab==="sacred"?[["group","Group by region"],["near","Nearest first"],["az","A–Z"]]:[["group",tab==="sinclair"?"Group by place":tab==="mu"?"Group by episode":tab==="ritual"?"Group by kind":"Group by type"],["new","Newest first"],["old","Oldest first"],["near","Nearest first"],["az","A–Z"]];
   fSort.innerHTML=sorts.map(([k,v])=>`<option value="${k}">${v}</option>`).join("");fSort.value=F.sort[tab]||"group";
 }
-function renderTagRow(pool){const box=$("tagrow");box.innerHTML="";if(tab!=="paranormal"&&tab!=="sinclair")return;
+function renderTagRow(pool){const box=$("tagrow");box.innerHTML="";if(!["paranormal","sinclair","mu","ritual"].includes(tab))return;
   const counts={};pool.forEach(r=>(r.tags||[]).forEach(t=>counts[t]=(counts[t]||0)+1));
   [...F.tags].forEach(t=>{if(!counts[t])F.tags.delete(t)});
   if(!Object.keys(counts).length)return;
@@ -303,6 +305,10 @@ const TABS={
    note:"Pins sit at the place named in each report. Where a report names only an area (East Yorks, West Yorkshire) or a place name that could mean more than one town, the pin is approximate and marked “area only”. Ten reports from outside Britain and Ireland aren't mapped. Categories are assigned from each report's title."},
  paranormal:{sub:"__PARA_SUB__",
    note:"Gathered from press reports, official files, Wikipedia and research sites. Where several sources cover the same case they're merged into one report with every source listed. Reports are claims as reported; the “explained” tag marks cases with an official or likely explanation."},
+ mu:{sub:"Places covered on the Mysterious Universe podcast — each pin opens the case with the episodes and only the part of the show notes about it.",
+   note:"Episodes are matched to cases from their show notes in the Missions Archive; generic subject episodes (Loch Ness, Cannock Chase…) sit with the place rather than every sighting. Group by episode to see every place an episode covers."},
+ ritual:{sub:"Satanic, black-magic and occult ritual sites, Hellfire Clubs, Crowley's haunts and the witch-trial places — as reported, with sources.",
+   note:"Includes everything in the Occult & ritual category plus any report tagged satanic, black magic, occult, desecration, witchcraft or witch trial. Reports are claims as reported; some desecrations were never solved and some were later put down to vandals or hoaxers."},
  sky:{sub:"Solstices, equinoxes, fire festivals, moon phases and meteor showers, with the sites built to catch the sun and moon and when to be there.",
    note:"Dates are calculated in the page and are good to within a day; sunrise and sunset times assume a flat horizon, so hills will shift them a few minutes. Dashed rays on the map show this year's solstice sunrise or sunset direction from each aligned site (gold for midsummer, blue for midwinter)."},
  trip:{sub:"Plan a day out. Pick a start point, choose what to include, and the planner orders the stops into the shortest loop it can find.",
@@ -319,7 +325,7 @@ $("q").addEventListener("input",e=>{st[tab].q=e.target.value.trim().toLowerCase(
 
 function render(){
   M.querySelectorAll(".mk").forEach(n=>n.remove());numLabels.forEach(n=>{n.bg.remove();n.t.remove()});numLabels=[];RG.innerHTML="";HG.innerHTML="";markers=[];$("list").innerHTML="";$("count").textContent="";
-  ({sacred:renderSacred,sinclair:renderSinclair,paranormal:renderParanormal,sky:renderSky,trip:renderTrip})[tab]();drawAlign();
+  ({sacred:renderSacred,sinclair:renderSinclair,paranormal:renderParanormal,mu:renderParanormal,ritual:renderParanormal,sky:renderSky,trip:renderTrip})[tab]();drawAlign();
   if(pinU)M.appendChild(pinU);
   const s=markers.find(m=>m.sel);if(s)M.appendChild(s.u);
   if(!$("list").children.length&&tab!=="trip"&&tab!=="sky")$("list").innerHTML='<p class="meta">Nothing matches. Loosen a filter or press Clear filters.</p>';
@@ -395,25 +401,34 @@ function sincCard(r){const c=card(`<div class="meta">${smallIcon("s-p-"+r.cat)} 
   <div class="acts" style="margin-top:8px"><a class="btn primary" target="_blank" rel="noopener" href="${r.url}">Read the report</a><a class="btn" target="_blank" rel="noopener" href="${dirURL(r.lat,r.lon)}">Directions</a></div>`);
   addMarks(c,r.key,()=>sincCard(r))}
 
-// ----- UFO & paranormal -----
-function renderParanormal(){const S=st.paranormal;
+// ----- UFO & paranormal / MU / Ritual (one renderer, three views) -----
+const RITUAL_TAGS=new Set(["satanic","black-magic","occult","desecration","witchcraft","witch-trial","hellfire-club","crowley","necromancy","cursing","magic-circle"]);
+const isRitual=r=>r.cat==="ritual"||r.tags.some(t=>RITUAL_TAGS.has(t));
+const inView=(r,v)=>v==="mu"?r.mu.length>0:v==="ritual"?isRitual(r):r.cat!=="ritual";
+const viewOf=r=>r.cat==="ritual"?"ritual":"paranormal";
+const PVIEW=()=>["paranormal","mu","ritual"].includes(tab)?tab:"paranormal";
+function renderParanormal(){const V=PVIEW(),S=st[V];
   const intro=$("intro");intro.innerHTML="";
-  if(dbState==="ready"&&canWrite&&!formOpen){const bar=document.createElement("div");bar.className="acts";bar.style.marginBottom="12px";const b=document.createElement("button");b.className="btn primary";b.textContent="Add a report";b.onclick=()=>openForm(null);bar.appendChild(b);intro.appendChild(bar)}
+  if(V==="paranormal"&&dbState==="ready"&&canWrite&&!formOpen){const bar=document.createElement("div");bar.className="acts";bar.style.marginBottom="12px";const b=document.createElement("button");b.className="btn primary";b.textContent="Add a report";b.onclick=()=>openForm(null);bar.appendChild(b);intro.appendChild(bar)}
   renderForm();
   const q=S.q;
-  const base=reports.filter(r=>passCommon(r)&&passEra(r)&&(!q||[r.title,r.place,r.desc,r.date,r.sources.map(s=>s.name).join(" "),r.tags.join(" "),r.mu.map(m=>m.title).join(" ")].join(" ").toLowerCase().includes(q)));
+  const base=reports.filter(r=>inView(r,V)&&passCommon(r)&&passEra(r)&&(!q||[r.title,r.place,r.desc,r.date,r.sources.map(s=>s.name).join(" "),r.tags.join(" "),r.mu.map(m=>m.title).join(" ")].join(" ").toLowerCase().includes(q)));
   const tagged=base.filter(passTags);
-  const counts={};tagged.forEach(r=>counts[r.cat]=(counts[r.cat]||0)+1);chipsFor(PCATS,counts,S.on,c=>icon("s-p-"+c));leyChip();hotChip();
+  const counts={};tagged.forEach(r=>counts[r.cat]=(counts[r.cat]||0)+1);const vc=Object.fromEntries(Object.entries(PCATS).filter(([k])=>counts[k]));if(V==="ritual")$("chips").innerHTML="";else chipsFor(vc,counts,S.on,c=>icon("s-p-"+c));leyChip();hotChip();
   $("opt1").innerHTML=`<input type="checkbox" id="ws" ${S.withSinc?"checked":""}> Overlay Sinclair reports`;$("ws").onchange=e=>{S.withSinc=e.target.checked;render()};
   syncFilterBar(reports);renderTagRow(base.filter(r=>S.on.has(r.cat)));drawLeys();
   if(S.withSinc)sinc.filter(r=>S.on.has(r.cat)&&passCommon(r)&&passEra(r)).forEach(r=>{const m=mk("s-p-"+r.cat,r.xy,`Sinclair #${r.n} ${r.title}`,()=>select({kind:"sinc",id:r.n},false),{small:true,overlay:true});m.u.style.opacity=".45";markers.push(m)});
+  if(V==="mu"){const eps=new Set();tagged.forEach(r=>r.mu.forEach(m=>eps.add(m.url)));$("intro").insertAdjacentHTML("beforeend",`<p class="intro">${smallIcon("s-mu")} ${tagged.length} places covered across ${eps.size} Mysterious Universe episodes.</p>`)}
   if(dbState!=="ready"){$("list").innerHTML=`<div class="empty">${dbState==="loading"?"Loading reports…":dbState==="none"?"Saved reports aren't available in this view. Open the map while signed in to claude.ai to see and add them.":"Couldn't load reports right now. Try reopening the page."}</div>`;return}
   if(!reports.length){$("list").innerHTML=`<div class="empty">No reports yet. ${canWrite?"Use <b>Add a report</b> to log the first case.":"Reports added by the owner will show up here."}</div>`;return}
-  const rs=tagged.filter(r=>S.on.has(r.cat));setCount(rs.length,reports.length,"reports");hotSection(drawHot(rs),o=>o.place.split(",")[0]);
-  rs.forEach(r=>{const m=mk("s-p-"+r.cat,r.xy,`${r.title} · ${r.place}`,()=>select({kind:"rep",id:r.id},false));m.sel=isSel("rep",r.id);m.u.classList.toggle("sel",m.sel);markClasses(m.u,r.key);markers.push(m)});
-  const mkRow=r=>row(icon("s-p-"+r.cat),r.title,r.date||"",`${r.place}${r.sources.length>1?" · "+r.sources.length+" sources":""}${r.tags.length?" · "+r.tags.map(tagLabel).join(", "):""}`,isSel("rep",r.id),()=>select({kind:"rep",id:r.id},true),isVis(r.key)?" visited":"",r.key);
-  if(F.sort.paranormal==="group")for(const c in PCATS)section(PCATS[c],sortItems(rs.filter(r=>r.cat===c),"new").map(mkRow));
-  else section(fSort.selectedOptions[0]?.textContent||"Reports",sortItems(rs,F.sort.paranormal).map(mkRow));
+  const rs=tagged.filter(r=>V==="ritual"||S.on.has(r.cat));const vt=reports.filter(r=>inView(r,V)).length;setCount(rs.length,vt,V==="ritual"?"sites":V==="mu"?"places":"reports");hotSection(drawHot(rs),o=>o.place.split(",")[0]);
+  rs.forEach(r=>{const m=mk(V==="mu"?"s-mu":"s-p-"+r.cat,r.xy,`${r.title} · ${r.place}`,()=>select({kind:"rep",id:r.id},false));m.sel=isSel("rep",r.id);m.u.classList.toggle("sel",m.sel);markClasses(m.u,r.key);markers.push(m)});
+  const mkRow=r=>row(icon(V==="mu"?"s-mu":"s-p-"+r.cat),r.title,r.date||"",`${r.place}${r.sources.length>1?" · "+r.sources.length+" sources":""}${r.tags.length?" · "+r.tags.map(tagLabel).join(", "):""}`,isSel("rep",r.id),()=>select({kind:"rep",id:r.id},true),isVis(r.key)?" visited":"",r.key);
+  const srt=F.sort[V]||"group";
+  if(srt==="group"&&V==="mu"){const byEp=new Map();rs.forEach(r=>r.mu.forEach(m=>{if(!byEp.has(m.url))byEp.set(m.url,{m,rs:[]});byEp.get(m.url).rs.push(r)}));[...byEp.values()].sort((a,b)=>String(b.m.date).localeCompare(String(a.m.date))).forEach(({m,rs:arr})=>section(`${m.title}${m.date?" · "+m.date.slice(0,4):""}`,sortItems(arr,"new").map(mkRow)))}
+  else if(srt==="group"&&V==="ritual"){const g=r=>r.tags.includes("witch-trial")||r.tags.includes("witchcraft")?"Witchcraft & witch trials":r.tags.includes("hellfire-club")||r.tags.includes("crowley")?"Hellfire Clubs & Crowley":r.tags.includes("desecration")||r.tags.includes("satanic")||r.tags.includes("black-magic")?"Black magic & desecrations":"Other occult & ritual";groupBy(rs,g).sort((a,b)=>a[0].localeCompare(b[0])).forEach(([k,arr])=>section(k,sortItems(arr,"new").map(mkRow)))}
+  else if(srt==="group")for(const c in PCATS)section(PCATS[c],sortItems(rs.filter(r=>r.cat===c),"new").map(mkRow));
+  else section(fSort.selectedOptions[0]?.textContent||"Reports",sortItems(rs,srt).map(mkRow));
 }
 function muHTML(mu){if(!mu||!mu.length)return"";
   return `<div class="meta">Mysterious Universe · ${mu.length} episode${mu.length>1?"s":""}</div><ul class="srcs mu">${mu.map(m=>{const ex=m.excerpt.split("\n").map(x=>x.startsWith("Show-notes links: ")?`<span class="mu-links">Show-notes links: ${x.slice(18).split(" · ").map(l=>{const i=l.lastIndexOf(" — ");const u=i>0?l.slice(i+3):"";const t=i>0?l.slice(0,i):l;return /^https?:\/\//.test(u)?`<a target="_blank" rel="noopener" href="${esc(u)}">${esc(t)}</a>`:esc(l)}).join(" · ")}</span>`:esc(x)).join("<br>");

@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.3.0 — 2026-10-29
+- **MU tab**: every place with a Mysterious Universe episode, on its own teal "MU" marker; group by episode to see every place an episode covers; each card shows the episodes and the case-only show notes.
+- **Ritual tab**: the 49 occult & ritual sites plus anything tagged satanic / black magic / occult / desecration / witchcraft / witch trial, grouped into Black magic & desecrations, Hellfire Clubs & Crowley, Witchcraft & witch trials, Other. Ritual sites leave the UFO & paranormal tab. The ritual marker is now a filled crimson disc with a pentagram.
+- "Paul Sinclair" tab renamed **Sinclair**.
+- Fix: list, chip and card icons were clipped to a quarter (the `<use>` box started at the centre); they now show in full.
+
 ## v1.2.0 — 2026-10-29
 - **Sharper filters** on the Paul Sinclair and UFO & paranormal tabs: area (county / town, with counts), sources (on Mysterious Universe, several sources, single source, unconfirmed leads, personal accounts), tags grouped into Witnesses / Evidence / What was seen / Occult & folklore / Setting / Visiting with a collapsible panel and an Any / All switch. Tag groups come from `data/tag_groups.json` (same groups as the archive's `arc_tags.grp`).
 - **New category: Occult & ritual sites** (pentagram marker) with 49 places — black-magic church desecrations (Clophill 1963, the North Wales churches 1987–91), Hellfire Club sites, Crowley's Boleskine, witch-trial places in Wales and Lancashire, ritual finds on Cannock Chase, Dartmoor and the New Forest. Coordinates checked against OpenStreetMap.

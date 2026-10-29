@@ -1,4 +1,4 @@
-# STUDIO - Sacred Missions Map (v1.2.0)
+# STUDIO - Sacred Missions Map (v1.3.0)
 
 > Repo: `sonor-sacred-missions-map` · Pages: https://sonorltd.github.io/sonor-sacred-missions-map/ · Live (claude.ai artifact, with saved data): https://claude.ai/artifact/UdQ8Sz9WCEbDXTWLCPPwxT
 > Type: side-project, island-ok. Personal exploration project under STUDIO, created 2026-10-28. **Not Sonor Smart Homes work**: no Sonor customer data, no Sonor branding.
@@ -41,6 +41,7 @@ Cases, sources, Mysterious Universe episodes and cross-links now live in **STUDI
 - Photos: artifact asset store (`assets` capability, editors only); shown from `/_blob/<id>`.
 
 ## Tabs
+Tabs: Sacred sites · Sinclair · UFO & paranormal · MU (places with Mysterious Universe episodes, own MU marker) · Ritual (occult & ritual sites) · Sky · Road trip.
 Sacred sites (leys-only toggle, ley-kind chips, alignment checker, "find alignments through here") · Paul Sinclair (hotspots) · UFO & paranormal (tags, hotspots, add/edit) · Sky (solstices, equinoxes, fire festivals, moon phases, meteor showers, aligned sites + solstice rays, this weekend) · Road trip (planner, Google Maps hand-off, saved trips, visit log). Filters on every tab: region, distance from home, status (star / to visit / visited), era, near a ley line, sort.
 
 ## Spine version + compliance
