@@ -1,0 +1,1307 @@
+[
+ {
+  "name": "Din Dryfol Burial Chamber",
+  "cat": "stone",
+  "lat": 53.22505,
+  "lon": -4.40482,
+  "desc": "Ruined Neolithic passage-grave on a hillside ledge near Bethel, built in several phases from about 5,000 years ago - a style more usual in Ireland. In Cadw care with open access.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Din_Dryfol"
+ },
+ {
+  "name": "Presaddfed Burial Chambers",
+  "cat": "stone",
+  "lat": 53.2992,
+  "lon": -4.4809,
+  "desc": "Two Neolithic chamber tombs just north-west of Bodedern near Llyn Llywenan; the southern one still holds a 4m capstone on stout uprights. Cadw site, free access across a field.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Presaddfed_Burial_Chamber"
+ },
+ {
+  "name": "Tŷ Newydd Burial Chamber",
+  "cat": "stone",
+  "lat": 53.23599,
+  "lon": -4.48243,
+  "desc": "Cracked 4m capstone resting on three uprights on a rock outcrop near Llanfaelog, once covered by a cairn and excavated in 1935. In Cadw care.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Tŷ_Newydd_Burial_Chamber"
+ },
+ {
+  "name": "Ty Mawr Burial Chamber, Llanfairpwll",
+  "cat": "stone",
+  "lat": 53.22614,
+  "lon": -4.19028,
+  "desc": "A collapsed Neolithic dolmen north-east of Llanfairpwllgwyngyll whose 3.6m capstone has slipped onto its supports; a sill stone hints it was once a passage grave.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Ty_Mawr_Burial_Chamber"
+ },
+ {
+  "name": "Pant-y-Saer Burial Chamber",
+  "cat": "stone",
+  "lat": 53.3175,
+  "lon": -4.2397,
+  "desc": "Partly collapsed Neolithic tomb on a scrubby hilltop above Benllech, where excavators found the remains of 56 people. The capstone now rests with one end on the ground.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Pant-y-Saer_Burial_Chamber"
+ },
+ {
+  "name": "Henblas Burial Chamber",
+  "cat": "stone",
+  "lat": 53.22111,
+  "lon": -4.35806,
+  "desc": "Two huge quartz-rich boulders, up to 4m tall, with a fallen 5.5m slab between them, near Llangristiolus - debated as a tomb or a natural glacial jumble.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Henblas_Burial_Chamber"
+ },
+ {
+  "name": "Bodowyr Burial Chamber",
+  "cat": "stone",
+  "lat": 53.18769,
+  "lon": -4.3033,
+  "desc": "A neat little mushroom-shaped cromlech on a hillock at Bodowyr Farm east of Llangaffo, admired by antiquarian Henry Rowlands in the 1700s. Cadw site in a farmer's field, open access.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Bodowyr"
+ },
+ {
+  "name": "Perthi-Duon Burial Chamber",
+  "cat": "stone",
+  "lat": 53.17608,
+  "lon": -4.27611,
+  "desc": "Collapsed capstone in a field west of Brynsiencyn, drawn standing in 1723 by Henry Rowlands; some argue it is just a big boulder. Excavated in 2014.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Perthi-Duon_Burial_Chamber"
+ },
+ {
+  "name": "Lligwy Burial Chamber",
+  "cat": "stone",
+  "lat": 53.3499,
+  "lon": -4.2529,
+  "desc": "Squat Neolithic tomb near Moelfre with a 25-tonne capstone on low uprights over a pit chamber; bones of 15-30 people were found in 1909. Cadw site beside the lane.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Lligwy_Burial_Chamber"
+ },
+ {
+  "name": "Trefignath Burial Chamber",
+  "cat": "stone",
+  "lat": 53.2932,
+  "lon": -4.6143,
+  "desc": "Three successive Neolithic chambers under one cairn on a knoll near Trearddur, Holy Island, excavated 1977-79. A line of small stones leads towards Tŷ Mawr standing stone; Cadw site.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Trefignath"
+ },
+ {
+  "name": "Tŷ Mawr Standing Stone, Holyhead",
+  "cat": "stone",
+  "lat": 53.2967,
+  "lon": -4.6214,
+  "desc": "Tall Bronze Age standing stone in a field on Holy Island, a few hundred metres from Trefignath. In Cadw care.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Anglesey"
+ },
+ {
+  "name": "Tregwehelydd Standing Stone",
+  "cat": "stone",
+  "lat": 53.3195,
+  "lon": -4.4926,
+  "desc": "Bronze Age standing stone in farmland near Llantrisant, Anglesey. A Cadw guardianship site.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Anglesey"
+ },
+ {
+  "name": "Werthyr Standing Stone",
+  "cat": "stone",
+  "lat": 53.40861,
+  "lon": -4.38556,
+  "desc": "About 3.1m tall Bronze Age stone near Amlwch; early writers mention a second upright and a capstone that have since vanished.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Werthyr_standing_stone"
+ },
+ {
+  "name": "Llanfechell Triangle Standing Stones",
+  "cat": "stone",
+  "lat": 53.3966,
+  "lon": -4.462,
+  "desc": "Three standing stones set in a triangle in a field near Llanfechell, north Anglesey - an unusual prehistoric arrangement.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Anglesey"
+ },
+ {
+  "name": "Carreg Leidr (Thief Stone)",
+  "cat": "stone",
+  "lat": 53.33285,
+  "lon": -4.33476,
+  "desc": "The 'thief stone' near Rhosybol: a 1.6m standing stone with a distinct hump on one side that has given rise to local folklore about a petrified thief.",
+  "source": "Coflein",
+  "url": "https://coflein.gov.uk/en/site/302476"
+ },
+ {
+  "name": "Bedd Branwen",
+  "cat": "stone",
+  "lat": 53.33625,
+  "lon": -4.46285,
+  "desc": "Bronze Age burial mound by the Afon Alaw; when a cremation urn turned up in 1813 it was hailed as the grave of Branwen from the Mabinogion. Excavation in 1967 found a ring cairn, central stone and several urns.",
+  "source": "Coflein",
+  "url": "https://coflein.gov.uk/en/site/302327"
+ },
+ {
+  "name": "Bryn Gwyn Stones",
+  "cat": "stone",
+  "lat": 53.17717,
+  "lon": -4.30213,
+  "desc": "The tallest standing stones in Wales, nearly 4m high, near Brynsiencyn - survivors of a ring of eight torn up by treasure-seekers in the 1790s. Cadw site.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Bryn_Gwyn_stones"
+ },
+ {
+  "name": "Castell Bryn Gwyn",
+  "cat": "fort",
+  "lat": 53.1784,
+  "lon": -4.2978,
+  "desc": "Circular bank near Brynsiencyn that began as a probable Neolithic henge or sanctuary and was later refortified. Maintained by Cadw.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Castell_Bryn_Gwyn"
+ },
+ {
+  "name": "Caer Lêb",
+  "cat": "fort",
+  "lat": 53.1818,
+  "lon": -4.2868,
+  "desc": "Double-banked pentagonal enclosure by the Afon Braint west of Brynsiencyn, probably Iron Age with Roman-period use. Cadw site.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Caer_Lêb"
+ },
+ {
+  "name": "Din Lligwy Hut Group",
+  "cat": "fort",
+  "lat": 53.35037,
+  "lon": -4.25948,
+  "desc": "Walled late-Roman native village of round and rectangular stone huts in woods near Moelfre, where iron was worked; near Lligwy Burial Chamber. Cadw, open access.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Din_Lligwy"
+ },
+ {
+  "name": "Bwrdd Arthur (Din Sylwy)",
+  "cat": "fort",
+  "lat": 53.31089,
+  "lon": -4.1232,
+  "desc": "'Arthur's Table' - a flat-topped limestone hill above Red Wharf Bay ringed by a stone-walled Iron Age fort, with the tiny church of St Michael beside it.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Bwrdd_Arthur"
+ },
+ {
+  "name": "Parciau Hill Fort",
+  "cat": "fort",
+  "lat": 53.33746,
+  "lon": -4.26237,
+  "desc": "Iron Age fort on the cliff-girt summit of Bryn Ddiôl near Marian-glas, with sea views; the gentle western approach is cut off by ramparts.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Parciau_hill_fort"
+ },
+ {
+  "name": "Dinas Gynfor Hillfort",
+  "cat": "fort",
+  "lat": 53.4274,
+  "lon": -4.4236,
+  "desc": "Wales's most northerly hillfort, on a headland near Llanbadrig and Cemaes, partly defended by sheer cliffs.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Anglesey"
+ },
+ {
+  "name": "Llyn Cerrig Bach",
+  "cat": "lore",
+  "lat": 53.25885,
+  "lon": -4.54029,
+  "desc": "Small lake near RAF Valley where over 150 Iron Age metal objects - including a slave gang-chain - were found in 1942, apparently thrown in as offerings.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Llyn_Cerrig_Bach"
+ },
+ {
+  "name": "Ffynnon Allgo",
+  "cat": "spring",
+  "lat": 53.3385,
+  "lon": -4.2559,
+  "desc": "Holy well of St Allgo near Llanallgo church, Moelfre, enclosed by stone walls. Scheduled monument.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Anglesey"
+ },
+ {
+  "name": "Dinas Dinlle",
+  "cat": "fort",
+  "lat": 53.0816,
+  "lon": -4.3347,
+  "desc": "Coastal Iron Age fort on a glacial mound above the beach south of Caernarfon, half lost to sea erosion; linked in the Mabinogion with Lleu Llaw Gyffes.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Dinas_Dinlle"
+ },
+ {
+  "name": "Dinas Dinorwig",
+  "cat": "fort",
+  "lat": 53.1651,
+  "lon": -4.1709,
+  "desc": "The largest and strongest hillfort in Arfon, near Llanddeiniolen, with a stone wall inside two massive earth ramparts up to 9m high.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Dinas_Dinorwig"
+ },
+ {
+  "name": "Moel y Gest hillfort",
+  "cat": "fort",
+  "lat": 52.928,
+  "lon": -4.1595,
+  "desc": "Rocky 263m hill above Porthmadog crowned by an odd fort with many white quartz stones in its wall, perhaps religious rather than military. Paths from the Black Rock Sands road.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Moel_y_Gest"
+ },
+ {
+  "name": "Carn Fadryn",
+  "cat": "fort",
+  "lat": 52.88571,
+  "lon": -4.56077,
+  "desc": "Iron Age hillfort enclosing the summit of a prominent Llŷn mountain, enlarged in a second phase and reused in the medieval period. Path up from Garnfadryn village.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Carn_Fadryn"
+ },
+ {
+  "name": "Castell Odo",
+  "cat": "fort",
+  "lat": 52.8232,
+  "lon": -4.692,
+  "desc": "Hillfort on Mynydd Ystum near Aberdaron whose first phases date to the late Bronze Age; legend says the giant Odo Gawr lies under a summit cairn.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Aberdaron"
+ },
+ {
+  "name": "Cefnamwlch Burial Chamber (Coetan Arthur)",
+  "cat": "stone",
+  "lat": 52.8792,
+  "lon": -4.632,
+  "desc": "Neolithic burial chamber known as Coetan Arthur on Mynydd Cefnamwlch, near Tudweiliog in Llŷn.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Tudweiliog#Cefnamwlch"
+ },
+ {
+  "name": "Cist Cerrig Burial Chamber",
+  "cat": "stone",
+  "lat": 52.9233,
+  "lon": -4.1682,
+  "desc": "Remains of a Neolithic burial chamber near Garndolbenmaen with a cup-marked rock nearby.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_prehistoric_scheduled_monuments_in_Gwynedd_(former_Caernarfonshire)"
+ },
+ {
+  "name": "Ystum Cegid Burial Chamber",
+  "cat": "stone",
+  "lat": 52.9482,
+  "lon": -4.2357,
+  "desc": "Neolithic chambered long cairn near Llanystumdwy, between Criccieth and Porthmadog.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_prehistoric_scheduled_monuments_in_Gwynedd_(former_Caernarfonshire)"
+ },
+ {
+  "name": "Bachwen Burial Chamber",
+  "cat": "stone",
+  "lat": 53.0189,
+  "lon": -4.3752,
+  "desc": "Small Neolithic dolmen on the coast at Clynnog Fawr whose capstone is covered in cup-marks.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_prehistoric_scheduled_monuments_in_Gwynedd_(former_Caernarfonshire)"
+ },
+ {
+  "name": "Penarth Burial Chamber",
+  "cat": "stone",
+  "lat": 53.0338,
+  "lon": -4.3429,
+  "desc": "Neolithic chamber tomb in fields near Clynnog Fawr, part of the cluster of tombs on this coast.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_prehistoric_scheduled_monuments_in_Gwynedd_(former_Caernarfonshire)"
+ },
+ {
+  "name": "Llyn Ogwen",
+  "cat": "lore",
+  "lat": 53.125,
+  "lon": -4.0,
+  "desc": "Shallow lake beside the A5 below Tryfan; legend says Sir Bedivere threw Excalibur here after Camlann and that Tryfan is his resting place.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Llyn_Ogwen"
+ },
+ {
+  "name": "Llyn Idwal",
+  "cat": "lore",
+  "lat": 53.11583,
+  "lon": -4.02556,
+  "desc": "Glacial lake in Cwm Idwal named after Prince Idwal Foel, whose son legend says was drowned here. Popular circular path from Ogwen.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Llyn_Idwal"
+ },
+ {
+  "name": "Maen Llwyd, Glynllifon",
+  "cat": "stone",
+  "lat": 53.0619,
+  "lon": -4.3221,
+  "desc": "Bronze Age standing stone in the Glynllifon area near Llandwrog.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_prehistoric_scheduled_monuments_in_Gwynedd_(former_Caernarfonshire)"
+ },
+ {
+  "name": "Dyffryn Ardudwy Burial Chamber",
+  "cat": "stone",
+  "lat": 52.7846,
+  "lon": -4.0937,
+  "desc": "Two Neolithic portal tombs in one long cairn behind the village school, among the earliest tombs in Britain (c.4000 BC). In Cadw care, open access.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Dyffryn_Ardudwy"
+ },
+ {
+  "name": "Carneddau Hengwm",
+  "cat": "stone",
+  "lat": 52.7647,
+  "lon": -4.0566,
+  "desc": "Two great Neolithic long cairns on the hillside above Dyffryn Ardudwy, with remains of chambers; reached on foot by an upland track.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_prehistoric_scheduled_monuments_in_Gwynedd_(former_Merionethshire)"
+ },
+ {
+  "name": "Cors-y-Gedol Burial Chamber",
+  "cat": "stone",
+  "lat": 52.7848,
+  "lon": -4.0725,
+  "desc": "Neolithic chamber with a sloping capstone amid ancient field walls near Dyffryn Ardudwy, with views over Cardigan Bay.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_prehistoric_scheduled_monuments_in_Gwynedd_(former_Merionethshire)"
+ },
+ {
+  "name": "Hengwm Stone Circles",
+  "cat": "stone",
+  "lat": 52.7717,
+  "lon": -4.0524,
+  "desc": "Pair of prehistoric stone circles on the moorland above Dyffryn Ardudwy, near the Carneddau Hengwm cairns.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_prehistoric_scheduled_monuments_in_Gwynedd_(former_Merionethshire)"
+ },
+ {
+  "name": "Bryn Cader Faner",
+  "cat": "stone",
+  "lat": 52.89823,
+  "lon": -4.01137,
+  "desc": "Bronze Age cairn east of Talsarnau ringed by 18 slanting slate spikes like a crown, dating to the late 3rd millennium BC. Damaged by army gunnery; a remote moorland walk.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Bryn_Cader_Faner"
+ },
+ {
+  "name": "Moel Goedog cairns and stones",
+  "cat": "stone",
+  "lat": 52.87,
+  "lon": -4.0675,
+  "desc": "Bronze Age ring cairns and standing stones along an ancient trackway near Harlech, below Moel Goedog hillfort.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_prehistoric_scheduled_monuments_in_Gwynedd_(former_Merionethshire)"
+ },
+ {
+  "name": "Llech Idris",
+  "cat": "stone",
+  "lat": 52.86221,
+  "lon": -3.88624,
+  "desc": "Leaning 3.1m Bronze Age slab near Trawsfynydd; folklore says the giant Idris hurled it from Cadair Idris.",
+  "source": "Coflein",
+  "url": "https://coflein.gov.uk/en/site/303056"
+ },
+ {
+  "name": "Cerrig Arthur Stone Circle",
+  "cat": "stone",
+  "lat": 52.7502,
+  "lon": -4.0287,
+  "desc": "Small embanked stone circle on the hills above Barmouth, bearing King Arthur's name.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_prehistoric_scheduled_monuments_in_Gwynedd_(former_Merionethshire)"
+ },
+ {
+  "name": "Eglwys Gwyddelod Stone Circle",
+  "cat": "stone",
+  "lat": 52.5828,
+  "lon": -3.9752,
+  "desc": "The 'Irishmen's church' - a small stone circle on the uplands above Tywyn.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_prehistoric_scheduled_monuments_in_Gwynedd_(former_Merionethshire)"
+ },
+ {
+  "name": "Llynnau Cregennen Standing Stone",
+  "cat": "stone",
+  "lat": 52.7057,
+  "lon": -3.982,
+  "desc": "Standing stone near the Cregennen lakes below Cadair Idris, National Trust land with a car park and walks.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_prehistoric_scheduled_monuments_in_Gwynedd_(former_Merionethshire)"
+ },
+ {
+  "name": "Craig yr Aderyn",
+  "cat": "fort",
+  "lat": 52.6406,
+  "lon": -4.001,
+  "desc": "Bird Rock, a 258m crag in the Dysynni valley and the largest inland cormorant colony in Wales; its top carries a two-phase Iron Age fort.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Craig_yr_Aderyn"
+ },
+ {
+  "name": "Caer Euni",
+  "cat": "fort",
+  "lat": 52.95972,
+  "lon": -3.48917,
+  "desc": "Long narrow Iron Age fort on a 365m ridge north-east of Llandderfel near Bala, with its main entrance at the north-east end.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Caer_Euni"
+ },
+ {
+  "name": "Llyn Barfog",
+  "cat": "lore",
+  "lat": 52.56993,
+  "lon": -3.98907,
+  "desc": "'Bearded Lake' above Aberdyfi, home in legend to the afanc that Arthur dragged out, and to green-clad fairies with white cattle. Reached by a hill path.",
+  "source": "Coflein",
+  "url": "https://coflein.gov.uk/en/site/402570"
+ },
+ {
+  "name": "Carn March Arthur",
+  "cat": "lore",
+  "lat": 52.56432,
+  "lon": -3.99246,
+  "desc": "Stone near Llyn Barfog bearing a hoof-shaped hollow, said to be the print of Arthur's horse as it hauled the afanc from the lake. Marked by a slate sign.",
+  "source": "Coflein",
+  "url": "https://coflein.gov.uk/en/site/286"
+ },
+ {
+  "name": "Dolgoch Falls",
+  "cat": "falls",
+  "lat": 52.6195,
+  "lon": -3.9915,
+  "desc": "Series of three waterfalls in a wooded gorge near Tywyn, reached on foot from Dolgoch station on the Talyllyn Railway.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Dolgoch_Falls"
+ },
+ {
+  "name": "Capel Garmon Burial Chamber",
+  "cat": "stone",
+  "lat": 53.073,
+  "lon": -3.7658,
+  "desc": "Severn-Cotswold style long cairn above Betws-y-Coed with a passage and twin chambers, one still roofed by its capstone; once used as a stable. Cadw site.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Capel_Garmon"
+ },
+ {
+  "name": "Maen y Bardd",
+  "cat": "stone",
+  "lat": 53.2281,
+  "lon": -3.888,
+  "desc": "Classic little Neolithic dolmen beside the old track near Rowen; its names mean 'bard's stone', 'shepherd's hut' and 'greyhound's kennel'.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Conwy_County_Borough"
+ },
+ {
+  "name": "Llety'r Filiast, Great Orme",
+  "cat": "stone",
+  "lat": 53.3292,
+  "lon": -3.8452,
+  "desc": "Neolithic chambered tomb on the Great Orme near the tramway; the name means 'lair of the greyhound bitch'.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Conwy_County_Borough"
+ },
+ {
+  "name": "Hwylfa'r Ceirw",
+  "cat": "stone",
+  "lat": 53.3393,
+  "lon": -3.8554,
+  "desc": "Stone alignment on the Great Orme whose name means 'the deer's track'.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Conwy_County_Borough"
+ },
+ {
+  "name": "Kendrick's Cave",
+  "cat": "cave",
+  "lat": 53.32778,
+  "lon": -3.83278,
+  "desc": "Great Orme cave where lapidary Thomas Kendrick found a decorated horse jaw, bear-tooth beads and human bones in 1880 - some of Britain's oldest art.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Kendrick's_Cave"
+ },
+ {
+  "name": "Ogof Tan-y-Bryn",
+  "cat": "cave",
+  "lat": 53.3177,
+  "lon": -3.8037,
+  "desc": "Palaeolithic cave at Llandudno, protected as a scheduled monument.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Conwy_County_Borough"
+ },
+ {
+  "name": "Bwlch y Ddeufaen standing stones",
+  "cat": "stone",
+  "lat": 53.228,
+  "lon": -3.9279,
+  "desc": "The 'pass of the two stones': twin prehistoric standing stones on the old Roman road over the Carneddau between Rowen and Abergwyngregyn. Walkable green track.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Bwlch-y-Ddeufaen"
+ },
+ {
+  "name": "Cerrig Pryfaid Stone Circle",
+  "cat": "stone",
+  "lat": 53.2237,
+  "lon": -3.9119,
+  "desc": "Small stone circle on the moors near Bwlch y Ddeufaen, above Rowen.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Conwy_County_Borough"
+ },
+ {
+  "name": "Maen Crwn and Bryn Derwydd Circle",
+  "cat": "stone",
+  "lat": 53.2573,
+  "lon": -3.9018,
+  "desc": "A standing stone and small stone circle on the Penmaenmawr uplands, part of the ritual landscape around the Druid's Circle.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Conwy_County_Borough"
+ },
+ {
+  "name": "Allor Moloch (Hendre-Waelod)",
+  "cat": "stone",
+  "lat": 53.256,
+  "lon": -3.811,
+  "desc": "Dolmen with a huge capstone beside a footpath overlooking the Conwy estuary near Llansanffraid Glan Conwy.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Conwy_County_Borough"
+ },
+ {
+  "name": "Castell Caer Seion",
+  "cat": "fort",
+  "lat": 53.28251,
+  "lon": -3.8623,
+  "desc": "Iron Age fort on top of Conwy Mountain containing a smaller, more heavily defended fort within it; occupied from about the 6th century BC.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Castell_Caer_Seion"
+ },
+ {
+  "name": "Caer Bach",
+  "cat": "fort",
+  "lat": 53.23881,
+  "lon": -3.88314,
+  "desc": "Small fort on a hillock on the eastern slopes of Tal-y-Fan above Rowen, little investigated.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Caer_Bach"
+ },
+ {
+  "name": "Bryn Euryn",
+  "cat": "fort",
+  "lat": 53.30269,
+  "lon": -3.75344,
+  "desc": "Hill above Rhos-on-Sea with a massive limestone-walled hillfort on top and the ruin of Llys Euryn below; local nature reserve.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Bryn_Euryn"
+ },
+ {
+  "name": "Castell Cawr",
+  "cat": "fort",
+  "lat": 53.2766,
+  "lon": -3.5977,
+  "desc": "Wooded hill above Abergele (Tan-y-Gopa) with an Iron Age fort and caves used by rare lesser horseshoe bats; Woodland Trust land.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Castell_Cawr"
+ },
+ {
+  "name": "Pen-y-Corddyn",
+  "cat": "fort",
+  "lat": 53.2734,
+  "lon": -3.6285,
+  "desc": "Large limestone hillfort above Llanddulas, near Abergele.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Conwy_County_Borough"
+ },
+ {
+  "name": "Pen y Dinas, Great Orme",
+  "cat": "fort",
+  "lat": 53.3296,
+  "lon": -3.8348,
+  "desc": "Small hillfort on the Great Orme above Llandudno.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Conwy_County_Borough"
+ },
+ {
+  "name": "Fairy Falls, Trefriw",
+  "cat": "falls",
+  "lat": 53.151,
+  "lon": -3.83,
+  "desc": "Falls about 25 feet high on the Afon Crafnant in Trefriw village, left by Ice Age glaciers that cut the side valley short.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Fairy_Falls,_Trefriw"
+ },
+ {
+  "name": "Rhaeadr y Parc Mawr, Llanrwst",
+  "cat": "falls",
+  "lat": 53.1332,
+  "lon": -3.81,
+  "desc": "Waterfall, nicknamed the Grey Mare's Tail, just off the B5106 near Gwydir Castle, fed by a stream running out of the Gwydir Forest mines.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Grey_Mare's_Tail,_Conwy"
+ },
+ {
+  "name": "Llyn Geirionydd",
+  "cat": "lore",
+  "lat": 53.13139,
+  "lon": -3.84917,
+  "desc": "Lake in the Gwydir Forest linked to the bard Taliesin, with a memorial to him by the water; the lane comes from Trefriw or Llanrwst.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Llyn_Geirionydd"
+ },
+ {
+  "name": "St George's Well, Abergele",
+  "cat": "spring",
+  "lat": 53.2681,
+  "lon": -3.5362,
+  "desc": "Early medieval holy well at St George near Abergele, once used to bless horses. Scheduled monument.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Conwy_County_Borough"
+ },
+ {
+  "name": "Bedd-y-Cawr Hillfort",
+  "cat": "fort",
+  "lat": 53.2363,
+  "lon": -3.4799,
+  "desc": "'The Giant's Grave' - an Iron Age promontory fort at the end of the Cefn Meiriadog ridge west of St Asaph, over the Elwy valley.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Bedd-y-Cawr_Hillfort"
+ },
+ {
+  "name": "Cefn Caves",
+  "cat": "cave",
+  "lat": 53.2227,
+  "lon": -3.4685,
+  "desc": "Four linked caves in limestone cliffs above the Elwy, where Palaeolithic tools and animal bones were dug out from the 1830s. Reached on a woodland path.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Cefn_Caves"
+ },
+ {
+  "name": "Cae Gwyn Cave, Tremeirchion",
+  "cat": "cave",
+  "lat": 53.241,
+  "lon": -3.3719,
+  "desc": "Valley-side caves above the Vale of Clwyd where stone tools were found with mammoth and woolly rhino bones in the 1880s.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Ffynnon_Beuno_and_Cae_Gwyn_Caves"
+ },
+ {
+  "name": "Moel y Gaer, Bodfari",
+  "cat": "fort",
+  "lat": 53.2266,
+  "lon": -3.357,
+  "desc": "Lowest of the Clwydian Range chain of hillforts, on a 200m summit over the Wheeler valley near Bodfari.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Moel_y_Gaer,_Bodfari"
+ },
+ {
+  "name": "Moel y Gaer, Llanbedr",
+  "cat": "fort",
+  "lat": 53.1461,
+  "lon": -3.2744,
+  "desc": "Oval Iron Age fort on a western spur of the Clwydian Range above Llanbedr Dyffryn Clwyd, overlooking the Vale.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Moel_y_Gaer,_Llanbedr"
+ },
+ {
+  "name": "Moel y Gaer, Llantysilio",
+  "cat": "fort",
+  "lat": 53.0081,
+  "lon": -3.2428,
+  "desc": "Iron Age fort on Llantysilio Mountain north-west of Llangollen, part of the Heather and Hillforts project.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Moel_y_Gaer,_Llantysilio"
+ },
+ {
+  "name": "Moel Hiraddug",
+  "cat": "fort",
+  "lat": 53.2925,
+  "lon": -3.4064,
+  "desc": "Hillfort above Dyserth at the north end of the Clwydian Range, partly quarried away; wide views to Snowdonia.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Moel_Hiraddug"
+ },
+ {
+  "name": "Maen Huail",
+  "cat": "lore",
+  "lat": 53.1144,
+  "lon": -3.3108,
+  "desc": "Stone block in St Peter's Square, Ruthin, on which King Arthur is said to have beheaded Huail, brother of Gildas.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Maen_Huail"
+ },
+ {
+  "name": "Bryn Beddau Stone Circle",
+  "cat": "stone",
+  "lat": 53.0619,
+  "lon": -3.4232,
+  "desc": "Circle of at least 19 stones in a heather clearing in Clocaenog Forest, near the fallen 3.4m Maen Llwyd.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Denbighshire"
+ },
+ {
+  "name": "Tyfos Stone Circle",
+  "cat": "stone",
+  "lat": 52.9374,
+  "lon": -3.447,
+  "desc": "Bronze Age kerb circle of thirteen fallen stones near Llandrillo in the Dee valley.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Denbighshire"
+ },
+ {
+  "name": "Tyddyn Bleiddyn Burial Chamber",
+  "cat": "stone",
+  "lat": 53.2399,
+  "lon": -3.4889,
+  "desc": "Two Neolithic cairns at Cefn Meiriadog dug in the mid-1800s, revealing crouched burials in stone cists.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Denbighshire"
+ },
+ {
+  "name": "Horseshoe Falls, Llangollen",
+  "cat": "falls",
+  "lat": 52.98111,
+  "lon": -3.19917,
+  "desc": "Curving Telford weir on the Dee above Llangollen that feeds the canal; a short walk from Berwyn station.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Horseshoe_Falls_(Wales)"
+ },
+ {
+  "name": "The Gop",
+  "cat": "stone",
+  "lat": 53.3104,
+  "lon": -3.3722,
+  "desc": "Huge Neolithic cairn on Gop Hill above Trelawnyd, the second-largest prehistoric mound in Britain after Silbury Hill; caves below held Neolithic burials.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/The_Gop"
+ },
+ {
+  "name": "Maen Achwyfan",
+  "cat": "stone",
+  "lat": 53.2986,
+  "lon": -3.30853,
+  "desc": "Tallest wheel-headed cross in Britain (3.4m), carved around the 11th century and standing in a field near Whitford. Cadw site.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Maen_Achwyfan"
+ },
+ {
+  "name": "Penbedw Stone Circle",
+  "cat": "stone",
+  "lat": 53.2019,
+  "lon": -3.2457,
+  "desc": "Five stones in a ring completed by oaks in Penbedw Park near Nannerch - possibly an 18th-century folly - with a genuine Bronze Age standing stone nearby.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Flintshire"
+ },
+ {
+  "name": "Carreg-y-llech",
+  "cat": "stone",
+  "lat": 53.117,
+  "lon": -3.124,
+  "desc": "1.9m Bronze Age standing stone near Treuddyn, possibly once set in a burial mound.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Flintshire"
+ },
+ {
+  "name": "Caer Estyn",
+  "cat": "fort",
+  "lat": 53.1101,
+  "lon": -3.0262,
+  "desc": "Hillfort on a ridge near Hope above the Alyn valley.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/List_of_scheduled_monuments_in_Flintshire"
+ },
+ {
+  "name": "Thor's Stone, Thurstaston",
+  "cat": "lore",
+  "lat": 53.35586,
+  "lon": -3.1362,
+  "desc": "Great red sandstone outcrop on Thurstaston Common; folklore makes it a Viking altar to Thor or a stone he hurled, and children once danced round it.",
+  "source": "The Northern Antiquarian",
+  "url": "https://www.thenorthernantiquarian.org/2011/07/20/thors-stone/"
+ },
+ {
+  "name": "Bidston Hill rock carvings",
+  "cat": "stone",
+  "lat": 53.40062,
+  "lon": -3.0742,
+  "desc": "Sandstone carvings of a sun goddess and a horse near Bidston Observatory, thought to be Norse-Irish work of around AD 1000; the goddess faces midsummer sunrise.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Bidston_Hill"
+ },
+ {
+  "name": "The Calder Stones",
+  "cat": "stone",
+  "lat": 53.38167,
+  "lon": -2.89417,
+  "desc": "Six Neolithic sandstone slabs with cup-and-ring and spiral carvings from a lost burial monument, now displayed at Calderstones Park, Liverpool.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Calderstones_Park"
+ },
+ {
+  "name": "Robin Hood's Stone, Allerton",
+  "cat": "stone",
+  "lat": 53.37094,
+  "lon": -2.90353,
+  "desc": "Bronze Age cup-marked standing stone at Booker Avenue, Liverpool; its grooves are said to come from archers sharpening arrows.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Robin_Hood's_Stone"
+ },
+ {
+  "name": "Bickerton Hill Iron Age fort",
+  "cat": "fort",
+  "lat": 53.07142,
+  "lon": -2.74995,
+  "desc": "Iron Age fort known as Maiden Castle on Bickerton Hill, on the Sandstone Trail, one of only seven in Cheshire; National Trust heathland.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Maiden_Castle,_Cheshire"
+ },
+ {
+  "name": "Kelsborrow Castle",
+  "cat": "fort",
+  "lat": 53.2034,
+  "lon": -2.7021,
+  "desc": "Iron Age promontory fort near Kelsall, part of a small cluster with Eddisbury; a bronze palstave was found here.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Kelsborrow_Castle"
+ },
+ {
+  "name": "The Devil's Chair, Stiperstones",
+  "cat": "lore",
+  "lat": 52.58647,
+  "lon": -2.93352,
+  "desc": "Largest of the shattered quartzite tors on the Stiperstones ridge, steeped in Devil folklore; Wild Edric is said to ride here when England is threatened.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Stiperstones"
+ },
+ {
+  "name": "The Wrekin hillfort",
+  "cat": "fort",
+  "lat": 52.6692,
+  "lon": -2.5514,
+  "desc": "Iron Age fort on the 407m summit of the Wrekin; legend says the hill is earth dropped by a giant who meant to bury Shrewsbury.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/The_Wrekin"
+ },
+ {
+  "name": "Hoarstones",
+  "cat": "stone",
+  "lat": 52.59278,
+  "lon": -2.99917,
+  "desc": "Oval circle of low stones near Chirbury, one of only two surviving circles in this border area with Mitchell's Fold.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hoarstones"
+ },
+ {
+  "name": "Bury Ditches",
+  "cat": "fort",
+  "lat": 52.44694,
+  "lon": -2.99083,
+  "desc": "Spectacular oval multi-ramparted Iron Age fort on Sunnyhill between Clun and Bishop's Castle, managed by Forestry England with a car park nearby.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Bury_Ditches"
+ },
+ {
+  "name": "Nordy Bank",
+  "cat": "fort",
+  "lat": 52.4583,
+  "lon": -2.6257,
+  "desc": "Single-ramparted late Bronze Age/early Iron Age fort on a spur of Brown Clee Hill.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Nordy_Bank"
+ },
+ {
+  "name": "Titterstone Clee hillfort",
+  "cat": "fort",
+  "lat": 52.39758,
+  "lon": -2.60252,
+  "desc": "Iron Age fort on the 533m summit of Titterstone Clee, unusual for its stone-block walls, alongside Bronze Age cairns and old quarries.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Titterstone_Clee_Hill"
+ },
+ {
+  "name": "Doll Tor",
+  "cat": "stone",
+  "lat": 53.1625,
+  "lon": -1.64501,
+  "desc": "Small six-stone circle just west of Stanton Moor near Birchover; on private farmland with no public access.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Doll_Tor"
+ },
+ {
+  "name": "Nine Stones Close (Grey Ladies)",
+  "cat": "stone",
+  "lat": 53.16046,
+  "lon": -1.66444,
+  "desc": "Four tall survivors of a circle on Harthill Moor near Elton, one with cup marks, close to Robin Hood's Stride.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Nine_Stones_Close"
+ },
+ {
+  "name": "Robin Hood's Stride",
+  "cat": "lore",
+  "lat": 53.1571,
+  "lon": -1.6661,
+  "desc": "Gritstone outcrop with two pinnacles, also called Mock Beggar's Mansion, beside the old Portway near Elton; a medieval crucifix is carved in the nearby Hermit's Cave.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Robin_Hood's_Stride"
+ },
+ {
+  "name": "Andle Stone",
+  "cat": "stone",
+  "lat": 53.16355,
+  "lon": -1.64204,
+  "desc": "Big cup-and-ring marked boulder on Stanton Moor, later inscribed to the Duke of Wellington; on private land.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Andle_Stone"
+ },
+ {
+  "name": "Barbrook One",
+  "cat": "stone",
+  "lat": 53.27652,
+  "lon": -1.58373,
+  "desc": "Embanked stone circle among about 80 cairns on Ramsley Moor near Baslow.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Barbrook_One"
+ },
+ {
+  "name": "Wet Withens",
+  "cat": "stone",
+  "lat": 53.3075,
+  "lon": -1.66306,
+  "desc": "Largest embanked stone circle in Derbyshire, on Eyam Moor; off the paths but on open-access land.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Wet_Withens"
+ },
+ {
+  "name": "Hordron Edge (Seven Stones)",
+  "cat": "stone",
+  "lat": 53.37806,
+  "lon": -1.67806,
+  "desc": "Bronze Age circle on Moscar Moor above Ladybower reservoir, known as the Seven Stones of Hordron.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hordron_Edge_stone_circle"
+ },
+ {
+  "name": "Five Wells Chambered Tomb",
+  "cat": "stone",
+  "lat": 53.23626,
+  "lon": -1.81595,
+  "desc": "High Neolithic tomb on Taddington Moor with two paved chambers; at least twelve skeletons were found here.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Five_Wells"
+ },
+ {
+  "name": "Minninglow",
+  "cat": "stone",
+  "lat": 53.11245,
+  "lon": -1.68877,
+  "desc": "Tree-capped hill near Pikehall holding Derbyshire's largest Neolithic chambered tomb and two Bronze Age barrows.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Minninglow"
+ },
+ {
+  "name": "Gib Hill",
+  "cat": "stone",
+  "lat": 53.16694,
+  "lon": -1.76444,
+  "desc": "Big barrow 300m from Arbor Low, a Neolithic oval mound topped by a Bronze Age round barrow with a cremation cist.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Gib_Hill"
+ },
+ {
+  "name": "Hob Hurst's House",
+  "cat": "stone",
+  "lat": 53.21989,
+  "lon": -1.57013,
+  "desc": "Unusual square Bronze Age barrow on Beeley Moor above Chatsworth; English Heritage guardianship, beside the moorland walk.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Hob_Hurst's_House"
+ },
+ {
+  "name": "Carl Wark",
+  "cat": "fort",
+  "lat": 53.32944,
+  "lon": -1.61278,
+  "desc": "Cliff-girt promontory on Hathersage Moor walled off by an ancient rampart, often read as an Iron Age fort though its date is uncertain.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Carl_Wark"
+ },
+ {
+  "name": "Fin Cop",
+  "cat": "fort",
+  "lat": 53.23583,
+  "lon": -1.73694,
+  "desc": "Hillfort above Monsal Dale, hastily built; excavations in 2011 found a mass grave of women and children from a massacre.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Fin_Cop"
+ },
+ {
+  "name": "Poole's Cavern",
+  "cat": "cave",
+  "lat": 53.2498,
+  "lon": -1.9259,
+  "desc": "Limestone show cave on the edge of Buxton named after a 15th-century outlaw; Bronze Age and Roman-period finds came from inside.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Poole's_Cavern"
+ },
+ {
+  "name": "Blue John Cavern",
+  "cat": "cave",
+  "lat": 53.3456,
+  "lon": -1.8035,
+  "desc": "Castleton show cave where the rare banded Blue John stone is still mined in small amounts; guided tours.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Blue_John_Cavern"
+ },
+ {
+  "name": "Cucklet Church, Eyam",
+  "cat": "cave",
+  "lat": 53.2824,
+  "lon": -1.6786,
+  "desc": "Rock arch in the Delph at Eyam where the rector held open-air services during the 1665 plague; a commemoration service is still held there.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Cucklet_Church"
+ },
+ {
+  "name": "Doxey Pool, The Roaches",
+  "cat": "lore",
+  "lat": 53.16277,
+  "lon": -1.99472,
+  "desc": "Small pool on top of the Roaches said to hold a water spirit or mermaid, sometimes called Jenny Greenteeth, who lures walkers in.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/The_Roaches"
+ },
+ {
+  "name": "Speedwell Cavern",
+  "cat": "cave",
+  "lat": 53.3414,
+  "lon": -1.7921,
+  "desc": "Castleton cave reached by boat along a flooded miners' level to a cavern with a 'Bottomless Pit' and underground lake.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Speedwell_Cavern"
+ },
+ {
+  "name": "Pikestones",
+  "cat": "stone",
+  "lat": 53.64996,
+  "lon": -2.56577,
+  "desc": "Neolithic chambered long cairn on Anglezarke Moor above Chorley, with the slabs of its burial chamber still visible.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Pikestones"
+ },
+ {
+  "name": "Round Loaf",
+  "cat": "stone",
+  "lat": 53.65903,
+  "lon": -2.54925,
+  "desc": "Large prehistoric round barrow on Anglezarke Moor, lined up between Great Hill and Pikestones.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Round_Loaf"
+ },
+ {
+  "name": "Heysham rock-cut graves",
+  "cat": "stone",
+  "lat": 54.0475,
+  "lon": -2.9027,
+  "desc": "Body-shaped graves cut into the headland rock beside the ruined Saxon St Patrick's Chapel at Heysham.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Heysham_rock-cut_tombs"
+ },
+ {
+  "name": "Warton Crag",
+  "cat": "fort",
+  "lat": 54.1476,
+  "lon": -2.7807,
+  "desc": "Limestone hill near Carnforth topped by a small multi-ramparted hillfort; nature reserves with views over Morecambe Bay.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Warton_Crag"
+ },
+ {
+  "name": "Castercliff",
+  "cat": "fort",
+  "lat": 53.8417,
+  "lon": -2.1823,
+  "desc": "Iron Age hillfort with triple ramparts on a hill between Nelson and Colne.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Castercliff"
+ },
+ {
+  "name": "Cheetham Close",
+  "cat": "stone",
+  "lat": 53.63884,
+  "lon": -2.43101,
+  "desc": "Damaged stone circle on moorland near Turton, smashed by a farmer in the 1870s; once claimed as a druid site.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Cheetham_Close"
+ },
+ {
+  "name": "Birkrigg Stone Circle",
+  "cat": "stone",
+  "lat": 54.15647,
+  "lon": -3.08489,
+  "desc": "Double ring of stones on Birkrigg Common south of Ulverston, known as the Druids' Temple; cremations were found under its cobbles.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Birkrigg_stone_circle"
+ },
+ {
+  "name": "Burnmoor Stone Circles",
+  "cat": "stone",
+  "lat": 54.40917,
+  "lon": -3.27433,
+  "desc": "Five circles on the moor above Boot in Eskdale, the largest (Brat's Hill) holding five cairns; National Trust.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Burnmoor_stone_circles"
+ },
+ {
+  "name": "Elva Plain Stone Circle",
+  "cat": "stone",
+  "lat": 54.67377,
+  "lon": -3.27771,
+  "desc": "Large widely spaced circle on Elva Hill north of Bassenthwaite Lake, reached by footpath from the road.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Elva_Plain_Stone_Circle"
+ },
+ {
+  "name": "Grey Croft Stone Circle",
+  "cat": "stone",
+  "lat": 54.4076,
+  "lon": -3.4908,
+  "desc": "Restored circle of twelve stones near Seascale, close to Sellafield, re-erected after being buried by a farmer in 1820.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Grey_Croft_stone_circle"
+ },
+ {
+  "name": "Kinniside Stone Circle",
+  "cat": "stone",
+  "lat": 54.51301,
+  "lon": -3.45269,
+  "desc": "Small granite circle beside the fell road from Ennerdale Bridge, 'restored' in concrete in 1925.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Kinniside_Stone_Circle"
+ },
+ {
+  "name": "Little Meg",
+  "cat": "stone",
+  "lat": 54.73051,
+  "lon": -2.65845,
+  "desc": "Kerb circle near Long Meg with one stone carved with concentric rings and a spiral.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Little_Meg"
+ },
+ {
+  "name": "Gamelands Stone Circle",
+  "cat": "stone",
+  "lat": 54.46834,
+  "lon": -2.55618,
+  "desc": "Oval of fallen pink granite stones near Orton, partly blasted in 1862.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Gamelands_stone_circle"
+ },
+ {
+  "name": "King Arthur's Round Table",
+  "cat": "stone",
+  "lat": 54.6483,
+  "lon": -2.7403,
+  "desc": "Neolithic henge at Eamont Bridge near Penrith, its Arthurian name long attached; free English Heritage site.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/King_Arthur's_Round_Table"
+ },
+ {
+  "name": "Mayburgh Henge",
+  "cat": "stone",
+  "lat": 54.64889,
+  "lon": -2.74655,
+  "desc": "Massive Neolithic henge with banks of river cobbles and a lone standing stone inside, near Eamont Bridge; English Heritage, free.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Mayburgh_Henge"
+ },
+ {
+  "name": "Giant's Grave, Black Combe",
+  "cat": "stone",
+  "lat": 54.21833,
+  "lon": -3.32633,
+  "desc": "Two standing stones with cup-and-ring marks at the foot of Black Combe, in a field off the A595.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Giant's_Grave,_Cumbria"
+ },
+ {
+  "name": "Dog Hole Cave (Fairy Cave)",
+  "cat": "cave",
+  "lat": 54.21491,
+  "lon": -2.79429,
+  "desc": "Shaft cave near Storth, also called the Fairy Cave, where excavations found prehistoric human and animal remains.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Dog_Hole_Cave"
+ },
+ {
+  "name": "Heaning Wood Bone Cave",
+  "cat": "cave",
+  "lat": 54.1641,
+  "lon": -3.12398,
+  "desc": "Cave at Great Urswick with burials from the Neolithic and Bronze Age and human bone dated to about 11,000 years ago.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Heaning_Wood_Bone_Cave"
+ },
+ {
+  "name": "Carrock Fell hillfort",
+  "cat": "fort",
+  "lat": 54.69356,
+  "lon": -3.02315,
+  "desc": "Oval stone-walled Iron Age fort crowning Carrock Fell in the northern Lake District.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Carrock_Fell"
+ },
+ {
+  "name": "Castle Crag",
+  "cat": "fort",
+  "lat": 54.53278,
+  "lon": -3.16207,
+  "desc": "Small craggy Borrowdale fell whose summit is thought to have been an ancient hillfort, partly quarried away.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Castle_Crag"
+ },
+ {
+  "name": "Scale Force",
+  "cat": "falls",
+  "lat": 54.5432,
+  "lon": -3.3135,
+  "desc": "The Lake District's highest waterfall, about 170 feet, hidden in a gorge on Red Pike above Crummock Water.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Scale_Force"
+ },
+ {
+  "name": "Lodore Falls",
+  "cat": "falls",
+  "lat": 54.5576,
+  "lon": -3.1378,
+  "desc": "Cascade from Watendlath tumbling into Borrowdale near Derwentwater, possibly the Derwennydd falls of an old Welsh lullaby.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Lodore_Falls"
+ },
+ {
+  "name": "Taylor Gill Force",
+  "cat": "falls",
+  "lat": 54.48807,
+  "lon": -3.19081,
+  "desc": "One of the Lake District's highest falls, in Seathwaite above Borrowdale.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Taylor_Gill_Force"
+ },
+ {
+  "name": "Cautley Spout",
+  "cat": "falls",
+  "lat": 54.3725,
+  "lon": -2.49167,
+  "desc": "England's highest cascade above ground, falling 650 feet from the Howgill Fells near Sedbergh.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Cautley_Spout"
+ },
+ {
+  "name": "Popping Stone, Gilsland",
+  "cat": "lore",
+  "lat": 55.00668,
+  "lon": -2.57159,
+  "desc": "Boulders in the Irthing Gorge famous for marriage proposals, where Walter Scott is said to have proposed in 1797.",
+  "source": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Popping_Stone"
+ }
+]

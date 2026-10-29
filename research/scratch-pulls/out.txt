@@ -1,0 +1,98 @@
+Ruthin Castle, Ruthin|53.1118070|-3.3123209|Ruthin Castle Hotel, Castle Street, Ruthin, Denbighshire, Cymru / Wales, LL15 2NU, United 
+Ruthin Gaol|53.1139580|-3.3137834|Ruthin Gaol Museum, 46, Clwyd Street, Ruthin, Denbighshire, Cymru / Wales, LL15 1HP, Unite
+Nantclwyd y Dre|53.1136308|-3.3110335|Nantclwyd y Dre, Castle Street, Ruthin, Denbighshire, Cymru / Wales, LL15 1DP, United King
+Pool Park, Efenechtyd|53.0901161|-3.3435624|Pool Park, Efenechtyd, Denbighshire, Cymru / Wales, LL15 2LW, United Kingdom
+Tivoli, Buckley|53.1677266|-3.0760015|Buckley, Brunswick Road / Tivoli, Brunswick Road, Coppa View, Buckley, Flintshire, Cymru /
+Golden Lion, Rossett|53.1087927|-2.9468156|The Golden Lion, Chester Road, Rossett, Wrexham, Cymru / Wales, LL12 0HN, United Kingdom
+Bodelwyddan Castle|53.2609370|-3.5015207|Bodelwyddan Castle, Engine Hill, Glascoed, Bodelwyddan, Denbighshire, Cymru / Wales, LL18 
+Gwydir Castle|53.1328472|-3.8011872|Gwydir Castle, B5106, Trefriw, Llanrwst, Conwy, Cymru / Wales, LL26 0PN, United Kingdom
+Plas Mawr, Conwy|53.2812620|-3.8301808|Plas Mawr, High Street, Conwy Marina Village, Conwy, Cymru / Wales, LL32 8DE, United Kingd
+Liverpool Arms, Conwy|53.2820348|-3.8281345|Liverpool Arms, Lower Gate Street, Conwy Marina Village, Conwy, Cymru / Wales, LL32 8BE, U
+Castle Hotel, High Street, Conwy|53.2812285|-3.8290436|Castle Hotel, High Street, Conwy Marina Village, Conwy, Cymru / Wales, LL32 8DB, United Ki
+Bull Hotel, Abergele|53.2835189|-3.5825203|The Bull, Chapel Street, Abergele, Conwy, Cymru / Wales, LL22 7AW, United Kingdom
+Royal Oak Hotel, Betws-y-Coed|53.0927223|-3.8040977|Royal Oak Hotel (o/s), Ffordd Caergybi, Betws-y-coed, Conwy, Cymru / Wales, LL24 0AA, Unit
+Royal Goat Hotel, Beddgelert|53.0109022|-4.1059558|Royal Goat Hotel, A498, Nantmor, Beddgelert, Gwynedd, Cymru / Wales, LL55 4YE, United King
+Britannia Inn, Llangollen|52.9997770|-3.1938350|Britannia Inn, Llantysilio, Llangollen, Denbighshire, Cymru / Wales, LL20 8DW, United King
+Black Boy Inn, Caernarfon|53.1411712|-4.2761236|Tafarn y Bachgen Du, Stryd Pedwar Chwech, Caernarfon, Gwynedd, Cymru / Wales, LL55 1RW, Un
+Trevor Arms, Marford|53.0995510|-2.9584358|The Trevor Arms, Marford Hill, Gresford, Marford, Wrexham, Cymru / Wales, LL12 8SW, United
+South Stack Lighthouse|53.3067458|-4.6995555|Goleudy Ynys Lawd, South Stack Road, Penrhosfeilw, Holyhead, Ynys Môn, Cymru / Wales, LL65
+Plas yn Rhiw|52.8226551|-4.6191067|Plas yn Rhiw, B4413, Botwnnog, Sarn Mellteyrn, Gwynedd, Cymru / Wales, LL53 8DS, United Ki
+Pentre Halkyn|53.2439513|-3.2070553|Pentre Halkyn, Flintshire, Cymru / Wales, CH8 8JA, United Kingdom
+Speke Hall|53.3368143|-2.8742305|Speke Hall, The Walk, Speke, Liverpool, Liverpool City Region, England, L24 1XD, United Ki
+Croxteth Hall|53.4426550|-2.8916923|Croxteth Hall, Croxteth Hall Lane, Deysbrook, Croxteth, Liverpool, Liverpool City Region, 
+St James Cemetery, Liverpool|NONE
+Newsham Park Hospital|NONE
+Adelphi Hotel, Liverpool|53.4056697|-2.9773143|The Adelphi, Bolton Street, St George's Quarter / Cultural Quarter, Vauxhall, Liverpool, L
+Woolton Hall, Liverpool|53.3717271|-2.8648883|Woolton Hall, Speke Road, Woolton, Liverpool, Liverpool City Region, England, L25 8AA, Uni
+Liverpool Empire Theatre|53.4088229|-2.9781772|Liverpool Empire Theatre, 11, Lime Street, Islington, St George's Quarter / Cultural Quart
+Leasowe Castle|53.4134261|-3.0973557|Castle Close, Leasowe, Wirral, Liverpool City Region, England, CH46 1PA, United Kingdom
+Ye Olde Kings Head, Lower Bridge Street, Chester|53.1874634|-2.8904643|Chester, o/s Ye Olde Kings Head, Lower Bridge Street, Handbridge, City of Chester, Chester
+Pied Bull, Northgate Street, Chester|53.1930242|-2.8932018|The Pied Bull, 57, Northgate Street, Newtown, City of Chester, Chester, Cheshire West and 
+George and Dragon, Liverpool Road, Chester|NONE
+Tatton Old Hall|53.3931703|-2.2344712|Tatton Salon, Old Hall Road, Gatley, Stockport, Greater Manchester, England, SK8 4AB, Unit
+Bate Hall, Macclesfield|53.2608925|-2.1273408|The Bate Hall, 39, Chestergate, Bollinbrook, Macclesfield, Cheshire East, England, SK11 6B
+Churche's Mansion, Nantwich|53.0654858|-2.5143032|Churche's Mansion, 150, Hospital Street, Kingsbourne, Nantwich, Cheshire East, England, CW
+Lyceum Theatre, Crewe|53.0989121|-2.4402102|Lyceum Theatre, Heath Street, Coppenhall, Crewe, Cheshire East, England, CW1 2DA, United K
+Hack Green Secret Nuclear Bunker|53.0272800|-2.5303732|Hack Green Secret Nuclear Bunker, French Lane, Hack Green, Baddington, Sound, Cheshire Eas
+Combermere Abbey|52.9928731|-2.6163119|Combermere Abbey, Dark Lane, Old Woodhouses, Whitchurch Rural, Broughall, Shropshire, Engl
+Walton Hall, Warrington|53.3598940|-2.6022545|Walton Hall, Walton Lea Road, Walton Superior, Walton, Warrington, England, WA4 6SN, Unite
+Queen Hotel, Chester|53.1959531|-2.8799292|Queen Hotel, City Road, Newtown, City of Chester, Chester, Cheshire West and Chester, Engl
+Treasurer's House, York|53.9629594|-1.0807377|Treasurer's House, Minster Yard, Bootham, Bishophill, York, York and North Yorkshire, Engl
+East Drive, Pontefract|53.6868297|-1.2962655|East Drive, Chequerfield, Carleton, Wakefield, West Yorkshire, England, WF8 2AN, United Ki
+Scarborough Castle|54.2873812|-0.3880253|Scarborough Castle, Marine Drive, The Old Town, Scarborough, North Yorkshire, York and Nor
+Oakwell Hall|53.7400087|-1.6719250|Oakwell Hall, Nova Lane, Oakwell, Birstall, Kirklees, West Yorkshire, England, WF17 9LG, U
+Ripley Castle|54.0402809|-1.5701425|Ripley Castle, Hollybank Lane, Ripley, North Yorkshire, York and North Yorkshire, England,
+Bramham Park|53.8657259|-1.3788464|Bramham Park, Bramham cum Oglethorpe, Bramham, Leeds, West Yorkshire, England, United King
+Halifax Town Hall|53.7243701|-1.8606687|Halifax Town Hall, Crossley Street, Dean Clough, Woolshops, Boothtown, Halifax, Calderdale
+Samlesbury Hall|53.7694068|-2.5724956|Samlesbury Hall, Preston New Road, Samlesbury, Preston, Lancashire, England, PR5 0UP, Unit
+Pendle Hill|53.8685844|-2.2985841|Pendle Hill, Pendle, Lancashire, England, United Kingdom
+Hoghton Tower|53.7328564|-2.5730543|Hoghton Tower, Long Barn Row, Hoghton Bottoms, Hoghton, Chorley, Lancashire, England, PR5 
+Lancaster Castle|54.0499379|-2.8052794|Lancaster Castle, Castle Parade, Castle and Priory Precinct, Marsh, Lancaster, Lancashire,
+Dunkenhalgh|53.7662621|-2.3956572|Dunkenhalgh Hotel, Blackburn Road, Tottleworth, Clayton-le-Moors, Hyndburn, Lancashire, En
+Glamis Castle|56.6203780|-3.0019917|Glamis Castle, North Bridge, Deanbank, Forfar, Angus, Alba / Scotland, DD8 1RJ, United Kin
+Mary King's Close|55.9502341|-3.1905553|Mary King's Close, Abbeyhill, Old Town, City of Edinburgh, Alba / Scotland, EH1 1PG, Unite
+South Bridge, Edinburgh|55.9487281|-3.1868668|South Bridge, Abbeyhill, Old Town, City of Edinburgh, Alba / Scotland, EH1 1LL, United Kin
+Culloden Battlefield|57.4765425|-4.1001226|Culloden Battlefield, Leanach, Newlands of Culloden, Highland, Alba / Scotland, IV2 5EU, U
+Sauchie|56.1279145|-3.7809179|Sauchie, Clackmannanshire, Alba / Scotland, FK10 3JR, United Kingdom
+Letham, Angus|56.6288329|-2.7695401|Letham, Angus, Alba / Scotland, DD8 2PZ, United Kingdom
+Kinmount, Dumfries and Galloway|55.0054010|-3.3457693|Kinmount House, A75, Kelhead, Dumfries and Galloway, Alba / Scotland, DG12 5RR, United Kin
+Greyfriars Kirkyard|55.9468282|-3.1928949|Greyfriars Kirkyard, Merchant Street, Abbeyhill, Old Town, City of Edinburgh, Alba / Scotl
+Stonelaw Road, Rutherglen|55.8245934|-4.2097588|Stonelaw Road, Clincarthill, Rutherglen, South Lanarkshire, Alba / Scotland, G73 3EE, Unit
+Ardachie|NONE
+Balornock|55.8862893|-4.2159035|Balornock, Glasgow, Glasgow City, Alba / Scotland, G21 3NG, United Kingdom
+Tower of London|51.5082170|-0.0761879|Tower of London, Tower Hill, East Smithfield, Tower Hill, Whitechapel, London Borough of T
+Hampton Court Palace|51.4036839|-0.3376964|Hampton Court Palace, The Broad Walk, Hampton Wick, London Borough of Richmond upon Thames
+Raynham Hall|52.7965647|0.7902134|Raynham Hall, Hardlands Road, Raynham, East Raynham, North Norfolk, Norfolk, England, NR21
+Bealings House|52.0927775|1.2722509|Great Bealings House, Lodge Road, Great Bealings, East Suffolk, Suffolk, England, IP13 6NP
+Thornton Heath|51.3991100|-0.0986059|Thornton Heath, London Borough of Croydon, Greater London, England, United Kingdom
+Blue Bell Hill|55.6394511|-2.1396781|Blue Bell Hill, Crookham, Northumberland, North East, England, TD12 4TD, United Kingdom
+Edgehill, Warwickshire|52.1228634|-1.4553162|Edgehill, Ratley and Upton CP, Radway, Stratford-on-Avon, Warwickshire, England, OX15 6EB,
+Souther Fell|54.6532459|-3.0017054|Souther Fell, Mungrisdale, Westmorland and Furness, England, United Kingdom
+Long Marston, North Yorkshire|53.9544241|-1.2365961|Long Marston, North Yorkshire, York and North Yorkshire, England, United Kingdom
+Ladybower Reservoir|53.3836563|-1.7159191|Ladybower Reservoir, Hope Woodlands, High Peak, Derbyshire, East Midlands, England, United
+Howden Reservoir|53.4377269|-1.7491626|Howden Reservoir, Bradfield, Sheffield, Derbyshire, South Yorkshire, England, United Kingd
+St Hugh's College, Oxford|51.7660866|-1.2631641|St Hugh's College, St Margaret's Road, North Oxford, Oxford, Oxfordshire, England, OX2 6LE
+Ancient Ram Inn, Wotton-under-Edge|51.6378768|-2.3481411|The Ancient Ram Inn, Potters Pond, Coombe, Wotton-under-Edge, Wortley, Stroud, Gloucesters
+Crwys Road, Cardiff|51.4941306|-3.1753238|Crwys Road, Maindy, Cathays, Cardiff, Cymru / Wales, CF24 4NA, United Kingdom
+Llancaiach Fawr|51.6613349|-3.2829379|Llancaiach-fawr, Gelligaer Road, Gelligaer, Caerphilly, Cymru / Wales, CF46 6ER, United Ki
+Llyswen|52.0334000|-3.2655663|Llyswen, Powys, Cymru / Wales, LD3 0UU, United Kingdom
+Peel Castle, Isle of Man|54.2266018|-4.6988014|Peel Castle, West Quay, Peel, Glenfaba, IM5 1TB, Isle of Man
+Castle Rushen|54.0737836|-4.6529681|Castle Rushen, Castle Street, Castletown, Rushen, IM9 1LA, Isle of Man
+Gaiety Theatre, Douglas|54.1551908|-4.4788942|Villa Gaiety, The Colonade, Willaston, Douglas, Middle, IM1 2HJ, Isle of Man
+Castle Mona, Douglas|54.1618757|-4.4734292|Castle Mona Hotel, Castle Drive, Willaston, Douglas, Middle, IM2 4LU, Isle of Man
+Milntown, Isle of Man|54.3204383|-4.4034406|Milntown, Lezayre, Ayre, IM7 2AB, Isle of Man
+Cashen's Gap|NONE
+Leap Castle|53.0280415|-7.8084434|Leap Castle, R421, Standish Sawmills, Aghancon ED, Birr, County Offaly, Leinster, Éire / I
+Loftus Hall|52.1486579|-6.9105972|Loftus Hall, R734, Templetown ED, New Ross Municipal District, The Municipal District of N
+Charleville Castle, Tullamore|53.2606399|-7.5287613|Charleville Castle, Charleville Castle Entrance, Tullamore Rural ED, The Municipal Distric
+Charles Fort, Kinsale|51.6963628|-8.4989104|Charles Fort, Kinsale Rural, The Municipal District of Bandon-Kinsale, County Cork, Munste
+Duckett's Grove|52.8574105|-6.8136241|Duckett's Grove, L50301, Rainestown, Burtonhall ED, The Municipal District of Carlow, Coun
+Kilmainham Gaol|53.3416911|-6.3095650|Kilmainham Gaol, Inchicore Road, Kilmainham B ED, Dublin, County Dublin, Leinster, D08 RK2
+Hellfire Club, Montpelier Hill|NONE
+Springhill House, Moneymore|54.6856235|-6.6555206|Springhill House, 20, Springhill Road, Moneymore, Mid-Ulster District, County Londonderry,
+Ballygally Castle|54.8992590|-5.8612072|Ballygally Castle, Coast Road, Old Mill, Ballygally, Mid and East Antrim District, County 
+Wicklow Gaol|52.9790697|-6.0374346|Wicklow Gaol, Market Street, Wicklow Urban ED, The Municipal District of Wicklow, County W
+Belvelly Castle|51.8881327|-8.3023880|Belvelly Castle, L2989, Cobh Rural ED, Municipal District of Cobh, County Cork, Munster, É
+Gwrych Castle|53.2832671|-3.6088456|Gwrych Castle, Llanddulas Road, Abergele, Conwy, Cymru / Wales, LL22 8ET, United Kingdom
+Rowton Moor|53.1734351|-2.8215016|Moor Lane, Rowton, Cheshire West and Chester, England, CH3 7QW, United Kingdom
+Thorntons, Eastgate Street, Chester|NONE

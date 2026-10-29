@@ -1,0 +1,765 @@
+{
+ "reports": [
+  {
+   "id": "a1-darlington-orange-orbs-2008",
+   "lat": 54.57744,
+   "lon": -1.56911,
+   "was": [
+    54.58,
+    -1.62
+   ],
+   "km_moved": 3.29,
+   "why": "old point 3 km west of the A1(M); moved onto the motorway north of Darlington (OSM)"
+  },
+  {
+   "id": "barguest-of-trollers-gill-1830",
+   "lat": 54.05337,
+   "lon": -1.89681,
+   "was": [
+    54.068,
+    -1.936
+   ],
+   "km_moved": 3.03,
+   "why": "Trollers Gill gorge is at Skyreholme, 3 km SE of old point (OSM)"
+  },
+  {
+   "id": "beast-of-bennachie-lambs-and-prints-pitc-1996",
+   "lat": 57.31825,
+   "lon": -2.46424,
+   "was": [
+    57.3,
+    -2.475
+   ],
+   "km_moved": 2.13,
+   "why": "Pitcaple hamlet (OSM)"
+  },
+  {
+   "id": "black-cat-and-eviscerated-ewe-penuwch-2023",
+   "lat": 52.24548,
+   "lon": -4.05803,
+   "was": [
+    52.227,
+    -4.086
+   ],
+   "km_moved": 2.8,
+   "why": "Penuwch hamlet (OSM); old point 2.8 km SW"
+  },
+  {
+   "id": "black-feline-crosses-nercwys-road-juncti-2022",
+   "lat": 53.1375,
+   "lon": -3.14819,
+   "was": [
+    53.1555,
+    -3.1305
+   ],
+   "km_moved": 2.32,
+   "why": "Nercwys village (OSM); old point 2.3 km NE"
+  },
+  {
+   "id": "lynx-captured-at-drumguish-2025",
+   "lat": 57.07069,
+   "lon": -3.99015,
+   "was": [
+    57.064,
+    -4.02
+   ],
+   "km_moved": 1.95,
+   "why": "Drumguish locality near Kingussie (OSM)"
+  },
+  {
+   "id": "muckie-sonar-contact-lakes-of-killarney-2003",
+   "lat": 52.0113,
+   "lon": -9.5295,
+   "was": [
+    52.025,
+    -9.52
+   ],
+   "km_moved": 1.66,
+   "why": "onto Muckross Lake water (OSM); old point on land N of lake"
+  },
+  {
+   "id": "orange-light-seen-from-mynydd-mechell",
+   "lat": 53.38043,
+   "lon": -4.47634,
+   "was": [
+    53.3936,
+    -4.432
+   ],
+   "km_moved": 3.28,
+   "why": "Mynydd Mechell hamlet (OSM); old point 3 km E"
+  },
+  {
+   "id": "talacre-lighthouse-keeper-raymond",
+   "lat": 53.35699,
+   "lon": -3.32221,
+   "was": [
+    53.3559,
+    -3.3125
+   ],
+   "km_moved": 0.66,
+   "why": "Point of Ayr Lighthouse (OSM)"
+  },
+  {
+   "id": "tusked-creature-in-antrim-bay-lough-neag-1923",
+   "lat": 54.70877,
+   "lon": -6.26412,
+   "was": [
+    54.7,
+    -6.24
+   ],
+   "km_moved": 1.83,
+   "why": "Antrim Bay, Lough Neagh (OSM)"
+  },
+  {
+   "id": "pool-parc-stone-throwing-spirit",
+   "lat": 53.0925,
+   "lon": -3.343,
+   "was": [
+    53.1173,
+    -3.3624
+   ],
+   "km_moved": 3.05,
+   "why": "Pool Park mansion is at Efenechtyd (OSM), 3 km S of old point"
+  },
+  {
+   "id": "berwyn-1974",
+   "lat": 52.88394,
+   "lon": -3.38024,
+   "was": [
+    52.898,
+    -3.38
+   ],
+   "km_moved": 1.56,
+   "why": "Cadair Berwyn summit area (OSM); old point 1.6 km N"
+  },
+  {
+   "id": "dechmont-1979",
+   "lat": 55.91113,
+   "lon": -3.54703,
+   "was": [
+    55.895,
+    -3.53
+   ],
+   "km_moved": 2.08,
+   "why": "Dechmont Law (OSM); old point 2 km SE"
+  },
+  {
+   "id": "owlman-1976",
+   "lat": 50.10389,
+   "lon": -5.09513,
+   "was": [
+    50.1,
+    -5.11
+   ],
+   "km_moved": 1.15,
+   "why": "Mawnan church (St Maunanus) where the Owlman was seen above the tower (OSM)"
+  }
+ ],
+ "sites": [
+  {
+   "name": "Ffynnon Fair, Uwchmynydd",
+   "lat": 52.79209,
+   "lon": -4.76116,
+   "was": [
+    52.786,
+    -4.7563
+   ],
+   "km_moved": 0.75,
+   "why": "OSM spring node Ffynnon Fair"
+  },
+  {
+   "name": "Conwy Falls",
+   "lat": 53.06523,
+   "lon": -3.77869,
+   "was": [
+    53.0593,
+    -3.769
+   ],
+   "km_moved": 0.92,
+   "why": "OSM waterfall node"
+  },
+  {
+   "name": "Druid's Circle (Meini Hirion)",
+   "lat": 53.25348,
+   "lon": -3.91574,
+   "was": [
+    53.2552,
+    -3.9328
+   ],
+   "km_moved": 1.15,
+   "why": "OSM Meini Hirion archaeological site"
+  },
+  {
+   "name": "Aber Falls (Rhaeadr Fawr)",
+   "lat": 53.21046,
+   "lon": -3.99529,
+   "was": [
+    53.2223,
+    -3.9806
+   ],
+   "km_moved": 1.64,
+   "why": "OSM waterfall node; old point near car park 1.6 km NE"
+  },
+  {
+   "name": "Swallow Falls",
+   "lat": 53.10283,
+   "lon": -3.84572,
+   "was": [
+    53.088,
+    -3.8343
+   ],
+   "km_moved": 1.82,
+   "why": "OSM waterfall node"
+  },
+  {
+   "name": "Trefriw Wells Spa",
+   "lat": 53.17079,
+   "lon": -3.82924,
+   "was": [
+    53.1561,
+    -3.8247
+   ],
+   "km_moved": 1.66,
+   "why": "spa is 1.5 km N of Trefriw village (OSM)"
+  },
+  {
+   "name": "Moel Ty Uchaf",
+   "lat": 52.92365,
+   "lon": -3.40546,
+   "was": [
+    52.933,
+    -3.3875
+   ],
+   "km_moved": 1.59,
+   "why": "OSM Moel Ty Uchaf stone circle"
+  },
+  {
+   "name": "Hardraw Force",
+   "lat": 54.3198,
+   "lon": -2.20199,
+   "was": [
+    54.324,
+    -2.202
+   ],
+   "km_moved": 0.47,
+   "why": "OSM waterfall node"
+  },
+  {
+   "name": "Thornton Force",
+   "lat": 54.17284,
+   "lon": -2.46887,
+   "was": [
+    54.159,
+    -2.462
+   ],
+   "km_moved": 1.6,
+   "why": "OSM waterfall node; old point in Ingleton village"
+  },
+  {
+   "name": "Chalice Well",
+   "lat": 51.14427,
+   "lon": -2.70537,
+   "was": [
+    51.145,
+    -2.714
+   ],
+   "km_moved": 0.61,
+   "why": "OSM Chalice Well spring"
+  },
+  {
+   "name": "White Spring",
+   "lat": 51.14388,
+   "lon": -2.70542,
+   "was": [
+    51.1462,
+    -2.7128
+   ],
+   "km_moved": 0.58,
+   "why": "OSM White Spring, Wellhouse Lane"
+  },
+  {
+   "name": "Malvern Holy Well",
+   "lat": 52.0789,
+   "lon": -2.33657,
+   "was": [
+    52.076,
+    -2.333
+   ],
+   "km_moved": 0.4,
+   "why": "OSM Holy Well, Malvern Wells"
+  },
+  {
+   "name": "Madron Well",
+   "lat": 50.13981,
+   "lon": -5.57595,
+   "was": [
+    50.136,
+    -5.58
+   ],
+   "km_moved": 0.51,
+   "why": "OSM Madron Well archaeological site"
+  },
+  {
+   "name": "Merry Maidens",
+   "lat": 50.0648,
+   "lon": -5.5888,
+   "was": [
+    50.061,
+    -5.589
+   ],
+   "km_moved": 0.42,
+   "why": "stone circle beside B3315 (OSM/known position)"
+  },
+  {
+   "name": "Lydford Gorge White Lady",
+   "lat": 50.63198,
+   "lon": -4.12107,
+   "was": [
+    50.643,
+    -4.11
+   ],
+   "km_moved": 1.45,
+   "why": "OSM White Lady Waterfall"
+  },
+  {
+   "name": "St Nectan's Glen",
+   "lat": 50.66481,
+   "lon": -4.71608,
+   "was": [
+    50.668,
+    -4.709
+   ],
+   "km_moved": 0.61,
+   "why": "OSM St Nectan's Glen entrance by the kieve"
+  },
+  {
+   "name": "Doon Hill, Aberfoyle",
+   "lat": 56.17113,
+   "lon": -4.37653,
+   "was": [
+    56.172,
+    -4.387
+   ],
+   "km_moved": 0.66,
+   "why": "OSM Doon Hill (Fairy Knowe)"
+  },
+  {
+   "name": "Fairy Pools, Skye",
+   "lat": 57.24911,
+   "lon": -6.24866,
+   "was": [
+    57.25,
+    -6.272
+   ],
+   "km_moved": 1.41,
+   "why": "OSM Fairy Pools"
+  },
+  {
+   "name": "Steall Falls",
+   "lat": 56.77024,
+   "lon": -4.97983,
+   "was": [
+    56.786,
+    -4.955
+   ],
+   "km_moved": 2.32,
+   "why": "OSM waterfall node; old point 2.3 km NE in Glen Nevis"
+  },
+  {
+   "name": "Fairy Glen, Skye",
+   "lat": 57.58335,
+   "lon": -6.3274,
+   "was": [
+    57.605,
+    -6.333
+   ],
+   "km_moved": 2.43,
+   "why": "OSM Fairy Glen locality near Uig"
+  },
+  {
+   "name": "Great Orme Bronze Age Mines",
+   "lat": 53.33056,
+   "lon": -3.84731,
+   "was": [
+    53.327,
+    -3.849
+   ],
+   "km_moved": 0.41,
+   "why": "OSM mines visitor site"
+  },
+  {
+   "name": "Treak Cliff Cavern",
+   "lat": 53.34506,
+   "lon": -1.79717,
+   "was": [
+    53.345,
+    -1.807
+   ],
+   "km_moved": 0.65,
+   "why": "OSM cave entrance"
+  },
+  {
+   "name": "White Scar Cave",
+   "lat": 54.16566,
+   "lon": -2.44133,
+   "was": [
+    54.168,
+    -2.421
+   ],
+   "km_moved": 1.35,
+   "why": "OSM cave entrance on B6255"
+  },
+  {
+   "name": "Wemyss Caves",
+   "lat": 56.1609,
+   "lon": -3.05934,
+   "was": [
+    56.155,
+    -3.067
+   ],
+   "km_moved": 0.81,
+   "why": "OSM Wemyss Caves, East Wemyss"
+  },
+  {
+   "name": "St Ninian's Cave",
+   "lat": 54.69385,
+   "lon": -4.44913,
+   "was": [
+    54.693,
+    -4.497
+   ],
+   "km_moved": 3.08,
+   "why": "OSM cave entrance at Physgill; old point 3 km W at sea"
+  },
+  {
+   "name": "Penycloddiau",
+   "lat": 53.20088,
+   "lon": -3.30814,
+   "was": [
+    53.219,
+    -3.32
+   ],
+   "km_moved": 2.16,
+   "why": "OSM summit/hillfort; old point 2 km N"
+  },
+  {
+   "name": "Moel Arthur",
+   "lat": 53.18448,
+   "lon": -3.28075,
+   "was": [
+    53.198,
+    -3.283
+   ],
+   "km_moved": 1.51,
+   "why": "OSM summit/hillfort"
+  },
+  {
+   "name": "Moel y Gaer, Rhosesmor",
+   "lat": 53.2126,
+   "lon": -3.18295,
+   "was": [
+    53.2185,
+    -3.187
+   ],
+   "km_moved": 0.71,
+   "why": "OSM Moel y Gaer hillfort"
+  },
+  {
+   "name": "Pen y Gaer, Llanbedr-y-Cennin",
+   "lat": 53.20618,
+   "lon": -3.87321,
+   "was": [
+    53.1975,
+    -3.871
+   ],
+   "km_moved": 0.98,
+   "why": "OSM Pen-y-gaer hillfort"
+  },
+  {
+   "name": "Caer y Twr",
+   "lat": 53.31387,
+   "lon": -4.67421,
+   "was": [
+    53.311,
+    -4.675
+   ],
+   "km_moved": 0.32,
+   "why": "OSM Caer y Twr hillfort"
+  },
+  {
+   "name": "Caer Drewyn",
+   "lat": 52.98918,
+   "lon": -3.36037,
+   "was": [
+    52.992,
+    -3.388
+   ],
+   "km_moved": 1.88,
+   "why": "OSM Caer Drewyn hillfort"
+  },
+  {
+   "name": "Garn Boduan",
+   "lat": 52.92484,
+   "lon": -4.5125,
+   "was": [
+    52.91,
+    -4.497
+   ],
+   "km_moved": 1.95,
+   "why": "OSM Garn Boduan summit/hillfort"
+  },
+  {
+   "name": "Helsby Hill",
+   "lat": 53.27344,
+   "lon": -2.76323,
+   "was": [
+    53.286,
+    -2.766
+   ],
+   "km_moved": 1.41,
+   "why": "OSM Helsby Hill summit"
+  },
+  {
+   "name": "Caer Caradoc",
+   "lat": 52.55389,
+   "lon": -2.772,
+   "was": [
+    52.547,
+    -2.775
+   ],
+   "km_moved": 0.79,
+   "why": "OSM Caer Caradoc summit, Church Stretton"
+  },
+  {
+   "name": "British Camp",
+   "lat": 52.05823,
+   "lon": -2.35125,
+   "was": [
+    52.045,
+    -2.347
+   ],
+   "km_moved": 1.5,
+   "why": "OSM British Camp hillfort (Herefordshire Beacon)"
+  },
+  {
+   "name": "Hambledon Hill",
+   "lat": 50.9108,
+   "lon": -2.22156,
+   "was": [
+    50.911,
+    -2.214
+   ],
+   "km_moved": 0.53,
+   "why": "OSM Hambledon Hill summit"
+  },
+  {
+   "name": "Craig Phadrig",
+   "lat": 57.4773,
+   "lon": -4.26971,
+   "was": [
+    57.484,
+    -4.26
+   ],
+   "km_moved": 0.94,
+   "why": "OSM Craig Phadrig hillfort"
+  },
+  {
+   "name": "Tap o' Noth",
+   "lat": 57.35152,
+   "lon": -2.8592,
+   "was": [
+    57.342,
+    -2.861
+   ],
+   "km_moved": 1.06,
+   "why": "OSM Tap o' Noth summit fort"
+  },
+  {
+   "name": "Dunino Den",
+   "lat": 56.28836,
+   "lon": -2.74468,
+   "was": [
+    56.297,
+    -2.744
+   ],
+   "km_moved": 0.96,
+   "why": "OSM Dunino Den"
+  },
+  {
+   "name": "The Cloud",
+   "lat": 53.16996,
+   "lon": -2.14413,
+   "was": [
+    53.161,
+    -2.135
+   ],
+   "km_moved": 1.17,
+   "why": "OSM The Cloud summit"
+  },
+  {
+   "name": "St Catherine's Hill",
+   "lat": 51.04631,
+   "lon": -1.31076,
+   "was": [
+    51.049,
+    -1.302
+   ],
+   "km_moved": 0.68,
+   "why": "OSM St Catherine's Hill, Winchester"
+  },
+  {
+   "name": "Swastika Stone",
+   "lat": 53.9188,
+   "lon": -1.85592,
+   "was": [
+    53.918,
+    -1.846
+   ],
+   "km_moved": 0.66,
+   "why": "OSM Swastika Stone"
+  },
+  {
+   "name": "Cow and Calf",
+   "lat": 53.91707,
+   "lon": -1.80266,
+   "was": [
+    53.92,
+    -1.803
+   ],
+   "km_moved": 0.33,
+   "why": "OSM Cow and Calf rocks"
+  },
+  {
+   "name": "Gormire Lake",
+   "lat": 54.24217,
+   "lon": -1.22957,
+   "was": [
+    54.244,
+    -1.217
+   ],
+   "km_moved": 0.84,
+   "why": "OSM Gormire Lake water"
+  },
+  {
+   "name": "Falling Foss",
+   "lat": 54.41892,
+   "lon": -0.63305,
+   "was": [
+    54.418,
+    -0.627
+   ],
+   "km_moved": 0.4,
+   "why": "OSM waterfall node"
+  },
+  {
+   "name": "Penshaw Hill",
+   "lat": 54.88302,
+   "lon": -1.48128,
+   "was": [
+    54.88,
+    -1.479
+   ],
+   "km_moved": 0.37,
+   "why": "OSM Penshaw Hill (monument)"
+  },
+  {
+   "name": "Duddo Stones",
+   "lat": 55.68677,
+   "lon": -2.11202,
+   "was": [
+    55.68,
+    -2.111
+   ],
+   "km_moved": 0.76,
+   "why": "OSM Duddo Five Stones"
+  },
+  {
+   "name": "Hareshaw Linn",
+   "lat": 55.16293,
+   "lon": -2.25029,
+   "was": [
+    55.166,
+    -2.236
+   ],
+   "km_moved": 0.97,
+   "why": "OSM waterfall node"
+  },
+  {
+   "name": "Wade's Causeway",
+   "lat": 54.36924,
+   "lon": -0.76021,
+   "was": [
+    54.37,
+    -0.723
+   ],
+   "km_moved": 2.41,
+   "why": "OSM Wheeldale Roman Road exposed section"
+  },
+  {
+   "name": "Mallyan Spout",
+   "lat": 54.39771,
+   "lon": -0.73184,
+   "was": [
+    54.42,
+    -0.713
+   ],
+   "km_moved": 2.76,
+   "why": "OSM waterfall node W of Goathland"
+  },
+  {
+   "name": "Thomason Foss",
+   "lat": 54.40824,
+   "lon": -0.72792,
+   "was": [
+    54.421,
+    -0.742
+   ],
+   "km_moved": 1.69,
+   "why": "OSM waterfall node"
+  },
+  {
+   "name": "Willy Howe",
+   "lat": 54.13605,
+   "lon": -0.37662,
+   "was": [
+    54.1068,
+    -0.3785
+   ],
+   "km_moved": 3.25,
+   "why": "OSM Willy Howe barrow; old point 3 km S"
+  },
+  {
+   "name": "Duggleby Howe",
+   "lat": 54.09044,
+   "lon": -0.6554,
+   "was": [
+    54.073,
+    -0.634
+   ],
+   "km_moved": 2.39,
+   "why": "OSM Duggleby Howe barrow"
+  },
+  {
+   "name": "St Cuthbert's Cave",
+   "lat": 55.61075,
+   "lon": -1.90764,
+   "was": [
+    55.605,
+    -1.93
+   ],
+   "km_moved": 1.54,
+   "why": "OSM St Cuthbert's Cave entrance"
+  },
+  {
+   "name": "Black Shuck, Blythburgh",
+   "lat": 52.32115,
+   "lon": 1.59475,
+   "was": [
+    52.321,
+    1.631
+   ],
+   "km_moved": 2.46,
+   "why": "Holy Trinity Church, Blythburgh (OSM); old point 2.3 km E"
+  }
+ ]
+}

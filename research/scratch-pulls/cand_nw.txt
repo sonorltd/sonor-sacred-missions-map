@@ -1,0 +1,274 @@
+1075 1075
+25 | Wrexham_County | Mynydd Bach Camp                              | Hillfort         | Ceiriog Ucha       | 52.8972,-3.2621 |  | [] | 
+26 | Wrexham_County | Pen y Gaer Hillfort                           | Hillfort         | Llangollen Rural   | 52.9761,-3.1178 |  | [] | 
+27 | Wrexham_County | Bryn Alyn Camp                                | Hillfort         | Llay               | 53.0761,-2.9993 |  | [] | 
+28 | Wrexham_County | Gardden Camp                                  | Hillfort         | Ruabon             | 52.9958,-3.0488 |  | [] | 
+108 | Gwynedd_(forme | Afon Arthog standing stone                    | Standing stone   | Arthog             | 52.6993,-3.9902 |  | [] | 
+109 | Gwynedd_(forme | Arthog Standing Stone                         | Kerb cairn       | Arthog             | 52.7061,-3.9955 |  | [] | 
+111 | Gwynedd_(forme | Bron-Llety-Ifan cairns and cup-marked rock    | Kerb cairn       | Arthog             | 52.6941,-4.0237 |  | [] | 
+112 | Gwynedd_(forme | Bryn Seward Standing Stones and Field System  | Stone alignment  | Arthog             | 52.6863,-4.0343 |  | [] | 
+117 | Gwynedd_(forme | Llynnau Cregennen Standing Stone              | Standing stone   | Arthog             | 52.7057,-3.982 |  | [] | 
+119 | Gwynedd_(forme | Tyddyn-y-Coed Camp                            | Hillfort         | Arthog             | 52.724,-3.9349 |  | [] | 
+120 | Gwynedd_(forme | Waen Bant Standing Stone                      | Standing stone   | Arthog             | 52.7001,-3.9967 |  | [] | 
+121 | Gwynedd_(forme | Cerrig Arthur Stone Circle                    | Stone circle     | Barmouth           | 52.7502,-4.0287 |  | [] | 
+122 | Gwynedd_(forme | Ffridd Fechan Fort                            | Hillfort         | Barmouth           | 52.7405,-4.0526 |  | [] | 
+124 | Gwynedd_(forme | Standing Stone S of Cerrig-y-Cledd            | Standing stone   | Barmouth           | 52.7577,-4.0124 |  | [] | 
+125 | Gwynedd_(forme | Dolddeuli Standing Stone                      | Standing stone   | Brithdir and Llanf | 52.7972,-3.7426 |  | [] | 
+126 | Gwynedd_(forme | Moel Offrwm Camp                              | Hillfort         | Brithdir and Llanf | 52.7719,-3.8548 |  | [] | 
+127 | Gwynedd_(forme | Moel Offrwm Lower Camp                        | Hillfort         | Brithdir and Llanf | 52.7686,-3.8573 |  | [] | 
+128 | Gwynedd_(forme | Nant Helygog ring cairn                       | Ring cairn       | Brithdir and Llanf | 52.7515,-3.7763 |  | [] | 
+133 | Gwynedd_(forme | Llyn Gafr Standing stone                      | Standing stone   | Dolgellau          | 52.7102,-3.9055 |  | [] | 
+135 | Gwynedd_(forme | Tal y Waen Cairns                             | Kerb cairn       | Dolgellau          | 52.7318,-3.9323 |  | [] | 
+137 | Gwynedd_(forme | Bron-y-Foel West Burial Chamber               | Chambered long c | Dyffryn Ardudwy    | 52.8013,-4.0667 |  | [] | 
+141 | Gwynedd_(forme | Carneddau Hengwm Long Cairns                  | Chambered long c | Dyffryn Ardudwy    | 52.7647,-4.0566 |  | [] | 
+144 | Gwynedd_(forme | Cors-y-Gedol Burial Chamber                   | Chambered long c | Dyffryn Ardudwy    | 52.7848,-4.0725 |  | [] | 
+146 | Gwynedd_(forme | Craig-y-Ddinas Camp                           | Hillfort         | Dyffryn Ardudwy    | 52.7878,-4.0412 |  | [] | 
+147 | Gwynedd_(forme | Dyffryn Ardudwy Burial Chamber                | Chambered long c | Dyffryn Ardudwy    | 52.7846,-4.0937 | CADW | ['Dyffryn Ardudwy'] | 
+152 | Gwynedd_(forme | Hengwm Stone Circles                          | Stone circle     | Dyffryn Ardudwy    | 52.7717,-4.0524 |  | [] | 
+155 | Gwynedd_(forme | Llecheiddior Stone Circle                     | Stone circle     | Dyffryn Ardudwy    | 52.7754,-4.0603 |  | [] | 
+156 | Gwynedd_(forme | Llwyn du Parc cairn                           | Cairn circle     | Dyffryn Ardudwy    | 52.7564,-4.0545 |  | [] | 
+157 | Gwynedd_(forme | Mynydd Egryn Ring Cairn                       | Ring cairn       | Dyffryn Ardudwy    | 52.7626,-4.0524 |  | [] | 
+159 | Gwynedd_(forme | Pen y Ddinas Camp                             | Hillfort         | Dyffryn Ardudwy    | 52.7673,-4.0676 |  | [] | 
+162 | Gwynedd_(forme | Bryn-y-Castell Hillfort                       | Hillfort         | Ffestiniog         | 52.9689,-3.8953 |  | [] | 
+169 | Gwynedd_(forme | Craig y Ganllwyd Cairn and Cist               | Platform Cairn   | Ganllwyd           | 52.8122,-3.9023 |  | [] | 
+175 | Gwynedd_(forme | Moel Goedog Camp                              | Hillfort         | Harlech            | 52.8721,-4.0612 |  | [] | 
+176 | Gwynedd_(forme | Moel Goedog Round Cairns & Standing Stones    | Ring cairn       | Harlech            | 52.87,-4.0675 |  | [] | 
+178 | Gwynedd_(forme | Clogwyn Arllef Hillfort & Field System        | Hillfort         | Llanbedr           | 52.836,-4.0863 |  | [] | 
+182 | Gwynedd_(forme | Llanbedr Standing Stones                      | Standing stone   | Llanbedr           | 52.8219,-4.1039 |  | [] | 
+183 | Gwynedd_(forme | Caer Euni Camp                                | Hillfort         | Llandderfel        | 52.9597,-3.4893 |  | ['Caer Euni'] | 
+184 | Gwynedd_(forme | Caer Euni Stone Circles                       | Kerb cairn       | Llandderfel        | 52.9569,-3.5003 |  | [] | 
+189 | Gwynedd_(forme | Maen y Rhos Standing Stone                    | Standing stone   | Llandderfel        | 52.9478,-3.5393 |  | [] | 
+195 | Gwynedd_(forme | Waen Fach Standing Stone                      | Standing stone   | Llanegryn          | 52.6235,-4.0782 |  | [] | 
+196 | Gwynedd_(forme | Coed Pen-y-Bryn Defended Settlement           | Enclosure , Defe | Llanelltyd         | 52.7574,-3.887 |  | [] | 
+197 | Gwynedd_(forme | Foel Faner Defended Enclosure                 | Enclosure , Defe | Llanelltyd         | 52.7667,-3.8797 |  | [] | 
+200 | Gwynedd_(forme | Bedd Gorfal Ring Cairn                        | Ring cairn       | Llanfair           | 52.8598,-4.0616 |  | [] | 
+203 | Gwynedd_(forme | Ffridd Fron Kerb Cairn                        | Kerb cairn       | Llanfair           | 52.8716,-4.0345 |  | [] | 
+204 | Gwynedd_(forme | Fonlief Hir Standing Stones                   | Standing stone   | Llanfair           | 52.861,-4.0788 |  | [] | 
+206 | Gwynedd_(forme | Gwern Einion Burial Chamber                   | Chambered tomb   | Llanfair           | 52.8364,-4.0986 |  | [] | 
+207 | Gwynedd_(forme | Hengaeau Standing Stone                       | Standing stone   | Llanfair           | 52.8401,-4.1032 |  | [] | 
+215 | Gwynedd_(forme | Craig yr Aderyn Hillfort                      | Hillfort         | Llanfihangel-y-Pen | 52.6422,-4.0042 |  | ['Craig yr Aderyn'] | 
+217 | Gwynedd_(forme | Defended Settlement 150m NW of Plas Ynysfor   | Enclosure , Defe | Llanfrothen        | 52.9638,-4.0869 |  | [] | 
+220 | Gwynedd_(forme | Castell y Gaer                                | Hillfort         | Llangelynnin       | 52.6606,-4.0832 |  | [] | 
+221 | Gwynedd_(forme | Castell-Mawr                                  | Hillfort         | Llangelynnin       | 52.6224,-4.0986 |  | [] | 
+222 | Gwynedd_(forme | Group of Standing Stones 810m South West of B | Stone alignment  | Llangelynnin       | 52.6814,-4.0467 |  | [] | 
+224 | Gwynedd_(forme | Llechrwyd Hillfort                            | Hillfort         | Llangelynnin       | 52.6075,-4.1093 |  | [] | 
+225 | Gwynedd_(forme | Parth-y-Gwyddwch, Standing Stones 150m N of [ | Standing stone   | Llangelynnin       | 52.6725,-4.0701 |  | ['Wikipedia:Please clarify'] | 
+226 | Gwynedd_(forme | Tal-y-Gareg Camp                              | Hillfort         | Llangelynnin       | 52.6113,-4.1072 |  | [] | 
+238 | Gwynedd_(forme | Ffridd Braich Llwyd Bronze Age Ritual Complex | Ring cairn       | Mawddwy            | 52.7105,-3.6119 |  | [] | 
+249 | Gwynedd_(forme | Ffridd Fedw Round Hut, Enclosure, Ancient Fie | Kerb cairn       | Talsarnau          | 52.8761,-4.057 |  | [] | 
+253 | Gwynedd_(forme | Llyn Eiddew Bach Ring Cairn I                 | Ring cairn       | Talsarnau          | 52.8951,-4.014 |  | [] | 
+254 | Gwynedd_(forme | Llyn Eiddew Bach Ring Cairn II                | Ring cairn       | Talsarnau          | 52.8903,-4.0174 |  | [] | 
+255 | Gwynedd_(forme | Llyn Eiddew Bach Round Cairns                 | Kerb cairn       | Talsarnau          | 52.8901,-4.0238 |  | [] | 
+260 | Gwynedd_(forme | Tyddyn Sion Wyn Ring Cairn                    | Ring cairn       | Talsarnau          | 52.8766,-4.0602 |  | [] | 
+264 | Gwynedd_(forme | Cefn Clawdd Ring Cairn                        | Ring cairn       | Trawsfynydd        | 52.8888,-3.9576 |  | [] | 
+271 | Gwynedd_(forme | Llech Idris                                   | Standing stone   | Trawsfynydd        | 52.8622,-3.8863 |  | [] | 
+272 | Gwynedd_(forme | Maen Llwyd Standing Stones                    | Standing stone   | Trawsfynydd        | 52.8786,-3.9226 |  | [] | 
+275 | Gwynedd_(forme | Croes Faen Standing Stone                     | Standing stone   | Tywyn              | 52.5935,-4.0729 |  | [] | 
+276 | Gwynedd_(forme | Dysyrnant Platform Cairn                      | Platform Cairn   | Tywyn              | 52.5819,-3.9983 |  | [] | 
+277 | Gwynedd_(forme | Eglwys Gwyddelod Stone Circle                 | Stone circle     | Tywyn              | 52.5828,-3.9752 |  | [] | 
+278 | Anglesey       | Barclodiad y Gawres Burial Chamber            | Chambered round  | Aberffraw          | None,None | CADW | ['Barclodiad y Gawres'] | 53°12′26″N 4°30′13″W ﻿ / ﻿ 53.2072°N 4.5036°W ﻿ / 53.2072; -
+279 | Anglesey       | Din Dryfol Burial Chamber                     | Chambered long c | Aberffraw          | None,None | CADW | ['Din Dryfol'] | 53°13′30″N 4°24′17″W ﻿ / ﻿ 53.225°N 4.4048°W ﻿ / 53.225; -4.
+282 | Anglesey       | Werthyr standing stone                        | Standing stone   | Amlwch             | None,None |  | ['Werthyr standing stone'] | 53°24′32″N 4°23′08″W ﻿ / ﻿ 53.4088°N 4.3856°W ﻿ / 53.4088; -
+283 | Anglesey       | Presaddfed Burial Chambers                    | Chambered tomb   | Bodedern           | None,None | CADW | ['Presaddfed Burial Chamber'] | 53°17′57″N 4°28′51″W ﻿ / ﻿ 53.2992°N 4.4809°W ﻿ / 53.2992; -
+284 | Anglesey       | Malltraeth Yard standing stone                | Standing stone   | Bodorgan           | None,None |  | [] | 53°11′49″N 4°23′02″W ﻿ / ﻿ 53.1969°N 4.3838°W ﻿ / 53.1969; -
+285 | Anglesey       | Cremlyn Standing Stones                       | Standing stone   | Cwm Cadnant        | None,None |  | [] | 53°16′33″N 4°08′40″W ﻿ / ﻿ 53.2759°N 4.1444°W ﻿ / 53.2759; -
+286 | Anglesey       | Hendrefor Burial Chambers                     | Chambered tomb   | Cwm Cadnant        | None,None |  | [] | 53°16′22″N 4°10′28″W ﻿ / ﻿ 53.2729°N 4.1744°W ﻿ / 53.2729; -
+287 | Anglesey       | Pen-y-Maen Standing Stone                     | Standing stone   | Cwm Cadnant        | None,None |  | [] | 53°14′34″N 4°09′09″W ﻿ / ﻿ 53.2427°N 4.1526°W ﻿ / 53.2427; -
+288 | Anglesey       | Ty-Wyn Standing Stone                         | Standing stone   | Cwm Cadnant        | None,None |  | [] | 53°14′34″N 4°10′08″W ﻿ / ﻿ 53.2428°N 4.1689°W ﻿ / 53.2428; -
+289 | Anglesey       | Pen-yr-Orsedd Standing Stones                 | Standing stone   | Cylch-y-Garn       | None,None |  | [] | 53°23′02″N 4°30′26″W ﻿ / ﻿ 53.384°N 4.5073°W ﻿ / 53.384; -4.
+290 | Anglesey       | Ty Mawr Standing Stone                        | Standing stone   | Holyhead           | None,None | CADW | [] | 53°17′48″N 4°37′17″W ﻿ / ﻿ 53.2967°N 4.6214°W ﻿ / 53.2967; -
+291 | Anglesey       | Bryn Celli Ddu Burial Chamber                 | Burial Chamber   | Llanddaniel Fab    | None,None | CADW | ['Bryn Celli Ddu'] | 53°12′28″N 4°14′10″W ﻿ / ﻿ 53.2077°N 4.2361°W ﻿ / 53.2077; -
+292 | Anglesey       | Bryn-Celli-Ddu Standing Stone                 | Standing stone   | Llanddaniel Fab    | None,None |  | [] | 53°12′25″N 4°14′17″W ﻿ / ﻿ 53.2069°N 4.238°W ﻿ / 53.2069; -4
+293 | Anglesey       | Bryn-yr-Hen-Bobl Burial Chamber               | Chambered round  | Llanddaniel Fab    | None,None |  | [] | 53°11′50″N 4°13′06″W ﻿ / ﻿ 53.1972°N 4.2184°W ﻿ / 53.1972; -
+294 | Anglesey       | Plas Newydd Burial Chambers                   | Chambered tomb   | Llanddaniel Fab    | None,None |  | [] | 53°12′14″N 4°13′04″W ﻿ / ﻿ 53.2038°N 4.2179°W ﻿ / 53.2038; -
+295 | Anglesey       | Tyddyn-Bach Standing Stone                    | Standing stone   | Llanddaniel Fab    | None,None |  | [] | 53°12′32″N 4°14′34″W ﻿ / ﻿ 53.2089°N 4.2428°W ﻿ / 53.2089; -
+296 | Anglesey       | Llanddona Standing Stone                      | Standing stone   | Llanddona          | None,None |  | [] | 53°17′41″N 4°09′02″W ﻿ / ﻿ 53.2946°N 4.1506°W ﻿ / 53.2946; -
+297 | Anglesey       | Hirdre-Faig Standing Stone                    | Standing stone   | Llanddyfnan        | None,None |  | [] | 53°14′49″N 4°16′23″W ﻿ / ﻿ 53.247°N 4.2731°W ﻿ / 53.247; -4.
+298 | Anglesey       | Llanddyfnan Standing Stone                    | Standing stone   | Llanddyfnan        | None,None |  | [] | 53°16′59″N 4°14′57″W ﻿ / ﻿ 53.283°N 4.2492°W ﻿ / 53.283; -4.
+299 | Anglesey       | Maen Addwyn                                   | Standing stone   | Llanddyfnan        | None,None |  | [] | 53°19′29″N 4°18′46″W ﻿ / ﻿ 53.3247°N 4.3129°W ﻿ / 53.3247; -
+300 | Anglesey       | Tŷ Newydd Burial Chamber                      | Chambered tomb   | Llanfaelog         | None,None | CADW | ['Tŷ Newydd Burial Chamber'] | 53°14′09″N 4°28′57″W ﻿ / ﻿ 53.2359°N 4.4824°W ﻿ / 53.2359; -
+301 | Anglesey       | Capel Soar Standing Stone                     | Standing stone   | Llanfaethlu        | None,None |  | [] | 53°20′49″N 4°31′35″W ﻿ / ﻿ 53.347°N 4.5264°W ﻿ / 53.347; -4.
+302 | Anglesey       | Ty Mawr Burial Chamber                        | Chambered tomb   | Llanfair Pwllgwyng | None,None |  | ['Ty Mawr Burial Chamber'] | 53°13′34″N 4°11′25″W ﻿ / ﻿ 53.2262°N 4.1902°W ﻿ / 53.2262; -
+304 | Anglesey       | Glyn Burial Chamber, Benllech                 | Burial Chamber   | Llanfair-Mathafarn | None,None |  | [] | 53°18′42″N 4°13′54″W ﻿ / ﻿ 53.3116°N 4.2317°W ﻿ / 53.3116; -
+305 | Anglesey       | Pant-y-Saer Burial Chamber                    | Chambered tomb   | Llanfair-Mathafarn | None,None |  | ['Pant-y-Saer Burial Chamber'] | 53°19′03″N 4°14′23″W ﻿ / ﻿ 53.3175°N 4.2397°W ﻿ / 53.3175; -
+306 | Anglesey       | Henblas Burial Chamber                        | Chambered tomb   | Llangristiolus     | None,None |  | ['Henblas Burial Chamber'] | 53°13′17″N 4°21′34″W ﻿ / ﻿ 53.2214°N 4.3594°W ﻿ / 53.2214; -
+307 | Anglesey       | Bodowyr Burial Chamber                        | Chambered tomb   | Llanidan           | None,None | CADW | ['Bodowyr'] | 53°11′18″N 4°18′10″W ﻿ / ﻿ 53.1882°N 4.3029°W ﻿ / 53.1882; -
+309 | Anglesey       | Perthi-Duon Burial Chamber                    | Chambered tomb   | Llanidan           | None,None |  | ['Perthi-Duon Burial Chamber'] | 53°10′34″N 4°16′34″W ﻿ / ﻿ 53.1761°N 4.276°W ﻿ / 53.1761; -4
+310 | Anglesey       | Trefwri Standing Stone                        | Standing stone   | Llanidan           | None,None |  | [] | 53°11′07″N 4°16′55″W ﻿ / ﻿ 53.1853°N 4.282°W ﻿ / 53.1853; -4
+311 | Anglesey       | Llech Golman                                  | Standing stone   | Llannerch-y-medd   | None,None |  | [] | 53°19′20″N 4°19′33″W ﻿ / ﻿ 53.3222°N 4.3257°W ﻿ / 53.3222; -
+312 | Anglesey       | Bodewryd Standing Stone                       | Standing stone   | Mechell            | None,None |  | [] | 53°23′05″N 4°23′52″W ﻿ / ﻿ 53.3847°N 4.3978°W ﻿ / 53.3847; -
+313 | Anglesey       | Baron Hill Maen Hir                           | Standing stone   | Mechell            | None,None |  | [] | 53°23′47″N 4°27′11″W ﻿ / ﻿ 53.3963°N 4.4531°W ﻿ / 53.3963; -
+314 | Anglesey       | Llanfechell Triangle Standing Stones          | Standing stone   | Mechell            | None,None |  | [] | 53°23′48″N 4°27′43″W ﻿ / ﻿ 53.3966°N 4.462°W ﻿ / 53.3966; -4
+315 | Anglesey       | Lligwy Burial Chamber                         | Chambered tomb   | Moelfre            | None,None | CADW | ['Lligwy Burial Chamber'] | 53°21′00″N 4°15′10″W ﻿ / ﻿ 53.3499°N 4.2529°W ﻿ / 53.3499; -
+316 | Anglesey       | Ogof Arian Cave                               | Cave             | Moelfre            | None,None |  | [] | 53°22′07″N 4°16′41″W ﻿ / ﻿ 53.3686°N 4.2781°W ﻿ / 53.3686; -
+317 | Anglesey       | Plas Bodafon Standing Stone                   | Standing stone   | Moelfre            | None,None |  | [] | 53°20′40″N 4°17′27″W ﻿ / ﻿ 53.3444°N 4.2907°W ﻿ / 53.3444; -
+318 | Anglesey       | Carreg Leidr                                  | Standing stone   | Rhosybol           | None,None |  | [] | 53°19′58″N 4°20′05″W ﻿ / ﻿ 53.3329°N 4.3348°W ﻿ / 53.3329; -
+319 | Anglesey       | Llys Einion Standing Stone                    | Standing stone   | Rhosybol           | None,None |  | [] | 53°20′45″N 4°21′36″W ﻿ / ﻿ 53.3458°N 4.3599°W ﻿ / 53.3458; -
+320 | Anglesey       | Maen Chwyf                                    | Chambered tomb   | Rhosybol           | None,None |  | [] | 53°20′43″N 4°21′22″W ﻿ / ﻿ 53.3454°N 4.356°W ﻿ / 53.3454; -4
+321 | Anglesey       | Penrhos Feilw Standing Stones                 | Standing stone   | Trearddur          | None,None | CADW | ['Penrhos Feilw Standing Stones'] | 53°17′45″N 4°39′42″W ﻿ / ﻿ 53.2957°N 4.6618°W ﻿ / 53.2957; -
+322 | Anglesey       | Trefignath                                    | Chambered round  | Trearddur          | None,None | CADW | ['Trefignath'] | 53°17′36″N 4°36′51″W ﻿ / ﻿ 53.2932°N 4.6142°W ﻿ / 53.2932; -
+323 | Anglesey       | Glan-Alaw Standing Stone                      | Standing stone   | Tref Alaw          | None,None |  | [] | 53°20′36″N 4°27′09″W ﻿ / ﻿ 53.3433°N 4.4524°W ﻿ / 53.3433; -
+324 | Anglesey       | Tregwehelydd Standing Stone                   | Standing stone   | Tref Alaw          | None,None | CADW | [] | 53°19′10″N 4°29′33″W ﻿ / ﻿ 53.3195°N 4.4926°W ﻿ / 53.3195; -
+354 | Anglesey       | Y Werthyr Hillfort                            | Hillfort         | Bryngwran          | None,None |  | [] | 53°16′33″N 4°26′21″W ﻿ / ﻿ 53.2758°N 4.4391°W ﻿ / 53.2758; -
+355 | Anglesey       | Dinas Gynfor Hillfort                         | Hillfort         | Llanbadrig         | None,None |  | [] | 53°25′39″N 4°25′25″W ﻿ / ﻿ 53.4274°N 4.4236°W ﻿ / 53.4274; -
+356 | Anglesey       | Din Sylwy                                     | Hillfort         | Llanddona          | None,None |  | ['Llanfihangel Din Sylwy'] | 53°18′39″N 4°07′22″W ﻿ / ﻿ 53.3108°N 4.1229°W ﻿ / 53.3108; -
+358 | Anglesey       | Caer Idris Hillfort                           | Hillfort         | Llanidan           | None,None |  | [] | 53°11′15″N 4°15′17″W ﻿ / ﻿ 53.1874°N 4.2546°W ﻿ / 53.1874; -
+359 | Anglesey       | Dinas Cadnant Hillfort                        | Hillfort         | Menai Bridge       | None,None |  | [] | 53°14′16″N 4°10′16″W ﻿ / ﻿ 53.2377°N 4.1712°W ﻿ / 53.2377; -
+362 | Anglesey       | Caer y Tŵr                                    | Hillfort         | Trearddur          | None,None | CADW | ['Caer y Tŵr'] | 53°18′47″N 4°40′29″W ﻿ / ﻿ 53.3131°N 4.6747°W ﻿ / 53.3131; -
+363 | Anglesey       | Dinas Porth Ruffydd                           | Hillfort         | Trearddur          | None,None |  | [] | 53°16′55″N 4°40′02″W ﻿ / ﻿ 53.2819°N 4.6673°W ﻿ / 53.2819; -
+364 | Anglesey       | Y Werthyr Hillfort                            | Hillfort         | Tref Alaw          | None,None |  | [] | 53°19′49″N 4°27′34″W ﻿ / ﻿ 53.3303°N 4.4594°W ﻿ / 53.3303; -
+368 | Anglesey       | Caer Gybi Roman Fortlet                       | Fort             | Holyhead           | None,None |  | ['Caer Gybi (fort)'] | 53°18′42″N 4°37′55″W ﻿ / ﻿ 53.3116°N 4.632°W ﻿ / 53.3116; -4
+369 | Anglesey       | Parciau hill fort                             | Hillfort         | Llaneugrad         | None,None |  | ['Parciau hill fort'] | 53°20′15″N 4°15′46″W ﻿ / ﻿ 53.3374°N 4.2627°W ﻿ / 53.3374; -
+372 | Anglesey       | Pen-Sieri Inscribed Stone                     | Inscribed stone  | Aberffraw          | None,None |  | [] | 53°12′25″N 4°29′42″W ﻿ / ﻿ 53.2069°N 4.4951°W ﻿ / 53.2069; -
+374 | Anglesey       | Bodfeddan Inscribed Stone                     | Inscribed stone  | Llanfaelog         | None,None |  | [] | 53°14′34″N 4°27′54″W ﻿ / ﻿ 53.2429°N 4.465°W ﻿ / 53.2429; -4
+376 | Anglesey       | St Seiriol's Well , Penmon                    | Holy Well        | Llangoed           | None,None | CADW | ["St Seiriol's Well"] | 53°18′23″N 4°03′24″W ﻿ / ﻿ 53.3064°N 4.0566°W ﻿ / 53.3064; -
+392 | Anglesey       | Ffynnon Allgo (St Allgo's Well)               | Holy Well        | Moelfre            | None,None |  | [] | 53°20′19″N 4°15′21″W ﻿ / ﻿ 53.3385°N 4.2559°W ﻿ / 53.3385; -
+394 | Anglesey       | St Gwenfaen's Well                            | Holy Well        | Rhoscolyn          | None,None |  | ["St Gwenfaen's Well"] | 53°14′50″N 4°36′36″W ﻿ / ﻿ 53.2473°N 4.6101°W ﻿ / 53.2473; -
+421 | Flintshire     | Penbedw Park Stone Circle & Standing Stone    | Stone circle     | Nannerch           | 53.2019,-3.2457 |  | [] | Five stones form part of a circle. Oaktrees complete the rin
+422 | Flintshire     | Gop Caves                                     | Cave             | Trelawnyd and Gwae | 53.3097,-3.3726 |  | [] | 14 Neolithic skeletons, plus late Neolithic artifacts of nor
+423 | Flintshire     | Carreg-y-llech standing stone                 | Standing stone   | Treuddyn           | 53.117,-3.124 |  | [] | 1.9m high, possibly set into a tumulus mound, but now the mo
+451 | Flintshire     | Nercwys Mountain Cairn                        | Cairn circle     | Nercwys            | 53.1136,-3.1652 |  | [] | 
+481 | Flintshire     | Moel y Gaer Camp                              | Hillfort         | Halkyn             | 53.2124,-3.1826 |  | [] | 
+482 | Flintshire     | Caer Estyn Hillfort                           | Hillfort         | Hope               | 53.1101,-3.0262 |  | [] | 
+483 | Flintshire     | Moel Arthur Camp                              | Hillfort         | Nannerch , (also L | 53.1846,-3.2806 |  | ['Moel Arthur Camp'] | 
+488 | Flintshire     | Pen-y-Cloddiau Camp                           | Hillfort         | Ysceifiog , (also  | 53.1986,-3.3054 |  | [] | 
+510 | Flintshire     | Downing Hall Inscribed Stone (now in Whitford | Inscribed stone  | Whitford           | 53.294,-3.2817 |  | [] | 
+556 | Gwynedd_(forme | Cras, ring cairn to N of                      | Ring cairn       | Aber               | 53.2213,-4.017 |  | [] | 
+567 | Gwynedd_(forme | Maes y Gaer Camp (Hillfort)                   | Hillfort         | Aber               | 53.2328,-4.0037 |  | [] | 
+570 | Gwynedd_(forme | Castell Odo                                   | Hillfort         | Aberdaron          | 52.8232,-4.692 |  | [] | 
+576 | Gwynedd_(forme | Rhiw Burial Chambers                          | Chambered long c | Aberdaron          | 52.8276,-4.6171 |  | [] | 
+584 | Gwynedd_(forme | Pen y Gaer Camp                               | Hillfort         | Beddgelert         | 52.9904,-4.1073 |  | [] | 
+592 | Gwynedd_(forme | Sarn Meyllteryn churchyard standing stone     | Standing stone   | Botwnnog           | 52.8641,-4.6202 |  | [] | 
+594 | Gwynedd_(forme | Garn Boduan                                   | Hillfort         | Buan               | 52.9245,-4.511 |  | ['Garn Boduan'] | 
+598 | Gwynedd_(forme | Bachwen Burial Chamber                        | Chambered long c | Clynnog            | 53.0189,-4.3752 |  | [] | 
+600 | Gwynedd_(forme | Graianog Standing Stone & Round Cairns        | Standing stone   | Clynnog            | 53.0171,-4.3047 |  | [] | 
+603 | Gwynedd_(forme | Penarth Burial Chamber                        | Chambered tomb   | Clynnog            | 53.0338,-4.3429 |  | [] | 
+605 | Gwynedd_(forme | Y Foel Camp                                   | Hillfort         | Clynnog            | 53.0309,-4.3123 |  | [] | 
+606 | Gwynedd_(forme | Caer-Dynni Burial Chamber                     | Chambered long c | Criccieth          | 52.9206,-4.2161 |  | [] | 
+609 | Gwynedd_(forme | Castell Caerau                                | Hillfort         | Dolbenmaen         | 52.9718,-4.2218 |  | [] | 
+610 | Gwynedd_(forme | Cist Cerrig Burial Chamber & Cup Marked Rock  | Chambered tomb   | Dolbenmaen         | 52.9233,-4.1682 |  | [] | 
+612 | Gwynedd_(forme | Craig-y-Tyddyn Camp                           | Hillfort         | Dolbenmaen         | 52.9611,-4.2263 |  | [] | 
+615 | Gwynedd_(forme | Fach-goch, standing stone to SSE of           | Standing stone   | Dolbenmaen         | 52.9486,-4.1322 |  | [] | 
+637 | Gwynedd_(forme | Pen y Gaer Camp                               | Hillfort         | Llanaelhaearn      | 52.9838,-4.3419 |  | [] | 
+639 | Gwynedd_(forme | Tre'r Ceiri Camp                              | Hillfort         | Llanaelhaearn      | 52.9742,-4.4248 |  | ["Tre'r Ceiri"] | 
+640 | Gwynedd_(forme | Tyddyn Mawr, standing stone to SSW of         | Standing stone   | Llanaelhaearn      | 52.9743,-4.3383 |  | [] | 
+643 | Gwynedd_(forme | Nant Castell Camp                             | Hillfort         | Llanbedrog         | 52.8543,-4.4941 |  | [] | 
+648 | Gwynedd_(forme | Dinas Dinorwic Camp                           | Hillfort         | Llanddeiniolen     | 53.1651,-4.1707 |  | [] | 
+658 | Gwynedd_(forme | Pen-y-Gaer Camp                               | Hillfort         | Llanddeiniolen     | 53.1567,-4.1737 |  | [] | 
+660 | Gwynedd_(forme | Dinas Dinlle Camp                             | Promontory fort  | Llandwrog          | 53.0816,-4.3347 |  | ['Dinas Dinlle'] | 
+661 | Gwynedd_(forme | Glynllifon standing stone                     | Standing stone   | Llandwrog          | 53.0751,-4.3037 |  | [] | 
+664 | Gwynedd_(forme | Maen Llwyd in Glynllifon                      | Standing stone   | Llandwrog          | 53.0619,-4.3221 |  | [] | 
+665 | Gwynedd_(forme | Caer Pencraig Fort                            | Hillfort         | Llandygai          | 53.1844,-4.1059 |  | [] | 
+672 | Gwynedd_(forme | Pen Dinas Camp                                | Hillfort         | Llandygai          | 53.191,-4.0819 |  | [] | 
+673 | Gwynedd_(forme | Sling Burial Chamber                          | Chambered tomb   | Llandygai          | 53.1805,-4.0882 |  | [] | 
+677 | Gwynedd_(forme | Cilan-Uchaf Burial Chamber                    | Chambered tomb   | Llanengan          | 52.7825,-4.5218 |  | [] | 
+678 | Gwynedd_(forme | Pared Mawr Camp                               | Promontory fort  | Llanengan          | 52.7929,-4.517 |  | [] | 
+695 | Gwynedd_(forme | Caer Engan                                    | Hillfort         | Llanllyfni         | 53.0489,-4.2738 |  | [] | 
+697 | Gwynedd_(forme | Craig y Dinas Camp                            | Hillfort         | Llanllyfni         | 53.0426,-4.3162 |  | [] | 
+702 | Gwynedd_(forme | Penbryn Mawr standing stone                   | Standing stone   | Llanllyfni         | 53.0597,-4.2998 |  | [] | 
+703 | Gwynedd_(forme | Small Fort Near Nantlle                       | Hillfort         | Llanllyfni         | 53.0589,-4.201 |  | [] | 
+704 | Gwynedd_(forme | Cromlech Farm Burial Chamber Four Crosses     | Chambered tomb   | Llannor            | 52.9199,-4.3827 |  | [] | 
+705 | Gwynedd_(forme | Four Crosses Standing Stone                   | Standing stone   | Llannor            | 52.9245,-4.3814 |  | [] | 
+706 | Gwynedd_(forme | Standing Stone NW of Trallwyn                 | Standing stone   | Llannor            | 52.9481,-4.4133 |  | [] | 
+707 | Gwynedd_(forme | Tirgwyn Standing Stones                       | Standing stone   | Llannor            | 52.9231,-4.4645 |  | [] | 
+708 | Gwynedd_(forme | Caer Carreg y Fran                            | Hillfort         | Llanrug            | 53.1419,-4.1734 |  | [] | 
+713 | Gwynedd_(forme | Parc y Gleision Standing Stone                | Standing stone   | Llanrug            | 53.1336,-4.1732 |  | [] | 
+725 | Gwynedd_(forme | Carn Pentyrch Camp                            | Hillfort         | Llanystumdwy       | 52.9502,-4.3467 |  | [] | 
+726 | Gwynedd_(forme | Cefn-Isaf Burial Chamber                      | Chambered tomb   | Llanystumdwy       | 52.9439,-4.2584 |  | [] | 
+727 | Gwynedd_(forme | Standing Stone N of Bettws Fawr               | Standing stone   | Llanystumdwy       | 52.9408,-4.2861 |  | [] | 
+728 | Gwynedd_(forme | Ystum-Cegid Burial Chamber                    | Chambered long c | Llanystumdwy       | 52.9482,-4.2357 |  | [] | 
+729 | Gwynedd_(forme | Coed Nant-y-garth, standing stone to N of     | Standing stone   | Pentir             | 53.1915,-4.1839 |  | [] | 
+736 | Gwynedd_(forme | Moel Gwynus Standing Stone                    | Standing stone   | Pistyll            | 52.9502,-4.4635 |  | [] | 
+739 | Gwynedd_(forme | Moel y Gest Camp                              | Hillfort         | Porthmadog         | 52.9278,-4.16 |  | ['Moel y Gest'] | Summit hillfort above Porthmadog . Interesting accumulation 
+741 | Gwynedd_(forme | Carn Fadryn Camp                              | Hillfort         | Tudweiliog         | 52.8867,-4.5579 |  | [] | 
+742 | Gwynedd_(forme | Cefnamwlch Burial Chamber                     | Chambered round  | Tudweiliog         | 52.8792,-4.632 |  | [] | 
+743 | Gwynedd_(forme | Llangwnadl Standing Stone                     | Standing stone   | Tudweiliog         | 52.8603,-4.6627 |  | [] | 
+744 | Gwynedd_(forme | Nant y Gledrydd Standing Stone                | Standing stone   | Tudweiliog         | 52.8988,-4.5389 |  | [] | 
+745 | Gwynedd_(forme | Dinas Camp                                    | Promontory fort  | Y Felinheli        | 53.1807,-4.2177 |  | [] | 
+746 | Conwy_County_B | Ogof Tan-y-Bryn                               | Cave             | Llandudno          | 53.3177,-3.8037 |  | [] | 
+747 | Conwy_County_B | Capel Garmon Burial Chamber                   | Chambered long c | Bro Garmon         | 53.073,-3.7658 | CADW | ['Capel Garmon'] | 
+748 | Conwy_County_B | Maen y Bardd Burial Chamber                   | Chambered long c | Caerhun            | 53.2281,-3.888 |  | [] | A classic neolithic burial chamber, which translates as the 
+749 | Conwy_County_B | Kendricks Cave                                | Cave             | Llandudno          | 53.3283,-3.8336 |  | ['Kendricks Cave (page does not exist)'] | Two caves on the Great Orme . The lower was excavated in 188
+750 | Conwy_County_B | Llandudno Burial Chamber                      | Chambered long c | Llandudno          | 53.3292,-3.8452 |  | [] | Also known as Llety'r Filiast Chambered Tomb, this neolithic
+751 | Conwy_County_B | Ogof Pant-y-Wennol                            | Cave             | Llandudno          | 53.318,-3.7906 |  | [] | Limestone cave with 6 neolithic burials, found encased in st
+755 | Conwy_County_B | Afon Dulyn ring cairn                         | Ring cairn       | Caerhun            | 53.1888,-3.8968 |  | [] | 
+757 | Conwy_County_B | Bwlch y Ddeufaen Standing Stones              | Standing stone   | Caerhun            | 53.2278,-3.927 |  | [] | 
+758 | Conwy_County_B | Cerrig Pryfaid Stone Circle                   | Stone circle     | Caerhun            | 53.2237,-3.9119 |  | [] | 
+769 | Conwy_County_B | Dyffryn Mymbyr cairn circle                   | Cairn circle     | Capel Curig        | 53.0894,-3.9639 |  | [] | 
+771 | Conwy_County_B | Hafotty Wen Ring Cairn                        | Ring cairn       | Cerrigydrudion     | 53.0706,-3.5297 |  | [] | 
+773 | Conwy_County_B | Ring Cairn North-West of Llyn y Wrach         | Ring cairn       | Conwy              | 53.2644,-3.8811 |  | [] | 
+774 | Conwy_County_B | Cae Du platform cairn                         | Platform Cairn   | Dolgarrog          | 53.1779,-3.8687 |  | [] | 
+777 | Conwy_County_B | Cefn Llechen Stone Circle                     | Stone circle     | Henryd             | 53.26,-3.8792 |  | [] | 
+779 | Conwy_County_B | Cefn Maen Amor stone circle                   | Stone circle     | Henryd             | 53.2443,-3.8916 |  | [] | 
+780 | Conwy_County_B | Hafotty Standing Stone                        | Standing stone   | Henryd             | 53.2568,-3.8784 |  | [] | 
+781 | Conwy_County_B | Maen Penddu                                   | Standing stone   | Henryd             | 53.2442,-3.8911 |  | [] | 
+783 | Conwy_County_B | Hwylfa'r Ceirw Stone Alignment                | Stone alignment  | Llandudno          | 53.3393,-3.8554 |  | [] | 
+784 | Conwy_County_B | Bryniau Bugeilydd cairns                      | Ring cairn       | Llanfairfechan     | 53.2478,-3.9223 |  | [] | 
+792 | Conwy_County_B | Hendre-Waelod Burial Chamber                  | Chambered long c | Llansanffraid Glan | 53.256,-3.811 |  | [] | Also known as Allor Moloch, this dolmen has a huge capstone,
+801 | Conwy_County_B | Bryn Derwydd stone circle                     | Stone circle     | Penmaenmawr        | 53.2573,-3.9018 |  | [] | 
+802 | Conwy_County_B | Maen Crwn standing stone                      | Standing stone   | Penmaenmawr        | 53.2567,-3.9037 |  | [] | 
+803 | Conwy_County_B | Penmaenmawr Stone Circle                      | Stone circle     | Penmaenmawr        | 53.253,-3.917 |  | [] | 
+805 | Conwy_County_B | Hafod-y-Dre Stone Rows and Cairn              | Stone alignment  | Pentrefoelas       | 53.069,-3.665 |  | [] | 
+806 | Conwy_County_B | Maes Merddyn Ring Cairn                       | Ring cairn       | Pentrefoelas       | 53.0767,-3.7044 |  | [] | 
+807 | Conwy_County_B | Moel Rhiwlug Cist Cairn                       | Kerb cairn       | Pentrefoelas       | 53.0824,-3.6696 |  | [] | 
+809 | Conwy_County_B | Round Cairn 500m SE of Moel Seisiog           | Kerb cairn       | Pentrefoelas       | 53.0972,-3.6978 |  | [] | 
+812 | Conwy_County_B | Castell Cawr Hillfort                         | Hillfort         | Abergele           | 53.2772,-3.5983 |  | [] | 
+816 | Conwy_County_B | Pen y Gaer Camp                               | Hillfort         | Caerhun            | 53.206,-3.873 |  | ['Pen y Gaer'] | 
+822 | Conwy_County_B | Castell Caer Leion                            | Hillfort         | Conwy              | 53.2826,-3.8617 |  | [] | 
+824 | Conwy_County_B | Caer Bach                                     | Hillfort         | Henryd             | 53.2389,-3.8831 |  | ['Caer Bach'] | Caer Bach is a Welsh hillfort of indeterminate age, situated
+828 | Conwy_County_B | Caer Oleu Camp                                | Hillfort         | Llanddoged and Mae | 53.1819,-3.8076 |  | [] | 
+829 | Conwy_County_B | Pen-y-Corddyn Camp                            | Hillfort         | Llanddulas and Rhy | 53.2734,-3.6285 |  | [] | 
+833 | Conwy_County_B | Pen y Dinas Camp                              | Hillfort         | Llandudno          | 53.3296,-3.8348 |  | [] | 
+834 | Conwy_County_B | Dinas Camp                                    | Hillfort         | Llanfairfechan     | 53.2456,-3.9493 |  | [] | 
+840 | Conwy_County_B | Cae Ddunod Camp                               | Hillfort         | Llanfihangel Glyn  | 53.0556,-3.5143 |  | [] | 
+842 | Conwy_County_B | Pen-y-Gaer Camp (Caer Caradog)                | Hillfort         | Llanfihangel Glyn  | 53.0186,-3.5395 |  | [] | 
+845 | Conwy_County_B | Mynydd y Gaer Camp                            | Hillfort         | Llannefydd         | 53.2332,-3.5404 |  | [] | 
+849 | Conwy_County_B | Bryn Euryn Camp                               | Hillfort         | Rhos-on-Sea        | 53.3021,-3.7544 |  | [] | 
+852 | Conwy_County_B | Kanovium Roman Site                           | Fort             | Caerhun            | 53.217,-3.833 |  | [] | 
+853 | Conwy_County_B | Caer Llugwy (Bryn-y-Gefeiliau Roman Fort)     | Fort             | Capel Curig        | 53.0972,-3.8743 |  | ['Caer Llugwy'] | Roman Fort of nearly 4 acres (1.6 ha) alongside the River Ll
+855 | Conwy_County_B | St George's Well, Abergele                    | Holy Well        | Abergele           | 53.2681,-3.5362 |  | [] | 
+856 | Conwy_County_B | Six Inscribed Stones in St Tudclud's Church,  | Inscribed stone  | Bro Machno         | 53.0388,-3.8061 |  | [] | 
+857 | Conwy_County_B | Group of Four Inscribed Stones in Gwytherin C | Inscribed stone  | Llangernyw         | 53.1385,-3.6806 |  | [] | 
+859 | Conwy_County_B | Brohomalgi Stone (Now In Veolas Hall)         | Inscribed stone  | Pentrefoelas       | 53.0485,-3.7166 |  | [] | 
+860 | Conwy_County_B | Dol Tre Beddau: Site of Discovery of Brohomag | Inscribed stone  | Pentrefoelas       | 53.0465,-3.7037 |  | [] | 
+907 | Denbighshire   | Bontnewydd Cave                               | Cave             | Cefnmeiriadog      | 53.2271,-3.4763 |  | ['Bontnewydd Palaeolithic site'] | Cave excavated in 1985, which found Neanderthal jaw and teet
+908 | Denbighshire   | Cefn Caves                                    | Cave             | Cefnmeiriadog      | 53.2227,-3.4685 |  | ['Cefn Caves'] | Network of caves first excavated in the 1830s, finding fragm
+909 | Denbighshire   | Cae Gwyn Cave                                 | Cave             | Tremeirchion       | 53.2414,-3.3722 |  | ['Ffynnon Beuno and Cae Gwyn Caves'] | Cave with worked flint tools. Dated to 16,000BC.
+910 | Denbighshire   | Ffynnon Beuno Cave                            | Cave             | Tremeirchion       | 53.241,-3.3719 |  | ['Ffynnon Beuno and Cae Gwyn Caves'] | Limestone cave, where flint tools and animal bones have been
+911 | Denbighshire   | Branas-Uchaf Round Barrow                     | Chambered tomb   | Llandrillo         | 52.926,-3.4723 |  | [] | Chambered tomb with central chamber still in situ, but no ca
+912 | Denbighshire   | Tyddyn Bleiddyn Burial Chamber                | Chambered long c | Cefnmeiriadog      | 53.2399,-3.4889 |  | [] | Two cairns excavated in the mid-19th century. They found num
+913 | Denbighshire   | Tan-y-Coed Burial Chamber                     | Chambered long c | Llandrillo         | 52.9455,-3.4188 |  | [] | 
+921 | Denbighshire   | Bryn Beddau Stone Circle                      | Stone circle     | Clocaenog          | 53.0619,-3.4232 |  | [] | Prehistoric stone circle of at least 19 stones, within Cloca
+922 | Denbighshire   | Maen Llwyd Standing Stone                     | Standing stone   | Clocaenog          | 53.0601,-3.4219 |  | [] | Massive stone, 3.4m long, now lying down. It is within Cloca
+929 | Denbighshire   | Capel Hiraethog Earth Circles                 | Ring cairn       | Cyffylliog         | 53.0801,-3.4402 |  | [] | 
+932 | Denbighshire   | Moel yr Henfaes Ring Cairn                    | Ring cairn       | Cynwyd             | 52.9377,-3.3781 |  | [] | 
+933 | Denbighshire   | Nant Croes-y-wernen Stone Circle              | Stone circle     | Cynwyd             | 52.9414,-3.3435 |  | [] | 
+934 | Denbighshire   | Garw Fynydd Cairn                             | Platform Cairn   | Derwen             | 53.0479,-3.4134 |  | [] | 
+953 | Denbighshire   | Rhos-Ddigre Caves                             | Cave             | Llandegla          | 53.0737,-3.2135 |  | [] | Group of 5 caves with Bronze Age burials
+956 | Denbighshire   | Cairns, Settlements & Field Systems of Prehis | Ring cairn       | Llandrillo         | 52.8884,-3.4175 |  | [] | 
+958 | Denbighshire   | Cefn Penagored Cairn and Ring Cairn           | Kerb cairn       | Llandrillo         | 52.8914,-3.4298 |  | [] | 
+959 | Denbighshire   | Cefn Penagored Ridge Cairns                   | Kerb cairn       | Llandrillo         | 52.891,-3.4267 |  | [] | 
+961 | Denbighshire   | Moel Ty-Uchaf Circles                         | Stone circle     | Llandrillo         | 52.9232,-3.4051 |  | [] | A circle of 43 stones, probably representing the kerbs of a 
+965 | Denbighshire   | Ring Cairn E of Ffridd Camen                  | Ring cairn       | Llandrillo         | 52.8992,-3.4175 |  | [] | 
+966 | Denbighshire   | Two Ring Cairns West of Cwm Tywyll            | Ring cairn       | Llandrillo         | 52.8939,-3.4269 |  | [] | 
+967 | Denbighshire   | Tyfos Stone Circle                            | Stone circle     | Llandrillo         | 52.9374,-3.447 |  | [] | Thirteen recumbent stones define the kerb of a cairn
+972 | Denbighshire   | Circular Platforms North West of Hen Ddinbych | Platform Cairn   | Llanrhaeadr-yng-Ng | 53.0967,-3.5102 |  | [] | 
+974 | Denbighshire   | Craig Arthur Kerb Cairn                       | Kerb cairn       | Llantysilio        | 53.0153,-3.1593 |  | [] | 
+978 | Denbighshire   | Creigiau Eglwyseg Stone Circle                | Stone circle     | Llantysilio        | 52.9979,-3.1515 |  | [] | Possible stone circle, or kerbs of a cairn.
+984 | Denbighshire   | Gorsedd Bran Round Barrows                    | Platform Cairn   | Nantglyn           | 53.1296,-3.5351 |  | [] | 
+993 | Denbighshire   | Dinas Melin-y-Wig                             | Hillfort         | Betws Gwerfil Goch | 53.0312,-3.4193 |  | [] | 
+994 | Denbighshire   | Mynydd Rhyd Ddu Enclosure                     | Hillfort         | Betws Gwerfil Goch | 53.0187,-3.4104 |  | [] | 
+995 | Denbighshire   | Moel y Gaer                                   | Hillfort         | Bodfari            | 53.2265,-3.3568 |  | ['Moel y Gaer, Bodfari'] | 
+996 | Denbighshire   | Moel y Gaer, Cefn                             | Hillfort         | Bryneglwys         | 53.0081,-3.2428 |  | ['Moel y Gaer, Llantysilio'] | 
+997 | Denbighshire   | Bedd-y-Cawr Hillfort                          | Hillfort         | Cefnmeiriadog      | 53.2364,-3.4799 |  | ['Bedd-y-Cawr Hillfort'] | Hillfort on natural inland promontory with ditch and bank an
+1000 | Denbighshire   | Caer Drewen Camp                              | Hillfort         | Corwen             | 52.9892,-3.3601 |  | [] | 
+1001 | Denbighshire   | Moel Fodig Camp                               | Hillfort         | Corwen             | 53.0007,-3.3482 |  | [] | 
+1005 | Denbighshire   | Moel Hiraddug Hillfort                        | Hillfort         | Dyserth            | 53.2937,-3.4057 |  | [] | 
+1006 | Denbighshire   | Craig Adwywynt Camp                           | Hillfort         | Efenechtyd         | 53.0793,-3.3129 |  | [] | 
+1007 | Denbighshire   | Pen-y-Gaer Camp                               | Hillfort         | Efenechtyd         | 53.0832,-3.3364 |  | [] | 
+1008 | Denbighshire   | Moel Fenlli Camp                              | Hillfort         | Llanbedr Dyffryn C | 53.1314,-3.2523 |  | [] | 
+1009 | Denbighshire   | Moel-y-Gaer Camp                              | Hillfort         | Llanbedr Dyffryn C | 53.146,-3.2742 |  | [] | An oval Iron Age hillfort overlooking the Vale of Clwyd .
+1012 | Denbighshire   | Moel Arthur Camp                              | Hillfort         | Llandyrnog , (also | 53.1846,-3.2806 |  | ['Moel Arthur Camp'] | 
+1013 | Denbighshire   | Pen-y-Cloddiau Camp                           | Hillfort         | Llandyrnog , (also | 53.1986,-3.3054 |  | [] | 
+1015 | Denbighshire   | Blaen-y-Cwm Inscribed Stone (Now in Llandrill | Inscribed stone  | Llandrillo         | 52.9223,-3.4379 |  | [] | 
+1017 | Denbighshire   | Ffynnon Fair (Well), Cefn                     | Holy Well        | Cefnmeiriadog      | 53.2278,-3.4557 |  | [] | 

@@ -1,0 +1,115 @@
+l a1-darlington-orange-orbs-2008 | A1(M) north of Darlington, County Durham | 54.58 -1.62 | (3.29, 54.57744, -1.56911, 'A1(M), Coatham Mundeville, Brafferton, Darlington, Tees', 'motorway')
+l a75-kinmount-straight-1962 | A75 Kinmount Straight, near Annan, Dumfries and Gallowa | 55.0054 -3.34577 | (5.71, 54.98733, -3.26202, 'Annan, Dumfries and Galloway, Alba / Scotland, DG12 5DA', 'town')
+l barguest-of-trollers-gill-1830 | Trollers Gill, Appletreewick, North Yorkshire | 54.068 -1.936 | (3.03, 54.05337, -1.89681, 'Trollers Gill, Skyreholme, Appletreewick, North Yorkshi', 'cliff')
+l beast-of-bennachie-lambs-and-prints-pi | Pitcaple, Aberdeenshire | 57.3 -2.475 | (2.13, 57.31825, -2.46424, 'Pitcaple, Whiteford, Aberdeenshire, Alba / Scotland, AB', 'hamlet')
+l beast-of-brechfa-migration-claim-2023 | Brechfa Forest, Carmarthenshire | 51.948 -4.16 | (4.27, 51.96753, -4.21358, 'Coedwig Brechfa, Llanllawddog, Sir Gaerfyrddin, Cymru /', 'forest')
+l beast-of-buchan-2000 | Buchan, Aberdeenshire | 57.523 -2.004 | (14.81, 57.43272, -1.82175, 'Bullers of Buchan, Longhaven, Aberdeenshire, Alba / Sco', 'hamlet')
+l belcher-s-bar-car-stall-1971 | Belcher's Bar, Leicestershire | 52.658 -1.385 | (7016.17, 27.89318, -82.74529, "Wild Willy's, South Belcher Road, Monterey Lakes Apartm", 'bar')
+l black-beast-of-ossett-2000 | Coxley Valley, Ossett, West Yorkshire | 53.665 -1.57 | (1.52, 53.67805, -1.57659, 'Ossett, Wakefield, West Yorkshire, England, WF5 8AQ, Un', 'town')
+l black-cat-and-eviscerated-ewe-penuwch- | Penuwch, Ceredigion | 52.227 -4.086 | (2.8, 52.24548, -4.05803, 'Penuwch, Llangeitho, Ceredigion, Cymru / Wales, SY25 6R', 'hamlet')
+l black-cat-in-nercwys-forest-above-mold | Nercwys Forest, near Mold, Flintshire | 53.14 -3.16 | (1.98, 53.12307, -3.16901, 'Tir y Coed, Nercwys, Flintshire, Cymru / Wales, United ', 'wood')
+l black-feline-crosses-nercwys-road-junc | Nercwys, Flintshire | 53.1555 -3.1305 | (2.32, 53.1375, -3.14819, 'Nercwys, Flintshire, Cymru / Wales, CH7 4EU, United Kin', 'village')
+l bow-wave-crossing-loch-arkaig-1982 | Loch Arkaig, Lochaber, Highland | 56.98 -5.28 | (12.49, 56.96499, -5.07572, 'Loch Arkaig, Highland, Alba / Scotland, United Kingdom', 'lake')
+l braddan-silvery-blue-dart-2015 | Braddan, Isle of Man | 54.16 -4.51 | (3.84, 54.19415, -4.51908, 'Braddan, Middle, Isle of Man', 'administrative')
+l cranwell-possible-missile-1991 | RAF Cranwell, Lincolnshire | 53.03 -0.484 | (0.94, 53.03349, -0.49683, "RAF Cranwell, South Brick Lines, Byard's Leap, Cranwell", 'aerodrome')
+l east-glasgow-three-white-objects-2005 | East Glasgow | 55.855 -4.19 | (7225.57, 6.22366, -57.5245, 'Overwinning - Glasgow, New Amsterdam, East Berbice-Core', 'administrative')
+l east-hull-slow-lights-1997 | East Hull | 53.753 -0.29 | (2.84, 53.76239, -0.33012, 'Kingston upon Hull, Hull and East Yorkshire, England, U', 'administrative')
+l edinburgh-vaults-voices-2009 | South Bridge Vaults, Edinburgh | 55.94873 -3.18687 | None
+l egryn-lights-and-the-mary-jones-reviva | Egryn Chapel, Dyffryn Ardudwy, Gwynedd | 52.7735 -4.0985 | (1.6, 52.7877, -4.09512, 'Dyffryn Ardudwy, Gwynedd, Cymru / Wales, LL44 2DQ, Unit', 'village')
+l emley-moor-mast-police-sighting-1986 | Emley Moor transmitter, West Yorkshire | 53.612 -1.665 | None
+l fireball-in-the-ogwen-valley-2001 | Ogwen Valley, Gwynedd | 53.124 -4.009 | (1.75, 53.12721, -3.9833, 'Bryn Poeth - Ogwen Valley Mountain Rescue Team CIO, Tra', 'mountain_rescue')
+l fraserburgh-trawler-radar-disc-1997 | North Sea off Fraserburgh, Aberdeenshire | 57.89 -1.69 | None
+l hairy-giant-at-castle-ring-cannock-cha | Castle Ring, Cannock Chase, Staffordshire | 52.7155 -1.966 | (1.27, 52.70692, -1.97843, 'Cannock Chase, Staffordshire, England, United Kingdom', 'administrative')
+l holyhead-hovering-white-object-2008 | Near Holyhead, Anglesey | 53.3 -4.61 | (1.63, 53.30737, -4.63121, 'Holyhead, Llanfawr Road, Porth-y-Felin, Holyhead, Ynys ', 'station')
+l howden-moor-booms-and-triangle-1997 | Howden Moor, Derbyshire | 53.465 -1.73 | (73.23, 53.81094, -0.78483, 'Howden Road, Welham Bridge, Holme upon Spalding Moor, H', 'trunk')
+l howden-moor-phantom-aircraft-1997 | Howden Reservoir and moors, Upper Derwent, South Yorksh | 53.43773 -1.74916 | (48.73, 53.04797, -1.41445, 'Derwent Road, Ripley, Marehay, Amber Valley, Derbyshire', 'residential')
+l humped-creature-in-loch-lomond-reporte | East shore, Loch Lomond, Stirlingshire | 56.09 -4.56 | (9.48, 56.1562, -4.65638, 'Loch Lomond, Balmaha, Stirling, Alba / Scotland, G83 8Q', 'lake')
+l keighley-level-crossing-burns-1988 | Level crossing near Keighley, West Yorkshire | 53.868 -1.907 | None
+l lady-mary-of-speke-hall | Speke Hall, Liverpool, Merseyside | 53.3394 -2.874 | (0.29, 53.33681, -2.87423, 'Speke Hall, The Walk, Speke, Liverpool, Liverpool City ', 'attraction')
+l leopard-marked-cat-at-the-cow-and-calf | Cow and Calf rocks, Ilkley Moor, West Yorkshire | 53.917 -1.806 | (1.62, 53.91093, -1.82847, 'Ilkley Moor, Bradford, West Yorkshire, England, United ', 'heath')
+l long-tailed-cat-and-paw-print-ince-mar | Ince Marshes, Ellesmere Port, Cheshire | 53.275 -2.825 | (3.58, 53.26409, -2.87569, 'Cheshire Oaks Trade Park, Little Stanney, Ellesmere Por', 'retail')
+l lough-foyle-monster-video-2013 | Lough Foyle, Co. Donegal | 55.12 -7.07 | (2.99, 55.10889, -7.11278, 'Lough Foyle, Derry/Londonderry, County Londonderry, Nor', 'bay')
+l lough-ree-monster-seen-by-three-priest | Lough Ree, Co. Longford/Roscommon | 53.52 -7.98 | (4.41, 53.55933, -7.98854, 'Lough Ree, County Longford, Leinster, Éire / Ireland', 'lake')
+l lynx-captured-at-drumguish-2025 | Drumguish, near Kingussie, Highland | 57.064 -4.02 | (1.95, 57.07069, -3.99015, 'Drumguish, Tromie Mills, Kingussie, Highland, Alba / Sc', 'locality')
+l muckie-sonar-contact-lakes-of-killarne | Muckross Lake, Killarney, Co. Kerry | 52.025 -9.52 | (1.66, 52.0113, -9.5295, 'Muckross Lake, Muckross ED, Killarney Municipal Distric', 'water')
+l mystery-light-on-cadair-idris-ridge-20 | Cadair Idris above Minffordd, Gwynedd | 52.699 -3.909 | None
+l orange-light-seen-from-mynydd-mechell | Mynydd Mechell, Anglesey | 53.3936 -4.432 | (3.28, 53.38043, -4.47634, 'Mynydd Mechell, Mechell, Llanfflewyn, Ynys Môn, Cymru /', 'hamlet')
+l phantom-monk-outside-holywell | Holywell, Flintshire | 53.275 -3.223 | (0.42, 53.27141, -3.2213, 'Holywell, Flintshire, Cymru / Wales, CH8 7UR, United Ki', 'town')
+l phantom-ship-off-abergele | Abergele coast, Conwy | 53.295 -3.585 | None
+l pool-parc-stone-throwing-spirit | Pool Parc, near Ruthin, Denbighshire | 53.1173 -3.3624 | (3.24, 53.11136, -3.31492, 'Ruthin, Denbighshire, Cymru / Wales, United Kingdom', 'administrative')
+l rhosybol-netball-team-sighting-1977 | Rhosybol, Anglesey | 53.361 -4.333 | (2.36, 53.36793, -4.36668, 'Rhosybol, Ynys Môn, Cymru / Wales, United Kingdom', 'administrative')
+l shug-monkey-of-slough-hill-lane-1954 | Slough Hill Lane, West Wratting, Cambridgeshire | 52.13 0.35 | (1.89, 52.14618, 0.34136, 'West Wratting, South Cambridgeshire, Cambridgeshire, Ca', 'administrative')
+l solway-firth-spaceman-photo-1964 | Burgh Marsh, Cumbria | 54.923 -3.045 | (2.14, 54.93439, -3.07205, 'Burgh Marsh, Drumburgh, Cumberland, England, United Kin', 'wetland')
+l spicers-see-creature-cross-road-loch-n | Whitefield, Loch Ness, Highland | 57.305 -4.425 | (4.98, 57.27412, -4.48497, 'Loch Ness, Dores, Highland, Alba / Scotland, IV63 7YD, ', 'lake')
+l stronsay-beast-carcass-1808 | Stronsay, Orkney | 59.1 -2.6 | (2.81, 59.11662, -2.56286, 'Stronsay, Whitehall, Orkney Islands, Alba / Scotland, U', 'island')
+l talacre-lighthouse-keeper-raymond | Point of Ayr Lighthouse, Talacre, Flintshire | 53.3559 -3.3125 | (0.66, 53.35699, -3.32221, 'Point of Ayr, Gamfa Wen, Llanasa, Talacre, Flintshire, ', 'lighthouse')
+l the-surgeon-s-photograph-hoax-1934 | Loch Ness near Invermoriston, Highland | 57.21 -4.6 | (1.61, 57.19691, -4.61131, 'Loch Ness Holiday Park, Great Glen Way, Invermoriston, ', 'caravan_site')
+l the-wash-rotating-object-1996 | The Wash, Lincolnshire | 52.9 0.3 | (8.19, 52.82779, 0.27623, "The Wash National Nature Reserve, King's Lynn and West ", 'protected_area')
+l tusked-creature-in-antrim-bay-lough-ne | Antrim Bay, Lough Neagh, Co. Antrim | 54.7 -6.24 | (1.83, 54.70877, -6.26412, 'Antrim Bay, Antrim, Antrim and Newtownabbey District, C', 'bay')
+l two-cars-see-long-tailed-cat-near-llan | Between Llanfechell and Llanfairynghornwy, Anglesey | 53.392 -4.46 | None
+l west-freugh-radar-object-1957 | RAF West Freugh, Dumfries and Galloway | 54.851 -4.948 | None
+l white-lady-of-prestatyn-promenade | Prestatyn seafront near the Nova, Denbighshire | 53.3423 -3.4079 | None
+d berwyn-1974 | Cadair Berwyn, near Llandrillo | 52.898 -3.38 | (1.56, 52.88394, -3.38024, 'Cadair Berwyn North Top, Denbighshire, Cymru / Wales, U', 'peak')
+d bodmin-beast | Bodmin Moor | 50.56 -4.6 | (13.12, 50.47488, -4.72849, 'Moor Café, Bodiniel Road, Bodmin, Kernow / Cornwall, En', 'cafe')
+d dechmont-1979 | Dechmont Law, Livingston | 55.895 -3.53 | (2.08, 55.91113, -3.54703, 'Dechmont Law, Dechmont Law Link, Deans, Livingston, Wes', 'viewpoint')
+d longdendale | Longdendale valley, Peak District | 53.47 -1.89 | None
+d owlman-1976 | Mawnan Smith, Cornwall | 50.1 -5.11 | (1.88, 50.11686, -5.10946, 'Mawnan Smith, Kernow / Cornwall, England, TR11 5EP, Uni', 'village')
+d plas-teg | Plas Teg, Pontblyddyn | 53.135 -3.055 | (12.65, 53.06125, -3.19926, 'Plas Teg, Llandegla, Denbighshire, Cymru / Wales, LL11 ', 'residential')
+d rendlesham-1980 | Rendlesham Forest, Suffolk | 52.09 1.44 | (2.06, 52.09617, 1.41157, "Rendlesham Forest, Spratt's Street, Eyke, Sutton Heath,", 'locality')
+d warminster-1965 | Cradle Hill, Warminster | 51.215 -2.19 | (5917.02, 37.45338, -77.65331, 'Cradle Hill, Brandermill, Chesterfield County, Virginia', 'neighbourhood')
+s St Dyfnog's Well | St Dyfnog's Well, Wales | 53.1437 -3.3948 | None
+s Ffynnon Elian | Ffynnon Elian, Wales | 53.2825 -3.6985 | None
+s Ffynnon Gwenfaen | Ffynnon Gwenfaen, Wales | 53.244 -4.6058 | None
+s Ffynnon Beuno | Ffynnon Beuno, Wales | 53.0212 -4.3647 | (70.59, 53.24089, -3.37202, 'Ffynnon Beuno Cave, B5429, Geinas, Tremeirchion, Bodfar', 'cave_entrance')
+s St Tegla's Well | St Tegla's Well, Wales | 53.0613 -3.2003 | None
+s Aber Falls (Rhaeadr Fawr) | Aber Falls (Rhaeadr Fawr), Wales | 53.2223 -3.9806 | (1.61, 53.21069, -3.99496, 'Craigiau Rhaeadr Fawr, Aber, Gwynedd, Cymru / Wales, Un', 'cliff')
+s Swallow Falls | Swallow Falls, Wales | 53.088 -3.8343 | (1.82, 53.10283, -3.84572, 'Swallow Falls, Conwy, Cymru / Wales, LL24 0DW, United K', 'waterfall')
+s Pistyll Cain & Rhaeadr Mawddach | Pistyll Cain & Rhaeadr Mawddach, Wales | 52.817 -3.8967 | None
+s Penrhos Feilw Stones | Penrhos Feilw Stones, Wales | 53.295 -4.665 | None
+s Moel Ty Uchaf | Moel Ty Uchaf, Wales | 52.933 -3.3875 | (1.6, 52.92376, -3.40573, 'Moel Ty-uchaf, Llandrillo, Denbighshire, Cymru / Wales,', 'peak')
+s Trefriw Wells Spa | Trefriw Wells Spa, Wales | 53.1561 -3.8247 | (1.66, 53.17079, -3.82924, 'Trefriw Wells Spa, B5106, Rhibo, Trefriw, Conwy, Cymru ', 'hotel')
+s Wizard's Well, Alderley Edge | Wizard's Well, Alderley Edge, England | 53.2963 -2.2112 | (0.3, 53.2938, -2.21304, 'Alderley Edge, Over Alderley, Cheshire East, England, S', 'peak')
+s The Bridestones | The Bridestones, England | 53.1535 -2.145 | None
+s Gordale Scar & Malham Cove | Gordale Scar & Malham Cove, Yorkshire | 54.07 -2.13 | None
+s Thornton Force | Thornton Force, Yorkshire | 54.159 -2.462 | (1.6, 54.17284, -2.46887, 'Thornton Force, Thornton in Lonsdale, North Yorkshire, ', 'waterfall')
+s Rollright Stones | Rollright Stones, England | 51.975 -1.57 | None
+s Chalice Well | Chalice Well, England | 51.145 -2.714 | (0.61, 51.14427, -2.70537, 'Chalice Well, Wellhouse Lane, Glastonbury, Somerset, En', 'spring')
+s Malvern Holy Well | Malvern Holy Well, England | 52.076 -2.333 | (0.4, 52.0789, -2.33657, 'Holy Well, Holy Well Road, Malvern Wells, Upper Welland', 'drinking_water')
+s Madron Well | Madron Well, England | 50.136 -5.58 | (0.51, 50.13981, -5.57595, 'Madron Well, Branch to Madron Well, Boswarthan, Madron,', 'archaeological_site')
+s Sancreed Well | Sancreed Well, England | 50.106 -5.605 | None
+s Eildon Hills | Eildon Hills, Scotland | 55.581 -2.712 | (2.47, 55.59984, -2.69121, 'Trimontium - The Place of the Three (Eildon) Hills, Mai', 'board')
+s Machrie Moor | Machrie Moor, Scotland | 55.542 -5.322 | (4.26, 55.5778, -5.34598, 'Cafe Thyme, A841, Auchencar, North Ayrshire, Alba / Sco', 'cafe')
+s Steall Falls | Steall Falls, Scotland | 56.786 -4.955 | (2.31, 56.77024, -4.97983, 'Steall Falls, Highland, Alba / Scotland, United Kingdom', 'waterfall')
+s Culloden Clootie Well | Culloden Clootie Well, Scotland | 57.483 -4.098 | None
+s Munlochy Clootie Well | Munlochy Clootie Well, Scotland | 57.553 -4.269 | (0.27, 57.55268, -4.27349, "St Curitan's Well, A832, Munlochy, Highland, Alba / Sco", 'attraction')
+s Corrieshalloch Gorge | Corrieshalloch Gorge, Scotland | 57.752 -5.023 | (0.63, 57.7577, -5.02322, 'Corrieshalloch Gorge, A835, Auchlunachan, Highland, Alb', 'bus_stop')
+s Fairy Glen, Skye | Fairy Glen, Skye, Scotland | 57.605 -6.333 | (2.43, 57.58335, -6.3274, 'Fairy Glen, Balnaknock, Highland, Alba / Scotland, IV51', 'locality')
+s Mealt Falls & Kilt Rock | Mealt Falls & Kilt Rock, Scotland | 57.61 -6.172 | None
+s Pontnewydd Cave | Pontnewydd Cave, Wales | 53.218 -3.457 | (111.61, 52.21431, -3.44241, 'Newbridge on Wye, Powys, Cymru / Wales, LD1 6LH, United', 'village')
+s Llanymynech Ogof | Llanymynech Ogof, Wales | 52.784 -3.089 | None
+s Creswell Crags | Creswell Crags, England | 53.263 -1.194 | (0.36, 53.26204, -1.19918, 'Creswell Crags, Norton, Cuckney, Holbeck and Welbeck, H', 'gorge')
+s St Ninian's Cave | St Ninian's Cave, Scotland | 54.693 -4.497 | (3.08, 54.69385, -4.44913, "St. Ninian's Cave, A747, Glasserton, Dumfries and Gallo", 'cave_entrance')
+s Penycloddiau | Penycloddiau, Wales | 53.219 -3.32 | (2.16, 53.20088, -3.30814, 'Penycloddiau, Flintshire, Cymru / Wales, United Kingdom', 'peak')
+s Moel Arthur | Moel Arthur, Wales | 53.198 -3.283 | (1.51, 53.18448, -3.28075, 'Moel Arthur, Flintshire, Cymru / Wales, United Kingdom', 'peak')
+s Caer Drewyn | Caer Drewyn, Wales | 52.992 -3.388 | (1.88, 52.98918, -3.36037, 'Caer Drewyn, B5437, Bonwm, Corwen, Denbighshire, Cymru ', 'archaeological_site')
+s Garn Boduan | Garn Boduan, Wales | 52.91 -4.497 | (1.95, 52.92484, -4.5125, 'Garn Boduan, Nefyn, Gwynedd, Cymru / Wales, LL53 8YG, U', 'peak')
+s Cadbury Castle | Cadbury Castle, England | 51.024 -2.531 | (74.02, 50.83675, -3.5446, 'Cadbury Castle, A3072, Pound Cottage, Cadbury, Bickleig', 'archaeological_site')
+s Shap Stones | Shap Stones, England | 54.538 -2.688 | (6.51, 54.53918, -2.78896, 'Four Stones, Naddle bridge, Naddle Gate, Bampton, Westm', 'name')
+s Ebbing and Flowing Well | Ebbing and Flowing Well, Yorkshire | 54.087 -2.29 | None
+s Malham Tarn & Victoria Cave | Malham Tarn & Victoria Cave, Yorkshire | 54.073 -2.244 | None
+s Wade's Causeway | Wade's Causeway, Yorkshire | 54.37 -0.723 | (2.41, 54.36924, -0.76021, 'Wheeldale Roman Road, Wheeldale Road, North Yorkshire, ', 'archaeological_site')
+s Mallyan Spout | Mallyan Spout, Yorkshire | 54.42 -0.713 | (2.76, 54.39771, -0.73184, 'Mallyan Spout, Goathland, North Yorkshire, York and Nor', 'waterfall')
+s Thomason Foss | Thomason Foss, Yorkshire | 54.421 -0.742 | (1.69, 54.40824, -0.72792, 'Thomason Foss, Goathland, North Yorkshire, York and Nor', 'waterfall')
+s Willy Howe | Willy Howe, Yorkshire | 54.1068 -0.3785 | (3.25, 54.13605, -0.37662, 'Willy Howe, Wold Newton Road, Burton Fleming, Wold Newt', 'archaeological_site')
+s Duggleby Howe | Duggleby Howe, Yorkshire | 54.073 -0.634 | (2.39, 54.09044, -0.6554, 'Duggleby Howe, Stonepit Hill, Kirby Grindalythe, Wharra', 'archaeological_site')
+s Robin Lythe's Cave | Robin Lythe's Cave, Yorkshire | 54.118 -0.087 | None
+s Stanwick Iron Age Fort | Stanwick Iron Age Fort, Yorkshire | 54.49 -1.714 | None
+s Castle Hill, Almondbury | Castle Hill, Almondbury, Yorkshire | 53.625 -1.768 | (0.27, 53.62315, -1.77056, 'Castle Hill, Castle Hill Side, Lumb, Farnley Tyas, Kirk', 'archaeological_site')
+s St Cuthbert's Cave | St Cuthbert's Cave, Yorkshire | 55.605 -1.93 | (19.0, 55.67506, -2.20616, "St Cuthbert's, Donaldson's Lodge, Cornhill-on-Tweed, No", 'hamlet')
+s Roughting Linn | Roughting Linn, Yorkshire | 55.611 -2.026 | (12.13, 55.54808, -1.86837, 'Roughting Linn, Chatton, Northumberland, North East, En', 'stream')
+s Hareshaw Linn | Hareshaw Linn, Yorkshire | 55.166 -2.236 | (0.97, 55.16293, -2.25029, 'Hareshaw Linn, Bellingham, Northumberland, North East, ', 'waterfall')
+s Lincoln Imp | Lincoln Imp, Yorkshire | 53.2343 -0.5361 | (1.83, 53.2507, -0.53737, 'Lincoln Imp PH, Laughton Way, Ermine, Lincoln, Lincolns', 'bus_stop')
+s Seahenge site, Holme | Seahenge site, Holme, Yorkshire | 52.965 0.542 | (73.04, 52.4885, -0.20447, 'Holme, Yaxley, Huntingdonshire, Cambridgeshire, Cambrid', 'administrative')
+s Black Shuck, Blythburgh | Black Shuck, Blythburgh, Yorkshire | 52.321 1.631 | (2.25, 52.32093, 1.59794, 'Blythburgh, East Suffolk, Suffolk, England, United King', 'administrative')
+s Orford Castle | Orford Castle, Yorkshire | 52.093 1.534 | (0.27, 52.09428, 1.53073, 'Orford Castle, Castle Close, Orford, East Suffolk, Suff', 'public_building')
+114

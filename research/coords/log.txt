@@ -1,0 +1,552 @@
+load a1-darlington-orange-orbs-2008 3.29
+load a470-faceless-figure-llyswen-2008 None
+load a55-flaming-object-over-llandudno-1991 0.97
+load a70-harperrig-abduction-1992 None
+load a75-kinmount-straight-1962 None
+load aberconwy-house-prodding-and-moving-plat 0.04
+load abergele-drifting-lights-1998 0.01
+load adelphi-hotel-third-floor None
+load afanc-of-llyn-syfaddon-1450 None
+load altrincham-dancing-lights-letter-2009 0.15
+load am-fear-liath-mor-ben-macdui-1891 1.6
+load ancient-ram-inn-1968 0.0
+load anne-boleyn-and-tower-green-1864 0.05
+load armadale-toblerone-and-stalled-car-1994 0.2
+load aughrim-battlefield-screams 0.0
+load avenham-park-coloured-object-2020 0.21
+load ballygally-castle 0.0
+load balornock-poltergeist-1975 0.0
+load bangor-hotel-laser-ufo-1996 0.3
+load barguest-of-trollers-gill-1830 3.03
+load barnston-silver-humanoid-1977 3.39
+load bate-hall-macclesfield 0.0
+load bealings-bells-1834 0.0
+load beam-of-light-burns-woman-at-denbigh-cas-1964 0.19
+load beast-of-bala-shot-llanuwchllyn-1995 0.37
+load beast-of-barnet-lynx-captured-cricklewoo-2001 0.08
+load beast-of-bennachie-lambs-and-prints-pitc-1996 2.13
+load beast-of-bont-sheep-killings-1981 0.59
+load beast-of-brechfa-migration-claim-2023 4.27
+load beast-of-buchan-2000 14.81
+load beast-of-dartmoor-puma-release-1978 1.43
+load beast-of-exmoor-sheep-losses-1983 0.14
+load beast-of-sydenham-chases-runner-2009 1.24
+load beaumaris-gaol-jailer-and-clock-curse 0.19
+load beddgelert-farmers-puma-and-paw-casts-2013 0.04
+load belcher-s-bar-car-stall-1971 None
+load belfast-airport-ufo-investigation-1989 0.99
+load belfast-silent-rising-object-2024 0.07
+load belvelly-castle-mirrors None
+load bexleyheath-hovering-saucer-1955 0.5
+load big-cat-by-whitby-park-tennis-courts-2021 0.93
+load big-cat-filmed-after-sheep-killed-askrig-2024 5.55
+load big-cat-on-old-colwyn-golf-course-2025 0.41
+load big-cat-roaming-near-llanberis-2016 0.3
+load black-beast-of-ossett-2000 1.52
+load black-boy-inn-nun-caernarfon 0.0
+load black-cat-and-eviscerated-ewe-penuwch-2023 2.8
+load black-cat-filmed-on-lane-pontybodkin-2020 0.46
+load black-cat-in-nercwys-forest-above-mold-2022 None
+load black-cat-near-cannock-chase-enterprise--2005 0.57
+load black-cat-stalking-sheep-holyhead-2025 0.19
+load black-feline-crosses-nercwys-road-juncti-2022 2.32
+load black-leopard-reported-near-mold-2011 0.05
+load black-monk-of-pontefract 0.09
+load black-panther-in-hedges-llandudno-2012 0.33
+load black-panther-near-brickfield-pond-rhyl-2022 1.01
+load black-panther-on-rail-line-barkby-presta-2022 0.85
+load black-panther-running-along-road-caernar-2011 0.2
+load black-puma-stalking-sheep-at-glanwydden-2022 None
+load black-shuck-at-bungay-church-1577 0.05
+load blackpool-pier-ufo-report-2008 0.09
+load blairgowrie-garden-ufo-and-men-in-black-1984 0.09
+load blue-bell-hill-hitchhiker-1965 None
+load blue-light-over-colwyn-bay-and-llandudno-1992 0.25
+load bodelwyddan-castle-blue-lady 0.18
+load bonsall-pink-object-filmed-2000 1.14
+load bow-wave-crossing-loch-arkaig-1982 20.05
+load bownessie-photographs-windermere-2011 0.88
+load boy-scratched-by-big-cat-trellech-2000 0.04
+load braddan-silvery-blue-dart-2015 3.84
+load bramham-park-phantom-horses 0.0
+load brentford-griffin-1984 1.09
+load bright-light-and-flash-over-wrexham-2016 0.08
+load britannia-inn-monks-horseshoe-pass 4.05
+load brixham-domed-object-1967 0.09
+load brown-habited-figure-on-the-a5123-at-hal-1970 None
+load brown-lady-of-raynham-hall-1936 0.0
+load bull-hotel-monk-abergele 0.0
+load burnley-silver-cigar-2003 1.18
+load caernarfon-green-object-2001 0.2
+load caracal-shot-by-police-fintona-1996 0.38
+load carlisle-silver-cone-2005 0.35
+load carrickmacross-retracing-object-1996 0.03
+load castle-hotel-chambermaid-conwy 0.0
+load castle-mona-green-lady 0.0
+load castle-rushen-white-lady 0.0
+load catherine-howard-hampton-court 0.0
+load chirk-castle-cave-of-no-return 0.03
+load churche-s-mansion-nantwich-2007 0.0
+load circular-object-and-light-over-llyn-tegi 0.04
+load cleethorpes-glass-sphere-tracked-by-raf--1956 0.31
+load clifden-oval-orbs-photographed-2008 0.15
+load clwydian-range-ufo-flap-1985 0.68
+load combermere-abbey-ghost-photo-1891 None
+load cononley-police-domed-craft-1978 None
+load corbridge-giant-arrowhead-1999 0.09
+load craigluscar-reservoir-metallic-disc-1994 None
+load cranwell-possible-missile-1991 0.94
+load crewe-lyceum-theatre 0.0
+load croxteth-hall-cctv-figure-2009 None
+load crumlin-ringed-light-object-2024 0.07
+load culloden-battlefield None
+load cwm-mountain-charcoal-triangle-2015 None
+load dark-object-filmed-over-caernarfon-castl 0.01
+load deer-carcasses-at-woodchester-park-2012 10.65
+load devon-flying-cross-police-chase-1967 None
+load diamond-shaped-craft-over-valle-crucis-a-1993 0.05
+load douglas-bay-fireball-2015 0.39
+load duckett-s-grove 0.0
+load dudley-dorito-triangles-2007 0.11
+load dunkenhalgh-governess-lucette 0.0
+load east-glasgow-three-white-objects-2005 7225.57
+load east-hull-slow-lights-1997 2.84
+load east-lancs-road-roadside-aliens-1985 1.19
+load edinburgh-vaults-voices-2009 None
+load egryn-lights-and-the-mary-jones-revival-1904 1.6
+load eleven-orange-lights-over-the-menai-stra 4.46
+load emley-moor-mast-police-sighting-1986 None
+load exercise-mainbrace-disc-over-raf-topclif-1952 0.2
+load explosion-and-white-light-over-rhuddlan-2000 0.13
+load farrier-ghost-at-the-trevor-arms-marford 1.03
+load fawn-coloured-cat-at-strabane-2009 0.1
+load felicity-the-puma-trapped-at-cannich-1980 0.34
+load fen-tiger-seen-behind-abbotsley-golf-clu-2019 None
+load filey-brigg-five-saucers-2002 0.65
+load fireball-in-the-ogwen-valley-2001 None
+load fishermen-meet-tawny-puma-at-gimblet-roc-2022 0.52
+load four-walkers-watched-by-cat-on-moel-hira-2022 0.1
+load fraserburgh-trawler-radar-disc-1997 None
+load fyvie-fast-white-lights-2003 0.13
+load gaiety-theatre-seat-b14 0.06
+load galloway-puma-springs-at-dog-walker-2001 0.12
+load glamis-castle-legends 0.0
+load glan-conwy-h-shaped-light-formation-1983 0.23
+load glasgow-west-end-floating-figures-1955 0.21
+load glasgow-westbourne-gardens-disc-1976 0.6
+load glounthaune-golden-light-2017 0.05
+load glowing-triangle-filmed-over-buckley-2016 0.45
+load golden-lion-ploughman-rossett 0.0
+load golden-spectre-of-bryn-yr-ellyllon-mold 0.34
+load grace-the-doll-at-nantclwyd-y-dre-2018 0.09
+load grey-cat-on-a548-at-tanlan-talacre-2020 1.48
+load greystones-growing-orange-light-2016 0.1
+load growl-from-the-dark-on-snowdon-s-pyg-tra-2022 1.9
+load gwrych-castle-countess-and-window-figure 0.23
+load gwrych-castle-white-woman-2010 0.0
+load gwydir-castle-ghost-dog-and-grey-lady-1995 0.23
+load gwyllgi-hound-near-ruthin-1930 0.45
+load hack-green-nuclear-bunker None
+load hairy-giant-at-castle-ring-cannock-chase-2004 1.27
+load hand-hotel-chirk-grey-lady 0.23
+load harriet-of-charleville-castle-1861 0.0
+load heathrow-controllers-boomerang-1992 0.42
+load hellhound-of-brereton-1972 0.83
+load henfield-police-lights-and-beam-1998 0.33
+load hessle-road-silent-cigar-1967 1.01
+load hexham-wolf-livestock-killings-1904 0.07
+load hindley-police-sighting-1967 1.25
+load hoghton-tower-green-lady None
+load holyhead-hovering-white-object-2008 None
+load holyhead-pulsating-light-2001 0.19
+load hooded-monks-of-conwy-castle 0.01
+load howden-moor-booms-and-triangle-1997 None
+load howden-moor-phantom-aircraft-1997 None
+load hugh-gray-s-first-nessie-photograph-1933 0.93
+load humber-bridge-shape-shifting-dome-1997 0.02
+load humber-coast-silent-triangle-1999 0.23
+load humming-triangle-over-bangor-2010 0.16
+load humped-creature-in-loch-lomond-reported--1968 None
+load joggers-see-lit-craft-over-sychnant-pass-1988 1.83
+load keighley-level-crossing-burns-1988 None
+load kellas-cat-caught-on-the-kellas-estate-1986 1.27
+load kells-lights-and-triangle-1977 0.15
+load keyingham-spearhead-lights-1969 0.4
+load kilmainham-gaol 0.0
+load kingstanding-blue-triangle-residue-1997 0.74
+load labrador-sized-black-cat-crosses-road-co-2022 0.64
+load lady-blackbird-of-marford 0.31
+load lady-grey-of-ruthin-castle 0.09
+load lady-mary-of-speke-hall 10.46
+load ladybower-phantom-lancaster-1982 11.51
+load lakenheath-bentwaters-radar-visual-case-1956 0.61
+load lamb-carcass-stripped-in-barn-ruthin-2011 0.45
+load lancaster-castle 0.0
+load large-cat-crossing-a5-near-chirk-2018 None
+load large-object-followed-by-helicopter-old--2008 0.52
+load leap-castle-red-lady None
+load lennoxtown-coloured-beam-2009 None
+load leopard-marked-cat-at-the-cow-and-calf-2010 1.62
+load letham-phantom-battle-1950 None
+load little-girl-on-the-queen-hotel-s-second- 0.03
+load little-orme-purple-triangle-and-missing--1997 2.31
+load liverpool-empire-theatre-girl 0.0
+load llancaiach-fawr-manor-2018 None
+load llandudno-easter-egg-object-2015 0.25
+load llanerchymedd-silver-figures-in-a-field-1978 0.05
+load llanfyllin-four-colour-disc-2006 0.23
+load llangefni-bedroom-ball-of-light-1977 0.08
+load llannefydd-colour-changing-spheres-2005 0.16
+load llyn-cefni-fireball-2000 0.44
+load loftus-hall-card-game-1775 10.35
+load long-tailed-black-cat-at-treuddyn 0.47
+load long-tailed-cat-and-paw-print-ince-marsh-2020 3.58
+load longhill-park-egg-shaped-landing-1967 1.17
+load lough-foyle-monster-video-2013 10.76
+load lough-ree-monster-seen-by-three-priests-1960 4.41
+load louth-triangle-seen-by-many-1992 0.19
+load lynx-captured-at-drumguish-2025 None
+load lynx-like-animal-on-mold-road-gwersyllt-2012 0.02
+load lynx-of-the-links-eyemouth-2002 None
+load mablethorpe-hovering-oblong-2022 0.03
+load mackays-see-whale-like-creature-loch-nes-1933 10.83
+load mackenzie-poltergeist-greyfriars 0.0
+load man-in-black-in-room-6-ye-olde-king-s-he-1982 0.03
+load marston-moor-cavaliers-1932 0.0
+load mary-king-s-close 0.06
+load melanistic-leopard-seen-by-runner-llysfa-2022 0.39
+load menock-road-floating-carriage-1983 0.33
+load middlesbrough-silent-triangle-2005 23.62
+load milntown-ramsey None
+load moddey-dhoo-of-peel-castle 0.01
+load moelfre-lantern-like-ufo-2009 0.09
+load moigns-down-girder-craft-1967 None
+load monk-and-lunging-figure-at-the-liverpool-1980 0.04
+load morag-of-loch-morar-1887 0.39
+load muckie-sonar-contact-lakes-of-killarney-2003 1.66
+load mystery-light-on-cadair-idris-ridge-2019 None
+load nantclwyd-y-dre-white-lady-2007 0.0
+load ness-mid-air-explosion-1996 0.12
+load newbiggin-radar-guard-beam-claim-1942 0.24
+load newsham-park-hospital 0.0
+load northallerton-black-triangle-2000 0.19
+load orange-ball-over-mersey-and-dee-from-wal-1971 1.37
+load orange-light-over-denbigh-hospital-1974 1.33
+load orange-light-seen-from-mynydd-mechell 3.28
+load orange-lights-from-puffin-island-directi-2010 0.46
+load orange-lights-over-caerwys-pubs 0.24
+load oval-object-on-conwy-mountain-1979 0.46
+load panther-hunting-on-ffrith-beach-2022 0.64
+load paw-prints-in-snow-on-pen-y-ghent-2010 7.13
+load pendle-hill-witches-2004 0.0
+load pentyrch-pyramid-of-light-2016 0.26
+load pete-the-cardiff-poltergeist-1979 0.0
+load peter-macnab-s-humps-photo-urquhart-cast-1955 6.12
+load phantom-battle-of-edgehill-1642 None
+load phantom-bear-of-the-martin-tower-1816 0.05
+load phantom-monk-outside-holywell 0.42
+load phantom-rider-in-the-queensway-tunnel 2.91
+load phantom-ship-off-abergele None
+load pied-bull-cellar-and-chambermaids 0.09
+load piers-gaveston-scarborough-castle 0.0
+load plas-mawr-black-dog-and-pipe-smoke 0.01
+load plas-yn-rhiw-victorian-girl None
+load pointy-eared-cat-runs-past-car-hafan-y-m-2022 5.25
+load police-officers-see-light-over-penmaenma-1988 0.03
+load pool-parc-stone-throwing-spirit None
+load pool-park-former-hospital None
+load powys-puma-escapes-police-marksmen-llang-1980 0.18
+load prescot-green-saucer-2020 None
+load prestwick-radar-target-1999 0.95
+load puma-in-an-abersoch-back-garden-2022 0.31
+load puma-in-the-meadows-overton-on-dee-2001 0.21
+load puma-like-cat-on-a96-huntly-1996 0.35
+load puma-of-pontybodkin 1.43
+load puma-raiding-litter-bin-fochabers-1989 None
+load puma-reported-at-limavady-2004 0.11
+load python-like-creature-at-loch-morlich-1969 0.15
+load raf-boulmer-radar-tracked-objects-1977 0.1
+load raf-valley-control-tower-buzzing-1990 0.11
+load red-lights-over-gwersyllt-were-helicopte-2014 0.09
+load rhosybol-netball-team-sighting-1977 2.36
+load rhyl-large-black-object-2004 0.21
+load rines-flipper-photograph-urquhart-bay-1972 6.9
+load ripley-castle-mourning-mother 0.0
+load rivington-pike-counter-rotating-rings-2003 0.73
+load roman-sentry-on-chester-s-walls 0.3
+load roman-soldiers-treasurer-s-house-1953 0.0
+load rottweiler-sized-black-cat-rockcliffe-2012 None
+load rowton-moor-battle-ghost-and-phantom-mus 1.26
+load royal-goat-hotel-landlord-beddgelert 0.0
+load royal-oak-hotel-betws-y-coed 0.0
+load rutherglen-poltergeist-2016 0.0
+load ruthin-gaol-hanged-prisoner-1903 0.0
+load ruthin-gaol-slamming-doors 0.12
+load rydal-school-fuzzy-light-1982 0.24
+load salt-tower-presences-1957 0.03
+load samlesbury-hall-white-lady 0.0
+load sarah-the-poltergeist-of-eastgate-street-1991 0.04
+load sauchie-poltergeist-1960 0.0
+load scholes-shape-changing-light-2019 0.09
+load scunthorpe-arrow-of-lights-2021 0.75
+load seven-foot-black-shadow-in-flint-1990 0.49
+load shannon-pilots-high-speed-lights-2018 1.2
+load sheep-stripped-to-skeleton-ravensworth-2010 None
+load shotts-panther-flap-2011 0.14
+load shug-monkey-of-slough-hill-lane-1954 1.89
+load silpho-moor-saucer-with-copper-scrolls-1957 None
+load snaefell-mast-mystery-crash-2001 0.12
+load solway-firth-spaceman-photo-1964 None
+load south-stack-lighthouse-footsteps None
+load south-stack-lighthouse-poltergeist 5.51
+load south-wales-police-helicopter-near-miss-2008 0.06
+load souther-fell-spectral-army-1745 None
+load spicers-see-creature-cross-road-loch-nes-1933 4.98
+load springhill-house-olivia 0.0
+load sproatley-orange-balls-1994 0.82
+load st-columba-and-the-river-ness-beast 0.26
+load st-margaret-s-road-medieval-prisoner 0.16
+load stainburn-bypass-triangle-2003 1.67
+load star-like-object-turns-sharply-over-denb-2009 0.12
+load striped-sheepdog-sized-cat-denbigh-2011 0.29
+load stronsay-beast-carcass-1808 2.81
+load surrey-puma-1964 0.83
+load talacre-lighthouse-keeper-raymond 0.66
+load tawny-cat-and-paw-prints-at-mynydd-isa-2021 1.25
+load teggie-the-llyn-tegid-monster 1.37
+load tern-hill-barracks-lights-2008 1.06
+load tharston-scareship-airship-1909 1.5
+load the-surgeon-s-photograph-hoax-1934 None
+load the-wash-rotating-object-1996 8.19
+load thornton-heath-poltergeist-1938 0.0
+load tiger-sized-black-cat-at-penmachno-2013 0.49
+load tim-dinsdale-s-hump-film-loch-ness-1960 0.4
+load tivoli-buckley-glass-thrown-and-cctv-fig 0.52
+load tivoli-buckley 0.02
+load tusked-creature-in-antrim-bay-lough-neag-1923 14.07
+load twin-humped-serpent-loch-garry-2018 6.17
+load twin-sightings-over-caernarfon-and-amlwc-2001 0.08
+load two-cars-see-long-tailed-cat-near-llanfe-2025 None
+load tywyn-orange-to-white-light-2009 0.2
+load ufo-buzzes-raf-valley-tower-claim-1990 0.09
+load walton-hall-warrington 1.81
+load weedon-bec-dumbbell-lights-and-lost-time-1978 None
+load west-freugh-radar-object-1957 None
+load west-kilbride-green-saucer-2003 0.29
+load white-lady-near-wylfa 0.55
+load white-lady-of-charles-fort-1922 0.0
+load white-lady-of-prestatyn-promenade None
+load white-sphere-drifts-over-holyhead-2008 0.19
+load whitehaven-golf-course-light-2003 None
+load wicklow-gaol 0.0
+load widnes-black-sphere-with-antenna-2011 2.79
+load william-batt-oakwell-hall-1684 0.0
+load wilmslow-red-light-crane-2016 0.12
+load wincolmlee-police-patrol-ufo-1971 0.32
+load woolton-hall-stair-ghost 0.0
+db aveley-1974 0.25
+db berwyn-1974 None
+db bodmin-beast 13.12
+db bold-street 0.11
+db bonnybridge 0.22
+db borley 0.52
+db broad-haven-1977 0.3
+db calvine-1990 None
+db cosford-1993 0.35
+db dechmont-1979 2.08
+db enfield-1977 3.9
+db ilkley-1987 0.67
+db kersey-1957 0.1
+db longdendale None
+db owlman-1976 1.88
+db plas-teg None
+db pluckley 0.24
+db rendlesham-1980 2.06
+db todmorden-1980 0.08
+db warminster-1965 None
+site St Winefride's Well 0.01
+site Ffynnon Fair, Cefn Meiriadog 1.34
+site St Dyfnog's Well None
+site Ffynnon Elian None
+site St Trillo's Chapel 0.19
+site St Seiriol's Well 0.04
+site Ffynnon Gwenfaen None
+site Ffynnon Beuno 70.59
+site Ffynnon Gybi 0.32
+site Ffynnon Fair, Uwchmynydd 0.75
+site St Tegla's Well None
+site Pistyll Rhaeadr 0.01
+site Aber Falls (Rhaeadr Fawr) 1.64
+site Swallow Falls 1.82
+site Conwy Falls 0.92
+site Dyserth Waterfall 0.08
+site Pistyll Cain & Rhaeadr Mawddach None
+site Bryn Celli Ddu 0.03
+site Barclodiad y Gawres 0.04
+site Druid's Circle (Meini Hirion) None
+site Penrhos Feilw Stones None
+site Moel Ty Uchaf 1.6
+site Dinas Emrys 0.31
+site Gelert's Grave 0.05
+site Castell Dinas Brân 0.02
+site Llyn Cau, Cadair Idris 0.59
+site Bardsey Island (Ynys Enlli) None
+site Llyn Tegid 0.73
+site Trefriw Wells Spa 1.66
+site Pentre Ifan 0.01
+site Llyn y Fan Fach 0.18
+site St Non's Well 0.13
+site Rock Park Spa, Llandrindod 0.48
+site Wizard's Well, Alderley Edge 0.3
+site The Bridestones None
+site Lud's Church 0.04
+site St Ann's Well, Buxton 0.1
+site Mermaid's Pool, Kinder 1.3
+site Arbor Low 0.01
+site Nine Ladies, Stanton Moor 0.62
+site Thor's Cave 0.15
+site Mitchell's Fold 0.03
+site Pendle Hill 0.08
+site Janet's Foss 0.2
+site Gordale Scar & Malham Cove None
+site Hardraw Force 0.47
+site Aysgarth Falls 0.36
+site Thornton Force 1.6
+site High Force 0.17
+site Aira Force 0.41
+site Castlerigg 0.04
+site Long Meg and Her Daughters 0.04
+site Swinside 0.08
+site Mother Shipton's Cave 0.24
+site Rollright Stones None
+site Wayland's Smithy 0.03
+site Uffington White Horse 0.02
+site Avebury 0.19
+site West Kennet Long Barrow 0.02
+site Stonehenge 0.01
+site Chalice Well 0.61
+site White Spring 0.58
+site Glastonbury Tor 0.05
+site Cerne Abbas Giant 0.01
+site Malvern Holy Well 0.4
+site Wistman's Wood 0.13
+site Lydford Gorge White Lady 1.45
+site St Nectan's Glen 0.61
+site Tintagel 0.62
+site Dozmary Pool 0.21
+site Men-an-Tol 0.07
+site Madron Well 0.51
+site Sancreed Well None
+site Merry Maidens 0.44
+site Boscawen-Un 0.03
+site Eildon Hills 2.47
+site Rosslyn Chapel 0.01
+site Grey Mare's Tail 0.35
+site Falls of Clyde 0.41
+site Machrie Moor 4.26
+site Kilmartin Glen 1.23
+site Corryvreckan 0.15
+site Doon Hill, Aberfoyle 0.66
+site Schiehallion 0.04
+site Iona 1.04
+site Fingal's Cave, Staffa 0.43
+site Steall Falls 2.31
+site Falls of Foyers 0.1
+site Clava Cairns 0.11
+site Culloden Clootie Well None
+site Munlochy Clootie Well 0.27
+site Corrieshalloch Gorge 0.63
+site Fairy Pools, Skye 1.41
+site Fairy Glen, Skye 26.97
+site Mealt Falls & Kilt Rock None
+site Callanish Stones 0.02
+site Ring of Brodgar 0.02
+site Stones of Stenness 0.01
+site Maeshowe 0.01
+site St Margaret's Well 0.18
+site Great Orme Bronze Age Mines 0.41
+site Pontnewydd Cave 111.61
+site Llanymynech Ogof None
+site Dan yr Ogof 0.22
+site Goat's Hole, Paviland 0.19
+site Creswell Crags 0.36
+site Peak Cavern 0.06
+site Treak Cliff Cavern 0.65
+site Wookey Hole 0.4
+site Royston Cave 0.08
+site Margate Shell Grotto 0.09
+site White Scar Cave 1.35
+site Kents Cavern 0.17
+site Smoo Cave 0.13
+site Wemyss Caves 0.81
+site St Ninian's Cave 3.08
+site Moel y Gaer, Rhosesmor 0.71
+site Penycloddiau 2.16
+site Moel Arthur 1.51
+site Moel Fenlli 0.93
+site Caer Drewyn 1.88
+site Tre'r Ceiri 0.09
+site Garn Boduan 1.95
+site Pen y Gaer, Llanbedr-y-Cennin 0.98
+site Caer y Twr 0.32
+site Old Oswestry 0.24
+site Beeston Castle 0.12
+site Helsby Hill 1.41
+site Caer Caradoc 0.79
+site Mam Tor 0.04
+site Ingleborough 0.03
+site British Camp 1.5
+site Cadbury Castle 74.02
+site Maiden Castle 0.02
+site Hambledon Hill 0.53
+site Old Sarum 0.06
+site Traprain Law 0.05
+site Dunadd 0.24
+site Craig Phadrig 0.94
+site Tap o' Noth 1.06
+site Burghead 0.04
+site Dunino Den 0.96
+site The Cloud 1.17
+site Shap Stones 6.51
+site St Catherine's Hill 0.68
+site Rudston Monolith 0.04
+site Devil's Arrows 0.14
+site Thornborough Henges 0.26
+site Twelve Apostles, Ilkley Moor 1.14
+site Swastika Stone 0.66
+site Cow and Calf 0.33
+site Brimham Rocks 0.15
+site Ebbing and Flowing Well None
+site Malham Tarn & Victoria Cave None
+site Kirkdale Cave 0.17
+site Gormire Lake 0.84
+site Hole of Horcum 0.44
+site Wade's Causeway 2.41
+site Mallyan Spout 2.76
+site Falling Foss 0.4
+site Thomason Foss 1.69
+site Whitby Abbey 0.05
+site Boggle Hole 0.05
+site Hob Hole, Runswick Bay 0.7
+site Roseberry Topping 0.06
+site Willy Howe 3.25
+site Duggleby Howe 2.39
+site Danes Dyke 0.42
+site Robin Lythe's Cave None
+site Stanwick Iron Age Fort None
+site Castle Hill, Almondbury 0.27
+site Penshaw Hill 0.37
+site Lindisfarne 1.15
+site St Cuthbert's Cave 19.0
+site Duddo Stones 0.76
+site Roughting Linn 12.13
+site Hareshaw Linn 0.97
+site Lady's Well, Holystone 0.37
+site Lincoln Imp 1.83
+site Walsingham 0.05
+site Seahenge site, Holme 164.98
+site Grime's Graves 0.06
+site Black Shuck, Blythburgh None
+site Woolpit 0.03
+site Dunwich 0.04
+site Orford Castle 0.27

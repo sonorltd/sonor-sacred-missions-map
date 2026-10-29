@@ -1,0 +1,246 @@
+<title>Sacred Missions Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Alegreya+Sans:wght@400;500;700&display=swap">
+<style>
+/* Layout: OS-antiquity-map feel — survey sheet left, gazetteer right; three tabs share one map */
+:root{
+  --bg:#e9ede6; --panel:#f6f8f3; --ink:#1d2622; --muted:#5d6b63; --line:#c9d1c8;
+  --sea:#d3e0e2; --land:#f3f1e4; --land-edge:#8c9a8e; --ie:#e6e8de;
+  --well:#2f63b8; --falls:#0f8a95; --stone:#8a5a1c; --lore:#7a3f8f; --spring:#2f7d3b; --home:#b3261e; --cave:#4a5263; --fort:#6b7a1f; --ley:#b8860b;
+  --p-lights:#d9730d; --p-craft:#1f6f8b; --p-encounter:#c2185b; --p-ghost:#6f62a8; --p-poltergeist:#8e3fa8; --p-cryptid:#5b7a1f; --p-timeslip:#a87a08; --p-other:#6b6b6b;
+  --danger:#b3261e;
+  --l0:#b8860b; --l1:#c0392b; --l2:#2e7d32; --l3:#1565c0; --l4:#8e24aa; --l5:#00838f; --l6:#d84315; --l7:#6d4c41; --l8:#ad1457; --l9:#558b2f; --l10:#283593; --l11:#00695c;
+  --display:"IM Fell English","Iowan Old Style",Georgia,serif;
+  --sc:"IM Fell English SC","Iowan Old Style",Georgia,serif;
+  --body:"Alegreya Sans","Gill Sans","Segoe UI",system-ui,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121816; --panel:#19211e; --ink:#e3e8e2; --muted:#93a39a; --line:#2c3833;
+  --sea:#0e1a1d; --land:#24302a; --land-edge:#4d5f55; --ie:#1c2622;
+  --well:#7ea8f0; --falls:#4fc7cf; --stone:#d6a55e; --lore:#c391d6; --spring:#7cc58a; --home:#ff7a6e; --cave:#aab4c8; --fort:#b7c66a; --ley:#e8c060;
+  --p-lights:#ffa24d; --p-craft:#5cc3e6; --p-encounter:#ff6fa6; --p-ghost:#b3a8f0; --p-poltergeist:#d38bf0; --p-cryptid:#a7c95a; --p-timeslip:#e8c35a; --p-other:#a8a8a8;
+  --danger:#ff7a6e; --l0:#e8c060; --l1:#ff7a6e; --l2:#7cc58a; --l3:#7ea8f0; --l4:#d38bf0; --l5:#4fc7cf; --l6:#ffa24d; --l7:#c8a080; --l8:#ff7fb0; --l9:#b7c66a; --l10:#9fa8ff; --l11:#5fd3c0; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121816; --panel:#19211e; --ink:#e3e8e2; --muted:#93a39a; --line:#2c3833;
+  --sea:#0e1a1d; --land:#24302a; --land-edge:#4d5f55; --ie:#1c2622;
+  --well:#7ea8f0; --falls:#4fc7cf; --stone:#d6a55e; --lore:#c391d6; --spring:#7cc58a; --home:#ff7a6e; --cave:#aab4c8; --fort:#b7c66a; --ley:#e8c060;
+  --p-lights:#ffa24d; --p-craft:#5cc3e6; --p-encounter:#ff6fa6; --p-ghost:#b3a8f0; --p-poltergeist:#d38bf0; --p-cryptid:#a7c95a; --p-timeslip:#e8c35a; --p-other:#a8a8a8;
+  --danger:#ff7a6e; --l0:#e8c060; --l1:#ff7a6e; --l2:#7cc58a; --l3:#7ea8f0; --l4:#d38bf0; --l5:#4fc7cf; --l6:#ffa24d; --l7:#c8a080; --l8:#ff7fb0; --l9:#b7c66a; --l10:#9fa8ff; --l11:#5fd3c0; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.45}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 40px}
+header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 20px;margin-bottom:12px}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(30px,6vw,46px);line-height:1.05;margin:0;text-wrap:balance}
+.sub{color:var(--muted);font-size:15px;margin:0;max-width:56ch}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:16px;overflow-x:auto}
+.tabs a{font-family:var(--sc);font-size:17px;letter-spacing:.06em;color:var(--muted);text-decoration:none;padding:8px 14px 9px;border-bottom:3px solid transparent;white-space:nowrap}
+.tabs a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--ink)}
+.grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:20px;align-items:start}
+@media (max-width:860px){.grid{grid-template-columns:minmax(0,1fr)}}
+.mapbox{position:sticky;top:calc(env(safe-area-inset-top,0px) + 10px);background:var(--sea);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+@media (max-width:860px){.mapbox{position:relative;top:0}}
+svg#map{display:block;width:100%;height:min(78vh,760px);touch-action:none;cursor:grab}
+@media (max-width:860px){svg#map{height:62vh}}
+svg#map.drag{cursor:grabbing}
+svg#map.picking{cursor:crosshair}
+.land{fill:var(--land);stroke:var(--land-edge);stroke-width:.6;vector-effect:non-scaling-stroke}
+.ie{fill:var(--ie);stroke:var(--land-edge);stroke-width:.5;vector-effect:non-scaling-stroke}
+.graticule{stroke:var(--land-edge);stroke-opacity:.25;stroke-width:.5;vector-effect:non-scaling-stroke;fill:none;stroke-dasharray:2 4}
+.mk{cursor:pointer}
+.sh{stroke:var(--ring,var(--panel));stroke-width:var(--rw,1.2px);vector-effect:non-scaling-stroke}
+.mk.starred{--ring:var(--l0);--rw:2.6px}
+.mk.todo{--ring:var(--l3);--rw:2.6px}
+.mk.starred.todo{--ring:var(--l0)}
+.mk.tripstop{--ring:var(--danger);--rw:2.4px}
+.routeline{stroke:var(--danger);stroke-width:3;fill:none;stroke-linejoin:round;stroke-linecap:round;vector-effect:non-scaling-stroke;opacity:.85}
+.routeret{stroke-dasharray:6 6;opacity:.5}
+.stopnum{font-family:var(--body);font-weight:700;fill:var(--panel);text-anchor:middle;dominant-baseline:central;pointer-events:none}
+.stopbg{fill:var(--danger)}
+.mk.sel .sh{stroke:var(--ink);stroke-width:2.2}
+.mk.visited .sh{opacity:.45}
+.reglabel{font-family:var(--sc);fill:var(--muted);opacity:.7;letter-spacing:.12em;pointer-events:none}
+.leyaxis{stroke:var(--c,var(--ley));stroke-opacity:.45;stroke-width:1;stroke-dasharray:3 5;vector-effect:non-scaling-stroke;pointer-events:none}
+.leyline{stroke:var(--c,var(--ley));fill:none;stroke-width:2.5;stroke-dasharray:7 5;stroke-linejoin:round;vector-effect:non-scaling-stroke;pointer-events:none}
+.leyline.sel{stroke-width:4.5;stroke-dasharray:none}
+.leyhit{stroke:transparent;stroke-width:18;fill:none;vector-effect:non-scaling-stroke;cursor:pointer}
+.leystop{cursor:pointer;color:var(--c,var(--ley))}
+.leyg.dim{opacity:.18}
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 10px}
+.filters select{font:inherit;font-size:14px;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:6px 8px;max-width:100%}
+.filters label{display:inline-flex;gap:6px;align-items:center;font-size:14px;color:var(--muted);cursor:pointer}
+.filters .on{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.linkbtn{font:inherit;font-size:14px;background:none;border:0;color:var(--ink);text-decoration:underline;cursor:pointer;padding:4px 2px}
+.tagrow{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
+.tg{font:inherit;font-size:13px;border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:4px;padding:3px 8px;cursor:pointer}
+.tg[aria-pressed="true"]{background:var(--ink);color:var(--panel);border-color:var(--ink)}
+.tg b{font-weight:500;opacity:.7;font-variant-numeric:tabular-nums}
+.count{font-size:13px;color:var(--muted);margin:2px 0 6px;font-variant-numeric:tabular-nums}
+.sw{display:inline-block;width:18px;height:4px;border-radius:2px;background:var(--c);vertical-align:middle}
+.tagsel{display:flex;flex-wrap:wrap;gap:6px}
+.marks{display:inline-flex;gap:4px;flex-wrap:wrap}
+.mkb{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:4px 10px;cursor:pointer}
+.mkb[aria-pressed="true"].star{background:var(--l0);border-color:var(--l0);color:#1d1a10}
+.mkb[aria-pressed="true"].todo{background:var(--l3);border-color:var(--l3);color:#fff}
+.mkb[aria-pressed="true"].vis{background:var(--l2);border-color:var(--l2);color:#fff}
+.flags{font-size:12px;letter-spacing:.04em;white-space:nowrap}
+.flags .fs{color:var(--l0)} .flags .ft{color:var(--l3)} .flags .fv{color:var(--l2)}
+.srcs{margin:0 0 8px;padding-left:18px;font-size:13px;color:var(--muted)}
+.srcs a{color:var(--ink)}
+.trip{display:grid;gap:12px;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:14px;margin-bottom:12px}
+.trip .row2{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center}
+.trip select,.trip input[type=text]{font:inherit;font-size:14px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:6px 8px;max-width:100%}
+.trip label{display:inline-flex;gap:6px;align-items:center;font-size:14px;color:var(--muted)}
+.tripsum{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;font-variant-numeric:tabular-nums}
+.tripsum b{font-size:20px;font-family:var(--display);font-weight:400;color:var(--ink)}
+li.stop{display:grid;grid-template-columns:28px minmax(0,1fr) auto;gap:2px 10px;align-items:start;padding:8px 6px;border-bottom:1px dotted var(--line)}
+li.stop .n{width:24px;height:24px;border-radius:50%;background:var(--danger);color:var(--panel);font-weight:700;font-size:13px;display:grid;place-items:center}
+li.stop .nm{font-family:var(--display);font-size:17px;line-height:1.2;cursor:pointer}
+li.stop .ds{grid-column:2/4;font-size:13px;color:var(--muted)}
+li.stop .ctl{display:flex;gap:2px}
+ .visit{display:grid;gap:6px;margin-top:10px}
+.visit textarea{font:inherit;font-size:14px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:7px 9px;min-height:64px;resize:vertical;width:100%}
+.photos{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.photos figure{position:relative;margin:0}
+.photos img{width:72px;height:72px;object-fit:cover;border-radius:4px;border:1px solid var(--line);display:block}
+.phx{position:absolute;top:2px;right:2px;width:22px;height:22px;border-radius:50%;border:0;background:var(--panel);color:var(--ink);font:inherit;font-size:13px;cursor:pointer;line-height:1}
+.phadd{cursor:pointer}
+li.stop .ctl button{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:4px;width:28px;height:28px;cursor:pointer}
+.leytag{font-family:var(--sc);fill:var(--c,var(--ley));letter-spacing:.06em;pointer-events:none;paint-order:stroke;stroke:var(--sea);stroke-width:3px;stroke-linejoin:round}
+.ctrls{position:absolute;right:10px;top:10px;display:flex;flex-direction:column;gap:6px}
+.ctrls button,.reg button,.chip,.btn{font:inherit}
+.ctrls button{width:36px;height:36px;border-radius:6px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font-size:20px;line-height:1;cursor:pointer}
+.reg{position:absolute;left:10px;top:10px;display:flex;flex-wrap:wrap;gap:6px;max-width:calc(100% - 70px)}
+.reg button{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:5px 11px;font-size:13px;cursor:pointer}
+.reg button[aria-pressed="true"]{background:var(--ink);color:var(--panel);border-color:var(--ink)}
+.scale{position:absolute;left:12px;bottom:10px;font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+.scale i{display:block;height:5px;border:1px solid var(--muted);border-top:0;margin-top:2px}
+.pickbar{position:absolute;left:10px;right:10px;top:54px;background:var(--ink);color:var(--panel);border-radius:6px;padding:8px 12px;font-size:14px;display:flex;justify-content:space-between;gap:10px;align-items:center}
+.pickbar button{background:none;border:1px solid var(--panel);color:var(--panel);border-radius:4px;padding:3px 9px;font:inherit;cursor:pointer}
+button:focus-visible,.chip:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--well);outline-offset:2px}
+.card{position:absolute;left:10px;right:10px;bottom:10px;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:12px 14px;box-shadow:0 6px 24px rgba(0,0,0,.18);max-height:70%;overflow:auto}
+.card h3{font-family:var(--display);font-weight:400;font-size:22px;margin:0 28px 2px 0;line-height:1.15}
+.card p{margin:6px 0 10px;font-size:15px}
+.card .x{position:absolute;right:8px;top:6px;border:0;background:none;color:var(--muted);font-size:22px;cursor:pointer}
+.meta{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.acts{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:6px;padding:6px 11px;font-size:14px;color:var(--ink);background:var(--bg);text-decoration:none;cursor:pointer}
+.btn.primary{background:var(--ink);color:var(--panel);border-color:var(--ink)}
+.btn.danger{color:var(--danger);border-color:var(--danger)}
+.stops{margin:6px 0 10px;padding:0;list-style:none;max-height:28vh;overflow:auto;font-size:14px}
+.stops li{display:flex;justify-content:space-between;gap:10px;padding:3px 0;border-bottom:1px dotted var(--line)}
+.stops a{color:var(--ink)}
+.tag{display:inline-block;margin:0 6px 8px 0;font-size:13px;color:var(--ink);background:color-mix(in srgb,var(--ley) 22%,transparent);border-radius:4px;padding:2px 7px}
+.side{min-width:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.chip{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:6px 12px 6px 9px;font-size:14px;cursor:pointer}
+.chip[aria-pressed="false"]{opacity:.45;background:transparent}
+.chip svg{width:16px;height:16px;flex:none}
+.chip b{font-weight:500;color:var(--muted);font-variant-numeric:tabular-nums}
+.tools{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;justify-content:space-between;margin-bottom:8px;font-size:14px;color:var(--muted)}
+.tools label{display:inline-flex;gap:6px;align-items:center;cursor:pointer}
+.tools input[type=search]{flex:1 1 180px;min-width:0;font:inherit;padding:7px 10px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink)}
+h2{font-family:var(--sc);font-weight:400;font-size:15px;letter-spacing:.14em;color:var(--muted);margin:18px 0 6px;padding-bottom:4px;border-bottom:1px solid var(--line)}
+ol{list-style:none;margin:0;padding:0}
+li.row{display:grid;grid-template-columns:22px minmax(0,1fr) auto;gap:2px 10px;align-items:start;padding:8px 6px;border-radius:6px;cursor:pointer}
+li.row:hover,li.row.sel{background:var(--panel)}
+li.row svg{width:18px;height:18px;margin-top:3px}
+li.row .nm{font-family:var(--display);font-size:18px;line-height:1.2}
+li.row .ds{grid-column:2/4;font-size:14px;color:var(--muted)}
+li.row .mi{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap;padding-top:3px}
+li.row.visited .nm{text-decoration:line-through;text-decoration-color:var(--muted)}
+.note{margin-top:22px;font-size:13px;color:var(--muted);max-width:62ch}
+.intro{font-size:15px;margin:0 0 12px;max-width:62ch}
+.intro a{color:var(--ink)}
+form.add{display:grid;gap:10px;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:14px;margin-bottom:14px}
+form.add label{display:grid;gap:4px;font-size:13px;color:var(--muted)}
+form.add input,form.add select,form.add textarea{font:inherit;font-size:15px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:7px 9px;min-width:0;width:100%}
+form.add textarea{min-height:80px;resize:vertical}
+form.add .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:420px){form.add .two{grid-template-columns:1fr}}
+.err{color:var(--danger);font-size:14px}
+.empty{padding:14px;border:1px dashed var(--line);border-radius:6px;color:var(--muted);font-size:15px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Sacred Missions Map</h1>
+    <p class="sub" id="sub"></p>
+    <p class="meta" style="margin:0">v__VERSION__</p>
+  </header>
+  <nav class="tabs" aria-label="Map layers">
+    <a href="#sacred" id="t-sacred">Sacred sites</a>
+    <a href="#sinclair" id="t-sinclair">Paul Sinclair</a>
+    <a href="#paranormal" id="t-paranormal">UFO &amp; paranormal</a>
+    <a href="#sky" id="t-sky">Sky</a>
+    <a href="#trip" id="t-trip">Road trip</a>
+  </nav>
+  <div class="grid">
+    <div class="mapbox">
+      <svg id="map" role="img" aria-label="Map of Great Britain with sites marked">
+        <defs>
+          <symbol id="s-well" viewBox="-10 -10 20 20"><circle class="sh" r="8" fill="var(--well)"/><circle r="2.6" fill="var(--panel)"/></symbol>
+          <symbol id="s-falls" viewBox="-10 -10 20 20"><path class="sh" d="M0 -9C4 -3 8 1 8 4A8 8 0 0 1 -8 4C-8 1 -4 -3 0 -9Z" fill="var(--falls)"/></symbol>
+          <symbol id="s-stone" viewBox="-10 -10 20 20"><path class="sh" d="M-4.5 9L-5.5 -5Q0 -10 5.5 -5L4.5 9Z" fill="var(--stone)"/></symbol>
+          <symbol id="s-lore" viewBox="-10 -10 20 20"><path class="sh" d="M0 -9L2.6 -2.8L9 -2.4L4 1.8L5.6 8.4L0 4.8L-5.6 8.4L-4 1.8L-9 -2.4L-2.6 -2.8Z" fill="var(--lore)"/></symbol>
+          <symbol id="s-spring" viewBox="-10 -10 20 20"><rect class="sh" x="-7" y="-7" width="14" height="14" transform="rotate(45)" fill="var(--spring)"/></symbol>
+          <symbol id="s-cave" viewBox="-10 -10 20 20"><path class="sh" d="M-9 8V1A9 9 0 0 1 9 1V8Z" fill="var(--cave)"/><path d="M-3.5 8V3A3.5 3.5 0 0 1 3.5 3V8Z" fill="var(--panel)"/></symbol>
+          <symbol id="s-fort" viewBox="-10 -10 20 20"><circle class="sh" r="8.5" fill="var(--fort)"/><circle r="5" fill="none" stroke="var(--panel)" stroke-width="1.6"/></symbol>
+          <symbol id="s-ley" viewBox="-10 -10 20 20"><circle r="5" fill="var(--panel)" stroke="currentColor" stroke-width="3"/></symbol>
+          <symbol id="s-leyicon" viewBox="-10 -10 20 20"><path d="M-9 7L9 -7" stroke="currentColor" stroke-width="3" stroke-dasharray="4 2.5"/><circle r="3" fill="currentColor"/></symbol>
+          <symbol id="s-home" viewBox="-10 -10 20 20"><path d="M-8 1L0 -7L8 1V9H-8Z" fill="var(--home)" stroke="var(--panel)" stroke-width="1.5"/></symbol>
+          <symbol id="s-p-lights" viewBox="-10 -10 20 20"><circle r="9" fill="var(--p-lights)" opacity=".3"/><circle class="sh" r="5.5" fill="var(--p-lights)"/></symbol>
+          <symbol id="s-p-craft" viewBox="-10 -10 20 20"><path class="sh" d="M-5 0A5 5 0 0 1 5 0Z" fill="var(--p-craft)"/><ellipse class="sh" cy="1.5" rx="9.5" ry="3.6" fill="var(--p-craft)"/></symbol>
+          <symbol id="s-p-encounter" viewBox="-10 -10 20 20"><path class="sh" d="M0 -9.5L9 0L0 9.5L-9 0Z" fill="var(--p-encounter)"/><circle r="2.4" fill="var(--panel)"/></symbol>
+          <symbol id="s-p-ghost" viewBox="-10 -10 20 20"><path class="sh" d="M-7 9V-1A7 7 0 0 1 7 -1V9L4.6 6.4L2.3 9L0 6.4L-2.3 9L-4.6 6.4Z" fill="var(--p-ghost)"/><circle cx="-2.6" cy="-1" r="1.4" fill="var(--panel)"/><circle cx="2.6" cy="-1" r="1.4" fill="var(--panel)"/></symbol>
+          <symbol id="s-p-poltergeist" viewBox="-10 -10 20 20"><rect class="sh" x="-7" y="-7" width="14" height="14" rx="2" transform="rotate(-12)" fill="var(--p-poltergeist)"/></symbol>
+          <symbol id="s-p-cryptid" viewBox="-10 -10 20 20"><ellipse class="sh" cy="3.5" rx="5.5" ry="4.8" fill="var(--p-cryptid)"/><circle class="sh" cx="-6" cy="-3" r="2.6" fill="var(--p-cryptid)"/><circle class="sh" cx="0" cy="-6.5" r="2.6" fill="var(--p-cryptid)"/><circle class="sh" cx="6" cy="-3" r="2.6" fill="var(--p-cryptid)"/></symbol>
+          <symbol id="s-p-timeslip" viewBox="-10 -10 20 20"><path class="sh" d="M-7 -9H7L0 0L7 9H-7L0 0Z" fill="var(--p-timeslip)"/></symbol>
+          <symbol id="s-p-other" viewBox="-10 -10 20 20"><path class="sh" d="M0 -9L7.8 -4.5V4.5L0 9L-7.8 4.5V-4.5Z" fill="var(--p-other)"/></symbol>
+          <symbol id="s-pin" viewBox="-10 -10 20 20"><path d="M0 9C-3 4 -7 0 -7 -3A7 7 0 0 1 7 -3C7 0 3 4 0 9Z" fill="var(--danger)" stroke="var(--panel)" stroke-width="1.5"/><circle cy="-3" r="2.5" fill="var(--panel)"/></symbol>
+        </defs>
+        <g id="world">
+          <path class="ie" d="__IE__"/>
+          <path class="land" d="__IM__"/>
+          <path class="land" d="__GB__"/>
+          <g id="grat"></g>
+          <g id="labels"></g>
+          <g id="leys"></g>
+          <g id="marks"></g>
+        </g>
+      </svg>
+      <div class="reg" id="reg"></div>
+      <div class="ctrls"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button></div>
+      <div class="pickbar" id="pickbar" hidden><span>Tap the map where it happened</span><button id="pickcancel">Cancel</button></div>
+      <div class="scale" id="scale"></div>
+      <div class="card" id="card" hidden></div>
+    </div>
+    <div class="side">
+      <div id="intro"></div>
+      <div id="formbox"></div>
+      <div class="chips" id="chips"></div>
+      <div class="filters" id="filters">
+        <select id="f-reg" aria-label="Region"></select>
+        <select id="f-dist" aria-label="Distance from home"><option value="0">Any distance</option><option value="10">Within 10 mi of home</option><option value="25">Within 25 mi</option><option value="50">Within 50 mi</option><option value="100">Within 100 mi</option></select>
+        <select id="f-era" aria-label="Era"></select>
+        <select id="f-sort" aria-label="Sort"></select>
+        <label><input type="checkbox" id="f-ley"> Near a ley line</label>
+        <button class="linkbtn" id="f-clear" type="button">Clear filters</button>
+      </div>
+      <div class="tagrow" id="tagrow"></div>
+      <div class="tools" id="tools">
+        <input type="search" id="q" placeholder="Search a name or place…" aria-label="Search">
+        <label id="opt1"></label>
+      </div>
+      <div class="count" id="count"></div>
+      <div id="list"></div>
+      <p class="note" id="note"></p>
+    </div>
+  </div>
+</div>
+
+<script>
+__SCRIPT__
+</script>
