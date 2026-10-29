@@ -1,0 +1,82 @@
+{
+  "verdict": "NOT ESTABLISHED (unsupported by every primary source reachable). No source found places a city mortuary, morgue or 'dead house' on Love Street, Chester, c.1880-1920. What IS documented: Forest House, Love Street (corner of Foregate Street) housed Chester's Public Health Department / Medical Officer of Health office until autumn 1910 (and also the Chester Poor Law Union and Chester Rural District Council offices c.1902). A council health office handling infectious-disease removals and enquiries about patients is a plausible source of a later 'mortuary' memory, but no document says bodies were kept there. Chester's MOH annual reports (1904-1935), Kelly's Cheshire directories (1896, 1902), the VCH Chester vol.5 pt 2 public-services chapters and the OS 25-inch Cheshire map (c.1898 revision) contain no public mortuary on or near Love Street. Caveat: the Chester Wiki 'Love Street' page repeatedly surfaces in search results for 'Love Street Chester morgue/mortuary' queries, suggesting it may make this claim, but it is behind a bot check and was not read; the claim, if there, is unverified.",
+  "findings": [
+    {
+      "claim": "The Chester Health Department was based at Forest House, Love Street until autumn 1910, when it moved to the Town Hall.",
+      "quote": "In the autumn of 1910, the Health Department was transferred from Forest House, Love Street, to the Town Hall.",
+      "source": "City & County Borough of Chester, Annual Report of the Medical Officer of Health for 1910 (Wellcome Collection digitisation, Internet Archive b29105523)",
+      "url": "https://archive.org/details/b29105523"
+    },
+    {
+      "claim": "In 1908 Forest House, Love Street was the public contact point for patients in the city Isolation Hospital, and was called the Public Health Office.",
+      "quote": "Enquiries as to the progress of patients may be made at Forest House, Love Street, or at the Nurses' Home, Isolation Hospital ... Forms of application for registration are supplied gratis at the Public Health Office, Forest House.",
+      "source": "City & County Borough of Chester, Annual Report of the Medical Officer of Health for 1908 (Internet Archive b29105511)",
+      "url": "https://archive.org/details/b29105511"
+    },
+    {
+      "claim": "The 1908 MOH report covers inquests (45 that year) but names no public mortuary, on Love Street or anywhere else. The full-text OCR of the 1904, 1908 and 1910 reports contains no 'mortuary'.",
+      "quote": "Forty-five Inquests were held in 1908 — 35 on adults and children over 5 years, and 10 on children under 5 years.",
+      "source": "Chester MOH Annual Report 1908 (Internet Archive b29105511)",
+      "url": "https://archive.org/details/b29105511"
+    },
+    {
+      "claim": "The only mortuary the Chester MOH reports of the 1920s-30s mention is the one at the city's infectious-diseases (Isolation/Fever) Hospital, not a public mortuary on Love Street.",
+      "quote": "The usual administrative block, laundry, disinfection station, mortuary and ambulance shed are also provided.",
+      "source": "Chester MOH Annual Report 1921 (Internet Archive b29105560). Similar wording appears in the 1923-1935 reports.",
+      "url": "https://archive.org/details/b29105560"
+    },
+    {
+      "claim": "In 1902 Forest House (given as on Foregate Street) also held the Chester Poor Law Union offices and Chester Rural District Council.",
+      "quote": "OHESTER RURAL DISTRICT COUNCIL. Meets at Forest house, Foregate street, 1st saturday in each month at 2 p.m. ... Clerk, William Turnock, Union offices, Forest house, Foregate street",
+      "source": "Kelly's Directory of Cheshire, 1902, Chester section (University of Leicester Special Collections, CONTENTdm record 53098; OCR text quoted as found, including the 'OHESTER' OCR error)",
+      "url": "https://leicester.contentdm.oclc.org/digital/bl/dmwebservices/index.php?q=dmGetItemInfo/p16445coll4/53098/json"
+    },
+    {
+      "claim": "The descriptive entry for Chester in Kelly's directory mentions mortuaries only as the cemetery chapels at Overleigh. It lists no public mortuary.",
+      "quote": "The Cemetery, at Overleigh, on the south-west side of the Dee bridge, the property of the Chester Cemetery Co. is 13 acres in extent and has two mortuary chapels.",
+      "source": "Kelly's Directory of Cheshire, 1896, p.203 (University of Leicester Special Collections, record 59836)",
+      "url": "https://leicester.contentdm.oclc.org/digital/bl/dmwebservices/index.php?q=dmGetItemInfo/p16445coll4/59836/json"
+    },
+    {
+      "claim": "Around 1900-1904 Chester Corporation bought land on Love Street to widen it under the Public Health Act 1875 and the Chester Improvement Acts. The archive catalogue gives no mortuary purpose.",
+      "quote": "Conveyance from the Chester Co-operative Society Ltd. of 9 Black Diamond Street, to Chester Corporation of a piece of land containing 100 square yards ... for the purpose of widening Love Street, under the powers of the Public Health Act 1875 and the Chester Improvement Acts",
+      "source": "Cheshire Archives and Local Studies ZC100C/2 (17 June 1904), via TNA Discovery",
+      "url": "https://discovery.nationalarchives.gov.uk/details/r/62c0a615-2877-42bd-8263-ae444b8e4532"
+    },
+    {
+      "claim": "The city police station was in the basement of the Town Hall (opened 1869), which is where the city coroner held inquests. The county constabulary HQ was at Foregate Street from 1884. VCH Chester vol.5 pt 2 (Law and order, Public utilities, Medical services) does not mention a mortuary.",
+      "quote": "The ground floor of the new town hall, opened in 1869, was designed as the city's police station ... The county constabulary headquarters was located from 1884 in a building designed for the purpose by John Douglas in Foregate Street",
+      "source": "VCH Cheshire vol.5 pt 2, 'Local government and public services: Law and order', pp.28-35",
+      "url": "https://www.british-history.ac.uk/vch/ches/vol5/pt2/pp28-35"
+    },
+    {
+      "claim": "A Chester inquest of the 1890s/1900s (Maria Culm, found dead in Stocks Lane) was opened by city coroner Ernest Brassey at the Town Hall. The report says she was taken 'to the mortuary' but does not say where it was.",
+      "quote": "...ordered her removal to the mortuary.",
+      "source": "Welsh Newspapers Online article 'A CHESTER WOMAN'S MYSTERIOUS END' (newspaper title and date not captured)",
+      "url": "https://newspapers.library.wales/view/3662127/3662131/40"
+    },
+    {
+      "claim": "The Chester Royal Infirmary had its own post-mortem and mortuary block (plans approved 1945). This is a hospital facility, outside the 1880-1920 window.",
+      "quote": "(1867) Post mortem and mortuary block for Chester Royal Infirmary by H V Ashley & Winton Newman ... Approved 10 Sept 1945",
+      "source": "Cheshire Archives and Local Studies ZD/S/3/943, via TNA Discovery",
+      "url": "https://discovery.nationalarchives.gov.uk/details/r/f8eef387-f116-4e29-bbf3-2bd86651ee2c"
+    },
+    {
+      "claim": "Map check: on the OS 25-inch Cheshire sheet (NLS georeferenced layer, c.1898 revision) Love Street shows 'Forest House', 'Union Street', 'Tanyard Court', St Werburgh's R.C. Church and Grosvenor Park, but no 'Mortuary'. No mortuary label appears in the town centre, Groves, Boughton/Steam Mill Street, Infirmary/Water Tower or Hoole workhouse areas either.",
+      "quote": "",
+      "source": "Ordnance Survey 25-inch Cheshire (National Library of Scotland tile layer, read visually from tiles at zoom 18)",
+      "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/cheshire/18/128972/85161.png"
+    }
+  ],
+  "mortuary_location": null,
+  "mortuary_location_notes": "Not found. A dedicated city public mortuary for Chester is not identified in any source checked for 1880-1920. The evidence fits bodies being taken to the city Isolation/Fever Hospital mortuary (infectious cases), the Infirmary, or another ad hoc place, with inquests held at the Town Hall or at inns such as the Red Lion, Handbridge. This is not proven. Closest documented municipal-health site on Love Street: Forest House (Health Department until autumn 1910), approx lat 53.1911, lon -2.8845.",
+  "ghost_stories": [],
+  "ghost_stories_notes": "No ghost story tied to Love Street or Forest House was found in indexed sources (Haunted Chester / Chester City of Ghosts promotional pages, chester.com haunted list, spookyisles). Not checked: the full text of the books by David Brandon and Mary Ann Cameron, and the Chester Wiki (bot-protected).",
+  "not_reachable": [
+    "chester.shoutwiki.com/wiki/Love_Street: Anubis bot check, not bypassed. It keeps appearing for 'Love Street Chester morgue/mortuary' searches, so it is the most likely source of the claim.",
+    "newspapers.library.wales search: Cloudflare challenge. Individual article pages could be read but not searched.",
+    "maps.nls.uk viewer and HathiTrust full-text search: captcha / Cloudflare.",
+    "Google Books API: quota exhausted.",
+    "cheshireimagebank.org.uk item p4804 ('Chester, Love Street, Chester'), which came up for a 'Love Street Chester morgue' search: not readable."
+  ]
+}

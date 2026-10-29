@@ -13446,7 +13446,7 @@
 "place": "Love Street, Chester",
 "lat": 53.1916,
 "lon": -2.8838,
-"desc": "Lead from Bryn: Love Street is said to have been Chester's city morgue around the turn of the century. Not yet confirmed — listed-building, Victoria County History and old-pub sources checked on 2026-10-29 mention slum cottages replaced in 1898–1900 and the Golden Lion pub, but no mortuary. To check: Chester Wiki (Love Street), Cheshire Observer archives, Chester city coroner records.",
+"desc": "Lead from Bryn: Love Street is said to have been Chester's city morgue around 1900. Not confirmed. Research on 2026-10-29 found no public mortuary on the street in the Medical Officer of Health reports (1904, 1908, 1910–35), Kelly's directories (1896, 1902), the Victoria County History or the c.1898 25-inch OS map. What was there: Forest House on Love Street held the city's Public Health office (and the Union offices) until autumn 1910 — the MOH report says patients' progress could be enquired about there, which may be how the 'morgue' memory arose. The only mortuaries named in the records are the isolation hospital's and the Overleigh Cemetery chapels; inquests were held at the Town Hall. Still to check: Chester Wiki 'Love Street' page and the Cheshire Observer.",
 "tags": [
 "urban",
 "historic",
@@ -13460,12 +13460,24 @@
 "url": ""
 },
 {
-"name": "Historic England listing — 30, 32 and 34 Love Street",
+"name": "Chester MOH annual report 1910 — Health Department moved from Forest House, Love Street, to the Town Hall",
+"url": "https://archive.org/details/b29105523"
+},
+{
+"name": "Chester MOH annual report 1908 — Public Health Office, Forest House, Love Street",
+"url": "https://archive.org/details/b29105511"
+},
+{
+"name": "Victoria County History, Chester vol 5 pt 2 — Town Hall (inquests, police station)",
+"url": "https://www.british-history.ac.uk/vch/ches/vol5/pt2/pp28-35"
+},
+{
+"name": "Historic England listing — 30, 32 and 34 Love Street (1898 cottages)",
 "url": "https://britishlistedbuildings.co.uk/101375871-30-32-and-34-love-street-chester-city-ward"
 }
 ],
 "created": 1793300000000,
-"updated": 1793300000000,
+"updated": 1793303000000,
 "id": "love-street-chester-city-morgue"
 }
 ]
