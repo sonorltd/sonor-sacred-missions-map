@@ -1,0 +1,181 @@
+{
+ "searched": "2026-10-30",
+ "question": "Any links to Llyn Brianne (MU, archive, web) — deeper research",
+ "findings": {
+  "mu": "None of the 1,307 Mysterious Universe episodes mention Llyn Brianne, Rhandirmwyn, Cilycwm, Llandovery, Ystradffin, Tregaron or the upper Tywi (full-text and regex search of titles, show notes and link titles, 2026-10-30). Werewolf/dogman theme episodes exist (14.05 dogman reports, 27.01 Vargulfr, 30.12 Yoga Pants Lycanthropy, 33.23 Real Wolfmen) but none are Welsh.",
+  "archive": "Before this pass the private Llyn Brianne account had no links. It stays private (arc_links is readable by the anon key, so no link rows point at it); nearby public cases are grouped under the place entity upper-tywi-llyn-brianne instead.",
+  "web_direct": "No published UFO, ghost, cryptid or werewolf report names Llyn Brianne itself. Press coverage is about the dam, the drowned Fanog farm and the spillway kayaking ban.",
+  "place_history": [
+   {
+    "fact": "Named after the stream Nant y Bryniau; 'Brianne' was a mapmaker's misspelling that stuck.",
+    "src": "https://www.rhandirmwyn.net/llyn-brianne.html"
+   },
+   {
+    "fact": "Public inquiry Dec 1966; West Glamorgan Water Board (Llyn Brianne) Order 1968; opened by Princess Alexandra 15 May 1973. Protesters stopped a road through the Doethie valley.",
+    "src": "https://www.rhandirmwyn.net/llyn-brianne.html"
+   },
+   {
+    "fact": "Fanog (Fannog) farm drowned in 1973; its ruin/roof re-emerges in droughts (a joker once put a For Sale sign on it). Fanog Gorge photographed by Tom Lewis in the early 1900s.",
+    "src": "https://www.rhandirmwyn.net/llyn-brianne.html"
+   },
+   {
+    "fact": "Clay for the dam came from near Soar-y-Mynydd chapel; 91 m rock-fill dam, tallest in the UK; hydro station added 1996.",
+    "src": "https://en.wikipedia.org/wiki/Llyn_Brianne"
+   },
+   {
+    "fact": "Dark Sky Discovery Site since October 2019.",
+    "src": "https://www.monmouthshirebeacon.co.uk/news/llyn-brianne-the-reservoir-with-a-strange-history-705764"
+   },
+   {
+    "fact": "Nantymwyn lead mine, Rhandirmwyn: possibly Roman, recorded 1304, 400+ workers at peak, closed 1932; several fatal accidents (inquests listed), no ghost lore found.",
+    "src": "https://rhandirmwyn.net/mine.html"
+   },
+   {
+    "fact": "Twm Siôn Cati (c.1532–1609) married Joan, widow of Thomas Williams of Ystradffin, in 1607; cave on Dinas hill.",
+    "src": "https://swanseabaynews.com/twm-sion-cati-the-real-welsh-robin-hood-whose-cave-still-hides-above-the-towy/"
+   }
+  ],
+  "culture": {
+   "fact": "In White Wolf's Werewolf/Changeling 'Isle of the Mighty' setting, Llyn Brianne is one of three wandering sacred pools of Britain — fiction, but a werewolf-game connection to the name.",
+   "src": "https://whitewolf.fandom.com/wiki/Llyn_Brianne"
+  },
+  "nearest_wolf_like": "Nearest wolf-like reports found are the Amman Valley 'wolfman' (c. 20 mi S, explained — a man living rough) and Tonmawr (c. 35 mi S). Everything else Welsh is North Wales or Meirionnydd."
+ },
+ "new_cases": [
+  {
+   "id": "wolfman-of-merionethshire",
+   "title": "Wolfman of Merionethshire",
+   "cat": "cryptid",
+   "date": "c. 1900s",
+   "place": "Meirionnydd, near a small station and disused slate quarries (exact place not given)",
+   "lat": 52.97,
+   "lon": -3.93,
+   "desc": "An amateur artist, Miss St Denis, staying at a farm, was followed from a small railway station by a silent figure; on a path among old slate quarries she saw it was human in form, covered in grey hair, with a wolf's head. It shrank from her torch and vanished. Locals said human and animal bones had been found in a nearby quarry and avoided the place after dark. Told in Elliott O'Donnell's Werewolves (1912) and later in Psychic News by John West. Pin is approximate (the farm is unnamed).",
+   "tags": [
+    "werewolf",
+    "wild-man",
+    "folklore",
+    "historic",
+    "area-only"
+   ],
+   "sources": [
+    {
+     "name": "Cambrian News",
+     "url": "https://www.cambrian-news.co.uk/news/wolfman-of-merionethshire-did-a-werewolf-once-stalk-the-hills-of-meirionnydd-100084"
+    },
+    {
+     "name": "Spooky Isles",
+     "url": "https://www.spookyisles.com/the-wolf-man-of-merionethshire/"
+    }
+   ]
+  },
+  {
+   "id": "bipedal-dog-like-creature-tonmawr",
+   "title": "Bipedal dog-like creature at Tonmawr",
+   "cat": "cryptid",
+   "date": "c. 2004",
+   "place": "Forest near Tonmawr, Neath Port Talbot",
+   "lat": 51.643,
+   "lon": -3.727,
+   "desc": "A witness who was 11 at the time (31 when he wrote in) was playing with cousins in the forest about a mile from a relative's home when he saw, some 20 ft away at the tree line, a dog-like animal standing on two legs, steadying itself on a tree with one paw before pushing off and standing in a threatening way. 'Werewolf isn't the word, this was, sure as day, a dog.' Anonymous, unverified account sent to Phantoms & Monsters (2024).",
+   "tags": [
+    "dogman",
+    "werewolf",
+    "forest",
+    "single-witness",
+    "unconfirmed"
+   ],
+   "sources": [
+    {
+     "name": "Phantoms & Monsters (Lon Strickler), via Goodreads",
+     "url": "https://www.goodreads.com/author_blog_posts/24475780-bipedal-dog-like-cryptid-encountered-near-tonmawr-wales"
+    }
+   ]
+  },
+  {
+   "id": "amman-valley-wolfman-hermit-2007",
+   "title": "Amman Valley 'wolfman' (explained)",
+   "cat": "other",
+   "date": "2007–2012",
+   "place": "Woods near Ammanford, Carmarthenshire",
+   "lat": 51.795,
+   "lon": -3.99,
+   "desc": "Press called him the 'wolfman': a former forestry worker who lived wild in the woods from 2007, hunting rabbits and foraging, glimpsed by locals and leaving a stocked tin shack; food and milk went missing in a hard winter. Police appealed and searched with dogs in 2012 when he had not been seen for over a year. Not a creature: a man living rough. Included because it is the nearest 'wolfman' story to Llyn Brianne (about 20 mi south).",
+   "tags": [
+    "explained",
+    "wild-man",
+    "forest"
+   ],
+   "sources": [
+    {
+     "name": "Fox News (2012)",
+     "url": "https://www.foxnews.com/world/cops-declare-hunt-for-wolfman-living-wild-in-uk-woods-for-years"
+    },
+    {
+     "name": "Spooky Isles",
+     "url": "https://www.spookyisles.com/werewolves-of-wales/"
+    }
+   ]
+  },
+  {
+   "id": "wolf-like-animal-craig-y-don-penrhyn-bay-2004",
+   "title": "Grey wolf-like animal, Craig-y-Don and Penrhyn Bay",
+   "cat": "cryptid",
+   "date": "2004/06",
+   "place": "Craig-y-Don and Penrhyn Bay, Conwy",
+   "lat": 53.318,
+   "lon": -3.795,
+   "desc": "A grey predator 'the size of an Alsatian, with a long snout' was reported around Craig-y-Don and Penrhyn Bay; a 70-year-old resident chased it off with stones at about 4am after it went for his cat. Cats went missing and the RSPCA interviewed owners. Suggested explanations: an escaped or released animal, or a misidentified large dog.",
+   "tags": [
+    "canid",
+    "multiple-witnesses",
+    "urban",
+    "pets"
+   ],
+   "sources": [
+    {
+     "name": "Daily Post / North Wales Live",
+     "url": "https://www.dailypost.co.uk/news/north-wales-news/north-wales-x-files-wolf-12033606"
+    }
+   ]
+  },
+  {
+   "id": "beast-attacks-carriage-denbigh-wrexham-road-1790",
+   "title": "Beast attacks carriage on the Denbigh–Wrexham road",
+   "cat": "cryptid",
+   "date": "1790",
+   "place": "Road between Denbigh and Wrexham",
+   "lat": 53.12,
+   "lon": -3.2,
+   "desc": "A large beast attacked a two-horse carriage; one horse was mauled and the other broke free and bolted with the creature chasing it. A year later (1791) a farmer and blacksmith followed huge paw prints in snow to a farm where a dog had been killed; the farmer spoke of a beast with 'intelligent blue eyes'. Retold as Welsh werewolf lore; no original source is named, so treat as unconfirmed. Pin is the road's midpoint.",
+   "tags": [
+    "werewolf",
+    "canid",
+    "historic",
+    "unconfirmed",
+    "area-only"
+   ],
+   "sources": [
+    {
+     "name": "Spooky Isles — Werewolves of Wales",
+     "url": "https://www.spookyisles.com/werewolves-of-wales/"
+    }
+   ]
+  }
+ ],
+ "site_update": {
+  "key": "s:llyn-brianne",
+  "desc": "Remote reservoir in the upper Tywi valley behind the tallest dam in the UK (91 m), opened by Princess Alexandra on 15 May 1973. The name is a mapmaker's slip for Nant y Bryniau. Fanog farm was drowned, and its ruin reappears in droughts. Clay for the dam came from near Soar-y-Mynydd chapel. Dark Sky Discovery Site since 2019. Twm Siôn Cati's cave, the Cilycwm witch and the wizard of Cwrtycadno are all within 7 miles. The spillway roars after heavy rain."
+ },
+ "entity": {
+  "id": "upper-tywi-llyn-brianne",
+  "name": "Upper Tywi & Llyn Brianne",
+  "kind": "place",
+  "summary": "The upper Tywi valley around Llyn Brianne, Rhandirmwyn, Cilycwm, Ystradffin and the Doethie: the Cwrtycadno wizard, the Cilycwm witch, Twm Siôn Cati's cave, Strata Florida and the surrounding Cambrian Mountains cases (within about 12 miles of the dam).",
+  "radius_mi": 12,
+  "center": [
+   52.1335,
+   -3.7495
+  ]
+ }
+}

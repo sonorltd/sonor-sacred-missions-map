@@ -5,6 +5,9 @@ const SITES_X=__SITES_X__;
 const SINC_X=__SINC_X__;
 const CATS={well:"Holy wells",falls:"Waterfalls",stone:"Stones & circles",lore:"Folklore places",spring:"Springs & spas",cave:"Caves",fort:"Hill forts"};
 const PCATS={lights:"Lights & orbs",craft:"Craft & objects",encounter:"Close encounters",ghost:"Ghosts & figures",poltergeist:"Poltergeists",cryptid:"Cryptids & big cats",timeslip:"Time slips & missing time",ritual:"Occult & ritual sites",other:"Other phenomena"};
+// report tabs: one per category group (data/cat_groups.json), then Ritual, MU and Everything ("paranormal")
+const CAT_GROUPS=__CAT_GROUPS__;const GVIEWS=Object.keys(CAT_GROUPS);const RVIEWS=[...GVIEWS,"ritual","mu","paranormal"];
+const groupOfCat=c=>GVIEWS.find(g=>CAT_GROUPS[g].cats.includes(c));
 const LKINDS={major:"Major lines",ley:"Ley alignments",energy:"Energy lines",astro:"Astronomical"};
 const LKCOL={major:0,ley:2,energy:6,astro:10};
 const REGS={nw:"North Wales",wa:"Mid & South Wales",nwe:"North West England",yne:"Yorkshire & North East",mid:"Midlands",east:"East of England",sw:"South West England",se:"London & South East",sc:"Scotland",ie:"Ireland",im:"Isle of Man"};
@@ -72,7 +75,9 @@ let marks={m:{},trips:[]}; let marksRef=null, marksTimer=null;
 const LS="smm-marks";
 try{const v=JSON.parse(localStorage.getItem(LS)||"null");if(v&&v.m)marks=v}catch(e){}
 const mk_=k=>marks.m[k]||{};
-const isStar=k=>!!mk_(k).s, isTodo=k=>!!mk_(k).t, isVis=k=>!!mk_(k).v;
+// places starred for everyone unless unstarred (data/default_stars.json)
+const DEFAULT_STARS=new Set(__DEFAULT_STARS__);
+const isStar=k=>{const m=mk_(k);return m.s===undefined?DEFAULT_STARS.has(k):!!m.s}, isTodo=k=>!!mk_(k).t, isVis=k=>!!mk_(k).v;
 let assetsApi=null;
 function setNote(k,txt){const cur={...mk_(k)};if(txt)cur.n=txt.slice(0,4000);else delete cur.n;if(Object.keys(cur).length)marks.m[k]=cur;else delete marks.m[k];saveMarks()}
 function visitBlock(k,again){const d=document.createElement("div");d.className="visit";const m=mk_(k);const ph=Array.isArray(m.ph)?m.ph:[];
@@ -86,7 +91,7 @@ function visitBlock(k,again){const d=document.createElement("div");d.className="
     again()};
   d.querySelectorAll(".phx").forEach(b=>b.onclick=async()=>{if(b.dataset.arm!=="1"){b.dataset.arm="1";b.textContent="✓";return}const id=b.dataset.id;const cur={...mk_(k)};cur.ph=(cur.ph||[]).filter(x=>x!==id);marks.m[k]=cur;saveMarks();try{await assetsApi?.delete(id)}catch(e){}again()});
   return d}
-function setMark(k,field,val){const cur={...mk_(k)};if(val)cur[field]=val;else delete cur[field];if(field==="v"&&val)delete cur.t;if(field==="t"&&val)delete cur.v;
+function setMark(k,field,val){const cur={...mk_(k)};if(val)cur[field]=val;else if(field==="s"&&DEFAULT_STARS.has(k))cur.s=0;else delete cur[field];if(field==="v"&&val)delete cur.t;if(field==="t"&&val)delete cur.v;
   if(Object.keys(cur).length)marks.m[k]=cur;else delete marks.m[k];saveMarks()}
 function saveMarks(){try{localStorage.setItem(LS,JSON.stringify(marks))}catch(e){}
   if(!marksRef)return;clearTimeout(marksTimer);marksTimer=setTimeout(async()=>{try{await marksRef.set({m:marks.m,trips:marks.trips,updated:Date.now()})}catch(e){}},700)}
@@ -121,8 +126,10 @@ const st={
   mu:{on:new Set(Object.keys(PCATS)),q:"",withSinc:false},
   ritual:{on:new Set(Object.keys(PCATS)),q:"",withSinc:false},
   trip:{q:""},
-  sky:{q:""}
+  sky:{q:""},
+  starred:{q:""}
 };
+GVIEWS.forEach(v=>{st[v]={on:new Set(CAT_GROUPS[v].cats),q:"",withSinc:false};F.sort[v]="group"});
 let sel=null;
 let reports=[]; let db=null, user=null, canWrite=false, myId=null; let dbState="loading";
 let picking=null, pinU=null, formOpen=false, editing=null, formDraft=null;
@@ -265,19 +272,20 @@ $("f-clear").onclick=()=>{F.reg="";F.dist=0;F.era="";F.area="";F.src="";F.ent=""
   if(tab==="sacred"){st.sacred.on=new Set(Object.keys(CATS));st.sacred.kinds=new Set(Object.keys(LKINDS));st.sacred.leysOnly=false}else if(st[tab].on)st[tab].on=new Set(Object.keys(PCATS));render()};
 function fitToShown(){const pts=markers.filter(m=>!m.overlay).map(m=>m.xy);if(F.reg||F.dist||F.area)fitPoints(F.dist?[...pts,hp]:pts)}
 function syncFilterBar(pool){
+  [fStatus,fSort,fLey.parentElement].forEach(e=>e.hidden=false);
   $("filters").hidden=tab==="trip"||tab==="sky";$("tools").hidden=tab==="trip"||tab==="sky";
   fReg.value=F.reg;fDist.value=String(F.dist);fStatus.value=F.status;fLey.checked=F.nearLey;
   [fReg,fDist,fStatus].forEach(s=>s.classList.toggle("on",!!s.value&&s.value!=="0"));
   fEra.hidden=tab==="sacred";
   if(tab!=="sacred"){const have=new Set(pool.map(o=>o.era));fEra.innerHTML=`<option value="">Any era</option>`+ERAS.filter(e=>have.has(e)).map(e=>`<option value="${e}">${eraLabel(e)}</option>`).join("");fEra.value=F.era;fEra.classList.toggle("on",!!F.era)}
-  fArea.hidden=tab==="sacred";fSrc.hidden=!["paranormal","mu","ritual"].includes(tab);
+  fArea.hidden=tab==="sacred";fSrc.hidden=!RVIEWS.includes(tab);
   if(tab!=="sacred"){const ac={};pool.forEach(o=>{if(o.area)ac[o.area]=(ac[o.area]||0)+1});const areas=Object.entries(ac).filter(([a,n])=>n>=2||a===F.area).sort((a,b)=>a[0].localeCompare(b[0]));
     fArea.innerHTML=`<option value="">Any area (${areas.length})</option>`+areas.map(([a,n])=>`<option value="${esc(a)}">${esc(a)} (${n})</option>`).join("");fArea.value=F.area;fArea.classList.toggle("on",!!F.area)}
   fSrc.value=F.src;fSrc.classList.toggle("on",!!F.src);
   const sorts=tab==="sacred"?[["group","Group by region"],["near","Nearest first"],["az","A–Z"]]:[["group",tab==="sinclair"?"Group by place":tab==="mu"?"Group by episode":tab==="ritual"?"Group by kind":"Group by type"],["new","Newest first"],["old","Oldest first"],["near","Nearest first"],["az","A–Z"]];
   fSort.innerHTML=sorts.map(([k,v])=>`<option value="${k}">${v}</option>`).join("");fSort.value=F.sort[tab]||"group";
 }
-function renderTagRow(pool){const box=$("tagrow");box.innerHTML="";if(!["paranormal","sinclair","mu","ritual"].includes(tab))return;
+function renderTagRow(pool){const box=$("tagrow");box.innerHTML="";if(!RVIEWS.includes(tab)&&tab!=="sinclair")return;
   const counts={};pool.forEach(r=>(r.tags||[]).forEach(t=>counts[t]=(counts[t]||0)+1));
   [...F.tags].forEach(t=>{if(!counts[t])F.tags.delete(t)});
   if(!Object.keys(counts).length)return;
@@ -318,12 +326,17 @@ const TABS={
    note:"Includes everything in the Occult & ritual category plus any report tagged satanic, black magic, occult, desecration, witchcraft or witch trial. Reports are claims as reported; some desecrations were never solved and some were later put down to vandals or hoaxers."},
  sky:{sub:"Solstices, equinoxes, fire festivals, moon phases and meteor showers, with the sites built to catch the sun and moon and when to be there.",
    note:"Dates are calculated in the page and are good to within a day; sunrise and sunset times assume a flat horizon, so hills will shift them a few minutes. Dashed rays on the map show this year's solstice sunrise or sunset direction from each aligned site (gold for midsummer, blue for midwinter)."},
+ starred:{sub:"Everything you've starred — sacred sites, Sinclair reports and paranormal reports — on one map.",
+   note:"Stars are saved with your marks. A few places come starred by default (Llyn Brianne); unstar them like any other. Tap a row to open the place without leaving this tab."},
  trip:{sub:"Plan a day out. Pick a start point, choose what to include, and the planner orders the stops into the shortest loop it can find.",
    note:"Distances are straight-line; drive times assume roads run about 30% longer than the crow flies at an average of 38 mph, so treat them as rough. Google Maps takes up to 9 stops per link, so longer trips open in parts. Saved trips are kept with your marks."}
 };
+GVIEWS.forEach(v=>TABS[v]={sub:CAT_GROUPS[v].sub,note:CAT_GROUPS[v].note||TABS.paranormal.note});
+{const ref=$("t-ritual");GVIEWS.forEach(v=>{const a=document.createElement("a");a.href="#"+v;a.id="t-"+v;a.textContent=CAT_GROUPS[v].label;ref.before(a)})}
 let started=false;
 function setTab(t){if(!TABS[t])t="sacred";const changed=t!==tab||!started;tab=t;sel=null;$("card").hidden=true;formOpen=false;editing=null;stopPick();clearPin();
   for(const k in TABS)$("t-"+k).setAttribute("aria-current",k===t?"page":"false");
+  {const a=$("t-"+t);if(a&&a.scrollIntoView)try{a.scrollIntoView({block:"nearest",inline:"center"})}catch(e){}}
   $("sub").textContent=TABS[t].sub;$("note").textContent=TABS[t].note;$("q").value=st[t].q||"";
   render();
   if(changed){if(t==="trip"&&trip.stops.length)fitTrip();else{goTo(VIEWS.all,started?450:0);setReg("all")}}started=true}
@@ -332,7 +345,7 @@ $("q").addEventListener("input",e=>{st[tab].q=e.target.value.trim().toLowerCase(
 
 function render(){
   M.querySelectorAll(".mk").forEach(n=>n.remove());numLabels.forEach(n=>{n.bg.remove();n.t.remove()});numLabels=[];RG.innerHTML="";HG.innerHTML="";markers=[];$("list").innerHTML="";$("count").textContent="";
-  ({sacred:renderSacred,sinclair:renderSinclair,paranormal:renderParanormal,mu:renderParanormal,ritual:renderParanormal,sky:renderSky,trip:renderTrip})[tab]();drawAlign();
+  ({sacred:renderSacred,sinclair:renderSinclair,paranormal:renderParanormal,...Object.fromEntries(GVIEWS.map(v=>[v,renderParanormal])),mu:renderParanormal,ritual:renderParanormal,sky:renderSky,trip:renderTrip,starred:renderStarred})[tab]();drawAlign();
   if(pinU)M.appendChild(pinU);
   const s=markers.find(m=>m.sel);if(s)M.appendChild(s.u);
   if(!$("list").children.length&&tab!=="trip"&&tab!=="sky")$("list").innerHTML='<p class="meta">Nothing matches. Loosen a filter or press Clear filters.</p>';
@@ -375,6 +388,8 @@ function siteCard(s){
   <a class="btn" target="_blank" rel="noopener" href="https://explore.osmaps.com/?lat=${s.lat}&lon=${s.lon}&zoom=15">OS Map</a>${s.src?`<a class="btn" target="_blank" rel="noopener" href="${esc(s.src)}">Source</a>`:""}<span class="meta">${s.lat.toFixed(4)}, ${s.lon.toFixed(4)}</span></div>`);
   const fb=document.createElement("button");fb.className="btn";fb.type="button";fb.textContent=align.found&&align.found.anchor===s?"Alignments shown":"Find alignments through here";fb.style.marginTop="8px";
   fb.onclick=()=>{align.found={anchor:s,lines:findThrough(s)};siteCard(s);drawAlign()};c.appendChild(fb);
+  {const pool=[...reports,...sinc.filter(x=>!x.approx)];const near=pool.map(x=>[x,miles(s.lat,s.lon,x.lat,x.lon)]).filter(([x,d])=>d<=10).sort((a,b)=>a[1]-b[1]).slice(0,10);
+   if(near.length){const cn=document.createElement("div");cn.className="conn";cn.innerHTML=`<div class="meta">Cases within 10 mi</div><div class="xg">${near.map(([x,d])=>xlBtn(x,Math.max(0.1,d).toFixed(1)+" mi"+(x.date?" · "+String(x.date).slice(0,4):""))).join("")}</div>`;c.appendChild(cn);wireConn(cn)}}
   if(align.found&&align.found.anchor===s){const r=document.createElement("div");r.style.marginTop="8px";
     r.innerHTML=align.found.lines.length?`<div class="meta">${align.found.lines.length} line${align.found.lines.length>1?"s":""} through here with 3+ other places within 250 m (search radius 40 mi):</div><ul class="stops">${align.found.lines.map((f,i)=>`<li><span><span class="sw" style="--c:var(--l${[4,8,10,5,6][i]})"></span> ${f.pts.length} places · ${Math.round(f.brg)}° · ${f.len.toFixed(1)} km · widest miss ${Math.round(f.maxDev)} m</span></li><li class="meta" style="border:0">${f.pts.slice(1).map(p=>esc(p.name)).join(", ")}</li>`).join("")}</ul>`:`<div class="meta">No lines through here with 3 or more other places within 250 m.</div>`;
     c.appendChild(r)}
@@ -409,15 +424,15 @@ function sincCard(r){const c=card(`<div class="meta">${smallIcon("s-p-"+r.cat)} 
   const cn=document.createElement("div");cn.innerHTML=connHTML(r);c.querySelector(".acts").before(cn);wireConn(c);
   addMarks(c,r.key,()=>sincCard(r))}
 
-// ----- UFO & paranormal / MU / Ritual (one renderer, three views) -----
+// ----- report tabs: category groups / Ritual / MU / Everything (one renderer) -----
 const RITUAL_TAGS=new Set(["satanic","black-magic","occult","desecration","witchcraft","witch-trial","hellfire-club","crowley","necromancy","cursing","magic-circle"]);
 const isRitual=r=>r.cat==="ritual"||r.tags.some(t=>RITUAL_TAGS.has(t));
-const inView=(r,v)=>v==="mu"?r.mu.length>0:v==="ritual"?isRitual(r):r.cat!=="ritual";
-const viewOf=r=>r.cat==="ritual"?"ritual":"paranormal";
-const PVIEW=()=>["paranormal","mu","ritual"].includes(tab)?tab:"paranormal";
+const inView=(r,v)=>v==="mu"?r.mu.length>0:v==="ritual"?isRitual(r):CAT_GROUPS[v]?CAT_GROUPS[v].cats.includes(r.cat):true;
+const viewOf=r=>r.cat==="ritual"?"ritual":groupOfCat(r.cat)||"paranormal";
+const PVIEW=()=>RVIEWS.includes(tab)?tab:"paranormal";
 function renderParanormal(){const V=PVIEW(),S=st[V];
   const intro=$("intro");intro.innerHTML=entBanner();wireBanner();
-  if(V==="paranormal"&&dbState==="ready"&&canWrite&&!formOpen){const bar=document.createElement("div");bar.className="acts";bar.style.marginBottom="12px";const b=document.createElement("button");b.className="btn primary";b.textContent="Add a report";b.onclick=()=>openForm(null);bar.appendChild(b);intro.appendChild(bar)}
+  if((V==="paranormal"||GVIEWS.includes(V))&&dbState==="ready"&&canWrite&&!formOpen){const bar=document.createElement("div");bar.className="acts";bar.style.marginBottom="12px";const b=document.createElement("button");b.className="btn primary";b.textContent="Add a report";b.onclick=()=>openForm(null);bar.appendChild(b);intro.appendChild(bar)}
   renderForm();
   const q=S.q;
   const base=reports.filter(r=>inView(r,V)&&passCommon(r)&&passEra(r)&&(!q||[r.title,r.place,r.desc,r.date,r.sources.map(s=>s.name).join(" "),r.tags.join(" "),r.mu.map(m=>m.title).join(" ")].join(" ").toLowerCase().includes(q)));
@@ -468,7 +483,7 @@ function connHTML(o){const out=[];const me=caseIdOf(o);
   const pool=[...reports,...sinc.filter(x=>!x.approx)];const near=pool.filter(x=>x!==o&&caseIdOf(x)!==me).map(x=>[x,miles(o.lat,o.lon,x.lat,x.lon)]).filter(([x,d])=>d<=5).sort((a,b)=>a[1]-b[1]).slice(0,8);
   if(near.length)out.push(`<div class="xg"><div class="xh">Nearby cases (within 5 mi)</div>${near.map(([x,d])=>xlBtn(x,Math.max(0.1,d).toFixed(1)+" mi"+(x.date?" · "+String(x.date).slice(0,4):""))).join("")}</div>`);
   return out.length?`<div class="conn"><div class="meta">Connections</div>${out.join("")}</div>`:""}
-const XTABS=["paranormal","mu","ritual","sinclair"];
+const XTABS=[...RVIEWS,"sinclair","starred"];
 function wireConn(c){c.querySelectorAll(".xl").forEach(b=>b.onclick=()=>{const k=b.dataset.k,i=k==="sinc"?+b.dataset.i:b.dataset.i;
     if(!XTABS.includes(tab)){location.hash=k==="sinc"?"sinclair":"paranormal";setTimeout(()=>select({kind:k,id:i},true),0)}else select({kind:k,id:i},true)});
   c.querySelectorAll(".xe").forEach(b=>b.onclick=()=>{F.ent=b.dataset.e;sel=null;$("card").hidden=true;const go=()=>{render();fitToEnt()};if(!XTABS.includes(tab)){location.hash="paranormal";setTimeout(go,0)}else go()})}
@@ -788,6 +803,18 @@ function renderSky(){
     ol.appendChild(li)});list.appendChild(ol);
   $("count").textContent="";
 }
+
+// ----- Starred -----
+function renderStarred(){const q=st.starred.q;$("intro").innerHTML="";$("formbox").innerHTML="";$("chips").innerHTML="";$("opt1").innerHTML="";$("tagrow").innerHTML="";syncFilterBar([]);[fEra,fArea,fSrc,fStatus,$("f-sort"),fLey.parentElement].forEach(e=>{if(e)e.hidden=true});
+  const ks=allKeys().filter(isStar);const its=ks.map(k=>{const it=itemOf(k);if(!it)return null;const t=k[0];
+    const ref=t==="s"?{kind:"site",id:sites.find(x=>x.key===k).id}:t==="p"?{kind:"sinc",id:+k.slice(2)}:{kind:"rep",id:k.slice(2)};
+    return{...it,t,ref,mi:miles(HOME.lat,HOME.lon,it.lat,it.lon)}}).filter(Boolean).filter(it=>(!q||(it.name+" "+it.sub).toLowerCase().includes(q))&&(!F.reg||regionOf(it.lat,it.lon)===F.reg)&&(!F.dist||it.mi<=F.dist));
+  setCount(its.length,ks.length,"starred");
+  its.forEach(it=>{const m=mk(it.sym,it.xy,it.name,()=>select(it.ref,false),{key:it.key});m.sel=isSel(it.ref.kind,it.ref.id);m.u.classList.toggle("sel",m.sel);markClasses(m.u,it.key);markers.push(m)});
+  const G={s:"Sacred sites",p:"Sinclair reports",r:"UFO, paranormal & ritual reports"};
+  ["s","p","r"].forEach(t=>section(G[t],its.filter(i=>i.t===t).sort((a,b)=>a.mi-b.mi).map(it=>row(icon(it.sym),it.name,Math.round(it.mi)+" mi",it.sub,isSel(it.ref.kind,it.ref.id),()=>select(it.ref,true),isVis(it.key)?" visited":"",it.key))));
+  if(!its.length)$("list").innerHTML='<p class="meta">Nothing starred yet. Open any place or report and press ☆ Star.</p>';
+  drawLeys()}
 
 // ---------- selection ----------
 function select(s,fly){sel=s;render();

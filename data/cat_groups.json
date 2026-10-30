@@ -1,0 +1,38 @@
+{
+ "ufo": {
+  "label": "UFO",
+  "cats": [
+   "lights",
+   "craft",
+   "encounter"
+  ],
+  "sub": "UFOs across Britain and Ireland: lights and orbs, craft and objects, and close encounters, each linked to its sources.",
+  "note": "Reports are claims as reported, gathered from press, official files (the MoD UFO files at the National Archives), research sites and Wikipedia; the “explained” tag marks cases with an accepted explanation. Several sources for one case are merged into one report."
+ },
+ "ghosts": {
+  "label": "Ghosts",
+  "cats": [
+   "ghost",
+   "poltergeist"
+  ],
+  "sub": "Ghosts, apparitions, phantom figures and poltergeists, from folklore collections to recent reports, each linked to its sources.",
+  "note": "Folklore entries (corpse candles, phantom funerals, legends) sit alongside modern accounts; dates are given where a source has one. Reports are claims as reported."
+ },
+ "cryptids": {
+  "label": "Cryptids",
+  "cats": [
+   "cryptid"
+  ],
+  "sub": "Big cats, black dogs, wolf-like creatures, lake monsters and other cryptids, each linked to its sources.",
+  "note": "Big-cat reports include livestock kills and official files released by the Welsh Government and police forces; many sightings are of misidentified domestic animals. Reports are claims as reported."
+ },
+ "strange": {
+  "label": "Strange",
+  "cats": [
+   "timeslip",
+   "other"
+  ],
+  "sub": "Time slips, missing time, fairy abductions and everything else that doesn't fit a box, each linked to its sources.",
+  "note": "A catch-all for odd events: time slips, fairy lore, falls, hums, cunning folk and unexplained happenings. Reports are claims as reported."
+ }
+}

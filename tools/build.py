@@ -22,7 +22,7 @@ VERSION = re.search(r"^## v(\d+\.\d+\.\d+)", read("CHANGELOG.md"), re.M).group(1
 DB = r'''(async()=>{
   try{
     db=await claude.use("db");
-    if(!db){dbState="none";if(["paranormal","mu","ritual"].includes(tab))render();return}
+    if(!db){dbState="none";if(RVIEWS.includes(tab))render();return}
     user=await claude.use("user");
     if(user){try{myId=await user.id()}catch(e){}let w=null;try{w=await user.can("data.write")}catch(e){}canWrite=w!==false}else canWrite=true;
     try{assetsApi=await claude.use("assets")}catch(e){assetsApi=null}
@@ -35,15 +35,15 @@ DB = r'''(async()=>{
       dbState="ready";
       if(!formOpen)render();
       if(sel&&sel.kind==="rep"){const r=reports.find(x=>x.id===sel.id);if(r)repCard(r);else closeCard()}
-    },()=>{dbState="error";if(["paranormal","mu","ritual"].includes(tab))render()});
-  }catch(e){dbState="none";if(["paranormal","mu","ritual"].includes(tab))render()}
+    },()=>{dbState="error";if(RVIEWS.includes(tab))render()});
+  }catch(e){dbState="none";if(RVIEWS.includes(tab))render()}
 })();'''
 
 def baked():
     reps = load("data", "reports.json", d=[])
     return ("const BAKED=" + json.dumps(reps, ensure_ascii=False) +
             ';\nreports=BAKED.map(v=>normReport(v.id,v)).filter(r=>isFinite(r.lat)&&isFinite(r.lon));'
-            'dbState="ready";canWrite=false;if(["paranormal","mu","ritual"].includes(tab))render();')
+            'dbState="ready";canWrite=false;if(RVIEWS.includes(tab))render();')
 
 def main():
     shapes = load("data", "shapes.json")
@@ -55,15 +55,17 @@ def main():
            .replace("__SITES_X__", json.dumps(load("data", "sites_x.json", d=[]), ensure_ascii=False))
            .replace("__SINC_X__", json.dumps(load("data", "sinc_x.json", d={}), ensure_ascii=False))
            .replace("__TAG_GROUPS__", json.dumps(load("data", "tag_groups.json", d={}), ensure_ascii=False))
+           .replace("__CAT_GROUPS__", json.dumps(load("data", "cat_groups.json", d={}), ensure_ascii=False))
+           .replace("__DEFAULT_STARS__", json.dumps(load("data", "default_stars.json", d=[]), ensure_ascii=False))
            .replace("__XLINKS__", json.dumps(load("data", "xlinks.json", d={}), ensure_ascii=False, separators=(",", ":"))))
     for mode in ("artifact", "pages"):
         s = app
         if mode == "artifact":
             s = s.replace("__COLLECTION__", DB).replace("__PARA_SUB__",
-                "Your growing collection of UFO, cryptid and paranormal reports from across Britain and Ireland. Add cases as you find them; they're saved with the map.")
+                "Every report in one place: UFO, ghosts, cryptids, strange events and occult sites from across Britain and Ireland. Add cases as you find them; they're saved with the map.")
         else:
             s = s.replace("__COLLECTION__", baked()).replace("__PARA_SUB__",
-                "UFO, cryptid and paranormal reports from across Britain and Ireland, each linked to its sources.")
+                "Every report in one place: UFO, ghosts, cryptids, strange events and occult sites from across Britain and Ireland, each linked to its sources.")
         s = f'const APP_VERSION = "{VERSION}";\n' + s  # read by generate-manifest.sh (code version)
         h = (tpl.replace("__SCRIPT__", s).replace("__GB__", shapes["gb"]).replace("__IE__", shapes["ie"])
                 .replace("__IM__", shapes["im"]).replace("__VERSION__", VERSION))

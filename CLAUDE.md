@@ -41,7 +41,7 @@ Cases, sources, Mysterious Universe episodes and cross-links now live in **STUDI
 - Photos: artifact asset store (`assets` capability, editors only); shown from `/_blob/<id>`.
 
 ## Tabs
-Tabs: Sacred sites · Sinclair · UFO & paranormal · MU (places with Mysterious Universe episodes, own MU marker) · Ritual (occult & ritual sites) · Sky · Road trip.
+Tabs: Sacred sites · Sinclair · UFO · Ghosts · Cryptids · Strange (one per category group from `data/cat_groups.json`, synced from the archive's `arc_categories` kind `case-group`) · Ritual (occult & ritual sites) · MU (places with Mysterious Universe episodes, own MU marker) · ★ Starred (everything starred; `data/default_stars.json` stars Llyn Brianne by default) · Sky · Road trip · Everything (all reports; old `#paranormal` links land here).
 Every report card (UFO & paranormal, MU, Ritual, Sinclair) has **Connections** — *Part of* archive entities (click = filter every report tab to that entity, banner with its MU episodes), *Related cases*, *Same MU episode*, *Nearby within 5 mi* — numbered sources with kind badges and an *Evidence* line. **Hotspots**: kernel-density heat (2-mi grid, 4-mi Gaussian), top-10 peak clusters with a hotspot card; *All layers* combines UFO, ritual and Sinclair.
 Sacred sites (leys-only toggle, ley-kind chips, alignment checker, "find alignments through here") · Paul Sinclair (hotspots) · UFO & paranormal (tags, hotspots, add/edit) · Sky (solstices, equinoxes, fire festivals, moon phases, meteor showers, aligned sites + solstice rays, this weekend) · Road trip (planner, Google Maps hand-off, saved trips, visit log). Filters on every tab: region, distance from home, status (star / to visit / visited), era, near a ley line, sort.
 
