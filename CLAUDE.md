@@ -1,4 +1,4 @@
-# STUDIO - Sacred Missions Map (v1.4.0)
+# STUDIO - Sacred Missions Map (v1.5.0)
 
 > Repo: `sonor-sacred-missions-map` · Pages: https://sonorltd.github.io/sonor-sacred-missions-map/ · Live (claude.ai artifact, with saved data): https://claude.ai/artifact/UdQ8Sz9WCEbDXTWLCPPwxT
 > Type: side-project, island-ok. Personal exploration project under STUDIO, created 2026-10-28. **Not Sonor Smart Homes work**: no Sonor customer data, no Sonor branding.
@@ -32,7 +32,7 @@ tools/              build + data scripts
 ```
 
 ## Missions Archive (master)
-Cases, sources, Mysterious Universe episodes and cross-links now live in **STUDIO - Missions Archive** (Sonor Supabase `arc_*`). This map is a consumer: matched MU episodes are written onto the artifact `reports` docs as `mu: [{show,no,title,url,date,plus,excerpt}]` (excerpt = only the part about that case) and into `data/reports.json` for Pages. The artifact sandbox cannot fetch, so Claude runs the sync on request.
+Cases, sources, Mysterious Universe episodes and cross-links now live in **STUDIO - Missions Archive** (Sonor Supabase `arc_*`). This map is a consumer: matched MU episodes are written onto the artifact `reports` docs as `mu: [{show,no,title,url,date,plus,excerpt}]` (excerpt = only the part about that case) and into `data/reports.json` for Pages. The artifact sandbox cannot fetch, so Claude runs the sync on request. Cross-links: `python3 tools/export_xlinks.py` (anon key from the synced `sonor-db.js`) → `data/xlinks.json` (entities, case→entity, case↔case, entity→MU episodes), baked as `__XLINKS__`; re-run it after archive link changes, then `tools/build.py` and republish.
 
 ## Data model (artifact database)
 
@@ -42,6 +42,7 @@ Cases, sources, Mysterious Universe episodes and cross-links now live in **STUDI
 
 ## Tabs
 Tabs: Sacred sites · Sinclair · UFO & paranormal · MU (places with Mysterious Universe episodes, own MU marker) · Ritual (occult & ritual sites) · Sky · Road trip.
+Every report card (UFO & paranormal, MU, Ritual, Sinclair) has **Connections** — *Part of* archive entities (click = filter every report tab to that entity, banner with its MU episodes), *Related cases*, *Same MU episode*, *Nearby within 5 mi* — numbered sources with kind badges and an *Evidence* line. **Hotspots**: kernel-density heat (2-mi grid, 4-mi Gaussian), top-10 peak clusters with a hotspot card; *All layers* combines UFO, ritual and Sinclair.
 Sacred sites (leys-only toggle, ley-kind chips, alignment checker, "find alignments through here") · Paul Sinclair (hotspots) · UFO & paranormal (tags, hotspots, add/edit) · Sky (solstices, equinoxes, fire festivals, moon phases, meteor showers, aligned sites + solstice rays, this weekend) · Road trip (planner, Google Maps hand-off, saved trips, visit log). Filters on every tab: region, distance from home, status (star / to visit / visited), era, near a ley line, sort.
 
 ## Spine version + compliance

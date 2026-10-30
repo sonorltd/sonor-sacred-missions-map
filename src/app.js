@@ -54,6 +54,13 @@ leys.forEach(l=>{l.near=sites.filter(s=>pathDist(s.xy,l.path)/UPM<=3)});
 const nearSacred=(lat,lon)=>sites.map(s=>({s,d:miles(lat,lon,s.lat,s.lon)})).filter(o=>o.d<=3).sort((a,b)=>a.d-b.d).slice(0,3);
 const sinc=SINCLAIR.map(r0=>{const x=SINC_X[r0[0]];const r=x?[r0[0],r0[1],x.place||r0[2],r0[3],x.cat||r0[4],x.lat??r0[5],x.lon??r0[6],x.approx?1:0,r0[8]]:r0;const xy=P(r[5],r[6]);return{n:r[0],key:"p:"+r[0],date:r[1],place:r[2],title:r[3],cat:r[4],lat:r[5],lon:r[6],approx:!!r[7],url:r[8],summary:x&&x.summary||"",tags:x&&x.tags||[],xy,mi:miles(HOME.lat,HOME.lon,r[5],r[6]),reg:regionOf(r[5],r[6]),era:eraOf(r[1]),area:r0[2],leyIds:leysNear(xy).map(l=>l.id)}});
 const sincById=new Map(sinc.map(r=>[r.n,r]));
+// cross-links baked from the Missions Archive (tools/export_xlinks.py → data/xlinks.json)
+const XL=__XLINKS__;XL.entities=XL.entities||{};XL.ce=XL.ce||{};XL.cc=XL.cc||{};XL.ee=XL.ee||{};
+const caseIdOf=o=>o.n!=null?"sinclair-"+o.n:o.id;
+const entsOf=o=>XL.ce[caseIdOf(o)]||[];
+const objByCase=id=>{if(String(id).startsWith("sinclair-"))return sincById.get(+String(id).slice(9));return reports.find(r=>r.id===id)};
+const kindOf=o=>o.n!=null?"sinc":"rep";
+const entCount=e=>Object.values(XL.ce).filter(v=>v.includes(e)).length;
 function normReport(id,v){const lat=+v.lat,lon=+v.lon;const xy=P(lat,lon);const tags=Array.isArray(v.tags)?[...new Set(v.tags.map(t=>String(t).toLowerCase().trim()).filter(Boolean))].slice(0,24):[];
   const okUrl=u=>/^https?:\/\//.test(String(u||""))?String(u):"";
   let sources=Array.isArray(v.sources)&&v.sources.length?v.sources.map(s=>({name:String(s&&s.name||""),url:okUrl(s&&s.url)})):[{name:String(v.source||""),url:okUrl(v.url)}];
@@ -106,7 +113,7 @@ const allKeys=()=>[...sites.map(s=>s.key),...reports.map(r=>r.key),...sinc.filte
 
 // ---------- state ----------
 let tab="sacred";
-const F={reg:"",dist:0,era:"",area:"",src:"",tagMode:"any",tagsOpen:false,nearLey:false,status:"",tags:new Set(),sort:{sacred:"group",sinclair:"group",paranormal:"group"},showLeysOther:false};
+const F={reg:"",dist:0,era:"",area:"",src:"",ent:"",hotAll:false,tagMode:"any",tagsOpen:false,nearLey:false,status:"",tags:new Set(),sort:{sacred:"group",sinclair:"group",paranormal:"group"},showLeysOther:false};
 const st={
   sacred:{on:new Set(Object.keys(CATS)),kinds:new Set(Object.keys(LKINDS)),leysOnly:false,q:""},
   sinclair:{on:new Set(Object.keys(PCATS)),q:"",sacredNear:false},
@@ -125,7 +132,7 @@ function toggleTrip(k){const i=trip.stops.indexOf(k);if(i>=0)trip.stops.splice(i
 const visibleLeys=()=>leys.filter(l=>st.sacred.kinds.has(l.kind));
 const leysShown=()=>tab==="sacred"||F.showLeysOther;
 const passCommon=o=>(!F.reg||o.reg===F.reg)&&(!F.dist||o.mi<=F.dist)&&(!F.nearLey||o.leyIds.some(id=>visibleLeys().some(l=>l.id===id)))&&passStatus(o.key);
-const passEra=o=>(!F.era||o.era===F.era)&&(!F.area||o.area===F.area)&&passSrc(o);
+const passEra=o=>(!F.era||o.era===F.era)&&(!F.area||o.area===F.area)&&passSrc(o)&&(!F.ent||entsOf(o).includes(F.ent));
 const passSrc=o=>!F.src||!o.sources||(F.src==="mu"?(o.mu||[]).length>0:F.src==="multi"?(o.sources||[]).length>1:F.src==="lead"?!!o.lead:F.src==="personal"?!!o.personal:F.src==="single"?(o.sources||[]).length<=1:true);
 const passTags=o=>!F.tags.size||(F.tagMode==="all"?[...F.tags].every(t=>o.tags.includes(t)):o.tags.some(t=>F.tags.has(t)));
 
@@ -254,7 +261,7 @@ fStatus.onchange=()=>{F.status=fStatus.value;render()};
 fEra.onchange=()=>{F.era=fEra.value;render()};
 fSort.onchange=()=>{F.sort[tab]=fSort.value;render()};
 fLey.onchange=()=>{F.nearLey=fLey.checked;render()};
-$("f-clear").onclick=()=>{F.reg="";F.dist=0;F.era="";F.area="";F.src="";F.tagMode="any";F.status="";F.nearLey=false;F.tags.clear();st[tab].q="";$("q").value="";
+$("f-clear").onclick=()=>{F.reg="";F.dist=0;F.era="";F.area="";F.src="";F.ent="";F.tagMode="any";F.status="";F.nearLey=false;F.tags.clear();st[tab].q="";$("q").value="";
   if(tab==="sacred"){st.sacred.on=new Set(Object.keys(CATS));st.sacred.kinds=new Set(Object.keys(LKINDS));st.sacred.leysOnly=false}else if(st[tab].on)st[tab].on=new Set(Object.keys(PCATS));render()};
 function fitToShown(){const pts=markers.filter(m=>!m.overlay).map(m=>m.xy);if(F.reg||F.dist||F.area)fitPoints(F.dist?[...pts,hp]:pts)}
 function syncFilterBar(pool){
@@ -382,14 +389,14 @@ function leyCard(l){
 
 // ----- Sinclair -----
 function renderSinclair(){const S=st.sinclair;
-  $("intro").innerHTML=`<p class="intro">${sinc.length} reports mapped from the <a href="https://truthproof.uk/Reports2/ForumReports2.html" target="_blank" rel="noopener">Truth Proof reports database</a>. Where one place has several reports, the pins fan out around it.</p>`;$("formbox").innerHTML="";
+  $("intro").innerHTML=entBanner()+`<p class="intro">${sinc.length} reports mapped from the <a href="https://truthproof.uk/Reports2/ForumReports2.html" target="_blank" rel="noopener">Truth Proof reports database</a>. Where one place has several reports, the pins fan out around it.</p>`;$("formbox").innerHTML="";
   const q=S.q;const base=sinc.filter(r=>passCommon(r)&&passEra(r)&&(!q||(r.place+" "+r.title+" "+r.date).toLowerCase().includes(q)));
   const tagged=base.filter(passTags);
   const counts={};tagged.forEach(r=>counts[r.cat]=(counts[r.cat]||0)+1);chipsFor(PCATS,counts,S.on,c=>icon("s-p-"+c));leyChip();hotChip();
   $("opt1").innerHTML=`<input type="checkbox" id="sn" ${S.sacredNear?"checked":""}> Show sacred sites`;$("sn").onchange=e=>{S.sacredNear=e.target.checked;render()};
-  syncFilterBar(sinc);renderTagRow(base.filter(r=>S.on.has(r.cat)));drawLeys();
+  wireBanner();syncFilterBar(sinc);renderTagRow(base.filter(r=>S.on.has(r.cat)));drawLeys();
   if(S.sacredNear)sites.forEach(s=>{const m=mk("s-"+s.cat,s.xy,s.name,()=>{location.hash="sacred";setTimeout(()=>select({kind:"site",id:s.id},true),0)},{small:true,overlay:true});m.u.style.opacity=".55";markers.push(m)});
-  const rs=tagged.filter(r=>S.on.has(r.cat));setCount(rs.length,sinc.length,"reports");hotSection(drawHot(rs.filter(r=>!r.approx)),o=>o.place);
+  const rs=tagged.filter(r=>S.on.has(r.cat));setCount(rs.length,sinc.length,"reports");hotSection(drawHot(rs.filter(r=>!r.approx)));
   rs.forEach(r=>{const m=mk("s-p-"+r.cat,r.xy,`#${r.n} ${r.title} · ${r.place} ${r.date}`,()=>select({kind:"sinc",id:r.n},false));m.sel=isSel("sinc",r.n);m.u.classList.toggle("sel",m.sel);markClasses(m.u,r.key);markers.push(m)});
   const mkRow=r=>row(icon("s-p-"+r.cat),r.title,r.date,`#${r.n} · ${r.place} · ${PCATS[r.cat]}${r.approx?" · area only":""}`,isSel("sinc",r.n),()=>select({kind:"sinc",id:r.n},true),isVis(r.key)?" visited":"",r.key);
   if(F.sort.sinclair==="group")groupBy(rs,r=>r.place).sort((a,b)=>b[1].length-a[1].length||a[0].localeCompare(b[0])).forEach(([pl,arr])=>section(pl,sortItems(arr,"new").map(mkRow)));
@@ -399,6 +406,7 @@ function sincCard(r){const c=card(`<div class="meta">${smallIcon("s-p-"+r.cat)} 
   <p><b>${esc(r.place)}</b> · ${esc(r.date)}${r.approx?" · pin marks the general area only":""}${r.summary?"<br>"+esc(r.summary):""}</p>${r.tags.length?`<div class="tagsel" style="margin-bottom:8px">${r.tags.map(t=>`<span class="tg">${esc(tagLabel(t))}</span>`).join("")}</div>`:""}${nearHTML(r.lat,r.lon,r.leyIds)}
   <div class="mslot"></div>
   <div class="acts" style="margin-top:8px"><a class="btn primary" target="_blank" rel="noopener" href="${r.url}">Read the report</a><a class="btn" target="_blank" rel="noopener" href="${dirURL(r.lat,r.lon)}">Directions</a></div>`);
+  const cn=document.createElement("div");cn.innerHTML=connHTML(r);c.querySelector(".acts").before(cn);wireConn(c);
   addMarks(c,r.key,()=>sincCard(r))}
 
 // ----- UFO & paranormal / MU / Ritual (one renderer, three views) -----
@@ -408,7 +416,7 @@ const inView=(r,v)=>v==="mu"?r.mu.length>0:v==="ritual"?isRitual(r):r.cat!=="rit
 const viewOf=r=>r.cat==="ritual"?"ritual":"paranormal";
 const PVIEW=()=>["paranormal","mu","ritual"].includes(tab)?tab:"paranormal";
 function renderParanormal(){const V=PVIEW(),S=st[V];
-  const intro=$("intro");intro.innerHTML="";
+  const intro=$("intro");intro.innerHTML=entBanner();wireBanner();
   if(V==="paranormal"&&dbState==="ready"&&canWrite&&!formOpen){const bar=document.createElement("div");bar.className="acts";bar.style.marginBottom="12px";const b=document.createElement("button");b.className="btn primary";b.textContent="Add a report";b.onclick=()=>openForm(null);bar.appendChild(b);intro.appendChild(bar)}
   renderForm();
   const q=S.q;
@@ -421,7 +429,7 @@ function renderParanormal(){const V=PVIEW(),S=st[V];
   if(V==="mu"){const eps=new Set();tagged.forEach(r=>r.mu.forEach(m=>eps.add(m.url)));$("intro").insertAdjacentHTML("beforeend",`<p class="intro">${smallIcon("s-mu")} ${tagged.length} places covered across ${eps.size} Mysterious Universe episodes.</p>`)}
   if(dbState!=="ready"){$("list").innerHTML=`<div class="empty">${dbState==="loading"?"Loading reports…":dbState==="none"?"Saved reports aren't available in this view. Open the map while signed in to claude.ai to see and add them.":"Couldn't load reports right now. Try reopening the page."}</div>`;return}
   if(!reports.length){$("list").innerHTML=`<div class="empty">No reports yet. ${canWrite?"Use <b>Add a report</b> to log the first case.":"Reports added by the owner will show up here."}</div>`;return}
-  const rs=tagged.filter(r=>V==="ritual"||S.on.has(r.cat));const vt=reports.filter(r=>inView(r,V)).length;setCount(rs.length,vt,V==="ritual"?"sites":V==="mu"?"places":"reports");hotSection(drawHot(rs),o=>o.place.split(",")[0]);
+  const rs=tagged.filter(r=>V==="ritual"||S.on.has(r.cat));const vt=reports.filter(r=>inView(r,V)).length;setCount(rs.length,vt,V==="ritual"?"sites":V==="mu"?"places":"reports");hotSection(drawHot(rs));
   rs.forEach(r=>{const m=mk(V==="mu"?"s-mu":"s-p-"+r.cat,r.xy,`${r.title} · ${r.place}`,()=>select({kind:"rep",id:r.id},false));m.sel=isSel("rep",r.id);m.u.classList.toggle("sel",m.sel);markClasses(m.u,r.key);markers.push(m)});
   const mkRow=r=>row(icon(V==="mu"?"s-mu":"s-p-"+r.cat),r.title,r.date||"",`${r.place}${r.sources.length>1?" · "+r.sources.length+" sources":""}${r.tags.length?" · "+r.tags.map(tagLabel).join(", "):""}`,isSel("rep",r.id),()=>select({kind:"rep",id:r.id},true),isVis(r.key)?" visited":"",r.key);
   const srt=F.sort[V]||"group";
@@ -434,15 +442,51 @@ const muName=m=>{const no=(m.no||(m.title.match(/^\s*([\d.]+)/)||[])[1]||"");con
 function muHTML(mu){if(!mu||!mu.length)return"";
   return `<div class="meta">Mysterious Universe · ${mu.length} episode${mu.length>1?"s":""}</div><ul class="srcs mu">${mu.map(m=>{const ex=m.excerpt.split("\n").map(x=>x.startsWith("Show-notes links: ")?`<span class="mu-links">Show-notes links: ${x.slice(18).split(" · ").map(l=>{const i=l.lastIndexOf(" — ");const u=i>0?l.slice(i+3):"";const t=i>0?l.slice(0,i):l;return /^https?:\/\//.test(u)?`<a target="_blank" rel="noopener" href="${esc(u)}">${esc(t)}</a>`:esc(l)}).join(" · ")}</span>`:esc(x)).join("<br>");
     return `<li><a target="_blank" rel="noopener" href="${esc(m.url)}" title="${esc(m.title)}">${esc(muName(m))}</a>${m.plus?' <span class="mu-plus">Plus+</span>':""}${m.date?` <span class="mu-date">${esc(m.date)}</span>`:""}${m.evidence==="link-title"?' <span class="mu-date">· named in the show-notes links</span>':""}${ex?`<details><summary>Show notes on this case</summary><p class="mu-ex">${ex}</p></details>`:""}</li>`}).join("")}</ul>`}
+function srcKind(s){const n=(s.name+" "+s.url).toLowerCase();
+  if(/mysterious universe|podcast|megaphone|spotify|apple\.com\/.*podcast/.test(n))return["podcast","Podcast"];
+  if(/wikipedia\.org/.test(n))return["wiki","Wikipedia"];
+  if(/nationalarchives|gov\.uk|gov\.wales|coflein|historicengland|britishlistedbuildings|canmore|archives?\.|council|parliament|hansard|airprox/.test(n))return["official","Official / archive"];
+  if(/\bbook\b|isbn|amazon\.|gutenberg|archive\.org\/details|books\.google/.test(n))return["book","Book / archive"];
+  if(/bbc\.|dailypost|walesonline|guardian|telegraph|mirror\.|express\.|independent\.|chronicle|herald|gazette|observer|echo|news|times|metro\.|mail\.|post\.co|journal|cambrian|leader|advertiser|star\./.test(n))return["news","News"];
+  if(/paranormaldatabase|truthproof|ufo|haunted|ghost|mysterious|cryptid|forteana|fortean/.test(n))return["research","Research site"];
+  return["web","Web"]}
+function evidenceHTML(o){const ss=o.sources||[];const k={};ss.forEach(s=>{const [id,l]=srcKind(s);k[l]=(k[l]||0)+1});
+  const bits=[];if(ss.length)bits.push(`${ss.length} source${ss.length>1?"s":""}${Object.keys(k).length?" ("+Object.entries(k).map(([l,n])=>n+" "+l.toLowerCase()).join(", ")+")":""}`);
+  if((o.mu||[]).length)bits.push(`${o.mu.length} Mysterious Universe episode${o.mu.length>1?"s":""}`);
+  const strong=["police","military","pilot","radar","official-files","photo","video","physical-traces","multiple-witnesses"].filter(t=>(o.tags||[]).includes(t));
+  if(strong.length)bits.push(strong.map(tagLabel).join(", "));
+  if((o.tags||[]).includes("explained"))bits.push("has an explanation");
+  return bits.length?`<p class="evid"><b>Evidence</b> · ${esc(bits.join(" · "))}</p>`:""}
+function sourcesHTML(ss){if(!ss.length)return"";return `<div class="meta">${ss.length>1?ss.length+" sources":"Source"}</div><ol class="srcs num">${ss.map(s=>{const [id,l]=srcKind(s);return `<li><span class="sk sk-${id}" title="${esc(l)}">${esc(l)}</span> ${s.url?`<a target="_blank" rel="noopener" href="${esc(s.url)}">${esc(s.name||s.url.replace(/^https?:\/\/(www\.)?/,"").split("/")[0])}</a>`:esc(s.name)}</li>`}).join("")}</ol>`}
+let _epIdx=null;function epIndex(){if(_epIdx&&_epIdx.n===reports.length)return _epIdx.m;const m=new Map();reports.forEach(r=>(r.mu||[]).forEach(e=>{if(!m.has(e.url))m.set(e.url,[]);m.get(e.url).push(r)}));_epIdx={n:reports.length,m};return m}
+function xlBtn(o,extra=""){const cat=o.cat||"other";return `<button type="button" class="xl" data-k="${kindOf(o)}" data-i="${esc(o.n!=null?o.n:o.id)}">${smallIcon("s-p-"+cat)} ${esc(o.n!=null?o.title+" · "+o.place:o.title)}${extra?` <span class="xd">${esc(extra)}</span>`:""}</button>`}
+function connHTML(o){const out=[];const me=caseIdOf(o);
+  const es=entsOf(o);if(es.length)out.push(`<div class="xg"><div class="xh">Part of</div>${es.map(e=>{const E=XL.entities[e]||{n:e};return `<button type="button" class="xe" data-e="${esc(e)}" title="${esc(E.s||"")}">${esc(E.n)} <b>${entCount(e)}</b></button>`}).join("")}</div>`);
+  const rel=(XL.cc[me]||[]).map(([id,lab])=>{const x=objByCase(id);return x?xlBtn(x,lab):""}).filter(Boolean);if(rel.length)out.push(`<div class="xg"><div class="xh">Related cases</div>${rel.join("")}</div>`);
+  if((o.mu||[]).length){const idx=epIndex();const seen=new Set([me]);const same=[];(o.mu||[]).forEach(e=>(idx.get(e.url)||[]).forEach(r=>{if(!seen.has(r.id)){seen.add(r.id);same.push([r,muName(e)])}}));
+    if(same.length)out.push(`<div class="xg"><div class="xh">Same Mysterious Universe episode</div>${same.slice(0,10).map(([r,ep])=>xlBtn(r,ep)).join("")}</div>`)}
+  const pool=[...reports,...sinc.filter(x=>!x.approx)];const near=pool.filter(x=>x!==o&&caseIdOf(x)!==me).map(x=>[x,miles(o.lat,o.lon,x.lat,x.lon)]).filter(([x,d])=>d<=5).sort((a,b)=>a[1]-b[1]).slice(0,8);
+  if(near.length)out.push(`<div class="xg"><div class="xh">Nearby cases (within 5 mi)</div>${near.map(([x,d])=>xlBtn(x,Math.max(0.1,d).toFixed(1)+" mi"+(x.date?" · "+String(x.date).slice(0,4):""))).join("")}</div>`);
+  return out.length?`<div class="conn"><div class="meta">Connections</div>${out.join("")}</div>`:""}
+const XTABS=["paranormal","mu","ritual","sinclair"];
+function wireConn(c){c.querySelectorAll(".xl").forEach(b=>b.onclick=()=>{const k=b.dataset.k,i=k==="sinc"?+b.dataset.i:b.dataset.i;
+    if(!XTABS.includes(tab)){location.hash=k==="sinc"?"sinclair":"paranormal";setTimeout(()=>select({kind:k,id:i},true),0)}else select({kind:k,id:i},true)});
+  c.querySelectorAll(".xe").forEach(b=>b.onclick=()=>{F.ent=b.dataset.e;sel=null;$("card").hidden=true;const go=()=>{render();fitToEnt()};if(!XTABS.includes(tab)){location.hash="paranormal";setTimeout(go,0)}else go()})}
+function fitToEnt(){if(!F.ent)return;const pts=Object.entries(XL.ce).filter(([k,v])=>v.includes(F.ent)).map(([k])=>objByCase(k)).filter(Boolean).map(o=>o.xy);if(pts.length)fitPoints(pts)}
+function entBanner(){if(!F.ent)return"";const E=XL.entities[F.ent]||{n:F.ent};const eps=XL.ee[F.ent]||[];
+  return `<div class="entban"><div><b>${esc(E.n)}</b> · ${entCount(F.ent)} linked cases${E.s?`<br><span class="xd">${esc(E.s)}</span>`:""}</div>${eps.length?`<details><summary>${eps.length} Mysterious Universe episode${eps.length>1?"s":""} on this</summary><ul class="srcs mu">${eps.map(m=>`<li><a target="_blank" rel="noopener" href="${esc(m.u)}">${esc(muName({no:m.no,title:m.t,topic:m.topic}))}</a>${m.d?` <span class="mu-date">${esc(m.d)}</span>`:""}${m.x?`<p class="mu-ex">${esc(m.x)}</p>`:""}</li>`).join("")}</ul></details>`:""}<button type="button" class="linkbtn" id="ent-x">Show everything again ✕</button></div>`}
+function wireBanner(){const b=$("ent-x");if(b)b.onclick=()=>{F.ent="";render()}}
 function repCard(r){const c=card(`<div class="meta">${smallIcon("s-p-"+r.cat)} ${esc(PCATS[r.cat])} · ${esc(r.date||"date unknown")} · ${REGS[r.reg]}</div><h3>${esc(r.title)}</h3>
   <p><b>${esc(r.place)}</b>${r.desc?" · "+esc(r.desc):""}</p>
   ${r.tags.length?`<div class="tagsel" style="margin-bottom:8px">${r.tags.map(t=>`<button class="tg" type="button" data-t="${esc(t)}" aria-pressed="${F.tags.has(t)}">${esc(tagLabel(t))}</button>`).join("")}</div>`:""}
   ${nearHTML(r.lat,r.lon,r.leyIds)}
-  ${r.sources.length?`<div class="meta">${r.sources.length>1?r.sources.length+" sources":"Source"}</div><ul class="srcs">${r.sources.map(s=>`<li>${s.url?`<a target="_blank" rel="noopener" href="${esc(s.url)}">${esc(s.name||s.url.replace(/^https?:\/\/(www\.)?/,"").split("/")[0])}</a>`:esc(s.name)}</li>`).join("")}</ul>`:""}
+  ${evidenceHTML(r)}
+  ${sourcesHTML(r.sources)}
   ${muHTML(r.mu)}
+  ${connHTML(r)}
   <div class="mslot"></div>
   <div class="acts" style="margin-top:8px"><a class="btn" target="_blank" rel="noopener" href="${dirURL(r.lat,r.lon)}">Directions</a>${canWrite?`<button class="btn" id="ed">Edit</button><button class="btn danger" id="del">Delete</button>`:""}</div>`);
-  addMarks(c,r.key,()=>repCard(r));
+  addMarks(c,r.key,()=>repCard(r));wireConn(c);
   c.querySelectorAll(".tagsel .tg").forEach(b=>b.onclick=()=>{const t=b.dataset.t;F.tags.has(t)?F.tags.delete(t):F.tags.add(t);sel=null;$("card").hidden=true;render()});
   if(canWrite){c.querySelector("#ed").onclick=()=>openForm(r);
     const d=c.querySelector("#del");d.onclick=async()=>{if(d.dataset.arm!=="1"){d.dataset.arm="1";d.textContent="Tap again to delete";return}
@@ -595,20 +639,42 @@ function renderTrip(){
 
 // ---------- hotspots ----------
 const HG=el("g",{id:"hot"},document.getElementById("world"));document.getElementById("world").insertBefore(HG,document.getElementById("leys"));
-const HOT_MI=6;
-function hotspots(items){const cs=HOT_MI*UPM;const cells=new Map();
-  items.forEach(o=>{const i=Math.floor(o.xy[0]/cs),j=Math.floor(o.xy[1]/cs);const k=i+","+j;if(!cells.has(k))cells.set(k,{i,j,items:[]});cells.get(k).items.push(o)});
-  const out=[];cells.forEach(c=>{let w=0;for(let di=-1;di<=1;di++)for(let dj=-1;dj<=1;dj++){const n=cells.get((c.i+di)+","+(c.j+dj));if(n)w+=n.items.length*((di||dj)?0.35:1)}
-    out.push({...c,w,cx:(c.i+.5)*cs,cy:(c.j+.5)*cs})});
-  return out.sort((a,b)=>b.w-a.w)}
-function drawHot(items){HG.innerHTML="";if(!F.hot)return[];const cs=HOT_MI*UPM;const hs=hotspots(items);const max=hs[0]?.w||1;
-  hs.forEach(h=>{if(h.w<2)return;el("rect",{x:h.i*cs,y:h.j*cs,width:cs,height:cs,fill:"var(--danger)","fill-opacity":(0.1+0.55*h.w/max).toFixed(2),stroke:"none"},HG)});
-  return hs.filter(h=>h.items.length>=3).slice(0,8)}
-function hotSection(top,labelOf){if(!top.length)return;
-  section("Hotspots",top.map(h=>{const names={};h.items.forEach(o=>{const n=labelOf(o);names[n]=(names[n]||0)+1});const name=Object.entries(names).sort((a,b)=>b[1]-a[1])[0][0];
-    const [la,lo]=UNP(h.cx,h.cy);const lz=leysNear([h.cx,h.cy]).map(l=>l.name);
-    return row(`<svg viewBox="-10 -10 20 20" aria-hidden="true"><rect x="-8" y="-8" width="16" height="16" rx="2" fill="var(--danger)" opacity=".6"/></svg>`,name+" area",h.items.length+" reports",`${Math.round(miles(HOME.lat,HOME.lon,la,lo))} mi from home${lz.length?" · on the "+lz.join(", "):""}`,false,()=>{fitPoints(h.items.map(o=>o.xy));scrollToMap()})}))}
-function hotChip(){chip(`<svg viewBox="-10 -10 20 20" aria-hidden="true"><rect x="-8" y="-8" width="16" height="16" rx="2" fill="var(--danger)" opacity=".6"/></svg>Hotspots`,!!F.hot,()=>{F.hot=!F.hot;render()})}
+const HOT_MI=6,HOT_CELL=2,HOT_SIG=4;
+const CSHORT={lights:"lights",craft:"craft",encounter:"encounters",ghost:"ghosts",poltergeist:"poltergeists",cryptid:"cryptids",timeslip:"time slips",other:"other",ritual:"occult"};
+// Kernel density on a 2-mile grid (Gaussian, sigma 4 mi); clusters = local density peaks, members = cases within 6 mi of the peak.
+function hotspots(items){const cs=HOT_CELL*UPM,sig=HOT_SIG*UPM,R=Math.ceil(3*HOT_SIG/HOT_CELL);const D=new Map();
+  items.forEach(o=>{const ci=Math.floor(o.xy[0]/cs),cj=Math.floor(o.xy[1]/cs);for(let di=-R;di<=R;di++)for(let dj=-R;dj<=R;dj++){const x=(ci+di+.5)*cs-o.xy[0],y=(cj+dj+.5)*cs-o.xy[1];const w=Math.exp(-(x*x+y*y)/(2*sig*sig));if(w<0.02)continue;const k=(ci+di)+","+(cj+dj);D.set(k,(D.get(k)||0)+w)}});
+  const cells=[...D.entries()].map(([k,w])=>{const [i,j]=k.split(",").map(Number);return{i,j,w,cx:(i+.5)*cs,cy:(j+.5)*cs}});
+  const peaks=cells.filter(c=>{if(c.w<1.6)return false;for(let di=-1;di<=1;di++)for(let dj=-1;dj<=1;dj++){if(!di&&!dj)continue;const n=D.get((c.i+di)+","+(c.j+dj));if(n&&n>c.w)return false}return true}).sort((a,b)=>b.w-a.w);
+  const used=new Set(),rad=HOT_MI*UPM,clusters=[];
+  peaks.forEach(p=>{const mem=items.filter(o=>!used.has(o)&&Math.hypot(o.xy[0]-p.cx,o.xy[1]-p.cy)<=rad);if(mem.length<3)return;mem.forEach(o=>used.add(o));clusters.push({...p,items:mem})});
+  return{cells,clusters}}
+function drawHot(items){HG.innerHTML="";if(!F.hot)return[];
+  if(F.hotAll){const all=[...reports.filter(r=>passCommon(r)&&passEra(r)),...sinc.filter(r=>!r.approx&&passCommon(r)&&passEra(r))];items=all}
+  const {cells,clusters}=hotspots(items);const cs=HOT_CELL*UPM;const max=Math.max(1,...cells.map(c=>c.w));
+  if(!document.getElementById("hotblur")){const svg=HG.ownerSVGElement;const df=el("defs",{},svg);const f=el("filter",{id:"hotblur",x:"-20%",y:"-20%",width:"140%",height:"140%"},df);el("feGaussianBlur",{stdDeviation:(cs*0.9).toFixed(2)},f)}
+  const HB=el("g",{filter:"url(#hotblur)"},HG);
+  cells.forEach(c=>{if(c.w<max*0.06||c.w<0.5)return;el("rect",{x:c.i*cs,y:c.j*cs,width:cs,height:cs,fill:"var(--danger)","fill-opacity":(0.06+0.6*Math.pow(c.w/max,0.7)).toFixed(3),stroke:"none"},HB)});
+  clusters.slice(0,10).forEach((h,n)=>{el("circle",{cx:h.cx,cy:h.cy,r:HOT_MI*UPM,fill:"none",stroke:"var(--danger)","stroke-width":1,"stroke-dasharray":"3 3",opacity:.55,"vector-effect":"non-scaling-stroke"},HG)});
+  return clusters.slice(0,10)}
+function hotLabel(h){const c={};h.items.forEach(o=>{const n=(o.area||areaOf(o.place)||o.place||"").trim();if(n)c[n]=(c[n]||0)+1});return(Object.entries(c).sort((a,b)=>b[1]-a[1])[0]||["This"])[0]}
+function hotStats(h){const cats={};h.items.forEach(o=>cats[o.cat]=(cats[o.cat]||0)+1);const ys=h.items.map(o=>yearOf(o.date)).filter(y=>y!=null).sort((a,b)=>a-b);
+  const mu=new Set();h.items.forEach(o=>(o.mu||[]).forEach(m=>mu.add(m.url)));const sincN=h.items.filter(o=>o.n!=null).length;const [la,lo]=UNP(h.cx,h.cy);
+  const lz=leysNear([h.cx,h.cy]).map(l=>l.name);const ss=sites.filter(x=>miles(la,lo,x.lat,x.lon)<=HOT_MI);
+  return{cats,span:ys.length?(ys[0]===ys[ys.length-1]?String(ys[0]):ys[0]+"–"+ys[ys.length-1]):"",mu:mu.size,sincN,lz,ss,la,lo}}
+function hotSection(top){if(!top.length)return;
+  section(F.hotAll?"Hotspots · all layers":"Hotspots",top.map(h=>{const st=hotStats(h);const cats=Object.entries(st.cats).sort((a,b)=>b[1]-a[1]).map(([c,n])=>n+" "+(CSHORT[c]||c)).join(", ");
+    const desc=[cats,st.span,st.mu?st.mu+" MU episode"+(st.mu>1?"s":""):"",st.sincN&&F.hotAll?st.sincN+" Sinclair":"",st.lz.length?"on the "+st.lz.join(", "):"",st.ss.length?st.ss.length+" sacred site"+(st.ss.length>1?"s":""):""].filter(Boolean).join(" · ");
+    return row(`<svg viewBox="-10 -10 20 20" aria-hidden="true"><rect x="-8" y="-8" width="16" height="16" rx="2" fill="var(--danger)" opacity=".6"/></svg>`,hotLabel(h)+" hotspot",h.items.length+" cases",desc,false,()=>{hotCard(h);fitPoints(h.items.map(o=>o.xy));scrollToMap()})}))}
+function hotCard(h){const st=hotStats(h);const g=groupBy(h.items,o=>o.cat);
+  const c=card(`<div class="meta">Hotspot · ${h.items.length} cases within ${HOT_MI} mi${st.span?" · "+esc(st.span):""}</div><h3>${esc(hotLabel(h))} hotspot</h3>
+   <p class="evid">${Object.entries(st.cats).sort((a,b)=>b[1]-a[1]).map(([c2,n])=>`${smallIcon("s-p-"+c2)} ${n} ${esc(PCATS[c2]||c2)}`).join(" · ")}${st.mu?` · ${st.mu} Mysterious Universe episode${st.mu>1?"s":""}`:""}</p>
+   ${st.lz.length?`<p>${st.lz.map(n=>`<span class="tag">On the ${esc(n)}</span>`).join("")}</p>`:""}
+   <div class="conn">${g.sort((a,b)=>b[1].length-a[1].length).map(([cat,arr])=>`<div class="xg"><div class="xh">${esc(PCATS[cat]||cat)} · ${arr.length}</div>${sortItems(arr,"new").map(o=>xlBtn(o,(o.date?String(o.date).slice(0,4):"")+(o.n!=null?" · Sinclair":""))).join("")}</div>`).join("")}
+   ${st.ss.length?`<div class="xg"><div class="xh">Sacred sites in the hotspot · ${st.ss.length}</div>${st.ss.slice(0,12).map(x=>`<button type="button" class="xs" data-s="${x.id}">${smallIcon("s-"+x.cat)} ${esc(x.name)}</button>`).join("")}</div>`:""}</div>`);
+  wireConn(c);c.querySelectorAll(".xs").forEach(b=>b.onclick=()=>{location.hash="sacred";setTimeout(()=>select({kind:"site",id:+b.dataset.s},true),0)})}
+function hotChip(){chip(`<svg viewBox="-10 -10 20 20" aria-hidden="true"><rect x="-8" y="-8" width="16" height="16" rx="2" fill="var(--danger)" opacity=".6"/></svg>Hotspots`,!!F.hot,()=>{F.hot=!F.hot;render()});
+  if(F.hot)chip(`<svg viewBox="-10 -10 20 20" aria-hidden="true"><circle r="8" fill="none" stroke="var(--danger)" stroke-dasharray="3 2" stroke-width="2"/></svg>All layers`,!!F.hotAll,()=>{F.hotAll=!F.hotAll;render()})}
 
 // ---------- alignment finder ----------
 const AG=el("g",{id:"align"},document.getElementById("world"));document.getElementById("world").insertBefore(AG,document.getElementById("marks"));
