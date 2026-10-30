@@ -24,7 +24,7 @@ data/sites_x.json   extra places from research (holy wells, NW sites): [name, ca
 data/leys_extra.json minor / energy / astronomical alignments with ordered stops
 data/sinclair.js    SINCLAIR rows from the Truth Proof index; data/sinc_x.json = per-report refinements (category, place, coords, summary, tags) from reading each page
 data/reports.json   snapshot of the artifact's `reports` collection for the public Pages build. Personal accounts (`by: "bryn"` or source "Personal account…") are left out of it and stay only in the private live copy.
-data/sites_manual.json  places added by hand on request (e.g. Llyn Brianne) — merged into sites_x.json by the data step
+data/sites_manual.json  places added by hand on request (e.g. Llyn Brianne); optional 8th field `refs` = [{name,url,note}] shown on the site card as *Reading & reports* — merged into sites_x.json by the data step
 data/shapes.json    simplified coastlines (GB, IE, IoM), made by tools/coastline.js from world-atlas
 research/           raw research pulls (every record has its source URL)
 research/raw/       every raw pull from the build sessions (Wikipedia, TNA, Wikidata, Sinclair source pages)

@@ -46,7 +46,7 @@ const today=()=>new Date().toISOString().slice(0,10);
 // ---------- data ----------
 const slugify=s=>String(s).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 const _seenKeys=new Set();
-const sites=[...SITES,...SITES_X].map((s,i)=>{let key="s:"+slugify(s[0]);if(_seenKeys.has(key))key+="-"+i;_seenKeys.add(key);return{id:i,key,name:s[0],cat:s[1],lat:s[3],lon:s[4],desc:s[5],src:s[6]||null,mi:miles(HOME.lat,HOME.lon,s[3],s[4]),xy:P(s[3],s[4]),reg:regionOf(s[3],s[4])}});
+const sites=[...SITES,...SITES_X].map((s,i)=>{let key="s:"+slugify(s[0]);if(_seenKeys.has(key))key+="-"+i;_seenKeys.add(key);return{id:i,key,name:s[0],cat:s[1],lat:s[3],lon:s[4],desc:s[5],src:s[6]||null,refs:Array.isArray(s[7])?s[7]:[],mi:miles(HOME.lat,HOME.lon,s[3],s[4]),xy:P(s[3],s[4]),reg:regionOf(s[3],s[4])}});
 const MAJOR_COL={belinus:0,michael:1,sarum:4,arbor:3};
 const allLeys=[...LEYS.map(l=>({...l,kind:"major",col:MAJOR_COL[l.id]??0})),...LEYS_EXTRA.map((l,i)=>({...l,col:[2,5,6,8,9,10,11,7,3,4,1][i%11]}))];
 const leys=allLeys.filter(l=>l.stops&&l.stops.length>=2).map(l=>{const axis=l.axis||null;const ends=axis||[[l.stops[0][1],l.stops[0][2]],[l.stops[l.stops.length-1][1],l.stops[l.stops.length-1][2]]];const a=P(...ends[0]),b=P(...ends[1]);const path=l.stops.map(s=>P(s[1],s[2]));return{...l,hasAxis:!!axis,a,b,path,mi:pathDist(P(HOME.lat,HOME.lon),path)/UPM}});
@@ -388,6 +388,7 @@ function siteCard(s){
   <a class="btn" target="_blank" rel="noopener" href="https://explore.osmaps.com/?lat=${s.lat}&lon=${s.lon}&zoom=15">OS Map</a>${s.src?`<a class="btn" target="_blank" rel="noopener" href="${esc(s.src)}">Source</a>`:""}<span class="meta">${s.lat.toFixed(4)}, ${s.lon.toFixed(4)}</span></div>`);
   const fb=document.createElement("button");fb.className="btn";fb.type="button";fb.textContent=align.found&&align.found.anchor===s?"Alignments shown":"Find alignments through here";fb.style.marginTop="8px";
   fb.onclick=()=>{align.found={anchor:s,lines:findThrough(s)};siteCard(s);drawAlign()};c.appendChild(fb);
+  if(s.refs.length){const rf=document.createElement("div");rf.className="conn";rf.innerHTML=`<div class="meta">Reading &amp; reports · ${s.refs.length}</div><ol class="srcs num refs">${s.refs.map(x=>{const [id,l]=srcKind(x);return `<li><span class="sk sk-${id}">${esc(l)}</span> <a target="_blank" rel="noopener" href="${esc(x.url)}">${esc(x.name)}</a>${x.note?`<p class="xd">${esc(x.note)}</p>`:""}</li>`}).join("")}</ol>`;c.appendChild(rf)}
   {const pool=[...reports,...sinc.filter(x=>!x.approx)];const near=pool.map(x=>[x,miles(s.lat,s.lon,x.lat,x.lon)]).filter(([x,d])=>d<=10).sort((a,b)=>a[1]-b[1]).slice(0,10);
    if(near.length){const cn=document.createElement("div");cn.className="conn";cn.innerHTML=`<div class="meta">Cases within 10 mi</div><div class="xg">${near.map(([x,d])=>xlBtn(x,Math.max(0.1,d).toFixed(1)+" mi"+(x.date?" · "+String(x.date).slice(0,4):""))).join("")}</div>`;c.appendChild(cn);wireConn(cn)}}
   if(align.found&&align.found.anchor===s){const r=document.createElement("div");r.style.marginTop="8px";
@@ -460,7 +461,7 @@ function muHTML(mu){if(!mu||!mu.length)return"";
 function srcKind(s){const n=(s.name+" "+s.url).toLowerCase();
   if(/mysterious universe|podcast|megaphone|spotify|apple\.com\/.*podcast/.test(n))return["podcast","Podcast"];
   if(/wikipedia\.org/.test(n))return["wiki","Wikipedia"];
-  if(/nationalarchives|gov\.uk|gov\.wales|coflein|historicengland|britishlistedbuildings|canmore|archives?\.|council|parliament|hansard|airprox/.test(n))return["official","Official / archive"];
+  if(/nationalarchives|gov\.uk|gov\.wales|coflein|peoplescollection|historicengland|britishlistedbuildings|canmore|archives?\.|council|parliament|hansard|airprox/.test(n))return["official","Official / archive"];
   if(/\bbook\b|isbn|amazon\.|gutenberg|archive\.org\/details|books\.google/.test(n))return["book","Book / archive"];
   if(/bbc\.|dailypost|walesonline|guardian|telegraph|mirror\.|express\.|independent\.|chronicle|herald|gazette|observer|echo|news|times|metro\.|mail\.|post\.co|journal|cambrian|leader|advertiser|star\./.test(n))return["news","News"];
   if(/paranormaldatabase|truthproof|ufo|haunted|ghost|mysterious|cryptid|forteana|fortean/.test(n))return["research","Research site"];
