@@ -1,6 +1,6 @@
 # STUDIO - Sacred Missions Map (v1.5.0)
 
-> Repo: `sonor-sacred-missions-map` · Pages: https://sonorltd.github.io/sonor-sacred-missions-map/ · Live (claude.ai artifact, with saved data): https://claude.ai/artifact/UdQ8Sz9WCEbDXTWLCPPwxT
+> Repo: `sonor-sacred-missions-map` · Pages: https://apps.sonor.co.uk/sonor-sacred-missions-map/ · Live (claude.ai artifact, with saved data): https://claude.ai/artifact/UdQ8Sz9WCEbDXTWLCPPwxT
 > Type: side-project, island-ok. Personal exploration project under STUDIO, created 2026-10-28. **Not Sonor Smart Homes work**: no Sonor customer data, no Sonor branding.
 
 Bryn's map of places to visit and things to look into: holy wells, waterfalls, standing stones and circles, caves, hill forts, folklore places, springs, ley lines (major lines incl. the Belinus Line / *Spine of Albion*, plus minor leys, energy lines and astronomical alignments), Paul Sinclair's Truth Proof reports, and a growing, tagged UFO / cryptid / paranormal collection. Measured from home in Mold (Flintshire).
@@ -72,3 +72,5 @@ No external fetch, map tiles or geolocation in the artifact, so trip times are s
 
 ## Refreshing `data/reports.json`
 Ask Claude: "snapshot the Sacred Missions reports into the repo" (ArtifactData list on `reports` → write `data/reports.json` → `python3 tools/build.py`).
+
+- 2026-11-01 — links → apps.sonor.co.uk (github.io retired)

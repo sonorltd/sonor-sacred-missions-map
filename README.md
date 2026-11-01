@@ -3,7 +3,7 @@
 A personal map of places to go and things to look into across Wales, England, Scotland, Ireland and the Isle of Man: holy wells, waterfalls, standing stones and circles, caves, hill forts, folklore places and springs; ley lines from the Belinus Line to minor alignments; Paul Sinclair's Truth Proof reports; and a tagged, sourced collection of UFO, cryptid and paranormal reports. Plus a sky calendar, an alignment finder and a road-trip planner.
 
 - **Live copy (with saved marks, notes, photos and the growing collection):** https://claude.ai/artifact/UdQ8Sz9WCEbDXTWLCPPwxT
-- **Public mirror:** https://sonorltd.github.io/sonor-sacred-missions-map/
+- **Public mirror:** https://apps.sonor.co.uk/sonor-sacred-missions-map/
 
 ## Build
 
