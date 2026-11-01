@@ -6,7 +6,19 @@ import json, os, re, urllib.request
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 cands = [os.path.join(ROOT, "..", "sonor-db.js"), os.path.join(ROOT, "..", "STUDIO - Missions Archive", "sonor-db.js"), "/home/claude/arcapp/sonor-db.js"]
 db = open(next(p for p in cands if os.path.exists(p))).read()
+# --- Supabase key (2026-11-01): service key from env / Mac Keychain first, anon key only as fallback ---
+def _sonor_sb_key(fallback=""):
+    import os as _os, subprocess as _sp, sys as _sys
+    k = (_os.environ.get("SUPABASE_SERVICE_ROLE_KEY") or "").strip()
+    if not k and _sys.platform == "darwin":
+        try:
+            k = _sp.run(["security", "find-generic-password", "-a", "sonor", "-s", "sonor-supabase-service", "-w"],
+                        capture_output=True, text=True, timeout=5).stdout.strip()
+        except Exception:
+            k = ""
+    return k or fallback
 URL = re.search(r"SONOR_SUPABASE_URL\s*=\s*'([^']+)'", db).group(1); KEY = re.search(r"SONOR_SUPABASE_ANON\s*=\s*'([^']+)'", db).group(1)
+KEY = _sonor_sb_key(KEY)
 def get(path):
     out, off = [], 0
     while True:
